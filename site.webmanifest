@@ -1,0 +1,18 @@
+{
+  "name": "Mohammed Jouda - Full Stack Developer",
+  "short_name": "Mohammed Jouda",
+  "description": "Portfolio of Mohammed Jouda, Full Stack Web Developer specializing in Laravel, PHP, AI, and Vue.js.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c1117",
+  "theme_color": "#113255",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/images/mohammed-profile.jpg",
+      "sizes": "192x192 512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
