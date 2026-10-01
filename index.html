@@ -3,6 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('portfolio_theme');
+        if (t === 'light') {
+          document.documentElement.classList.remove('dark');
+        } else if (t === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+          document.documentElement.classList.remove('dark');
+        }
+        var l = localStorage.getItem('portfolio_lang');
+        if (l === 'ar') {
+          document.documentElement.setAttribute('dir', 'rtl');
+          document.documentElement.setAttribute('lang', 'ar');
+        }
+      } catch (e) {}
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mohammed Jouda | Full Stack Web Developer</title>
   <meta name="description"
@@ -1457,7 +1476,6 @@
 
 
           </div>
-          <br>
           <!-- Main Career Journey (Timeline / Grid Mode) -->
           <div id="career-timeline-container" class="career-main-track mode-timeline">
 
@@ -2276,10 +2294,10 @@
 
             <!-- Category Filter Tabs -->
             <div class="project-filter-tabs">
-              <button class="filter-btn active" data-filter="all">All Projects</button>
-              <button class="filter-btn" data-filter="fullstack">Full Stack & Marketplace</button>
-              <button class="filter-btn" data-filter="ai">AI & Automation</button>
-              <button class="filter-btn" data-filter="cms">Laravel & Filament</button>
+              <button class="filter-btn active" data-filter="all" data-i18n="filterAll">All Projects</button>
+              <button class="filter-btn" data-filter="fullstack" data-i18n="filterFullstack">Full Stack & Marketplace</button>
+              <button class="filter-btn" data-filter="ai" data-i18n="filterAi">AI & Automation</button>
+              <button class="filter-btn" data-filter="cms" data-i18n="filterCms">Laravel & Filament</button>
             </div>
           </div>
 
@@ -2712,6 +2730,24 @@
                 </div>
               </div>
             </article>
+
+            <!-- Dynamic Filter Empty State -->
+            <div id="projects-empty-state" class="projects-empty-state hidden" role="status" aria-live="polite">
+              <div class="empty-state-icon-box">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </div>
+              <h3 class="empty-state-title" data-i18n="emptyProjectsTitle">No projects match this category</h3>
+              <p class="empty-state-desc" data-i18n="emptyProjectsDesc">Try selecting another category or view all available engineering case studies.</p>
+              <button id="empty-state-reset-btn" class="btn-primary" data-cursor="Reset Filter">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+                </svg>
+                <span data-i18n="resetFilter">View All Projects</span>
+              </button>
+            </div>
 
           </div>
         </section>
@@ -3407,13 +3443,25 @@
           <nav class="project-seq-nav" aria-label="Sequential Project Navigation">
             <div id="seq-prev-project" class="seq-nav-card prev-card" data-cursor="Previous">
               <div class="seq-card-inner">
-                <span class="seq-direction" data-i18n="previousProject">&larr; Previous Project</span>
+                <span class="seq-direction">
+                  <svg class="seq-arrow-icon prev-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                  </svg>
+                  <span data-i18n="previousProject">Previous Project</span>
+                </span>
                 <h4 id="seq-prev-title" class="seq-title">Previous Name</h4>
               </div>
             </div>
             <div id="seq-next-project" class="seq-nav-card next-card" data-cursor="Next">
               <div class="seq-card-inner">
-                <span class="seq-direction" data-i18n="nextProject">Next Project &rarr;</span>
+                <span class="seq-direction">
+                  <span data-i18n="nextProject">Next Project</span>
+                  <svg class="seq-arrow-icon next-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </span>
                 <h4 id="seq-next-title" class="seq-title">Next Name</h4>
               </div>
             </div>
@@ -3435,7 +3483,92 @@
 
         </section>
 
+        <!-- ===================================================================
+             VIEW 8: IN-APP 404 NOT FOUND VIEW (#404)
+             =================================================================== -->
+        <section id="view-404" class="page-view" data-page-title="Mohammed Jouda | 404 - Page Not Found">
+          <div class="page-view-header not-found-header">
+            <div class="header-tag-pill error-tag-pill">
+              <span class="status-pulse-dot error-dot"></span>
+              <span data-i18n="notFoundTag">Error 404 • Not Found</span>
+            </div>
+            <h1 class="page-view-title not-found-title" data-i18n="notFoundTitle">Route Not Found</h1>
+            <p class="page-view-subtitle not-found-subtitle" data-i18n="notFoundSubtitle">The page or case study you're looking for doesn't exist, has been relocated, or the link is broken.</p>
+          </div>
+
+          <div class="not-found-card bento-card" data-cursor="404">
+            <div class="card-spotlight"></div>
+            <div class="not-found-visual">
+              <div class="not-found-glitch-wrap">
+                <span class="not-found-code">404</span>
+                <div class="not-found-glow"></div>
+              </div>
+              <div class="not-found-orbit-ring">
+                <span class="orbit-particle p1"></span>
+                <span class="orbit-particle p2"></span>
+                <span class="orbit-particle p3"></span>
+              </div>
+            </div>
+
+            <div class="not-found-content">
+              <div class="not-found-terminal-box">
+                <div class="terminal-dots">
+                  <span class="terminal-dot red"></span>
+                  <span class="terminal-dot yellow"></span>
+                  <span class="terminal-dot green"></span>
+                </div>
+                <div class="terminal-body">
+                  <span class="terminal-prompt">$</span>
+                  <span class="terminal-text">route --resolve <span id="not-found-path-display">/requested-url</span></span>
+                  <span class="terminal-badge error">STATUS: 404_NOT_FOUND</span>
+                </div>
+              </div>
+
+              <div class="not-found-actions">
+                <button class="btn-primary" data-route="home" data-cursor="Home">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
+                    <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2z"></path>
+                  </svg>
+                  <span data-i18n="returnHome">Back to Home</span>
+                </button>
+
+                <button class="btn-secondary" data-route="projects" data-cursor="Projects">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 8 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"></path>
+                  </svg>
+                  <span data-i18n="exploreProjects">Explore Projects</span>
+                </button>
+
+                <button class="btn-secondary" data-route="contact" data-cursor="Contact">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                  <span data-i18n="contactMe">Contact Me</span>
+                </button>
+              </div>
+
+              <div class="not-found-hint">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 16v-4"></path>
+                  <path d="M12 8h.01"></path>
+                </svg>
+                <span data-i18n="notFoundHint">Tip: Press <kbd>Ctrl</kbd> + <kbd>K</kbd> to open Command Palette and jump anywhere across the portfolio.</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </div> <!-- /content-container -->
+
+      <!-- Floating Back To Top Button -->
+      <button id="floating-back-to-top" class="floating-back-to-top" aria-label="Back to top" data-cursor="Top">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+      </button>
     </main>
 
   </div> <!-- /app-layout -->

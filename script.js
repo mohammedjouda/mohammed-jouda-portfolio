@@ -15,7 +15,9 @@
         career: "Mohammed Jouda | Career Experience",
         projects: "Mohammed Jouda | Featured Projects",
         achievements: "Mohammed Jouda | Achievements & Certifications",
-        contact: "Mohammed Jouda | Get In Touch"
+        contact: "Mohammed Jouda | Get In Touch",
+        'project-detail': "Mohammed Jouda | Project Details",
+        '404': "Mohammed Jouda | 404 - Page Not Found"
       },
       navHome: "Home",
       navAbout: "About",
@@ -284,7 +286,22 @@
       curewayOrigin: "CAREER: HealthTech Scheduling",
       viewPhoto: "View Photo",
       statusAvailable: "Available for projects",
-      heroTitleShort: "Mohammed Jouda"
+      heroTitleShort: "Mohammed Jouda",
+      filterAll: "All Projects",
+      filterFullstack: "Full Stack & Marketplace",
+      filterAi: "AI & Automation",
+      filterCms: "Laravel & Filament",
+      emptyProjectsTitle: "No projects match this category",
+      emptyProjectsDesc: "Try selecting another category or view all available engineering case studies.",
+      resetFilter: "View All Projects",
+      notFoundTag: "Error 404 • Not Found",
+      notFoundTitle: "Route Not Found",
+      notFoundSubtitle: "The page or case study you're looking for doesn't exist, has been relocated, or the link is broken.",
+      returnHome: "Back to Home",
+      exploreProjects: "Explore Projects",
+      contactMe: "Contact Me",
+      notFoundHint: "Tip: Press Ctrl + K to open Command Palette and jump anywhere across the portfolio.",
+      backToTop: "Back to top"
     },
     ar: {
       pageTitles: {
@@ -293,7 +310,9 @@
         career: "محمد جودة | المسيرة المهنية",
         projects: "محمد جودة | معرض المشاريع",
         achievements: "محمد جودة | الإنجازات والشهادات",
-        contact: "محمد جودة | تواصل معي"
+        contact: "محمد جودة | تواصل معي",
+        'project-detail': "محمد جودة | تفاصيل المشروع",
+        '404': "محمد جودة | 404 - الصفحة غير موجودة"
       },
       navHome: "الرئيسية",
       navAbout: "عنّي",
@@ -562,7 +581,22 @@
       curewayOrigin: "المسيرة المهنية: منظومة رعاية صحية ومواعيد",
       viewPhoto: "عرض الصورة",
       statusAvailable: "متاح للمشاريع الجديدة",
-      heroTitleShort: "محمد جودة"
+      heroTitleShort: "محمد جودة",
+      filterAll: "كافة المشاريع",
+      filterFullstack: "تطوير شامل ومتاجر",
+      filterAi: "ذكاء اصطناعي وأتمتة",
+      filterCms: "لارافيل ولوحات تحكم",
+      emptyProjectsTitle: "لا توجد مشاريع مطابقة لهذا التصنيف",
+      emptyProjectsDesc: "جرّب اختيار تصنيف آخر أو استعرض كافة دراسات الحالة الهندسية المتاحة.",
+      resetFilter: "عرض كافة المشاريع",
+      notFoundTag: "خطأ 404 • غير موجود",
+      notFoundTitle: "الصفحة غير موجودة",
+      notFoundSubtitle: "الصفحة أو دراسة الحالة التي تبحث عنها غير متوفرة، أو تم نقلها، أو الرابط غير صالح.",
+      returnHome: "العودة للرئيسية",
+      exploreProjects: "استعراض المشاريع",
+      contactMe: "تواصل معي",
+      notFoundHint: "تلميح: اضغط Ctrl + K لفتح لوحة الأوامر والانتقال الفوري إلى أي قسم في الموقع.",
+      backToTop: "إلى الأعلى"
     }
   };
 
@@ -637,9 +671,11 @@
   const quickModalViewFullBtn = document.getElementById('quick-modal-view-full-btn');
 
   // --- 1. CLIENT-SIDE SPA ROUTER (Zero-Reload Navigation) ---
-  const validRoutes = ['home', 'about', 'career', 'projects', 'achievements', 'contact', 'project-detail'];
+  const validRoutes = ['home', 'about', 'career', 'projects', 'achievements', 'contact', 'project-detail', '404'];
 
   function navigateTo(route, updateHash = true) {
+    const requestedRoute = route;
+
     // Check if route is a direct project detail route (e.g. project-marsa-store or project/marsa-store)
     if (route && (route.startsWith('project-') || route.startsWith('project/'))) {
       const projectId = route.replace(/^project[-/]/, '');
@@ -684,11 +720,14 @@
         // Close mobile drawer
         closeDrawer();
         return;
+      } else {
+        // Unknown project ID! Route to 404
+        route = '404';
       }
     }
 
     if (!validRoutes.includes(route)) {
-      route = 'home';
+      route = '404';
     }
 
     currentRoute = route;
@@ -701,6 +740,14 @@
     const targetView = document.getElementById(`view-${route}`);
     if (targetView) {
       targetView.classList.add('active');
+    }
+
+    // If 404 view, update dynamic path display
+    if (route === '404') {
+      const pathDisplay = document.getElementById('not-found-path-display');
+      if (pathDisplay) {
+        pathDisplay.textContent = `/${requestedRoute || 'unknown'}`;
+      }
     }
 
     // 2. Smoothly scroll main container to top
@@ -847,7 +894,7 @@
 
     // 7. Interactive Hover Listeners with delegation for static and dynamic controls
     document.addEventListener('mouseover', (e) => {
-      const el = e.target.closest('a, button, input, textarea, select, [data-route], [data-cursor], .palette-item, .cs-action-btn, .cs-link-btn, .filter-btn, .bento-card, .method-interactive-card, .btn-preview-action, .quick-tech-tag, .career-toggle-details-btn, .career-project-chip, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card');
+      const el = e.target.closest('a, button, input, textarea, select, [data-route], [data-cursor], .palette-item, .cs-action-btn, .cs-link-btn, .filter-btn, .bento-card, .method-interactive-card, .btn-preview-action, .quick-tech-tag, .career-toggle-details-btn, .career-project-chip, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .career-role-card, .not-found-card, .floating-back-to-top, .projects-empty-state');
       if (el && isVisible) {
         cursor.classList.add('hovering');
         const color = el.getAttribute('data-cursor-color');
@@ -858,7 +905,7 @@
     });
 
     document.addEventListener('mouseout', (e) => {
-      const el = e.target.closest('a, button, input, textarea, select, [data-route], [data-cursor], .palette-item, .cs-action-btn, .cs-link-btn, .filter-btn, .bento-card, .method-interactive-card, .btn-preview-action, .quick-tech-tag, .career-toggle-details-btn, .career-project-chip, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card');
+      const el = e.target.closest('a, button, input, textarea, select, [data-route], [data-cursor], .palette-item, .cs-action-btn, .cs-link-btn, .filter-btn, .bento-card, .method-interactive-card, .btn-preview-action, .quick-tech-tag, .career-toggle-details-btn, .career-project-chip, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .career-role-card, .not-found-card, .floating-back-to-top, .projects-empty-state');
       if (el && (!e.relatedTarget || !el.contains(e.relatedTarget))) {
         cursor.classList.remove('hovering');
         if (cursorArrowPath) {
@@ -868,9 +915,9 @@
     });
   }
 
-  // --- 3. Dynamic Radial Spotlight & 3D Perspective Tilt on Cards (Bento, Projects, Achievements & Contact) ---
+  // --- 3. Dynamic Radial Spotlight & 3D Perspective Tilt on Cards (Bento, Projects, Career, Achievements & Contact) ---
   const bentoCards = document.querySelectorAll(
-    '.bento-card, .about-bento-card, .project-full-card, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .contact-bento-form-panel'
+    '.bento-card, .about-bento-card, .project-full-card, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .contact-bento-form-panel, .career-role-card, .not-found-card, .projects-empty-state'
   );
   const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -920,6 +967,14 @@
         maxTilt = 2.8;
         translateY = -3;
         perspective = 750;
+      } else if (card.classList.contains('not-found-card')) {
+        maxTilt = 2.4;
+        translateY = -4;
+        perspective = 900;
+      } else if (card.classList.contains('career-role-card')) {
+        maxTilt = 2.0;
+        translateY = -3;
+        perspective = 900;
       } else if (card.classList.contains('contact-bento-form-panel')) {
         maxTilt = 1.2;
         translateY = -2;
@@ -1153,8 +1208,26 @@
           }, 200);
         }
       });
+
+      // Dynamic empty state indicator for project category filtering
+      const emptyStateEl = document.getElementById('projects-empty-state');
+      if (emptyStateEl) {
+        if (visibleIndex === 0) {
+          emptyStateEl.classList.remove('hidden');
+        } else {
+          emptyStateEl.classList.add('hidden');
+        }
+      }
     });
   });
+
+  const emptyStateResetBtn = document.getElementById('empty-state-reset-btn');
+  if (emptyStateResetBtn) {
+    emptyStateResetBtn.addEventListener('click', () => {
+      const allFilterBtn = document.querySelector('.filter-btn[data-filter="all"]');
+      if (allFilterBtn) allFilterBtn.click();
+    });
+  }
 
   // Accessible keyboard activation for project cards (Enter and Space)
   projectCards.forEach((card) => {
@@ -3161,6 +3234,33 @@
 
   // Register in capture phase to reliably preempt browser default search shortcuts
   window.addEventListener('keydown', handleGlobalShortcuts, { capture: true });
+
+  // --- Floating Back-To-Top Button Controller ---
+  const floatingBackToTopBtn = document.getElementById('floating-back-to-top');
+
+  function checkBackToTopVisibility() {
+    if (!floatingBackToTopBtn) return;
+    const scrollPos = (mainContent ? mainContent.scrollTop : 0) || window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollPos > 350) {
+      floatingBackToTopBtn.classList.add('visible');
+    } else {
+      floatingBackToTopBtn.classList.remove('visible');
+    }
+  }
+
+  if (mainContent) {
+    mainContent.addEventListener('scroll', checkBackToTopVisibility, { passive: true });
+  }
+  window.addEventListener('scroll', checkBackToTopVisibility, { passive: true });
+
+  if (floatingBackToTopBtn) {
+    floatingBackToTopBtn.addEventListener('click', () => {
+      if (mainContent) {
+        mainContent.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 
   // --- Initial State and Route Initialization on Page Load ---
   applyTheme(currentTheme);

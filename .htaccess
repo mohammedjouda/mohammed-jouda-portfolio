@@ -15,6 +15,9 @@
   RewriteRule ^ index.html [L]
 </IfModule>
 
+# Custom 404 Error Document
+ErrorDocument 404 /404.html
+
 # Caching for static assets
 <IfModule mod_expires.c>
   ExpiresActive On
