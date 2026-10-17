@@ -4,7 +4,7 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/(about|career|projects|achievements|contact|projects/.*)",
+      "source": "/:path*",
       "destination": "/index.html"
     }
   ],
