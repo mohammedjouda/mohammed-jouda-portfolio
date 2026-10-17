@@ -358,7 +358,8 @@ html[dir="rtl"] .mobile-drawer {
   transform: translateX(100%);
 }
 
-.mobile-drawer.open {
+.mobile-drawer.open,
+html[dir="rtl"] .mobile-drawer.open {
   transform: translateX(0);
 }
 
@@ -1149,6 +1150,7 @@ html.dark .polaroid-caption {
   gap: 12px;
   margin-top: auto;
   padding: 8px 0;
+  direction: ltr !important;
   mask-image: linear-gradient(to right, transparent 0%, black 14%, black 86%, transparent 100%);
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 14%, black 86%, transparent 100%);
 }
@@ -1158,6 +1160,7 @@ html.dark .polaroid-caption {
   width: max-content;
   user-select: none;
   will-change: transform;
+  direction: ltr !important;
 }
 
 .skills-marquee-group {
@@ -1166,6 +1169,7 @@ html.dark .polaroid-caption {
   gap: 10px;
   padding-right: 10px;
   flex-shrink: 0;
+  direction: ltr !important;
 }
 
 .track-forward {
@@ -1198,14 +1202,6 @@ html.dark .polaroid-caption {
   100% {
     transform: translateX(0);
   }
-}
-
-html[dir="rtl"] .track-forward {
-  animation: marqueeScrollRight 24s linear infinite;
-}
-
-html[dir="rtl"] .track-reverse {
-  animation: marqueeScrollLeft 24s linear infinite;
 }
 
 .tech-pill {
@@ -1901,6 +1897,167 @@ html[dir="rtl"] .track-reverse {
   display: block;
   font-size: 11.5px;
   color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   Workshops & Technical Mentorship Bento Card
+   -------------------------------------------------------------------------- */
+.about-card-workshops {
+  grid-column: span 12;
+  padding: 32px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.workshops-bento-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.workshops-header-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.workshops-icon-box {
+  width: 46px;
+  height: 46px;
+  border-radius: var(--radius-md);
+  background: rgba(var(--accent-rgb), 0.1);
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(var(--accent-rgb), 0.2);
+}
+
+.workshops-header-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.workshops-badge-chip {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  background: rgba(var(--accent-rgb), 0.08);
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(var(--accent-rgb), 0.15);
+}
+
+.workshops-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--text-primary);
+  font-family: var(--font-heading);
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.workshops-desc {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.workshops-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.workshop-stat-tile {
+  background: var(--bg-surface-elevated, rgba(255, 255, 255, 0.03));
+  border: 1px solid var(--border-color);
+  padding: 16px 14px;
+  border-radius: var(--radius-lg);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.workshop-stat-tile:hover {
+  transform: translateY(-3px);
+  border-color: rgba(var(--accent-rgb), 0.3);
+}
+
+.workshop-stat-tile .w-stat-num {
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--accent-color);
+  font-family: var(--font-heading);
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+
+.workshop-stat-tile .w-stat-label {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 3px;
+}
+
+.workshop-stat-tile .w-stat-sub {
+  display: block;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.workshops-topics-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.w-topic-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-surface-elevated, rgba(255, 255, 255, 0.04));
+  border: 1px solid var(--border-color);
+  padding: 7px 14px;
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+}
+
+.w-topic-tag svg {
+  color: var(--accent-color);
+}
+
+.w-topic-tag:hover {
+  color: var(--text-primary);
+  border-color: rgba(var(--accent-rgb), 0.3);
+  background: rgba(var(--accent-rgb), 0.06);
+}
+
+@media (max-width: 992px) {
+  .workshops-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .workshops-stats-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* --------------------------------------------------------------------------
@@ -8238,4 +8395,26 @@ html[dir="rtl"] .seq-nav-card:hover .next-arrow {
   .pulse-beacon .beacon-ring {
     animation: none !important;
   }
+}
+
+
+/* Accessibility Skip Link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 20px;
+  background: #265C91;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  z-index: 10000;
+  font-weight: 600;
+  font-size: 14px;
+  transition: top 0.2s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 20px;
 }

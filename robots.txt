@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mohammedjouda.dev/sitemap.xml
+Sitemap: https://mohammedjouda.com/sitemap.xml

@@ -10,13 +10,13 @@
   const i18n = {
     en: {
       pageTitles: {
-        home: "Mohammed Jouda | Full Stack Web Developer",
-        about: "Mohammed Jouda | About Me",
+        home: "Mohammed Jouda | Backend & AI Automation Engineer",
+        about: "Mohammed Jouda | About Me & Architecture",
         career: "Mohammed Jouda | Career Experience",
-        projects: "Mohammed Jouda | Featured Projects",
+        projects: "Mohammed Jouda | Featured Projects & Systems",
         achievements: "Mohammed Jouda | Achievements & Certifications",
-        contact: "Mohammed Jouda | Get In Touch",
-        'project-detail': "Mohammed Jouda | Project Details",
+        contact: "Mohammed Jouda | Get In Touch & Hire",
+        'project-detail': "Mohammed Jouda | Technical Case Study",
         '404': "Mohammed Jouda | 404 - Page Not Found"
       },
       navHome: "Home",
@@ -26,30 +26,53 @@
       navAchievements: "Achievements",
       navContact: "Contact",
       rights: "All rights reserved.",
-      heroTitle: "Hi, I'm Mohammed Jouda",
-      roleTitle: "Full Stack Web Developer",
-      location: "Based in Gaza, Palestine",
+      heroTitle: "Mohammed Jouda",
+      roleTitle: "Backend & AI Automation Engineer",
+      location: "Gaza, Palestine • Available for Remote Roles",
       downloadCv: "Download CV",
-      heroBio: "Software Engineer with over 3 years of experience crafting high-performance, secure web applications. Strong core in Laravel, PHP, and AI API integration, paired with modern reactive frontends in Vue.js and React.",
-      sectionLead: "Explore everything I've crafted, contributed, and accomplished.",
-      projectsTitle: "Projects Showcase",
-      projectsSubtitle: "A selection of real apps built to solve real problems.",
-      exploreAll: "Explore projects",
+      viewWork: "View My Work",
+      letsWorkTogether: "Let's Work Together",
+      heroBio: "I architect high-performance Laravel backends and integrate AI-driven automations. I help businesses eliminate operational bottlenecks, optimize database queries, and turn raw data into intelligent, scalable workflows.",
+      heroStack: "Laravel & PHP · REST APIs · AI Integration · Business Automation",
+      sectionLead: "Scalable backend systems, AI integrations, and automated workflows designed to solve concrete business problems.",
+      projectsTitle: "Selected Projects",
+      projectsSubtitle: "Production-grade backend architectures, practical AI integrations, and real-time systems.",
+      exploreAll: "Explore all projects",
       aboutTitle: "About Me",
       aboutSubtitle: "Who I am, what drives me, and the architectural principles I follow.",
       aboutSlide1Loc: "Gaza, Palestine • Tech Ecosystem",
       aboutSlide1Title: "Tech Presentations & Community Workshops",
-      aboutSlide2Status: "Available for High-Impact Roles",
-      aboutSlide2Title: "Mohammed Jouda • Full Stack Web Developer",
-      bioLeadRole: "Full Stack Software Engineer",
-      bioExpHighlight: "3+ Years Production Experience",
+      aboutSlide2Loc: "Jreas Lab • AI Workflows & Web Engineering",
+      aboutSlide2Title: "AI Workflow & Business Automation Keynote",
+      aboutSlide3Loc: "Hands-On Workshop • Workflow Automation",
+      aboutSlide3Title: "Interactive AI Automation & Task Elimination Session",
+      aboutSlide4Loc: "Technical Mentorship & Code Strategy",
+      aboutSlide4Title: "Engineering Discussion & Mentorship",
+      aboutSlide5Status: "Available for High-Impact Roles",
+      aboutSlide5Title: "Mohammed Jouda • Backend & AI Automation Engineer",
+      workshopsChip: "Technical Trainer & AI Automation Mentor",
+      workshopsTitle: "Technical Workshops & AI Training",
+      workshopsDesc: "Delivered 6 intensive technical workshops in Web Engineering, Business Automation, and AI Workflows at Jreas Lab. Instructed 160+ attendees including developers, freelancers, students, and business owners with outstanding participant feedback.",
+      wStat1Label: "Workshops Delivered",
+      wStat1Sub: "Web Dev & AI Automation",
+      wStat2Label: "Total Attendees",
+      wStat2Sub: "Devs, Freelancers & Founders",
+      wStat3Label: "Training Partner",
+      wStat3Sub: "Jreas Lab Innovation Hub",
+      wStat4Label: "Participant Satisfaction",
+      wStat4Sub: "Outstanding Feedback",
+      wTopic1: "AI & n8n Workflow Automation",
+      wTopic2: "Laravel & REST API Architecture",
+      wTopic3: "Task Elimination & Process Efficiency",
+      bioLeadRole: "Backend & AI Automation Engineer",
+      bioExpHighlight: "Production & Practical Engineering",
       aboutMetricsTitle: "Verified Engineering Metrics",
-      aboutMetric1Label: "Years Production",
-      aboutMetric1Sub: "Laravel, AI & Vue.js",
+      aboutMetric1Label: "Core Stack",
+      aboutMetric1Sub: "Laravel, PHP, AI & n8n",
       aboutMetric2Label: "Degree GPA",
-      aboutMetric2Sub: "Very Good (Honors)",
-      aboutMetric3Label: "AI Training Hours",
-      aboutMetric3Sub: "Intensive Track at UCASTI",
+      aboutMetric2Sub: "83.92% (Very Good / Honors)",
+      aboutMetric3Label: "Backend & AI Track",
+      aboutMetric3Sub: "Intensive Program at UCASTI",
       aboutMetric4Label: "RESTful Endpoints",
       aboutMetric4Sub: "Documented via Swagger",
       aboutPhilEyebrow: "CORE PRINCIPLES",
@@ -59,22 +82,40 @@
       philPerfDesc: "Query optimization, database indexing, Redis caching, and async queues to deliver sub-100ms API response times.",
       philSecTitle: "Information Security",
       philSecDesc: "Hardened RBAC, OAuth, 2FA, sanitized endpoints, and strict data protection by design.",
-      philAiTitle: "AI-Augmented Engineering",
-      philAiDesc: "Using LLMs, embeddings, and prompt engineering to automate workflows and build intelligent applications.",
+      philAiTitle: "Practical AI Integration",
+      philAiDesc: "Leveraging LLM APIs, structured JSON schemas, and context handling to build reliable, high-value workflows.",
       philArchTitle: "Clean Architecture",
-      philArchDesc: "Adherence to SOLID, decoupled service layers, and event-driven patterns that make codebases joy to scale.",
+      philArchDesc: "Adherence to SOLID, decoupled service layers, and event-driven patterns that make codebases a joy to scale.",
+      whatIBuildTitle: "What I Build",
+      whatIBuildSubtitle: "High-reliability backend architectures, practical AI integrations, and automated workflows designed to solve concrete business problems.",
+      srvBackendTitle: "Backend Systems",
+      srvBackendDesc: "Scalable Laravel and PHP backends, REST APIs, authentication, role-based access control, databases, queues, and third-party integrations.",
+      srvAiTitle: "AI Integration",
+      srvAiDesc: "Practical AI features built into real applications using LLM APIs, structured outputs, context-aware workflows, and application-level AI logic.",
+      srvAutoTitle: "Business Automation",
+      srvAutoDesc: "Automated workflows that connect business tools, APIs, databases, and AI to reduce repetitive work and improve how information moves through a business.",
+      srvAppsTitle: "AI-Powered Applications",
+      srvAppsDesc: "Applications where AI is part of the product itself — from intelligent assistants and communication tools to automated lead processing and internal workflows.",
+      featWorkBadge: "FEATURED WORK",
+      featLeadTitle: "AI Lead Triage & Automation System",
+      featLeadSubtitle: "Turning unstructured leads into structured business workflows",
+      featLeadDesc: "Built an automation system that receives leads from different sources, processes them through a Laravel backend and queue, sends them to n8n for orchestration, and uses Gemini to analyze and structure the lead information.",
+      featWorkflowHeading: "System Architecture & Workflow",
+      featWorkflowFlow: "Lead → Laravel → Queue → n8n → Gemini → Structured Analysis → Laravel → Dashboard / Notifications",
+      featLeadSummary: "The AI supports the decision-making process rather than making the final business decision, providing intent classification, urgency estimation, and concise summaries.",
+      featLeadCta: "View Case Study",
       filterAllSkills: "All",
       filterBackend: "Backend & APIs",
       filterFrontend: "Frontend & UI",
       filterAi: "AI & Automation",
       filterDevops: "DevOps & Tools",
       aboutCtaReadyBadge: "Ready to Build Scalable Systems",
-      aboutCtaHeading: "Have an Ambitious Project in Mind?",
-      aboutCtaDesc: "Whether designing resilient multi-tenant architectures or integrating intelligent AI workflows, I am ready to collaborate.",
-      skillsTitle: "Skills & Tools",
-      skillsSubtitle: "Covering web, frontend, and backend technologies.",
+      aboutCtaHeading: "Have a System You Want to Build or Automate?",
+      aboutCtaDesc: "Tell me what you're trying to improve. I can help with backend architecture, AI integration, API development, or business automation.",
+      skillsTitle: "Engineering Capabilities",
+      skillsSubtitle: "Backend development, AI integrations, automations, and engineering practices.",
       achievementsTitle: "Achievements & Certifications",
-      achievementsSubtitle: "A curated collection of certificates and badges I've earned throughout my professional and academic journey.",
+      achievementsSubtitle: "A curated collection of certificates and badges earned throughout my professional and academic journey.",
       viewCertificate: "View Certificate",
       certTypeLabel: "TYPE",
       certCategoryLabel: "CATEGORY",
@@ -82,61 +123,124 @@
       credentialUrlBtn: "Credential URL",
       certCareerLabel: "CAREER",
       careerTitle: "Professional Experience",
-      careerSubtitle: "My engineering journey, contributions, and practical impact.",
+      careerSubtitle: "My engineering journey, practical contributions, and impactful systems.",
       testimonialsTitle: "Testimonials",
-      testimonialsSubtitle: "What clients and colleagues say about working with me.",
-      degreeHonor: "Bachelor Degree - 83.92% (Very Good)",
-      tarekRole: "Property Management & Marketplace Client",
-      tarekQuote: "Mohammed demonstrated solid understanding of backend architecture and API performance on the marketplace platform. He paid great attention to code quality, database query optimization, and delivering a reliable system.",
-      alaaRole: "UCASTI & Academic Faculty, Gaza",
-      alaaQuote: "Mohammed was consistently among the top engineers academically and practically; disciplined, deeply committed to clean code and SOLID principles, and excels at integrating AI capabilities into modern web applications.",
-      marsaSummary: "Architected a scalable backend system handling complex vendor-product relationships with isolated workflows and dynamic permission management. Implemented RBAC, OAuth, 2FA, and secure payment integrations, improving transaction efficiency by 30%.",
-      writeaiSummary: "Intelligent blogging platform developed during an intensive 90-hour program. Integrated AI generation tools to assist in automated content creation, prompt optimization, and smart editor workflows with LLM integration.",
-      messengerSummary: "Production-grade real-time messaging system utilizing WebSockets (Pusher/Laravel Echo), live typing indicators, and group chat. Features a decoupled AI API service layer for intelligent conversational replies and queue-ready message handling.",
-      technoSummary: "Engineered a full-featured Content Management System using Laravel, Filament, and Livewire for a reactive, SPA-like user experience without custom JavaScript overhead. Rapid admin panel development with custom filters and table widgets.",
-      aboutHeadline: "Software Engineer Dedicated to Scalable Systems & AI Innovation",
-      aboutP1: "I am a Software Engineer with over 3 years of experience designing and developing scalable, secure, and high-performance web applications. My core strength lies in backend engineering using PHP and Laravel, paired with reactive frontend expertise in Vue.js and React.",
-      aboutP2: "A Clean Code advocate dedicated to SOLID principles, RESTful API design, and agile methodologies, with a proven track record in building multi-vendor marketplaces, SaaS platforms, and incorporating AI technologies to optimize workflows and deliver smart, impactful products.",
+      testimonialsSubtitle: "Observations from academic faculty, mentors, and enterprise project leads.",
+      degreeHonor: "Bachelor Degree - 83.92% (Very Good / Honors)",
+      tarekRole: "Project Lead & Enterprise Client",
+      tarekQuote: "He was committed, responsive, and capable of working through technical challenges to reach a working solution. He paid great attention to code quality and delivering a reliable system.",
+      alaaRole: "Senior Backend Mentor — UCASTI",
+      alaaQuote: "Mohammed demonstrated strong technical skills, a willingness to learn, and the ability to turn requirements into practical solutions; deeply committed to clean code and SOLID principles.",
+      leadCategory: "AI Automation & Backend",
+      leadTitle: "AI Lead Triage & Automation System",
+      leadSummary: "A zero-touch lead routing system. Ingests unstructured inbound queries, orchestrates them via n8n, and utilizes Gemini to classify intent and urgency before pushing structured data back to Laravel.",
+      leadOrigin: "FEATURED: AI Automation & Laravel Queues",
+      leadH1: "✓ End-to-End Async Queue Processing (Laravel & Redis)",
+      leadH2: "✓ n8n Orchestration with Google Gemini Structured Output",
+      leadH3: "✓ Webhook Authentication, Idempotency & Error Retries",
+      badgeAgileAi: "Agile AI SaaS",
+      sprintMindCategory: "AI-Powered Project Management & Agile Workspace",
+      sprintMindTitle: "SprintMind AI — AI-Powered Agile Scrum Workspace",
+      sprintMindSummary: "Advanced Agile Scrum workspace built on Laravel 13 integrating Google Gemini AI to automate sprint planning, Markdown note task extraction, calendar auto-scheduling, and real-time sprint health check audits.",
+      sprintMindOrigin: "FEATURED: Laravel 13 & Gemini 3.5 Flash",
+      sprintMindH1: "✓ Automated Gemini 3.5 Sprint Planning & Task Extraction",
+      sprintMindH2: "✓ FullCalendar.js Auto-Scheduler with Capacity Heatmaps",
+      sprintMindH3: "✓ Comprehensive Pest PHP Automated Test Suite",
+      messengerCategory: "Real-Time Systems & AI",
+      messengerTitle: "AI-Powered Real-Time Communication System",
+      messengerSummary: "A real-time messaging platform built with Laravel and Vue where AI is integrated directly into the communication experience. Combines WebSockets, live indicators, 2FA, and an AI conversational assistant.",
+      messengerOrigin: "CAREER: Real-Time WebSockets & AI",
+      messengerH1: "✓ WebSockets & Laravel Echo Live Broadcasting",
+      messengerH2: "✓ Decoupled Conversational AI Assistant Layer",
+      messengerH3: "✓ Vue 3 Composition API & Reactive State Architecture",
+      marsaCategory: "E-Commerce & Multi-Vendor",
+      marsaTitle: "Marsa Store — Multi-Vendor Marketplace",
+      marsaSummary: "A production-ready multi-vendor e-commerce architecture. Solved severe database bottlenecks and ensured strict data isolation across concurrent tenant sessions.",
+      marsaOrigin: "EDUCATION: Graduation Project (83.92%)",
+      marsaH1: "✓ Multi-Vendor Product & Order Data Isolation",
+      marsaH2: "✓ Role-Based Access Control (RBAC), OAuth & 2FA",
+      marsaH3: "✓ Eager Loading & Database Indexing Optimization",
+      writeaiCategory: "AI SaaS & Content Workflows",
+      writeaiTitle: "Write AI — AI-Powered Blog Application",
+      writeaiSummary: "An intelligent SaaS blogging platform that merges traditional CMS functionality with automated AI content workflows. Engineered with decoupled background workers to prevent third-party LLM API latency.",
+      writeaiOrigin: "CERTIFICATES: AI Capstone @ UCASTI 90h",
+      writeaiH1: "✓ LLM Prompt Engineering & Context Injection",
+      writeaiH2: "✓ Automated Meta Generation & SEO Optimization",
+      writeaiH3: "✓ Reactive Markdown Editor with Background Workers",
+      technoCategory: "Enterprise CMS & Admin",
+      technoTitle: "Techno Plus Modular CMS Platform",
+      technoSummary: "A content management system built with Laravel, Livewire, and Filament with a focus on administrative workflows, role-based access, and a smooth application experience without unnecessary page reloads.",
+      technoOrigin: "CAREER: Filament CMS Platform",
+      technoH1: "✓ Filament Resource Scaffolding & Custom Tables",
+      technoH2: "✓ Livewire Reactive Components without JS Bloat",
+
+      aboutHeadline: "Architecting Systems That Scale. Automating Workflows That Matter.",
+      aboutP1: "I am a Backend & AI Automation Engineer focused on building robust server-side architectures and intelligent business automations. My core expertise lies in PHP and Laravel, where I design secure REST APIs, implement Role-Based Access Control (RBAC), and optimize database performance to resolve complex N+1 bottlenecks.",
+      aboutP2: "Beyond traditional backend development, I specialize in treating AI as a practical engineering capability. I integrate Large Language Models (like Google Gemini and OpenAI) and automation platforms (n8n) directly into web applications to streamline repetitive tasks and parse unstructured data into structured JSON schemas.",
+      aboutP3: "With a Bachelor's degree in Web Technology & Information Security (Honors), I prioritize clean code (SOLID principles), robust queuing systems (Redis), and secure architectures from day one.",
+      whyWorkTitle: "Why Work With Me",
+      whyWorkHeading: "Backend-first engineering with practical AI integration",
+      whyWorkDesc: "I combine backend engineering fundamentals with modern AI and automation tools. That means I don't just connect an AI API and call it a feature. I think about the complete system around it: Input → Validation → Processing → AI → Business Logic → Storage → Monitoring → Human Review. The goal is to build something that works as part of a real product or business process.",
+      howIWorkTitle: "How I Work",
+      howStep1Title: "01 — Understand",
+      howStep1Desc: "First, I understand the business problem, existing workflow, users, and constraints.",
+      howStep2Title: "02 — Design",
+      howStep2Desc: "I define the system architecture, data flow, integrations, and responsibilities of each component.",
+      howStep3Title: "03 — Build",
+      howStep3Desc: "I implement the backend, APIs, integrations, AI components, and automation workflows.",
+      howStep4Title: "04 — Validate",
+      howStep4Desc: "I test the system, handle failure cases, validate AI outputs, and make sure the workflow behaves reliably.",
+      howStep5Title: "05 — Improve",
+      howStep5Desc: "After the core system works, I look for opportunities to improve performance, reliability, usability, and maintainability.",
+      whoIWorkTitle: "Who I Work With",
+      whoStartups: "Startups",
+      whoStartupsDesc: "Build the backend and technical foundation needed to turn an idea into a working product.",
+      whoBusinesses: "Businesses",
+      whoBusinessesDesc: "Automate repetitive processes and connect disconnected tools and workflows.",
+      whoTeams: "Software Teams",
+      whoTeamsDesc: "Extend existing backend systems, build APIs, integrate AI services, or contribute to Laravel/PHP projects.",
+      whoFounders: "Founders & Product Teams",
+      whoFoundersDesc: "Turn a product requirement into a reliable technical system.",
       eduTitle: "Bachelor of Web Technology & Information Security",
-      eduSub: "Palestine Technical College | Gaza, Palestine - GPA: 83.92% (Very Good)",
-      career1Role: "Backend Developer Trainee (Laravel & AI Integration)",
-      career1Desc: "Engaged in an intensive, 120-hour market-driven backend program at UCASTI. Mastered advanced Laravel & PHP, applied modern AI workflows to accelerate coding and intelligent debugging, and successfully integrated AI capabilities into smart, modern web solutions.",
+      eduSub: "Palestine Technical College | Gaza, Palestine - GPA: 83.92% (Very Good / Honors)",
+      career1Role: "Backend Developer Trainee — Laravel & AI Integration",
+      career1Desc: "Intensive 120-hour program in Laravel ecosystem, decoupled AI micro-services, and enterprise SOLID patterns.",
       career2Role: "Full Stack Developer (Trainee)",
-      career2Desc: "Developed and documented 40+ secure RESTful API endpoints using Laravel at Areisto. Refined backend performance, reducing response times by 20% through efficient database queries and caching strategies. Collaborated within agile teams.",
-      career3Role: "Freelance Backend Developer",
-      career3Desc: "Developed an enterprise backend system for a property management platform, managing 500+ records and enhancing lead processing efficiency by 35%. Designed optimized relational database schemas and strict authentication levels.",
+      career2Desc: "Documented 40+ RESTful APIs (Swagger) and diagnosed query execution plans to reduce latency.",
+      career3Role: "Backend Development & Web Projects",
+      career3Desc: "Normalized MySQL schemas and transactional webhook handlers, improving lead turnaround times by 35% through automated routing.",
       careerHeroBadge: "Verified Engineering Experience",
       careerActionCv: "Download Full CV (PDF)",
       careerActionHire: "Discuss Opportunities",
       careerActionGithub: "GitHub Profile",
-      careerMetric1Num: "3+ Years",
-      careerMetric1Label: "Production Engineering",
-      careerMetric1Sub: "Laravel, AI Integration & Vue.js",
+      careerMetric1Num: "Laravel & PHP",
+      careerMetric1Label: "Primary Backend Core",
+      careerMetric1Sub: "REST APIs, Queues & RBAC",
       careerMetric2Num: "120+ Hours",
-      careerMetric2Label: "AI & Laravel Track",
+      careerMetric2Label: "AI & Backend Track",
       careerMetric2Sub: "Intensive Program at UCASTI",
       careerMetric3Num: "40+ APIs",
       careerMetric3Label: "RESTful Endpoints",
       careerMetric3Sub: "Documented via Swagger at Areisto",
-      careerMetric4Num: "20% Drop",
-      careerMetric4Label: "Latency Reduction",
-      careerMetric4Sub: "Query Optimization & Caching",
-      careerMetric5Num: "35% Boost",
-      careerMetric5Label: "Lead Processing Speed",
-      careerMetric5Sub: "Enterprise Schema & Strict RBAC",
+      careerMetric4Num: "Indexed DB",
+      careerMetric4Label: "Query Optimization",
+      careerMetric4Sub: "Eager Loading & Caching",
+      careerMetric5Num: "n8n & Gemini",
+      careerMetric5Label: "Business Automation",
+      careerMetric5Sub: "Structured Output Pipelines",
       careerFilterAll: "All Experience",
       careerFilterLaravel: "Laravel & AI Systems",
       careerFilterFullstack: "Full Stack & APIs",
-      careerFilterFreelance: "Freelance & Enterprise",
+      careerFilterFreelance: "Freelance & Projects",
       careerTimelineView: "Timeline View",
       careerGridView: "Impact Matrix",
       careerStatusActive: "Active Trainee",
       careerStatusCompleted: "Completed",
-      careerStatusContract: "Contract Engagement",
+      careerStatusContract: "Project Delivery",
       careerShippedLabel: "Associated Deliverables & Case Studies:",
       careerDeepDiveBtn: "Technical Architecture & Deep-Dive",
       careerDeepDiveClose: "Hide Architecture Details",
-      careerFoundationsTitle: "Academic Foundations & Growth Ecosystem",
+      careerFoundationsTitle: "Academic Foundations & Growth Programs",
       careerFoundationsSub: "Formal web technology & information security degree paired with competitive talent acceleration fellowships.",
       careerEducationHeading: "Academic Degree & Selective Growth Programs",
       eduDegreeTitle: "Bachelor of Web Technology & Information Security",
@@ -154,14 +258,53 @@
       fellowshipStatus: "Selective Fellowship",
       careerEndorsementsTitle: "Mentorship & Client Endorsements",
       careerEndorsementsSub: "Observations from academic faculty and enterprise project leads.",
-      careerCtaTitle: "Need an Engineer Who Delivers Measurable Performance?",
-      careerCtaSubtitle: "Available for high-impact software roles, full-stack Laravel platforms, and AI integrations.",
+      careerCtaTitle: "Need an Engineer Who Delivers Reliable Systems?",
+      careerCtaSubtitle: "Available for backend engineering, API development, AI integration, and workflow automations.",
       careerCtaBtn: "Start a Conversation",
       careerCtaCv: "Download Resume (PDF)",
-      contactTitle: "Get In Touch",
-      contactSubtitle: "Let's discuss full-stack engineering, AI integrations, or software opportunities.",
-      statusAvailableTitle: "Available for new opportunities",
-      statusAvailableSub: "Open to high-impact freelance projects, technical consultations, and full-time engineering roles.",
+      locationRemote: "International Remote",
+      career3Company: "Remote Enterprise & Marketplace Clients",
+      career1Duration: "120 Hours Intensive",
+      career2Duration: "6 Months Engagement",
+      career3Duration: "Direct Client Delivery",
+      career1Metric1: "120h Advanced Laravel & PHP",
+      career1Metric2: "LLM API Service Layers & Queues",
+      career1Metric3: "SOLID & Decoupled Architecture",
+      career2Metric1: "40+ RESTful APIs Documented",
+      career2Metric2: "-20% Latency via Query Optimization",
+      career2Metric3: "Bi-Weekly Agile Sprint Cadence",
+      career3Metric1: "500+ Enterprise Property Records",
+      career3Metric2: "+35% Lead Conversion Efficiency",
+      career3Metric3: "Strict Role-Based Access Control (RBAC)",
+      careerAccomplishmentsHeading: "Key Technical Accomplishments",
+      career1Bullet1: "Mastered advanced Laravel 11 ecosystem capabilities including asynchronous Queues, Event Broadcasting (WebSockets), and Livewire for reactive, server-rendered UIs.",
+      career1Bullet2: "Architected decoupled AI micro-service layers connecting external LLM APIs (OpenAI / Gemini), automating prompt optimization, context ingestion, and structured JSON parsing.",
+      career1Bullet3: "Implemented Clean Code and enterprise SOLID design patterns, repository abstractions, and automated test coverage matching international engineering standards.",
+      career1DecTitle1: "Core Engineering Decisions",
+      career1DecDesc1: "Decoupled AI interactions behind dedicated Service Providers and Job Queues to prevent slow third-party LLM response times from blocking the HTTP request-response lifecycle. Integrated exponential backoff retries and payload fallback handlers.",
+      career1DecTitle2: "Framework & Tooling Deep Dive",
+      career1DecDesc2: "Utilized Laravel 11 streamlined bootstrap routing, PHP 8.3 typed properties and match expressions, Pest PHP automated testing suites, and Docker containerized development environments for reproducible deployments.",
+      career2Bullet1: "Built and documented 40+ secure RESTful endpoints with granular request validation, JWT authentication, and standardized JSON:API envelope structures using Swagger and Postman.",
+      career2Bullet2: "Diagnosed query execution plans via Laravel Telescope & Debugbar; solved severe N+1 bottlenecks with eager loading and indexed compound foreign keys, slashing database wait times by 20%.",
+      career2Bullet3: "Coordinated smoothly with frontend UI/UX engineers and QA testers in Git feature-branch workflows, pull-request code reviews, and daily standups.",
+      career2DecTitle1: "API Design & Security",
+      career2DecDesc1: "Authored comprehensive API specifications adhering to OpenAPI 3.0 standards. Hardened endpoints with rate limiting, sanitization middleware, and scoped API tokens to prevent malicious payload attacks.",
+      career2DecTitle2: "Performance Profiling",
+      career2DecDesc2: "Replaced repetitive database queries with multi-layer Redis caching. Set up tag-based cache invalidation so customer listings immediately update without sacrificing sub-50ms cache read latencies.",
+      career3Bullet1: "Modeled a normalized relational MySQL schema indexing thousands of dynamic listing attributes, multi-currency rates, and historic client interactions with zero schema locking.",
+      career3Bullet2: "Engineered a multi-tenant Role-Based Access Control (RBAC) policy layer protecting private client documents, contract PDFs, and financial lead pipelines with audit logging.",
+      career3Bullet3: "Constructed reactive administration consoles and transactional webhook handlers, accelerating client inquiry response times by 35%.",
+      career3DecTitle1: "Database Integrity & Indexing",
+      career3DecDesc1: "Designed clean B-tree indices on frequent search filters (location, price bracket, status). Used foreign key cascade rules and database transactions (ACID) to ensure 100% data consistency across concurrent leads.",
+      career3DecTitle2: "Client Satisfaction & Impact",
+      career3DecDesc2: "Delivered the project on time and within budget. Client praise confirmed that automated lead distribution webhooks eliminated manual forwarding, cutting lead turnaround times from hours to seconds.",
+      tawjihiTitle: "General Secondary Education - Tawjihi",
+      tawjihiDesc: "The general secondary education certificate is the final preparatory stage to enter university.",
+      tawjihiStream: "Scientific Stream",
+      contactTitle: "Let's Build or Automate Your Next System.",
+      contactSubtitle: "Whether you are facing performance bottlenecks in your current Laravel application, need a secure REST API from scratch, or want to automate manual business processes using AI and n8n — let's discuss the technical solution.",
+      statusAvailableTitle: "Available for New Opportunities",
+      statusAvailableSub: "Open to high-impact backend contracts, business automation systems, and engineering roles.",
       statusResponseTime: "Reply time: under 24 hours",
       statusTimezone: "UTC+2 (Gaza / Palestine)",
       directEmail: "Direct Email",
@@ -170,26 +313,26 @@
       remoteReady: "Remote Ready",
       connectSocial: "Professional Networks",
       directMessageTitle: "Send Direct Message",
-      reachOut: "Ready to collaborate?",
-      contactText: "Whether you have an upcoming project, freelance inquiry, or want to discuss full-stack engineering and AI integration, feel free to reach out.",
+      reachOut: "Have a project or problem to solve?",
+      contactText: "Tell me what you're trying to build, improve, or automate. Let's discuss the problem first.",
       basedIn: "Location",
       formName: "Your Name",
       formEmail: "Email Address",
-      formSubject: "Subject",
-      formMsg: "Message",
+      formSubject: "Project or Company Name",
+      formMsg: "What are you looking to build or automate?",
       sendMsg: "Send Message",
       msgSent: "Thank you! Your message has been sent successfully. I will get back to you shortly.",
       sendingMsg: "Sending message...",
       msgError: "Failed to send message. Please reach out directly at mohammedjouda02@gmail.com or via WhatsApp.",
       quickConsultText: "Need a direct technical discussion?",
       quickConsultLink: "Chat on WhatsApp →",
-      searchTrigger: "Search or press",
+      searchTrigger: "Search or jump to...",
       searchPlaceholder: "Type a command or search...",
       paletteNavigate: "to navigate",
       paletteSelect: "to select",
       paletteDismiss: "to close",
       readCaseStudy: "Explore Case Study",
-      csChallengeTitle: "The Challenge & Requirements",
+      csChallengeTitle: "The Problem & Challenge",
       csSolutionTitle: "The Engineering Solution",
       csTechTitle: "Technologies & Architecture",
       csHighlightsTitle: "Key Engineering Highlights",
@@ -227,63 +370,26 @@
       projectContext: "Context",
       quickInquiry: "Need a Similar Solution?",
       interfacePreviewTitle: "System Architecture Interface Preview",
-      leadArchitectRole: "Lead Full-Stack Architect",
+      leadArchitectRole: "Backend & AI Engineer",
       deliverables: "Deliverables",
-      deliverablesValue: "Codebase, DB, Docs",
+      deliverablesValue: "Codebase, APIs, Docs, DB",
       previousProject: "← Previous Project",
       nextProject: "Next Project →",
       keyHighlights: "Key Highlights",
       technologiesUsed: "Tech Stack",
       systemPerformanceTitle: "Architectural Impact & Verified Metrics",
       engineeringHighlightsTitle: "Key Engineering Highlights",
-      ctaProjectTitle: "Ready to Build a High-Performance System?",
-      ctaProjectDesc: "Let us collaborate to architect scalable, resilient web applications tailored to your business goals.",
+      ctaProjectTitle: "Ready to Build a Reliable System?",
+      ctaProjectDesc: "Let's collaborate to architect scalable, resilient backend workflows tailored to your business goals.",
       badgeGraduation: "Graduation Project",
       badgeAICapstone: "AI Capstone",
       badgeRealTime: "Real-Time System",
       badgeCMS: "Content Management",
-      badgeEnterprise: "Enterprise SaaS",
+      badgeEnterprise: "Enterprise Platform",
       badgeHealthcare: "Healthcare System",
-      marsaCategory: "E-Commerce & Multi-Vendor",
-      marsaTitle: "Marsa Store (Multi-Vendor Marketplace)",
-      marsaH1: "✓ Multi-Vendor Product & Order Isolation",
-      marsaH2: "✓ RBAC, OAuth & 2-Factor Authentication",
-      marsaH3: "✓ Secure Payment Gateway Integration",
-      writeaiCategory: "Artificial Intelligence SaaS",
-      writeaiTitle: "Write AI (AI-Powered Blog Application)",
-      writeaiH1: "✓ LLM Prompt Engineering & Context Injection",
-      writeaiH2: "✓ Automated Meta Generation & SEO Optimization",
-      writeaiH3: "✓ Reactive Markdown & Rich WYSIWYG Editor",
-      messengerCategory: "WebSockets & Communications",
-      messengerTitle: "AI-Powered Real-Time Messenger",
-      messengerH1: "✓ WebSockets & Laravel Echo Broadcasting",
-      messengerH2: "✓ Decoupled Intelligent Conversational AI Bot",
-      messengerH3: "✓ Vue 3 Composition API & State Architecture",
-      technoCategory: "Enterprise CMS & Admin",
-      technoTitle: "Techno Plus CMS",
-      technoH1: "✓ Filament Resource Scaffolding & Custom Tables",
-      technoH2: "✓ Livewire Reactive Components without JS Bloat",
-      technoH3: "✓ Dynamic Media Management & Access Controls",
-      holmeCategory: "Engineering Management",
-      holmeTitle: "Holme Engineering Consulting Platform",
-      holmeSummary: "Enterprise portal for engineering consultancies handling project tracking, milestone audits, and client reporting.",
-      holmeH1: "✓ Automated Milestone & Progress Tracking",
-      holmeH2: "✓ Background Queues for Heavy Financial Reports",
-      holmeH3: "✓ Multi-Tiered Client & Inspector Access Levels",
-      curewayCategory: "HealthTech & Scheduling",
-      curewayTitle: "Cureway Healthcare & Clinic Portal",
-      curewaySummary: "Comprehensive clinic appointment and patient record management system with automated reminders and encrypted medical record logs.",
-      curewayH1: "✓ Real-Time Doctor Slot Conflict Prevention",
-      curewayH2: "✓ Encrypted Patient Medical History Storage",
-      curewayH3: "✓ Automated Notification Webhooks",
+      badgeFeatured: "Featured Project",
       quickPreview: "Quick Preview",
       closeModal: "Close",
-      marsaOrigin: "EDUCATION: Graduation Project (83.92%)",
-      writeaiOrigin: "CERTIFICATES: AI Capstone @ UCASTI 90h",
-      messengerOrigin: "CAREER: Real-Time WebSockets",
-      technoOrigin: "CAREER: Filament CMS Platform",
-      holmeOrigin: "CAREER: Enterprise Platform",
-      curewayOrigin: "CAREER: HealthTech Scheduling",
       viewPhoto: "View Photo",
       statusAvailable: "Available for projects",
       heroTitleShort: "Mohammed Jouda",
@@ -305,13 +411,13 @@
     },
     ar: {
       pageTitles: {
-        home: "محمد جودة | مطوّر Full Stack",
-        about: "محمد جودة | عنّي",
-        career: "محمد جودة | المسيرة المهنية",
-        projects: "محمد جودة | معرض المشاريع",
+        home: "محمد جودة | مهندس Backend وأتمتة بالذكاء الاصطناعي",
+        about: "محمد جودة | عنّي والقدرات الهندسية",
+        career: "محمد جودة | المسيرة المهنية والخبرات",
+        projects: "محمد جودة | معرض المشاريع ودراسات الحالة",
         achievements: "محمد جودة | الإنجازات والشهادات",
-        contact: "محمد جودة | تواصل معي",
-        'project-detail': "محمد جودة | تفاصيل المشروع",
+        contact: "محمد جودة | تواصل معي للعمل",
+        'project-detail': "محمد جودة | تفاصيل دراسة الحالة",
         '404': "محمد جودة | 404 - الصفحة غير موجودة"
       },
       navHome: "الرئيسية",
@@ -321,32 +427,55 @@
       navAchievements: "الإنجازات",
       navContact: "تواصل معي",
       rights: "جميع الحقوق محفوظة.",
-      heroTitle: "مرحباً، أنا محمد جودة",
-      roleTitle: "مطوّر Full Stack",
-      location: "غزة، فلسطين",
+      heroTitle: "محمد جودة",
+      roleTitle: "مهندس Backend وأتمتة بالذكاء الاصطناعي",
+      location: "غزة، فلسطين • متاح للعمل عن بعد",
       downloadCv: "تحميل السيرة الذاتية",
-      heroBio: "مهندس برمجيات بخبرة تزيد عن 3 سنوات في بناء وتطوير تطبيقات ويب آمنة وعالية الأداء. تخصص عميق في Laravel و PHP ودمج أدوات الذكاء الاصطناعي، مع واجهات تفاعلية حديثة بـ Vue.js و React.",
-      sectionLead: "استكشف كل ما صمّمته، وساهمت فيه، وأنجزته.",
-      projectsTitle: "معرض المشاريع",
-      projectsSubtitle: "مجموعة مختارة من التطبيقات الحقيقية لحل مشكلات فعلية.",
-      exploreAll: "استكشف المشاريع",
+      viewWork: "شاهد مشاريعي",
+      letsWorkTogether: "لنتحدث عن مشروعك",
+      heroBio: "أبني وأهندس أنظمة Laravel خلفية عالية الأداء وأدمج حلول الأتمتة بالذكاء الاصطناعي. أساعد الشركات في التخلص من الاختناقات التشغيلية، وتحسين استعلامات قواعد البيانات، وتحويل البيانات الأولية إلى مسارات عمل ذكية وقابلة للتوسع.",
+      heroStack: "Laravel & PHP · REST APIs · AI Integration · Business Automation",
+      sectionLead: "أنظمة Backend موثوقة، دمج عملي للذكاء الاصطناعي، وأتمتة مسارات العمل لحل مشاكل برمجية وتجارية فعلية.",
+      projectsTitle: "مشاريع مختارة",
+      projectsSubtitle: "أنظمة Backend بمستوى إنتاجي، حلول الذكاء الاصطناعي العملية، والأنظمة الفورية.",
+      exploreAll: "استكشف كافة المشاريع",
       aboutTitle: "عنّي",
       aboutSubtitle: "من أنا، وما الذي يلهمني، والمبادئ الهندسية التي أتبعها.",
       aboutSlide1Loc: "غزة، فلسطين • البيئة التقنية وريادة الأعمال",
       aboutSlide1Title: "محاضرات تقنية وورش عمل برمجية للمجتمع التقني",
-      aboutSlide2Status: "متاح للمشاريع والفرص النوعية",
-      aboutSlide2Title: "محمد جودة • مهندس برمجيات ومطور ويب متكامل",
-      bioLeadRole: "مهندس برمجيات Full Stack",
-      bioExpHighlight: "أكثر من 3 سنوات خبرة إنتاجية",
-      aboutMetricsTitle: "مؤشرات الأثر والإنجاز الهندسي الموثق",
-      aboutMetric1Label: "سنوات خبرة إنتاجية",
-      aboutMetric1Sub: "تطوير Laravel والذكاء الاصطناعي وVue.js",
+      aboutSlide2Loc: "مختبر جريس (Jreas Lab) • مسارات الذكاء الاصطناعي وهندسة الويب",
+      aboutSlide2Title: "عرض تقديمي في أتمتة الأعمال وبناء مسارات الذكاء الاصطناعي",
+      aboutSlide3Loc: "ورشة عمل تطبيقية • أتمتة المهام البرمجية",
+      aboutSlide3Title: "جلسة تفاعلية في تحليل وأتمتة المهام التكرارية",
+      aboutSlide4Loc: "توجيه تقني ونقاشات هندسية",
+      aboutSlide4Title: "نقاش برمجي وتوجيه هندسي للمطورين",
+      aboutSlide5Status: "متاح للمشاريع والفرص النوعية",
+      aboutSlide5Title: "محمد جودة • مهندس Backend وأتمتة بالذكاء الاصطناعي",
+      workshopsChip: "مدرب تقني وموجه أتمتة بالذكاء الاصطناعي",
+      workshopsTitle: "الورشات والتدريبات التقنية",
+      workshopsDesc: "تقديم 6 ورش عمل تدريبية مكثفة في مجالات هندسة الويب، أتمتة الأعمال، ومسارات الذكاء الاصطناعي في Jreas Lab. تم تدريب أكثر من 160 مشاركاً من المطورين، المستقلين، الطلاب، وأصحاب الأعمال مع انطباعات وتقييمات ممتازة جداً من الحضور.",
+      wStat1Label: "ورش تدريبية مكثفة",
+      wStat1Sub: "تطوير الويب وأتمتة الذكاء الاصطناعي",
+      wStat2Label: "حاضر ومشارك",
+      wStat2Sub: "مطورين، مستقلين وأصحاب أعمال",
+      wStat3Label: "الجهة المُنظّمة",
+      wStat3Sub: "مختبر جريس (Jreas Lab)",
+      wStat4Label: "انطباع وتقييم الحضور",
+      wStat4Sub: "تأثير ورضا ممتاز جداً",
+      wTopic1: "أتمتة الأعمال بـ n8n والذكاء الاصطناعي",
+      wTopic2: "معمارية Laravel وتطوير REST APIs",
+      wTopic3: "تحليل وتفريغ المهام التكرارية",
+      bioLeadRole: "مهندس Backend وأتمتة بالذكاء الاصطناعي",
+      bioExpHighlight: "خبرة هندسية وإنتاجية عملية",
+      aboutMetricsTitle: "مؤشرات الأثر والإنجاز الهندسي",
+      aboutMetric1Label: "التركيز الأساسي",
+      aboutMetric1Sub: "أنظمة Laravel، PHP، AI و n8n",
       aboutMetric2Label: "معدل التخرج بمرتبة الشرف",
       aboutMetric2Sub: "جيد جداً مرتفع (83.92%)",
-      aboutMetric3Label: "ساعة تدريب تخصصي",
-      aboutMetric3Sub: "مسار مكثف بحاضنة UCASTI",
-      aboutMetric4Label: "نقاط نهاية برمجية RESTful",
-      aboutMetric4Sub: "موثقة ومعمارية آمنة بـ Swagger",
+      aboutMetric3Label: "مسار Backend و AI",
+      aboutMetric3Sub: "برنامج تدريبي مكثف بحاضنة UCASTI",
+      aboutMetric4Label: "واجهات RESTful برمجية",
+      aboutMetric4Sub: "توثيق Swagger ومعمارية آمنة",
       aboutPhilEyebrow: "المبادئ الهندسية الأساسية",
       aboutPhilTitle: "المعمارية البرمجية والمبادئ الهندسية",
       aboutPhilSubtitle: "معايير تضمن متانة الأنظمة، سرعة الاستجابة، وقابلية التوسع والصيانة بكفاءة.",
@@ -354,20 +483,38 @@
       philPerfDesc: "تحسين استعلامات قواعد البيانات، الفهرسة، التخزين المؤقت بـ Redis، وطوابير المهام لسرعة استجابة فائقة تحت 100ms.",
       philSecTitle: "أمن المعلومات والتشفير",
       philSecDesc: "صلاحيات RBAC محكمة، مصادقة ثنائية 2FA، تطهير وفحص المدخلات، وحماية البيانات بالتصميم.",
-      philAiTitle: "هندسة مدعومة بالذكاء الاصطناعي",
-      philAiDesc: "توظيف نماذج LLM وهندسة الأوامر والأتمتة الذكية لبناء حلول استثنائية.",
+      philAiTitle: "دمج عملي للذكاء الاصطناعي",
+      philAiDesc: "توظيف نماذج LLM ومخرجات JSON المنظمة والتعامل الذكي مع السياق لبناء أنظمة موثوقة.",
       philArchTitle: "الكود النظيف والمعمارية المتينة",
       philArchDesc: "التزام راسخ بمبادئ SOLID، وعزل طبقات الخدمات، وأنماط التصميم المتطورة لسهولة التوسع.",
+      whatIBuildTitle: "ماذا أبني؟",
+      whatIBuildSubtitle: "أنظمة backend عالية الاعتمادية، دمج عملي للذكاء الاصطناعي، وأتمتة مسارات العمل لحل مشاكل برمجية وتجارية فعلية.",
+      srvBackendTitle: "أنظمة Backend",
+      srvBackendDesc: "أبني أنظمة Backend باستخدام Laravel وPHP، تشمل REST APIs، المصادقة والصلاحيات، قواعد البيانات، الـQueues والتكامل مع الخدمات الخارجية.",
+      srvAiTitle: "دمج الذكاء الاصطناعي",
+      srvAiDesc: "أضيف قدرات AI عملية إلى التطبيقات باستخدام LLM APIs وStructured Outputs وعمليات معالجة تعتمد على السياق، بحيث يكون الذكاء الاصطناعي جزءًا فعليًا من التطبيق.",
+      srvAutoTitle: "أتمتة عمليات الأعمال",
+      srvAutoDesc: "أربط الأدوات والأنظمة وقواعد البيانات والـAPIs والذكاء الاصطناعي ضمن workflows تقلل العمل اليدوي وتسرّع انتقال المعلومات داخل العمل.",
+      srvAppsTitle: "تطبيقات مدعومة بالذكاء الاصطناعي",
+      srvAppsDesc: "أبني تطبيقات يكون فيها AI جزءًا من المنتج نفسه، مثل المساعدات الذكية، أنظمة التواصل، معالجة العملاء المحتملين، والأتمتة الداخلية.",
+      featWorkBadge: "مشروع مميز",
+      featLeadTitle: "نظام AI لمعالجة العملاء المحتملين وأتمتة المتابعة",
+      featLeadSubtitle: "تحويل رسائل العملاء غير المنظمة إلى Workflow واضح وقابل للمعالجة",
+      featLeadDesc: "بنيت نظام أتمتة يستقبل الـLeads من مصادر مختلفة، ويمررها عبر Laravel والـQueue، ثم يستخدم n8n لتنظيم الـWorkflow وGemini لتحليل البيانات وتحويلها إلى معلومات منظمة يمكن استخدامها داخل النظام.",
+      featWorkflowHeading: "مسار ومعمارية النظام",
+      featWorkflowFlow: "Lead → Laravel → Queue → n8n → Gemini → Structured Analysis → Laravel → Dashboard / Notifications",
+      featLeadSummary: "الـAI هنا يساعد في عملية اتخاذ القرار، لكنه لا يتخذ القرار التجاري النهائي بدل الإنسان، ويشمل تصنيف الطلب وتقدير الاستعجال والملخص.",
+      featLeadCta: "شاهد دراسة المشروع",
       filterAllSkills: "الكل",
       filterBackend: "الأنظمة الخلفية والـ APIs",
       filterFrontend: "الواجهات الأمامية",
       filterAi: "الذكاء الاصطناعي والأتمتة",
       filterDevops: "الأدوات والـ DevOps",
-      aboutCtaReadyBadge: "جاهز لبناء أنظمة برمجية متطورة",
-      aboutCtaHeading: "هل لديك مشروع طموح تود تحويله إلى واقع؟",
-      aboutCtaDesc: "سواء كنت ترغب في تصميم بنية تحتية متكاملة لمتجر متعدد التجار أو دمج حلول الذكاء الاصطناعي، يسعدني العمل معك.",
-      skillsTitle: "المهارات والأدوات",
-      skillsSubtitle: "تشمل تقنيات الويب والواجهات الأمامية والخلفية.",
+      aboutCtaReadyBadge: "جاهز لبناء أنظمة موثوقة",
+      aboutCtaHeading: "عندك مشروع أو مشكلة تريد أتمتتها؟",
+      aboutCtaDesc: "احكي لي باختصار ماذا تريد أن تبني أو تطور أو تؤتمت. سأساعدك في هندسة النظم الخلفية، دمج الذكاء الاصطناعي، أو أتمتة العمليات.",
+      skillsTitle: "القدرات التقنية والهندسية",
+      skillsSubtitle: "هندسة النظم الخلفية، تكامل الذكاء الاصطناعي، الأتمتة، وأفضل الممارسات الهندسية.",
       achievementsTitle: "الإنجازات والشهادات",
       achievementsSubtitle: "مجموعة مختارة من الشهادات والاعتمادات التي نلتها خلال مسيرتي المهنية والأكاديمية.",
       viewCertificate: "عرض الشهادة",
@@ -378,56 +525,118 @@
       certCareerLabel: "المسار المهني",
       careerTitle: "المسيرة المهنية",
       careerSubtitle: "مسيرتي المهنية وخبراتي العملية ومشاركاتي التقنية.",
-      testimonialsTitle: "التوصيات والآراء",
-      testimonialsSubtitle: "ما يقوله العملاء والمشرفون عن العمل معي.",
-      degreeHonor: "درجة البكالوريوس - 83.92% (جيد جداً)",
-      tarekRole: "عميل منصة إدارة العقارات والمتجر",
-      tarekQuote: "أظهر محمد فهماً عميقاً لهندسة النظم الخلفية وأداء الـ APIs في منصة المتجر. اهتمامه بجودة الكود وتحسين استعلامات قواعد البيانات جعل النظام موثوقاً وسريعاً للغاية.",
-      alaaRole: "مشرف أكاديمي وباحث في حاضنة UCASTI",
-      alaaQuote: "كان محمد من خيرة المهندسين المتميزين دراسياً وعملياً - ملتزم جداً بمعايير الكود النظيف ومبادئ SOLID، ولديه مرونة وسرعة استثنائية في دمج أدوات الذكاء الاصطناعي وحل المشكلات المعقدة.",
-      marsaSummary: "هندسة معمارية لنظام خلفي متكامل لإدارة العلاقات المعقدة بين التجار والمنتجات بصلاحيات ديناميكية. تطبيق معايير الأمان RBAC و OAuth و 2FA وبوابات الدفع الإلكتروني، مما رفع كفاءة المعاملات بنسبة 30%.",
-      writeaiSummary: "منصة تدوين ذكية تم بناؤها خلال برنامج تدريبي مكثف (90 ساعة). دمج أدوات التوليد بالذكاء الاصطناعي لدعم صناعة المحتوى وهندسة الأوامر (Prompt Engineering) باستخدام نماذج LLM الحديثة.",
-      messengerSummary: "نظام محادثة فوري بمستوى إنتاجي يعتمد على تقنيات WebSockets (Laravel Echo/Pusher) ومؤشرات الكتابة المباشرة والمجموعات، مع طبقة خدمات مستقلة لدمج الذكاء الاصطناعي للردود التفاعلية.",
-      technoSummary: "بناء نظام إدارة محتوى متكامل (CMS) باستخدام Laravel و Filament و Livewire لتجربة مستخدم تفاعلية وسريعة كأنها SPA بدون تعقيدات JavaScript، مع لوحات تحكم ديناميكية وفلاتر متطورة.",
-      aboutHeadline: "مهندس برمجيات شغوف بالأنظمة القابلة للتوسع والحلول الذكية",
-      aboutP1: "مهندس برمجيات بخبرة تزيد عن 3 سنوات في تصميم وتطوير تطبيقات ويب آمنة، قابلة للتوسع وعالية الأداء. تخصصي الأساسي في هندسة الواجهات الخلفية باستخدام PHP و Laravel، إلى جانب خبرة متقدمة في الواجهات الأمامية بـ Vue.js و React.",
-      aboutP2: "ملتزم بمبادئ الكود النظيف (Clean Code) وقواعد SOLID وتصميم واجهات RESTful API، مع سجل مميز في بناء منصات التجارة متعددة التجار (Multi-Vendor)، وتطبيقات SaaS، ودمج تقنيات الذكاء الاصطناعي لرفع كفاءة العمل.",
+      testimonialsTitle: "شهادات وتوصيات",
+      testimonialsSubtitle: "آراء من المشرفين الأكاديميين وأصحاب المشاريع المؤسسية.",
+      degreeHonor: "درجة البكالوريوس - 83.92% (مرتبة الشرف)",
+      tarekRole: "مشرف مشروع وعميل مؤسسي",
+      tarekQuote: "كان ملتزماً ومتجاوباً وقادراً على التعامل مع التحديات التقنية للوصول إلى حل عملي. اهتمامه بجودة الكود وتحسين الاستعلامات جعل النظام موثوقاً وسريعاً للغاية.",
+      alaaRole: "مشرف هندسي ومطور أول — حاضنة UCASTI",
+      alaaQuote: "أظهر محمد مهارات تقنية قوية، واستعداداً للتعلم، وقدرة على تحويل المتطلبات إلى حلول عملية؛ ملتزم جداً بمعايير الكود النظيف ومبادئ SOLID.",
+      leadCategory: "أتمتة بالذكاء الاصطناعي وهندسة Backend",
+      leadTitle: "نظام AI لمعالجة العملاء المحتملين وأتمتة المتابعة",
+      leadSummary: "نظام مؤتمت بالكامل لتوجيه العملاء المحتملين. يستقبل الاستفسارات غير المنظمة، وينسقها عبر n8n، ويستعين بـ Gemini لتصنيف الهدف ودرجة الاستعجال قبل إعادة البيانات المهيكلة إلى Laravel.",
+      leadOrigin: "مشروع مميز: أتمتة الذكاء الاصطناعي وطوابير Laravel",
+      leadH1: "✓ معالجة غير متزامنة لطوابير المهام بـ Laravel و Redis",
+      leadH2: "✓ تنظيم سير العمل بـ n8n ومخرجات JSON المنظمة بـ Gemini",
+      leadH3: "✓ حماية الـ Webhooks وإدارة حالات الخطأ وإعادة المحاولة",
+      badgeAgileAi: "منظومة Agile ذكية",
+      sprintMindCategory: "أنظمة إدارة المشاريع وتخطيط Agile بالذكاء الاصطناعي",
+      sprintMindTitle: "SprintMind AI — منظومة إدارة السبرنتات والتخطيط بالذكاء الاصطناعي",
+      sprintMindSummary: "منظومة إدارة سبرنتات ومشاريع متكاملة بـ Laravel 13 مدعومة بالذكاء الاصطناعي (Gemini 3.5) لأتمتة تخطيط السبرنتات، واستخراج المهام من الملاحظات، والجدولة التلقائية في التقويم، والتدقيق الفوري لصحة السبرنت.",
+      sprintMindOrigin: "مشروع مميز: Laravel 13 وتكامل Gemini 3.5",
+      sprintMindH1: "✓ أتمتة تخطيط السبرنت واستخراج المهام بـ Gemini 3.5",
+      sprintMindH2: "✓ تقويم FullCalendar تفاعلي مع خريطة السعة اليومية",
+      sprintMindH3: "✓ تغطية اختبارات آلية كاملة باستخدام Pest PHP",
+      messengerCategory: "أنظمة فورية وتكامل الذكاء الاصطناعي",
+      messengerTitle: "نظام تواصل فوري مدعوم بالذكاء الاصطناعي",
+      messengerSummary: "منصة مراسلة فورية مبنية باستخدام Laravel وVue، مع دمج الذكاء الاصطناعي داخل تجربة التواصل نفسها، ودعم WebSockets والإشعارات والتواجد ومساعد ذكي.",
+      messengerOrigin: "المسيرة المهنية: أنظمة محادثة فورية بـ WebSockets",
+      messengerH1: "✓ بث فوري للرسائل عبر تقنيات WebSockets و Laravel Echo",
+      messengerH2: "✓ بوت محادثة ذكي بطبقة خدمات مستقلة",
+      messengerH3: "✓ بنية تفاعلية متطورة باستخدام Vue 3 Composition API",
+      marsaCategory: "تجارة إلكترونية ومتعدد التجار",
+      marsaTitle: "Marsa Store — متجر متعدد البائعين",
+      marsaSummary: "بنية تجارة إلكترونية متعددة التجار جاهزة للإنتاج. حلت اختناقات قواعد البيانات المعقدة وضمنت عزلاً صارماً للبيانات عبر جلسات التجار المتزامنة.",
+      marsaOrigin: "التعليم: مشروع التخرج (83.92%)",
+      marsaH1: "✓ عزل متكامل لحسابات التجار والمنتجات والطلبات",
+      marsaH2: "✓ نظام صلاحيات متقدم ومصادقة ثنائية 2FA",
+      marsaH3: "✓ تحسين استعلامات قاعدة البيانات بـ Eager Loading وفهارس MySQL",
+      writeaiCategory: "منصة ذكاء اصطناعي SaaS",
+      writeaiTitle: "Write AI — تطبيق تدوين مدعوم بالذكاء الاصطناعي",
+      writeaiSummary: "منصة SaaS ذكية للتدوين تجمع بين إدارة المحتوى ومسارات توليد المحتوى المؤتمتة بالذكاء الاصطناعي، مبنية بمعالجات مهام خلفية منفصلة لمنع بطء واجهات LLM الخارجية.",
+      writeaiOrigin: "الشهادات: مشروع التخرج للذكاء الاصطناعي (حاضنة UCASTI 90 ساعة)",
+      writeaiH1: "✓ هندسة أوامر النماذج اللغوية وحقن السياق الذكي",
+      writeaiH2: "✓ توليد تلقائي للبيانات الوصفية وتحسين محركات البحث SEO",
+      writeaiH3: "✓ محرر Markdown تفاعلي متقدم مع طوابير معالجة خلفية",
+      technoCategory: "نظام إدارة محتوى ولوحات تحكم مؤسسية",
+      technoTitle: "Techno Plus CMS — نظام إدارة المحتوى المعياري",
+      technoSummary: "نظام إدارة محتوى مبني باستخدام Laravel وLivewire وFilament، مع التركيز على سهولة إدارة المحتوى، الصلاحيات، وتجربة استخدام سلسة دون إعادة تحميل الصفحة.",
+      technoOrigin: "المسيرة المهنية: منصة إدارة محتوى بـ Filament",
+      technoH1: "✓ توليد موارد متقدمة وجداول مخصصة عبر Filament",
+
+      aboutHeadline: "هندسة أنظمة قابلة للتوسع. أتمتة مسارات عمل تصنع الفارق.",
+      aboutP1: "أنا مهندس Backend وأتمتة بالذكاء الاصطناعي أركز على بناء بنى خوادم متينة وأتمتة مسارات العمل التجاري الذكية. تتركز خبرتي الأساسية في PHP و Laravel، حيث أصمم واجهات برمجة تطبيقات REST آمنة، وأطبق التحكم بالوصول المستند إلى الأدوار (RBAC)، وأحسن أداء قواعد البيانات لمعالجة مشاكل استعلامات N+1 المعقدة.",
+      aboutP2: "إلى جانب تطوير الـ Backend التقليدي، أتعامل مع الذكاء الاصطناعي كقدرة هندسية تطبيقية. أدمج النماذج اللغوية الكبيرة (مثل Google Gemini و OpenAI) ومنصات الأتمتة (n8n) مباشرة داخل تطبيقات الويب لتبسيط المهام المتكررة وتحويل النصوص غير المنظمة إلى مخرجات JSON مهيكلة ومدققة.",
+      aboutP3: "انطلاقاً من دراستي الأكاديمية وحصولي على بكالوريوس تكنولوجيا الويب وأمن المعلومات (بتقدير جيد جداً مع مرتبة الشرف)، أضع في صدارة أولوياتي الكود النظيف (مبادئ SOLID)، وأنظمة طوابير المهام المتينة (Redis)، والمعماريات الآمنة والموثوقة منذ اليوم الأول.",
+      whyWorkTitle: "لماذا العمل معي؟",
+      whyWorkHeading: "Backend-first Engineering مع AI عملي",
+      whyWorkDesc: "أجمع بين أساس قوي في هندسة الـBackend وبين أدوات الذكاء الاصطناعي والأتمتة الحديثة. لذلك لا أتعامل مع AI على أنه مجرد API يتم توصيله بالتطبيق، بل أفكر في النظام كاملاً: Input → Validation → Processing → AI → Business Logic → Storage → Monitoring → Human Review. الهدف هو بناء شيء يعمل فعلياً كجزء من منتج أو عملية تجارية، وليس مجرد Demo.",
+      howIWorkTitle: "طريقة عملي",
+      howStep1Title: "01 — أفهم",
+      howStep1Desc: "أبدأ بفهم المشكلة، والـWorkflow الحالي، والمستخدمين، والقيود الموجودة.",
+      howStep2Title: "02 — أصمم",
+      howStep2Desc: "أحدد الـArchitecture، وتدفق البيانات، والتكاملات، ومسؤولية كل جزء من النظام.",
+      howStep3Title: "03 — أبني",
+      howStep3Desc: "أطوّر الـBackend والـAPIs والتكاملات ومكونات AI وعمليات الأتمتة.",
+      howStep4Title: "04 — أختبر",
+      howStep4Desc: "أختبر النظام، وأتعامل مع حالات الفشل، وأتحقق من مخرجات AI، وأتأكد من أن الـWorkflow يعمل بشكل موثوق.",
+      howStep5Title: "05 — أحسّن",
+      howStep5Desc: "بعد عمل النظام الأساسي، أبحث عن فرص تحسين الأداء، والاعتمادية، وتجربة الاستخدام، وسهولة الصيانة.",
+      whoIWorkTitle: "من أعمل معهم؟",
+      whoStartups: "الشركات الناشئة",
+      whoStartupsDesc: "بناء الـBackend والبنية التقنية اللازمة لتحويل الفكرة إلى منتج فعلي.",
+      whoBusinesses: "الشركات والأعمال",
+      whoBusinessesDesc: "أتمتة العمليات المتكررة وربط الأدوات والأنظمة المنفصلة مع بعضها.",
+      whoTeams: "فرق البرمجة",
+      whoTeamsDesc: "تطوير أنظمة Backend موجودة، بناء APIs، دمج خدمات AI، أو المساهمة في مشاريع Laravel/PHP.",
+      whoFounders: "المؤسسون وفرق المنتجات",
+      whoFoundersDesc: "تحويل متطلبات المنتج إلى نظام تقني واضح وموثوق.",
       eduTitle: "بكالوريوس تكنولوجيا الويب وأمن المعلومات",
-      eduSub: "كلية فلسطين التقنية | غزة، فلسطين - معدل: 83.92% (جيد جداً)",
-      career1Role: "متدرب تطوير واجهات خلفية (Laravel والذكاء الاصطناعي)",
-      career1Desc: "برنامج مكثف لمدة 120 ساعة في حاضنة UCASTI ركز على متطلبات السوق وإتقان نظام Laravel ودمج أدوات الذكاء الاصطناعي في تسريع البرمجة والـ Debugging وبناء حلول ذكية.",
+      eduSub: "كلية فلسطين التقنية | غزة، فلسطين - معدل: 83.92% (جيد جداً مرتفع)",
+      career1Role: "متدرب تطوير Backend — Laravel ودمج الذكاء الاصطناعي",
+      career1Desc: "برنامج تدريبي مكثف (120+ ساعة) في منظومة Laravel، والخدمات المصغرة للذكاء الاصطناعي، وأنماط SOLID للمؤسسات.",
       career2Role: "متدرب مطور Full Stack",
-      career2Desc: "تطوير وتوثيق أكثر من 40 نقطة نهاية RESTful API آمنة باستخدام Laravel لدى شركة Areisto، وتحسين سرعة استجابة النظام بنسبة 20% عبر تحسين الاستعلامات والـ Caching.",
-      career3Role: "مطور واجهات خلفية مستقل (عن بعد)",
-      career3Desc: "بناء نظام خلفي متين لمنصة إدارة العقارات مع معالجة أكثر من 500 عقار ورفع كفاءة إدارة العملاء بنسبة 35%، وتصميم قواعد بيانات علائقية محكمة الصلاحيات.",
+      career2Desc: "توثيق أكثر من 40 واجهة RESTful API (باستخدام Swagger) وتحليل خطط تنفيذ الاستعلامات لتقليل زمن الاستجابة.",
+      career3Role: "تطوير Backend ومشاريع Web مستقلة",
+      career3Desc: "تصميم وتطبيع مخططات MySQL ومعالجات Webhook المتزامنة، مع تسريع معالجة العملاء المحتملين بنسبة 35% عبر التوجيه المؤتمت.",
       careerHeroBadge: "خبرة هندسية موثقة",
       careerActionCv: "تحميل السيرة الذاتية (PDF)",
       careerActionHire: "تواصل لمناقشة فرصة",
       careerActionGithub: "الملف الشخصي على GitHub",
-      careerMetric1Num: "+3 سنوات",
-      careerMetric1Label: "خبرة إنتاجية",
-      careerMetric1Sub: "تطوير Laravel والذكاء الاصطناعي وVue.js",
+      careerMetric1Num: "Laravel & PHP",
+      careerMetric1Label: "الأساس الخلفي الرئيسي",
+      careerMetric1Sub: "REST APIs، طوابير وصلاحيات",
       careerMetric2Num: "120+ ساعة",
       careerMetric2Label: "تخصص Laravel والذكاء الاصطناعي",
       careerMetric2Sub: "برنامج تدريبي مكثف بحاضنة UCASTI",
       careerMetric3Num: "40+ نقطة",
       careerMetric3Label: "واجهات RESTful برمجية",
       careerMetric3Sub: "هندسة وتوثيق Swagger لدى Areisto",
-      careerMetric4Num: "20% تسريع",
-      careerMetric4Label: "تقليل زمن الاستجابة",
-      careerMetric4Sub: "تحسين الاستعلامات والـ Caching",
-      careerMetric5Num: "35% زيادة",
-      careerMetric5Label: "سرعة معالجة الطلبات",
-      careerMetric5Sub: "معمارية علائقية وصلاحيات RBAC",
+      careerMetric4Num: "فهارس MySQL",
+      careerMetric4Label: "تحسين الاستعلامات",
+      careerMetric4Sub: "Eager Loading والتخزين المؤقت",
+      careerMetric5Num: "n8n و Gemini",
+      careerMetric5Label: "أتمتة الأعمال",
+      careerMetric5Sub: "مسارات تدفق بمخرجات منظمة",
       careerFilterAll: "كافة المسارات",
       careerFilterLaravel: "أنظمة Laravel والذكاء الاصطناعي",
       careerFilterFullstack: "Full Stack وواجهات برمجة",
-      careerFilterFreelance: "العمل الحر والمؤسسي",
+      careerFilterFreelance: "العمل الحر والمشاريع",
       careerTimelineView: "المخطط الزمني",
       careerGridView: "مصفوفة الأثر",
       careerStatusActive: "مسار تدريبي نشط",
       careerStatusCompleted: "مكتمل بنجاح",
-      careerStatusContract: "عقد استشاري",
+      careerStatusContract: "تسليم مشروع",
       careerShippedLabel: "المشاريع والنماذج البرمجية المرتبطة:",
       careerDeepDiveBtn: "المعمارية التقنية والتفاصيل الهندسية",
       careerDeepDiveClose: "إخفاء التفاصيل المعمارية",
@@ -449,14 +658,53 @@
       fellowshipStatus: "زمالة تنافسية مميزة",
       careerEndorsementsTitle: "شهادات وتوصيات المشرفين والعملاء",
       careerEndorsementsSub: "آراء من المشرفين الأكاديميين وأصحاب المشاريع المؤسسية.",
-      careerCtaTitle: "تبحث عن مهندس برمجيات يركز على الكفاءة والنتائج القابلة للقياس؟",
-      careerCtaSubtitle: "متاح للمشاريع المتقدمة، وتطوير منصات Laravel المتكاملة، ودمج تقنيات الذكاء الاصطناعي.",
+      careerCtaTitle: "تبحث عن مهندس يبني أنظمة يمكن الاعتماد عليها؟",
+      careerCtaSubtitle: "متاح لهندسة النظم الخلفية، بناء APIs، دمج خدمات الذكاء الاصطناعي، وأتمتة مسارات العمل.",
       careerCtaBtn: "تواصل معي الآن",
       careerCtaCv: "تحميل السيرة الذاتية (PDF)",
-      contactTitle: "تواصل معي",
-      contactSubtitle: "فلنبنِ شيئاً استثنائياً معاً.",
+      locationRemote: "عمل عن بعد (دولي)",
+      career3Company: "عملاء ومؤسسات عالمية عن بعد",
+      career1Duration: "120+ ساعة مكثفة",
+      career2Duration: "6 أشهر خبرة عمل",
+      career3Duration: "تسليم مشاريع مباشرة للعملاء",
+      career1Metric1: "120+ ساعة لارافيل و PHP متقدم",
+      career1Metric2: "طبقات خدمات AI وطوابير مهام",
+      career1Metric3: "معمارية كود نظيف ومبادئ SOLID",
+      career2Metric1: "توثيق 40+ واجهة RESTful API",
+      career2Metric2: "تحسين الأداء -20% عبر تحسين الاستعلامات",
+      career2Metric3: "منهجية Agile وسبرنت أسبوعية",
+      career3Metric1: "أكثر من 500 سجل عقاري ومؤسسي",
+      career3Metric2: "+35% كفاءة معالجة وتوجيه الطلبات",
+      career3Metric3: "صلاحيات RBAC وحماية بيانات محكمة",
+      careerAccomplishmentsHeading: "أبرز الإنجازات التقنية والمعمارية",
+      career1Bullet1: "إتقان قدرات منظومة Laravel 11 المتقدمة بما في ذلك طوابير المهام غير المتزامنة (Queues)، وبث الأحداث الفوري (WebSockets)، و Livewire لبناء واجهات تفاعلية وسريعة.",
+      career1Bullet2: "بناء وتصميم طبقات خدمات مصغرة مستقلة للذكاء الاصطناعي تربط واجهات LLM APIs (OpenAI / Gemini)، مع أتمتة تحسين التعليمات واستخلاص مخرجات JSON المنظمة.",
+      career1Bullet3: "تطبيق مبادئ الكود النظيف وأنماط تصميم SOLID للمؤسسات، وتجريد المستودعات (Repositories)، وتغطية الاختبارات التلقائية وفق المعايير العالمية.",
+      career1DecTitle1: "القرارات البرمجية والمعمارية",
+      career1DecDesc1: "عزل تفاعلات الذكاء الاصطناعي خلف Service Providers وطوابير مهام خفية لمنع تأخر استجابات LLM الخارجية من تعطيل دورة طلبات HTTP، مع تفعيل إعادة المحاولة التلقائية وحماية الاستجابات البديلة.",
+      career1DecTitle2: "أدوات وبيئة العمل الهندسية",
+      career1DecDesc2: "استخدام مسارات Laravel 11 المبسطة، وخصائص PHP 8.3 المنمطة، وحزم اختبارات Pest PHP التلقائية، وبيئات تطوير Docker الحاوية لضمان تطابق بيئات التشغيل.",
+      career2Bullet1: "بناء وتوثيق أكثر من 40 واجهة برمجية آمنة (RESTful Endpoints) مع التحقق الدقيق من المدخلات، ومصادقة JWT، وهياكل استجابة موحدة باستعمال Swagger و Postman.",
+      career2Bullet2: "تحليل خطط تنفيذ الاستعلامات عبر Laravel Telescope؛ وحل مشاكل استعلامات N+1 باستخدام Eager Loading وفهارس المفاتيح الأجنبية المركبة، مما خفض زمن انتظار قاعدة البيانات بنسبة 20%.",
+      career2Bullet3: "التعاون السلس مع مهندسي الواجهات واختبار الجودة ضمن مسارات عمل Git المسؤولة عن الفروع، ومراجعات الأكواد (Pull Requests)، واجتماعات التتبع اليومية.",
+      career2DecTitle1: "تصميم الـ APIs وأمن البيانات",
+      career2DecDesc1: "صياغة مواصفات API شاملة وفق معايير OpenAPI 3.0. تحصين النقاط النهائية بمحددات معدل الطلبات (Rate Limiting)، وبرمجيات تطهير المدخلات، ورموز الوصول المحدودة لمنع الهجمات.",
+      career2DecTitle2: "تحليل وتطوير الأداء",
+      career2DecDesc2: "استبدال الاستعلامات المتكررة بنظام تخزين مؤقت متمدد على Redis. إعداد إلغاء التخزين المؤقت المستند إلى الوسوم لحديث البيانات الفوري مع الحفاظ على سرعة قراءة تحت 50ms.",
+      career3Bullet1: "نمذجة مخطط MySQL علائقي منظم يفهرس آلاف السمات الديناميكية للسيارات/العقارات، وأسعار العملات المتعددة، وتفاعلات العملاء التاريخية دون إغلاق المخطط.",
+      career3Bullet2: "هندسة طبقة سياسات التحكم بالوصول المستند إلى الأدوار (RBAC) متعددة المستأجرين لحماية المستندات والوثائق الخاصة وسجلات التدقيق.",
+      career3Bullet3: "بناء لوحات تحكم إدارية تفاعلية ومعالجات Webhook المتزامنة، مما سرّع زمن الاستجابة لطلبات واستفسارات العملاء بنسبة 35%.",
+      career3DecTitle1: "سلامة قاعدة البيانات وفهرسة الأداء",
+      career3DecDesc1: "تصميم فهارس B-tree عالية الكفاءة على مرشحات البحث الشائعة. استخدام قواعد المفاتيح الأجنبية ومعاملات ACID لضمان اتساق البيانات 100% بين الطلبات المتزامنة.",
+      career3DecTitle2: "رضا العملاء والأثر التشغيلي",
+      career3DecDesc2: "تسليم المشروع في الوقت المحدد والميزانية المحددة. أكدت تقييمات العملاء أن أتمتة توجيه الطلبات عبر الـ Webhooks ألغت التوجيه اليدوي وقلصت الوقت من ساعات إلى ثوانٍ.",
+      tawjihiTitle: "الثانوية العامة - التوجيهي",
+      tawjihiDesc: "شهادة الثانوية العامة هي المرحلة الإعدادية النهائية التي تمكن الطالب من الالتحاق بالتعليم الجامعي.",
+      tawjihiStream: "الفرع العلمي",
+      contactTitle: "دعنا نبني أو نؤتمت نظامك القادم.",
+      contactSubtitle: "سواء كنت تواجه اختناقات في أداء تطبيق Laravel الحالي، أو تحتاج واجهة REST API آمنة من الصفر، أو ترغب في أتمتة العمليات اليدوية عبر الذكاء الاصطناعي و n8n — يسعدني مناقشة الحل التقني المناسب.",
       statusAvailableTitle: "متاح للفرص والمشاريع الجديدة",
-      statusAvailableSub: "مستعد للمشاريع المستقلة ذات الأثر العالي، والاستشارات التقنية، والوظائف الهندسية المتكاملة.",
+      statusAvailableSub: "مستعد لمشاريع هندسة الـ Backend، وأنظمة أتمتة الأعمال، والفرص الهندسية المتكاملة.",
       statusResponseTime: "زمن الرد: أقل من 24 ساعة",
       statusTimezone: "توقيت القدس UTC+2 (غزة / فلسطين)",
       directEmail: "البريد الإلكتروني المباشر",
@@ -465,13 +713,13 @@
       remoteReady: "جاهز للعمل عن بعد",
       connectSocial: "الشبكات والمنصات المهنية",
       directMessageTitle: "إرسال رسالة مباشرة",
-      reachOut: "جاهز للتعاون في مشروعك؟",
-      contactText: "سواء كان لديك مشروع قادم، استفسار عمل حر، أو ترغب في مناقشة هندسة الويب وتطبيقات الذكاء الاصطناعي، يسعدني دائماً تواصلك.",
+      reachOut: "عندك مشروع أو مشكلة برمجية؟",
+      contactText: "احكي لي باختصار ماذا تريد أن تبني أو تطور أو تؤتمت. ولنبدأ بمناقشة المشكلة أولاً.",
       basedIn: "الموقع",
       formName: "الاسم الكامل",
       formEmail: "البريد الإلكتروني",
-      formSubject: "موضوع الرسالة",
-      formMsg: "رسالتك",
+      formSubject: "اسم المشروع أو الشركة",
+      formMsg: "ماذا تريد أن تبني أو تؤتمت؟",
       sendMsg: "إرسال الرسالة",
       msgSent: "شكراً لك! تم استلام رسالتك بنجاح وسأتواصل معك في أقرب وقت.",
       sendingMsg: "جاري الإرسال...",
@@ -484,7 +732,7 @@
       paletteSelect: "للاختيار",
       paletteDismiss: "للإغلاق",
       readCaseStudy: "استعراض دراسة الحالة",
-      csChallengeTitle: "المشكلة والمتطلبات الهندسية",
+      csChallengeTitle: "المشكلة والتحدي التقني",
       csSolutionTitle: "الحل والمعمارية البرمجية",
       csTechTitle: "التقنيات والأدوات المستخدمة",
       csHighlightsTitle: "أبرز الإنجازات والنتائج",
@@ -522,63 +770,26 @@
       projectContext: "سياق المشروع",
       quickInquiry: "هل تحتاج حلاً برمجياً مشابهاً؟",
       interfacePreviewTitle: "معاينة واجهة ومعمارية النظام",
-      leadArchitectRole: "مهندس معماري ومطور شامل",
+      leadArchitectRole: "مهندس Backend وذكاء اصطناعي",
       deliverables: "المخرجات",
-      deliverablesValue: "الكود، قواعد البيانات، التوثيق",
+      deliverablesValue: "الكود، واجهات APIs، قواعد البيانات",
       previousProject: "← المشروع السابق",
       nextProject: "المشروع التالي →",
       keyHighlights: "أبرز الإنجازات المعمارية",
       technologiesUsed: "التقنيات المستخدمة",
       systemPerformanceTitle: "الأثر المعماري والمقاييس المعتمدة",
       engineeringHighlightsTitle: "أبرز النقاط الهندسية",
-      ctaProjectTitle: "هل تود بناء نظام برمجي عالي الأداء؟",
-      ctaProjectDesc: "دعنا نتعاون لتصميم وبناء تطبيقات ويب متطورة وقابلة للتوسع تلبي متطلبات عملك.",
+      ctaProjectTitle: "هل تود بناء نظام برمجي عالي الاعتمادية؟",
+      ctaProjectDesc: "دعنا نتعاون لتصميم وبناء تطبيقات ويب وأنظمة أتمتة تلبي أهداف أعمالك.",
       badgeGraduation: "مشروع التخرج",
       badgeAICapstone: "مشروع ذكاء اصطناعي",
       badgeRealTime: "نظام فوري",
       badgeCMS: "إدارة المحتوى",
       badgeEnterprise: "نظام مؤسسي",
       badgeHealthcare: "نظام رعاية صحية",
-      marsaCategory: "تجارة إلكترونية ومتعدد التجار",
-      marsaTitle: "متجر مرسى (منصة تجارة متعددة التجار)",
-      marsaH1: "✓ عزل متكامل لحسابات التجار والمنتجات والطلبات",
-      marsaH2: "✓ نظام صلاحيات متقدم ومصادقة ثنائية 2FA",
-      marsaH3: "✓ دمج بوابات دفع إلكتروني آمنة وعالية الموثوقية",
-      writeaiCategory: "منصة ذكاء اصطناعي SaaS",
-      writeaiTitle: "منصة تدوين مدعومة بالذكاء الاصطناعي (Write AI)",
-      writeaiH1: "✓ هندسة أوامر النماذج اللغوية وحقن السياق الذكي",
-      writeaiH2: "✓ توليد تلقائي للبيانات الوصفية وتحسين محركات البحث SEO",
-      writeaiH3: "✓ محرر تدوين تفاعلي متقدم يدعم Markdown",
-      messengerCategory: "أنظمة تواصل ومحادثة فورية (WebSockets)",
-      messengerTitle: "تطبيق مراسلة فوري مدعوم بالذكاء الاصطناعي",
-      messengerH1: "✓ بث فوري للرسائل عبر تقنيات WebSockets و Laravel Echo",
-      messengerH2: "✓ بوت محادثة ذكي بطبقة خدمات مستقلة",
-      messengerH3: "✓ بنية تفاعلية متطورة باستخدام Vue 3 Composition API",
-      technoCategory: "نظام إدارة محتوى ولوحات تحكم مؤسسية",
-      technoTitle: "نظام تكنو بلس لإدارة المحتوى (Techno Plus CMS)",
-      technoH1: "✓ توليد موارد متقدمة وجداول مخصصة عبر Filament",
-      technoH2: "✓ مكونات تفاعلية فورية بـ Livewire بدون تعقيد JavaScript",
-      technoH3: "✓ إدارة وسائط ديناميكية وصلاحيات وصول دقيقة",
-      holmeCategory: "منصة إدارة المشاريع والاستشارات الهندسية",
-      holmeTitle: "منصة هولم للاستشارات وإدارة المشاريع (Holme)",
-      holmeSummary: "منصة مؤسسية للاستشارات وإدارة المشاريع الهندسية لمتابعة الإنجاز، وتدقيق المعالم، والتقارير المالية للعملاء.",
-      holmeH1: "✓ تتبع آلي للمراحل والتقدم الزمني للمشاريع",
-      holmeH2: "✓ معالجة تقارير مالية ضخمة في الخلفية عبر طوابير المهام",
-      holmeH3: "✓ مستويات صلاحيات متعددة للعملاء والمشرفين والمهندسين",
-      curewayCategory: "منظومة طبية وإدارة العيادات (HealthTech)",
-      curewayTitle: "بوابة كيورواي لإدارة العيادات الطبية (Cureway)",
-      curewaySummary: "نظام شامل لإدارة المواعيد الطبية وسجلات المرضى في العيادات، مع تذكيرات آلية وسجلات طبية مشفرة.",
-      curewayH1: "✓ منع تضارب المواعيد والفتحات الزمنية للأطباء في الوقت الفعلي",
-      curewayH2: "✓ تخزين مشفر لسجلات المرضى والتاريخ الطبي",
-      curewayH3: "✓ إشعارات وتنبيهات برمجية تلقائية للمواعيد",
+      badgeFeatured: "مشروع مميز",
       quickPreview: "معاينة سريعة",
       closeModal: "إغلاق",
-      marsaOrigin: "التعليم: مشروع التخرج (83.92%)",
-      writeaiOrigin: "الشهادات: مشروع التخرج للذكاء الاصطناعي (حاضنة UCASTI 90 ساعة)",
-      messengerOrigin: "المسيرة المهنية: أنظمة محادثة فورية بـ WebSockets",
-      technoOrigin: "المسيرة المهنية: منصة إدارة محتوى بـ Filament",
-      holmeOrigin: "المسيرة المهنية: منصة استشارات مؤسسية",
-      curewayOrigin: "المسيرة المهنية: منظومة رعاية صحية ومواعيد",
       viewPhoto: "عرض الصورة",
       statusAvailable: "متاح للمشاريع الجديدة",
       heroTitleShort: "محمد جودة",
@@ -670,10 +881,77 @@
   const quickModalDismissBtn = document.getElementById('quick-modal-dismiss-btn');
   const quickModalViewFullBtn = document.getElementById('quick-modal-view-full-btn');
 
-  // --- 1. CLIENT-SIDE SPA ROUTER (Zero-Reload Navigation) ---
+  // --- 1. CLIENT-SIDE SPA ROUTER (HTML5 History API Navigation) ---
   const validRoutes = ['home', 'about', 'career', 'projects', 'achievements', 'contact', 'project-detail', '404'];
 
-  function navigateTo(route, updateHash = true) {
+  function routeToUrl(route) {
+    if (route === 'home' || route === '' || !route) return '/';
+    if (route.startsWith('project-') || route.startsWith('project/')) {
+      const pId = route.replace(/^project[-/]/, '');
+      return `/projects/${pId}`;
+    }
+    return `/${route}`;
+  }
+
+  function urlToRoute(path, hash) {
+    path = path || (typeof window !== 'undefined' && window.location ? window.location.pathname : '/');
+    hash = hash || (typeof window !== 'undefined' && window.location ? window.location.hash : '');
+    if (hash && hash !== '') {
+      return hash.replace('#', '');
+    }
+    const cleanPath = (path || '/').replace(/\/$/, '') || '/';
+    if (cleanPath === '/' || cleanPath === '') return 'home';
+    if (cleanPath === '/about') return 'about';
+    if (cleanPath === '/career') return 'career';
+    if (cleanPath === '/projects') return 'projects';
+    if (cleanPath === '/achievements') return 'achievements';
+    if (cleanPath === '/contact') return 'contact';
+    if (cleanPath.startsWith('/projects/')) {
+      const pId = cleanPath.replace('/projects/', '');
+      return `project-${pId}`;
+    }
+    return '404';
+  }
+
+  function updateMetaForRoute(route, lang) {
+    const dict = i18n[lang] || i18n.en;
+    let title = dict.pageTitles && dict.pageTitles[route] ? dict.pageTitles[route] : (lang === 'ar' ? 'محمد جودة | مهندس Backend وأتمتة بالذكاء الاصطناعي' : 'Mohammed Jouda | Backend & AI Automation Engineer');
+    let description = lang === 'ar' ? 'محمد جودة مهندس Backend وأتمتة بالذكاء الاصطناعي يتخصص في Laravel و PHP و REST APIs و n8n و Gemini.' : 'Mohammed Jouda is a Backend & AI Automation Engineer specializing in Laravel, PHP, REST APIs, AI integration, and business automation.';
+    let canonicalPath = routeToUrl(route);
+
+    if (route && (route.startsWith('project-') || route.startsWith('project/'))) {
+      const pId = route.replace(/^project[-/]/, '');
+      if (caseStudiesData && caseStudiesData[pId]) {
+        const p = caseStudiesData[pId];
+        const pTitle = p.title[lang] || p.title.en;
+        const pSub = p.subtitle[lang] || p.subtitle.en;
+        title = lang === 'ar' ? `محمد جودة | دراسة حالة ${pTitle}` : `Mohammed Jouda | ${pTitle} Case Study`;
+        description = pSub;
+        canonicalPath = `/projects/${pId}`;
+      }
+    }
+
+    document.title = title;
+
+    let canonicalEl = document.querySelector('link[rel="canonical"]');
+    if (canonicalEl) {
+      canonicalEl.setAttribute('href', `https://mohammedjouda.com${canonicalPath}`);
+    }
+
+    let metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', description);
+
+    let ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.setAttribute('content', description);
+
+    let ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', title);
+
+    let ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) ogUrl.setAttribute('content', `https://mohammedjouda.com${canonicalPath}`);
+  }
+
+  function navigateTo(route, updateHistory = true) {
     const requestedRoute = route;
 
     // Check if route is a direct project detail route (e.g. project-marsa-store or project/marsa-store)
@@ -700,28 +978,24 @@
           }
         });
 
-        // Update document title
-        const project = caseStudiesData[projectId];
-        const projTitle = project.title[currentLang] || project.title.en;
-        document.title = currentLang === 'ar' ? `محمد جودة | ${projTitle}` : `Mohammed Jouda | ${projTitle}`;
+        updateMetaForRoute(route, currentLang);
 
-        // Scroll to top
         if (mainContent) {
           mainContent.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // Update window hash
-        if (updateHash) {
-          if (window.location.hash !== `#${route}`) {
-            window.history.pushState(null, '', `#${route}`);
+        if (updateHistory && typeof window !== 'undefined' && window.history) {
+          const targetUrl = routeToUrl(route);
+          if (window.location && window.location.hash) {
+            window.history.replaceState(null, '', targetUrl);
+          } else if (window.location && window.location.pathname !== targetUrl) {
+            window.history.pushState(null, '', targetUrl);
           }
         }
 
-        // Close mobile drawer
         closeDrawer();
         return;
       } else {
-        // Unknown project ID! Route to 404
         route = '404';
       }
     }
@@ -742,7 +1016,6 @@
       targetView.classList.add('active');
     }
 
-    // If 404 view, update dynamic path display
     if (route === '404') {
       const pathDisplay = document.getElementById('not-found-path-display');
       if (pathDisplay) {
@@ -750,12 +1023,10 @@
       }
     }
 
-    // 2. Smoothly scroll main container to top
     if (mainContent) {
       mainContent.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    // 3. Update active nav links across desktop sidebar & mobile drawer
     document.querySelectorAll('[data-route]').forEach((link) => {
       if (link.getAttribute('data-route') === route) {
         link.classList.add('active');
@@ -764,20 +1035,17 @@
       }
     });
 
-    // 4. Update document title dynamically
-    const dict = i18n[currentLang] || i18n.en;
-    if (dict.pageTitles && dict.pageTitles[route]) {
-      document.title = dict.pageTitles[route];
-    }
+    updateMetaForRoute(route, currentLang);
 
-    // 5. Update window hash for browser history support (Back/Forward)
-    if (updateHash) {
-      if (window.location.hash !== `#${route}`) {
-        window.history.pushState(null, '', `#${route}`);
+    if (updateHistory && typeof window !== 'undefined' && window.history) {
+      const targetUrl = routeToUrl(route);
+      if (window.location && window.location.hash) {
+        window.history.replaceState(null, '', targetUrl);
+      } else if (window.location && window.location.pathname !== targetUrl) {
+        window.history.pushState(null, '', targetUrl);
       }
     }
 
-    // 6. Close mobile drawer if open
     closeDrawer();
   }
 
@@ -791,17 +1059,10 @@
     }
   });
 
-  // Listen to browser Back / Forward buttons & direct hash navigation
+  // Listen to browser Back / Forward buttons & direct path navigation
   window.addEventListener('popstate', () => {
-    const hash = window.location.hash.replace('#', '') || 'home';
-    navigateTo(hash, false);
-  });
-
-  window.addEventListener('hashchange', () => {
-    const hash = window.location.hash.replace('#', '') || 'home';
-    if (hash !== currentRoute) {
-      navigateTo(hash, false);
-    }
+    const route = urlToRoute(window.location.pathname, window.location.hash);
+    navigateTo(route, false);
   });
 
   // --- 2. Custom Blue Pointer Cursor Implementation ---
@@ -1078,7 +1339,7 @@
     const contactSubject = document.getElementById('contact-subject');
     if (contactSubject) contactSubject.placeholder = lang === 'ar' ? 'استفسار عن مشروع / استشارة تقنية' : 'Project Inquiry / Consultation';
     const contactMsg = document.getElementById('contact-msg');
-    if (contactMsg) contactMsg.placeholder = lang === 'ar' ? 'مرحباً محمد، أود التواصل بشأن...' : "Hello Mohammed, I'd like to collaborate on...";
+    if (contactMsg) contactMsg.placeholder = lang === 'ar' ? 'صف متطلبات مشروعك، أو الاختناقات التقنية الحالية، أو مسار العمل المحدد الذي ترغب في أتمتته...' : "Describe your project requirements, current technical bottlenecks, or the specific workflow you want to automate...";
 
     const contactStatusCard = document.querySelector('.contact-status-card');
     if (contactStatusCard) contactStatusCard.setAttribute('data-cursor', lang === 'ar' ? 'متاح' : 'Available');
@@ -1602,6 +1863,113 @@
 
   // --- 10. Interactive Case Studies Modal System ---
   const caseStudiesData = {
+    'lead-automation': {
+      category: { en: "AI Automation & Backend", ar: "أتمتة بالذكاء الاصطناعي وهندسة Backend" },
+      year: "2026",
+      status: { en: "Featured Case Study", ar: "مشروع مميز ودراسة حالة" },
+      origin: {
+        icon: "ai",
+        en: "FEATURED: AI Automation & Laravel Queues",
+        ar: "مشروع مميز: أتمتة الذكاء الاصطناعي وطوابير Laravel"
+      },
+      title: {
+        en: "AI Lead Triage & Automation System",
+        ar: "نظام AI لمعالجة العملاء المحتملين وأتمتة المتابعة"
+      },
+      subtitle: {
+        en: "Turning unstructured leads into structured business workflows with Laravel, n8n, and Gemini.",
+        ar: "تحويل رسائل العملاء غير المنظمة إلى مسارات عمل منظمة عبر Laravel و n8n و Gemini."
+      },
+      image: "assets/projects/ai-leads/ai-leads.jpg",
+      gallery: [
+        "assets/projects/ai-leads/ai-leads.jpg"
+      ],
+      metrics: [
+        { value: "End-to-End", labelEn: "Automation Flow", labelAr: "مسار أتمتة متكامل" },
+        { value: "JSON Schema", labelEn: "Structured Output", labelAr: "مخرجات منظمة ومحققة" },
+        { value: "Async Queues", labelEn: "Worker Resilience", labelAr: "معالجة غير متزامنة" }
+      ],
+      challenge: {
+        en: "Inbound business leads arrive from multiple disparate channels in messy, unstructured text formats. Sales and technical teams waste hours manually reading messages, estimating urgency, categorizing inquiry types, and routing tasks, leading to delayed response times and lost commercial opportunities.",
+        ar: "تصل استفسارات العملاء والـ Leads من قنوات متعددة في صورة نصوص غير منظمة. تضيع فرق المبيعات والدعم ساعات طويلة في القراءة اليدوية وتحديد مدى الاستعجال وتصنيف نوع الطلب، مما يؤدي إلى بطء الرد وفقدان فرص تجارية مهمة."
+      },
+      solution: {
+        en: "Architected a reliable automation pipeline: incoming leads hit an authenticated Laravel webhook, are dispatched into asynchronous Redis queues, and get orchestrated through n8n. Google Gemini evaluates the lead against a strict structured JSON schema (intent classification, urgency estimation, lead score, concise summary, and recommended next action). The structured analysis returns to Laravel for database persistence, dashboard alerts, and team notifications.",
+        ar: "بناء مسار أتمتة موثوق: يستقبل الـ Laravel Webhook المعتمد بيانات العميل، ويدفعها إلى طوابير Redis غير المتزامنة، ثم يتولى n8n تنسيق سير العمل. يحلل نموذج Google Gemini نص الرسالة وفق schema صارمة (تصنيف الهدف، تقدير الاستعجال، تقييم الفرصة، ملخص موجز، وتوصية بالخطوة التالية)، ثم تعود البيانات المنظمة إلى Laravel للتخزين وتنبيه الإدارة."
+      },
+      techStack: ["Laravel 11", "PHP 8.3", "n8n", "Google Gemini API", "Redis Queues", "Webhook Auth", "MySQL", "Structured JSON"],
+      highlights: {
+        en: [
+          "Workflow Pipeline: Lead → Laravel → Queue → n8n → Gemini → Structured Analysis → Laravel → Dashboard.",
+          "Strict JSON schema enforcement with schema validation and fallback error handlers.",
+          "Idempotent webhook processing and dead-letter queues to prevent duplicated tasks.",
+          "Human-in-the-loop design: AI assists and scores, empowering human operators to make final decisions."
+        ],
+        ar: [
+          "مسار النظام: Lead ← Laravel ← طوابير المهام ← n8n ← تحليل Gemini المنظم ← Laravel ← لوحة التحكم والإشعارات.",
+          "إلزام النماذج بمخرجات JSON Schema محققة مع آليات تعامل مع حالات الفشل والـ Retries.",
+          "معالجة معتمدة على Idempotency لمنع تكرار معالجة الرسائل والطلبات.",
+          "تصميم يدعم اتخاذ القرار البشري (Human-in-the-loop): الذكاء الاصطناعي يقدم التحليل والتوصية ولا ينفرد بالقرار النهائي."
+        ]
+      },
+      liveUrl: "",
+      codeUrl: "https://github.com/mohamed-jouda/ai-lead-automation",
+      contactSubject: "Project Inquiry: AI Lead Triage & Automation System"
+    },
+    'sprint-mind': {
+      category: { en: "AI-Powered Project Management & Agile Workspace", ar: "أنظمة إدارة المشاريع وتخطيط Agile بالذكاء الاصطناعي" },
+      year: "2026",
+      status: { en: "Agile AI Workspace", ar: "منظومة إدارة سبرنتات بالذكاء الاصطناعي" },
+      origin: {
+        icon: "ai",
+        en: "FEATURED: Laravel 13 & Gemini 3.5 Flash",
+        ar: "مشروع مميز: Laravel 13 وتكامل Gemini 3.5"
+      },
+      title: {
+        en: "SprintMind AI — AI-Powered Agile Scrum Workspace",
+        ar: "SprintMind AI — منظومة إدارة السبرنتات والتخطيط بالذكاء الاصطناعي"
+      },
+      subtitle: {
+        en: "Automating sprint planning, Markdown note task extraction, calendar auto-scheduling, and real-time sprint health check audits with Gemini 3.5.",
+        ar: "أتمتة تخطيط السبرنتات، واستخراج المهام من الملاحظات، والجدولة التلقائية في التقويم، والتدقيق الفوري لصحة السبرنت بـ Gemini 3.5."
+      },
+      image: "assets/projects/sprint-mind/sprint-mind-hero.png",
+      gallery: [
+        "assets/projects/sprint-mind/sprint-mind-hero.png",
+        "assets/projects/sprint-mind/sprint-mind-1.png"
+      ],
+      metrics: [
+        { value: "Gemini 3.5", labelEn: "AI Core Engine", labelAr: "محرك الذكاء الاصطناعي" },
+        { value: "Pest PHP", labelEn: "Test Suite Coverage", labelAr: "تغطية الاختبارات الآلية" },
+        { value: "< 1s", labelEn: "Auto-Scheduler Velocity", labelAr: "سرعة الجدولة التلقائية" }
+      ],
+      challenge: {
+        en: "Agile product teams lose significant time converting raw client meeting notes into backlog stories, balancing daily developer capacities manually, and catching sprint bottlenecks like code review congestion before sprint deadlines.",
+        ar: "تستهلك فرق التطوير وقتاً طويلاً في تحويل ملاحظات الاجتماعات إلى قَصص ومهام (Stories)، وتوزيع المواعيد يدوياً على التقويم، واكتشاف الاختناقات البرمجية في السبرنت مثل ازدحام الـ Code Review قبل فوات الأوان."
+      },
+      solution: {
+        en: "Engineered an end-to-end AI Agile workspace powered by Laravel 13 and Gemini 3.5 Flash. Built AIAgileArchitectService to parse Markdown notes into actionable backlog tasks, dynamically auto-schedule unscheduled backlog items onto business weekdays based on daily capacity heatmaps (Story Point limits), and run real-time Sprint Health Checks with localized copilot advice.",
+        ar: "تطوير بيئة عمل Agile متكاملة تعتمد على Laravel 13 و Gemini 3.5 Flash. تم بناء خدمة AIAgileArchitectService لتحليل الملاحظات وتحويلها لمهام قابلة للتنفيذ، والجدولة الآلية للمهام غير المؤرخة على التقويم استناداً لخريطة السعة اليومية (Capacity Heatmaps)، وإجراء تدقيق فوري (Health Checks) للسبرنت لتنبيه الفريق بأي عوائق."
+      },
+      techStack: ["Laravel 13", "PHP 8.3", "Google Gemini API", "Pest PHP", "Tailwind CSS", "Alpine.js", "FullCalendar.js", "MySQL"],
+      highlights: {
+        en: [
+          "Gemini 3.5 Flash Integration: System prompt wrappers for target-velocity sprint planning, note story extraction, and fallback rules for zero downtime.",
+          "Markdown Note Hub & Processor: Converts raw meeting transcripts directly into previewable backlog user stories with Fibonacci story points.",
+          "Agile Calendar & Capacity Heatmaps: FullCalendar.js drag-and-drop integration with real-time daily SP capacity heatmaps (Green <=5, Amber 6-8, Red >8 SP).",
+          "Comprehensive Pest PHP Suite: Automated feature and unit tests verifying auth guards, note CRUD, backlog commits, notification hub, and global search."
+        ],
+        ar: [
+          "تكامل ذكي مع Gemini 3.5 Flash: هندسة Prompts دقيقة لتخطيط السبرنت، واستخراج المهام، مع محرك احتياطي (Fallback Engine) لضمان استمرارية الخدمة.",
+          "معالج الملاحظات بالذكاء الاصطناعي: تحويل المحاضر والملاحظات إلى Stories ومهام جاهزة للإضافة للـ Backlog بنقاط Story Points.",
+          "تقويم تفاعلي وخريطة سعة: دمج FullCalendar.js مع خريطة حرارية لحسوبة السعة اليومية (أخضر <=5SP، أصفر 6-8SP، أحمر >8SP).",
+          "تغطية اختبارات شاملة بـ Pest PHP: فحص آلي لمصادقة المستخدمين، وإدارة الملاحظات، وإضافة المهام للـ Backlog، ونظام الإشعارات."
+        ]
+      },
+      liveUrl: "",
+      codeUrl: "https://github.com/mohammedjouda/SprintMind-Ai",
+      contactSubject: "Project Inquiry: AI-Powered Agile Workspace (SprintMind AI)"
+    },
     'marsa-store': {
       category: { en: "E-Commerce & Multi-Vendor", ar: "التجارة الإلكترونية والمنصات المتعددة" },
       year: "2025",
@@ -1611,18 +1979,17 @@
         en: "EDUCATION: Graduation Project (83.92%)",
         ar: "التعليم الأكاديمي: مشروع التخرج (83.92%)"
       },
-      title: { en: "Marsa Store - Multi-Vendor Marketplace", ar: "متجر مرسى - منصة تجارة متعددة التجار" },
+      title: { en: "Marsa Store — Multi-Vendor Marketplace", ar: "متجر مرسى — منصة تجارة متعددة التجار" },
       subtitle: {
         en: "Scalable backend architecture with isolated multi-tenant workflows and dynamic permission matrix.",
         ar: "معمارية خلفية قابلة للتوسع مع عزل بيانات التجار وإدارة الصلاحيات متعددة المستويات."
       },
-      image: "assets/projects/nexus.webp",
+      image: "assets/projects/mersa/mersa-hero.jpg",
       gallery: [
-        "assets/projects/nexus.webp",
-        "assets/projects/devaura/2.webp"
+        "assets/projects/mersa/mersa-hero.jpg"
       ],
       metrics: [
-        { value: "+30%", labelEn: "Transaction Efficiency", labelAr: "كفاءة المعاملات" },
+        { value: "Eager Load", labelEn: "Query Optimization", labelAr: "تحسين الاستعلامات" },
         { value: "RBAC + 2FA", labelEn: "Security Standard", labelAr: "معايير الأمان" },
         { value: "500+", labelEn: "Catalog Capacity", labelAr: "سعة كتالوج المنتجات" }
       ],
@@ -1631,20 +1998,20 @@
         ar: "بناء منصة تجارة إلكترونية متعددة التجار يتطلب عزلاً صارماً لبيانات وسجلات كل تاجر، واحتساب العمولات بدقة، وضمان أمان المعاملات المالية دون التأثير على سرعة استجابة السلات الشرائية المتزامنة."
       },
       solution: {
-        en: "Engineered a modular Laravel backend using Repository and Service patterns. Implemented Role-Based Access Control (RBAC), OAuth2 authentication, two-factor verification (2FA), and indexed relational schemas in MySQL to achieve sub-100ms query latency.",
-        ar: "تصميم بنية خلفية معيارية في Laravel بالاعتماد على نمطي Service و Repository. تطبيق نظام صلاحيات دقيق (RBAC)، ومصادقة OAuth2، والتحقق الثنائي (2FA)، مع فهرسة جداول MySQL لتحقيق زمن استجابة استعلامات أقل من 100 ميلي ثانية."
+        en: "Engineered a modular Laravel backend using Repository and Service patterns. Implemented Role-Based Access Control (RBAC), OAuth2 authentication, two-factor verification (2FA), and indexed relational schemas in MySQL with eager loading to eliminate N+1 bottlenecks.",
+        ar: "تصميم بنية خلفية معيارية في Laravel بالاعتماد على نمطي Service و Repository. تطبيق نظام صلاحيات دقيق (RBAC)، ومصادقة OAuth2، والتحقق الثنائي (2FA)، مع فهرسة جداول MySQL و Eager Loading لمنع مشاكل N+1."
       },
       techStack: ["Laravel 11", "PHP 8.2", "MySQL", "Vue.js", "RBAC & OAuth2", "Tailwind CSS", "Stripe API"],
       highlights: {
         en: [
           "Vendor and customer data isolation with tenant-scoped Eloquent models.",
           "Fine-grained permissions engine with 2-Factor Authentication and secure session tokens.",
-          "Optimized database query performance reducing order processing latency by 30%."
+          "Reduced unnecessary database queries through eager loading and indexing."
         ],
         ar: [
           "عزل كامل لبيانات التجار والعملاء على مستوى نماذج Eloquent وقواعد البيانات.",
           "محرك صلاحيات متقدم مع التحقق الثنائي (2FA) وإدارة آمنة للجلسات والرموز المميزة.",
-          "تحسين شامل للاستعلامات قلل زمن معالجة الطلبات بنسبة 30%."
+          "تحسين استعلامات قاعدة البيانات وتقليل الاستعلامات الزائدة عبر Eager Loading والفهرسة."
         ]
       },
       liveUrl: "",
@@ -1665,10 +2032,9 @@
         en: "Automated content generation, prompt engineering, and real-time Markdown editor integrated with LLM APIs.",
         ar: "توليد تلقائي للمحتوى، وهندسة الأوامر الذكية، ومحرر Markdown فوري متصل بنماذج الذكاء الاصطناعي."
       },
-      image: "assets/projects/selectai/1.webp",
+      image: "assets/projects/write-ai/hero-write-ai.png",
       gallery: [
-        "assets/projects/selectai/1.webp",
-        "assets/projects/portfolio/1.webp"
+        "assets/projects/write-ai/hero-write-ai.png"
       ],
       metrics: [
         { value: "< 2.5s", labelEn: "Generation Speed", labelAr: "سرعة توليد المسودة" },
@@ -1714,10 +2080,10 @@
         en: "Instant peer-to-peer and group messaging with live typing indicators and AI conversational assist.",
         ar: "محادثات فورية مباشرة وجماعية مع مؤشرات الكتابة الحية ومساعد ذكي للردود المحادثية."
       },
-      image: "assets/projects/devaura/1.webp",
+      image: "assets/projects/messenger/messenger_ai.png",
       gallery: [
-        "assets/projects/devaura/1.webp",
-        "assets/projects/selectai/1.webp"
+        "assets/projects/messenger/messenger_ai.png",
+        "assets/projects/messenger/396shots_so.png"
       ],
       metrics: [
         { value: "< 50ms", labelEn: "Message Latency", labelAr: "زمن وصول الرسالة" },
@@ -1763,10 +2129,10 @@
         en: "Reactive administrative content control built with Laravel, Filament, and Livewire for rapid workflows.",
         ar: "لوحة تحكم تفاعلية لإدارة المحتوى تعتمد على Laravel و Filament و Livewire لإدارة سريعة وخفيفة."
       },
-      image: "assets/projects/devaura/2.webp",
+      image: "assets/projects/cms-techno-plus/tecno-hero.jpg",
       gallery: [
-        "assets/projects/devaura/2.webp",
-        "assets/projects/devaura/1.webp"
+        "assets/projects/cms-techno-plus/tecno-hero.jpg",
+        "assets/projects/cms-techno-plus/dashbord.png"
       ],
       metrics: [
         { value: "-60%", labelEn: "Admin Setup Time", labelAr: "سرعة تجهيز الواجهات" },
@@ -1797,104 +2163,6 @@
       liveUrl: "",
       codeUrl: "https://github.com/mohamed-jouda/techno-plus-cms",
       contactSubject: "Project Inquiry: Custom CMS / Admin Panel (Techno Plus)"
-    },
-    'holme': {
-      category: { en: "Enterprise Engineering & Portal", ar: "أنظمة وبوابات الشركات الهندسية" },
-      year: "2024",
-      status: { en: "Client Portal", ar: "بوابة أعمال حقيقية" },
-      origin: {
-        icon: "career",
-        en: "CAREER: Enterprise Platform",
-        ar: "المسيرة المهنية: منصة استشارات مؤسسية"
-      },
-      title: { en: "Holme Engineering Corporate Platform", ar: "منصة Holme Engineering الهندسية" },
-      subtitle: {
-        en: "High-integrity corporate platform showcasing structural engineering portfolios, technical specifications, and client consultation pipelines.",
-        ar: "منصة ويب متكاملة للشركات الهندسية لعرض المشاريع الإنشائية، والمواصفات الفنية، واستقبال طلبات الاستشارات."
-      },
-      image: "assets/projects/holme/1.webp",
-      gallery: [
-        "assets/projects/holme/1.webp",
-        "assets/projects/holme/2.webp"
-      ],
-      metrics: [
-        { value: "98/100", labelEn: "Performance Score", labelAr: "درجة الأداء وسرعة التحميل" },
-        { value: "+28%", labelEn: "Lead Conversion", labelAr: "معدل تحويل الاستفسارات" },
-        { value: "WebP / Lazy", labelEn: "Asset Compression", labelAr: "ضغط الميديا الذكي" }
-      ],
-      challenge: {
-        en: "Civil engineering firms present high-resolution CAD renderings and project photographs that frequently trigger high bandwidth usage, slow mobile response, and lost inquiries.",
-        ar: "تحتاج المكاتب الهندسية إلى استعراض مخططات ورسومات عالية الدقة، مما يؤدي عادةً لبطء تحميل الصفحات وضعف تجربة الاستخدام على الهواتف وخسارة استفسارات العملاء."
-      },
-      solution: {
-        en: "Developed an enterprise-grade platform with modern asset pipelines, responsive layouts, automated inquiry routing, and custom project taxonomy filters tailored for engineering practices.",
-        ar: "تطوير منصة رقمية ذات أداء فائق مع معالجة ذكية للوسائط، وتصميم متجاوب مع كافة الشاشات، وتوجيه تلقائي لاستفسارات واستشارات العملاء وفلاتر متخصصة للمشاريع الهندسية."
-      },
-      techStack: ["Laravel", "PHP", "Tailwind CSS", "JavaScript", "MySQL", "Vite"],
-      highlights: {
-        en: [
-          "Sub-second load times achieved across image-dense project portfolios.",
-          "Automated lead capture system with notification webhooks.",
-          "Accessible, responsive layout compliant with international web standards."
-        ],
-        ar: [
-          "تحميل فوري في أقل من ثانية بالرغم من الكثافة العالية لصور ومخططات المشاريع.",
-          "نظام تلقائي لاستقبال طلبات الاستشارة مع إشعارات مباشرة للإدارة.",
-          "تصميم متجاوب وسهل الوصول متوافق مع المعايير الدولية لتصفح الويب."
-        ]
-      },
-      liveUrl: "",
-      codeUrl: "https://github.com/mohamed-jouda/holme-engineering-platform",
-      contactSubject: "Project Inquiry: Engineering / Corporate Platform (Holme)"
-    },
-    'cureway': {
-      category: { en: "Healthcare & Patient Management", ar: "الرعاية الصحية وإدارة المرضى" },
-      year: "2024",
-      status: { en: "Healthcare Platform", ar: "منصة رعاية صحية ذكية" },
-      origin: {
-        icon: "career",
-        en: "CAREER: HealthTech Scheduling",
-        ar: "المسيرة المهنية: منظومة رعاية صحية ومواعيد"
-      },
-      title: { en: "Cureway Healthcare Management System", ar: "نظام Cureway للرعاية الصحية وإدارة الحجوزات" },
-      subtitle: {
-        en: "Confidential appointment scheduling, clinical record workflows, and role-based staff portals designed for medical clinics.",
-        ar: "جدولة مواعيد آمنة، وإدارة السجلات الطبية وسير العمل للعيادات بمستويات صلاحيات دقيقة."
-      },
-      image: "assets/projects/cureway/1.webp",
-      gallery: [
-        "assets/projects/cureway/1.webp",
-        "assets/projects/cureway/2.webp"
-      ],
-      metrics: [
-        { value: "< 45s", labelEn: "Booking Velocity", labelAr: "سرعة حجز الموعد" },
-        { value: "Encrypted", labelEn: "Data Privacy", labelAr: "حماية وخصوصية البيانات" },
-        { value: "99.9%", labelEn: "Uptime Reliability", labelAr: "جاهزية واستقرار النظام" }
-      ],
-      challenge: {
-        en: "Medical appointment scheduling requires zero booking collisions, strict confidentiality of health records, and an interface that remains accessible to patients of varying technical proficiencies.",
-        ar: "تتطلب أنظمة العيادات منع التضارب في مواعيد الأطباء، مع حماية تامة لخصوصية السجلات الطبية وسهولة مطلقة في حجز المواعيد للمرضى من مختلف الفئات."
-      },
-      solution: {
-        en: "Constructed a secure healthcare scheduling backend with transactional database locking to prevent double bookings. Incorporated role-based views separating reception, physician notes, and patient history.",
-        ar: "بناء نظام خلفي آمن لجدولة المواعيد يعتمد على الإقفال المتزامن لقاعدة البيانات لمنع التكرار، مع واجهات منفصلة بصلاحيات مخصصة لموظفي الاستقبال والأطباء والمرضى."
-      },
-      techStack: ["Laravel", "PHP 8", "MySQL", "RESTful APIs", "Bootstrap / CSS", "JavaScript"],
-      highlights: {
-        en: [
-          "ACID transactional scheduling engine preventing duplicate booking collisions.",
-          "Granular patient confidentiality controls separating clinical notes from administrative data.",
-          "Real-time appointment slot calculation and calendar sync."
-        ],
-        ar: [
-          "محرك جدولة بمعايير ACID يمنع نهائياً تضارب المواعيد المزدوجة.",
-          "ضوابط سرية دقيقة تفصل السجلات السريرية الطبية عن البيانات الإدارية.",
-          "احتساب فوري لأوقات الأطباء المتاحة ومزامنة التقويم المباشر."
-        ]
-      },
-      liveUrl: "",
-      codeUrl: "https://github.com/mohamed-jouda/cureway-healthcare",
-      contactSubject: "Project Inquiry: Healthcare / Management Platform (Cureway)"
     }
   };
 
@@ -2034,7 +2302,7 @@
     }
 
     // Sequential Project Navigation (Prev / Next project)
-    const projectKeys = ['marsa-store', 'write-ai', 'messenger', 'techno-cms', 'holme', 'cureway'];
+    const projectKeys = ['lead-automation', 'sprint-mind', 'messenger', 'marsa-store', 'write-ai', 'techno-cms'];
     const currentIndex = projectKeys.indexOf(projectId);
     if (currentIndex !== -1) {
       const prevIndex = (currentIndex - 1 + projectKeys.length) % projectKeys.length;
@@ -2257,7 +2525,7 @@
       photoLightboxImg.src = 'assets/images/mohammed-profile.jpg';
       const dict = i18n[currentLang] || i18n.en;
       if (captionName) captionName.textContent = dict.heroTitleShort || 'Mohammed Jouda';
-      if (captionRole) captionRole.textContent = dict.roleTitle || 'Full Stack Web Developer';
+      if (captionRole) captionRole.textContent = dict.roleTitle || 'Backend & AI Automation Engineer';
       if (captionVerified) captionVerified.style.display = '';
       if (captionStatus) captionStatus.style.display = '';
       if (captionDot) captionDot.style.display = '';
@@ -2309,151 +2577,16 @@
 
   // --- 10.6 Achievements & Certificate Lightbox Controller ---
   const CERTIFICATES_DATA = {
-    "freelance-workplace": {
-      id: "freelance-workplace",
-      image: "assets/achievements/howtoenterthefreelanceworkplace.webp",
-      url: "assets/achievements/howtoenterthefreelanceworkplace.webp",
-      en: {
-        title: "How to Enter the Freelance Workplace",
-        issuer: "Education For Employment Palestine (EFE Palestine)",
-        type: "Professional Training",
-        category: "Freelance & Remote Work",
-        issueDate: "June 2026",
-        badgeDate: "ISSUED ON JUNE 2026",
-        careerRole: "Earned during: Technical Training in Virtual Jobs",
-        careerDesc: "Completed 29 hours of technical training and psychosocial support covering freelance platforms, client proposals, and remote work readiness.",
-        tags: ["Certificate", "Professional"]
-      },
-      ar: {
-        title: "كيف تدخل سوق العمل الحر",
-        issuer: "مؤسسة التعليم من أجل التوظيف - فلسطين",
-        type: "تدريب مهني متخصص",
-        category: "العمل الحر والعمل عن بعد",
-        issueDate: "يونيو 2026",
-        badgeDate: "صادرة في يونيو 2026",
-        careerRole: "تم الإنجاز خلال: برنامج التدريب التقني لمهارات العمل عن بعد",
-        careerDesc: "إتمام 29 ساعة تدريب تقني ودعم مهني متخصص في منصات العمل الحر، صياغة العروض، والتواصل الفعال مع العملاء عن بعد.",
-        tags: ["شهادة معتمدة", "مهني"]
-      }
-    },
-    "build-with-ai": {
-      id: "build-with-ai",
-      image: "assets/achievements/buildwithai.webp",
-      url: "assets/achievements/buildwithai.webp",
-      en: {
-        title: "Build with AI: Masr Edition",
-        issuer: "Google for Developers & Information Technology Institute (ITI)",
-        type: "Technical Program",
-        category: "Artificial Intelligence",
-        issueDate: "May 2026",
-        badgeDate: "ISSUED ON MAY 2026",
-        careerRole: "Earned during: Google for Developers Virtual AI Summit",
-        careerDesc: "Hands-on participation alongside 5,000+ engineers covering generative AI architectures, Google Gemini multimodal APIs, and LLM agent integration.",
-        tags: ["Certificate", "AI"]
-      },
-      ar: {
-        title: "البناء باستخدام الذكاء الاصطناعي: نسخة مصر",
-        issuer: "مطورو Google ومعهد تكنولوجيا المعلومات (ITI)",
-        type: "قمة تقنية متخصصة",
-        category: "الذكاء الاصطناعي",
-        issueDate: "مايو 2026",
-        badgeDate: "صادرة في مايو 2026",
-        careerRole: "تم الإنجاز خلال: قمة Google لمطوري الذكاء الاصطناعي",
-        careerDesc: "مشاركة تطبيقية وتدريب عملي بين أكثر من 5,000 مطور على تقنيات الذكاء الاصطناعي التوليدي، معمارية نماذج Gemini متعددة الوسائط، ودمج وكلاء الذكاء الاصطناعي.",
-        tags: ["شهادة حضور", "ذكاء اصطناعي"]
-      }
-    },
-    "code2career": {
-      id: "code2career",
-      image: "assets/achievements/code2carrer.webp",
-      url: "assets/achievements/code2carrer.webp",
-      en: {
-        title: "Code2Career - Frontend Development Path",
-        issuer: "Gaza Sky Geeks",
-        type: "Bootcamp",
-        category: "Programming",
-        issueDate: "March 2026",
-        badgeDate: "ISSUED ON MARCH 2026",
-        careerRole: "Earned during: Junior Frontend Developer @ Gaza Sky Geeks",
-        careerDesc: "Completed an intensive 100-hour frontend engineering track covering modern JavaScript, reactive component architectures, state management, and high-performance UX.",
-        tags: ["Bootcamp", "Programming"]
-      },
-      ar: {
-        title: "مسار تطوير الواجهات الأمامية - Code2Career",
-        issuer: "غزة سكاي جيكس",
-        type: "معسكر تدريبي مكثف",
-        category: "هندسة البرمجيات",
-        issueDate: "مارس 2026",
-        badgeDate: "صادرة في مارس 2026",
-        careerRole: "تم الإنجاز خلال: مطور واجهات أمامية @ Gaza Sky Geeks",
-        careerDesc: "إتمام مسار هندسي مكثف مدته 100 ساعة في جافاسكريبت الحديثة، بنية المكونات التفاعلية، وإدارة الحالة وتطوير واجهات عالية الأداء والموثوقية.",
-        tags: ["معسكر مكثف", "برمجة"]
-      }
-    },
-    "gemini-educator": {
-      id: "gemini-educator",
-      image: "assets/achievements/gemini_certified_educator.webp",
-      url: "assets/achievements/gemini_certified_educator.webp",
-      en: {
-        title: "Gemini Certified Educator",
-        issuer: "Google for Education",
-        type: "Accredited Qualification",
-        category: "Artificial Intelligence",
-        issueDate: "December 2025",
-        badgeDate: "ISSUED ON DECEMBER 2025",
-        careerRole: "Earned during: Google AI in Education Program",
-        careerDesc: "Validated competency in leveraging Google Gemini AI models for prompt engineering, intelligent workflows, automated analysis, and interactive educational content.",
-        tags: ["Certification", "AI"]
-      },
-      ar: {
-        title: "معلم معتمد في تقنيات Gemini",
-        issuer: "Google for Education",
-        type: "اعتماد مهني دولي",
-        category: "الذكاء الاصطناعي",
-        issueDate: "ديسمبر 2025",
-        badgeDate: "صادرة في ديسمبر 2025",
-        careerRole: "تم الإنجاز خلال: برنامج اعتمادات Google للذكاء الاصطناعي",
-        careerDesc: "إثبات الكفاءة والمهارات المتقدمة لتسخير نماذج Gemini التوليدية من Google في أتمتة تدفقات العمل وصياغة المحتوى التعليمي والتقني التفاعلي.",
-        tags: ["اعتماد دولي", "ذكاء اصطناعي"]
-      }
-    },
-    "google-educator": {
-      id: "google-educator",
-      image: "assets/achievements/google_certified_educator_level1.webp",
-      url: "assets/achievements/google_certified_educator_level1.webp",
-      en: {
-        title: "Google Certified Educator Level 1",
-        issuer: "Google for Education",
-        type: "Professional Credential",
-        category: "Cloud & EdTech",
-        issueDate: "December 2025",
-        badgeDate: "ISSUED ON DECEMBER 2025",
-        careerRole: "Earned during: Google Professional Qualifications",
-        careerDesc: "Demonstrated skills and competencies needed to leverage cloud productivity ecosystems, collaborative software architectures, and secure digital workflows.",
-        tags: ["Certification", "Cloud"]
-      },
-      ar: {
-        title: "معلم معتمد من Google - المستوى الأول",
-        issuer: "Google for Education",
-        type: "اعتماد مهني دولي",
-        category: "السحابة والإنتاجية",
-        issueDate: "ديسمبر 2025",
-        badgeDate: "صادرة في ديسمبر 2025",
-        careerRole: "تم الإنجاز خلال: اعتمادات Google المهنية",
-        careerDesc: "إثبات إتقان حزمة تطبيقات Google السحابية، بيئات العمل التشاركية الآمنة، وتنظيم البيانات وسير العمل الرقمي الفعال.",
-        tags: ["اعتماد دولي", "سحابة"]
-      }
-    },
     "bachelor-degree": {
       id: "bachelor-degree",
-      image: "assets/achievements/code2carrer.webp",
-      url: "assets/Mohammed_Jouda_CV.pdf",
+      image: "assets/achievements/bachelor_degree.png",
+      url: "assets/achievements/bachelor_degree.png",
       en: {
         title: "Bachelor of Web Technology & Info Security",
-        issuer: "Palestine Technical College",
+        issuer: "Palestine Technical College - Deir El-Balah",
         type: "Academic Degree",
         category: "Web Engineering & Security",
-        issueDate: "GPA 83.92% (Very Good)",
+        issueDate: "GPA 83.92% (Very Good / Honors)",
         badgeDate: "GRADUATED WITH 83.92%",
         careerRole: "Academic Distinction & Graduation Honors",
         careerDesc: "Graduated with Very Good standing (83.92%). Specialized in secure full-stack web engineering, relational database architectures, network security, and modern web application development.",
@@ -2461,14 +2594,230 @@
       },
       ar: {
         title: "بكالوريوس تكنولوجيا الويب وأمن المعلومات",
-        issuer: "كلية فلسطين التقنية",
+        issuer: "كلية فلسطين التقنية - دير البلح",
         type: "درجة أكاديمية",
         category: "نظم الويب وأمن المعلومات",
-        issueDate: "معدل 83.92% (جيد جداً)",
+        issueDate: "معدل 83.92% (جيد جداً / مرتبة الشرف)",
         badgeDate: "تخرج بمعدل 83.92%",
         careerRole: "تميز أكاديمي ومشروع تخرج هندسي",
-        careerDesc: "التخرج بتقدير عام جيد جداً (83.92%)، مع تركيز متخصص في هندسة برمجيات الويب الآمنة، قواعد البيانات العلائقية، وحماية النظم والـ APIs.",
-        tags: ["بكالوريوس", "مرتبة شرف"]
+        careerDesc: "التخرج بتقدير جيد جداً مع مرتبة الشرف (83.92%). التخصص في هندسة برمجيات الويب الكاملة، المعماريات الآمنة لقواعد البيانات، وأمن الشبكات.",
+        tags: ["درجة علمية", "مرتبة الشرف"]
+      }
+    },
+    "n8n-automation": {
+      id: "n8n-automation",
+      image: "assets/achievements/n8n_datacamp.png",
+      url: "assets/achievements/n8n_datacamp.png",
+      en: {
+        title: "Introduction to Workflow Automation with n8n",
+        issuer: "DataCamp",
+        type: "Technical Certification",
+        category: "Workflow Automation & AI",
+        issueDate: "September 30, 2026",
+        badgeDate: "ISSUED ON SEP 30, 2026",
+        careerRole: "Earned during: AI & Business Automation Specialization",
+        careerDesc: "Mastered n8n node-based orchestration, webhook handling, API payload transformations, error handling retries, and AI agent integration.",
+        tags: ["Certificate", "n8n & AI"]
+      },
+      ar: {
+        title: "مقدمة في أتمتة مسارات العمل باستخدام n8n",
+        issuer: "DataCamp",
+        type: "شهادة تقنية معتمدة",
+        category: "أتمتة مسارات العمل والذكاء الاصطناعي",
+        issueDate: "30 سبتمبر 2026",
+        badgeDate: "صادرة في 30 سبتمبر 2026",
+        careerRole: "تم الإنجاز خلال: التخصص في أتمتة مسارات الذكاء الاصطناعي",
+        careerDesc: "إتقان تصميم مسارات n8n، معالجة الـ Webhooks، تحويل بياني الاستجابات APIs، إدارة أخطاء وإعادة المحاولات، وربط نماذج الذكاء الاصطناعي.",
+        tags: ["شهادة معتمدة", "n8n وأتمتة"]
+      }
+    },
+    "docker-foundations": {
+      id: "docker-foundations",
+      image: "assets/achievements/docker_foundations.png",
+      url: "assets/achievements/docker_foundations.png",
+      en: {
+        title: "Docker Foundations Professional Certificate",
+        issuer: "LinkedIn Learning & Docker",
+        type: "Professional Credential",
+        category: "DevOps & Containerization",
+        issueDate: "April 15, 2026",
+        badgeDate: "ISSUED ON APR 15, 2026",
+        careerRole: "Earned during: Containerization & DevOps Mastery",
+        careerDesc: "Comprehensive certification in Docker container packaging, multi-container orchestration with Docker Compose, volume persistent storage, and environment isolation.",
+        tags: ["Professional", "Docker & DevOps"]
+      },
+      ar: {
+        title: "الشهادة المهنية لأساسيات الحاويات Docker",
+        issuer: "LinkedIn Learning & Docker",
+        type: "اعتماد مهني احترافي",
+        category: "DevOps وبيئات الحاويات",
+        issueDate: "15 أبريل 2026",
+        badgeDate: "صادرة في 15 أبريل 2026",
+        careerRole: "تم الإنجاز خلال: المسار المتقدم في بيئات Docker والـ DevOps",
+        careerDesc: "اعتماد مهارات حزم التطبيقات في حاويات Docker، إدارة البيئات متعددة الحاويات بـ Docker Compose، والتخزين الدائم وعزل بيئات التطوير.",
+        tags: ["اعتماد احترافي", "Docker و DevOps"]
+      }
+    },
+    "docker-first-project": {
+      id: "docker-first-project",
+      image: "assets/achievements/docker_first_project.png",
+      url: "assets/achievements/docker_first_project.png",
+      en: {
+        title: "Docker: Your First Project",
+        issuer: "LinkedIn Learning",
+        type: "Practical Certification",
+        category: "DevOps & Containerization",
+        issueDate: "April 13, 2026",
+        badgeDate: "ISSUED ON APR 13, 2026",
+        careerRole: "Earned during: Applied Container Deployment Track",
+        careerDesc: "Practical implementation of Dockerfiles, custom base images, port mapping, container networking, and web app environment deployment.",
+        tags: ["Certificate", "Docker Products"]
+      },
+      ar: {
+        title: "Docker: مشروعك الأول التطبيقي",
+        issuer: "LinkedIn Learning",
+        type: "شهادة تطبيقية",
+        category: "DevOps وبيئات الحاويات",
+        issueDate: "13 أبريل 2026",
+        badgeDate: "صادرة في 13 أبريل 2026",
+        careerRole: "تم الإنجاز خلال: مسار التطبيق العملي لشبكات وبيئات Docker",
+        careerDesc: "تطوير وبناء ملفات Dockerfile، تخصيص الصور المرجعية، ربط المنافذ والشبكات بالحاويات، ونشر بيئات تطبيقات الويب بكفاءة.",
+        tags: ["شهادة تطبيقية", "منتجات Docker"]
+      }
+    },
+    "laravel-rest-api": {
+      id: "laravel-rest-api",
+      image: "assets/achievements/laravel_rest_api.png",
+      url: "assets/achievements/laravel_rest_api.png",
+      en: {
+        title: "Building RESTful APIs in Laravel",
+        issuer: "LinkedIn Learning",
+        type: "Specialized Course",
+        category: "Backend & Web APIs",
+        issueDate: "March 9, 2026",
+        badgeDate: "ISSUED ON MAR 09, 2026",
+        careerRole: "Earned during: Advanced Laravel API Architecture Track",
+        careerDesc: "Advanced mastery in designing standardized JSON REST APIs in Laravel, Eloquent API Resources, Sanctum/Passport token authentication, and status code conventions.",
+        tags: ["REST APIs", "Laravel"]
+      },
+      ar: {
+        title: "بناء واجهات برمجة التطبيقات RESTful في Laravel",
+        issuer: "LinkedIn Learning",
+        type: "دورة هندسية متخصصة",
+        category: "تطوير الـ Backend واجهات APIs",
+        issueDate: "9 مارس 2026",
+        badgeDate: "صادرة في 9 مارس 2026",
+        careerRole: "تم الإنجاز خلال: مسار المعمارية المتقدمة لـ Laravel REST APIs",
+        careerDesc: "إتقان تصميم واجهات برمجة التطبيقات المعيارية، تحويل المخرجات بـ API Resources، حماية النقاط النهائية بمصادقة الرموز، والالتزام بمعايير الأداء والأمان.",
+        tags: ["REST APIs", "Laravel"]
+      }
+    },
+    "tot-training-certificate": {
+      id: "tot-training-certificate",
+      image: "assets/achievements/tot_certificate.png",
+      url: "assets/achievements/tot_certificate.png",
+      en: {
+        title: "Training of Trainers (TOT) Certification (18 Hours)",
+        issuer: "Youth Hope Makers Foundation & ACHDS",
+        type: "Professional Certification",
+        category: "Technical Training & Pedagogy",
+        issueDate: "October 05, 2026",
+        badgeDate: "ISSUED ON OCT 05, 2026",
+        careerRole: "Earned during: Training of Trainers (TOT) Program under Eng. Ahmad Jaber",
+        careerDesc: "Completed 18 intensive training hours certified by Youth Hope Makers Foundation & American Council of Human Development Scholars (ACHDS). Mastered technical workshop facilitation, instructional design, adult learning psychology, and interactive coding bootcamp delivery.",
+        tags: ["TOT", "Trainer", "Mentorship"]
+      },
+      ar: {
+        title: "شهادة إعداد وتأهيل مدرب (TOT) — 18 ساعة تدريبية",
+        issuer: "مؤسسة صناع الأمل الشبابي & المجلس الأمريكي ACHDS",
+        type: "شهادة اعتماد وتدريب مهني",
+        category: "التدريب التقني وإعداد المدربين",
+        issueDate: "5 أكتوبر 2026",
+        badgeDate: "صادرة في 5 أكتوبر 2026",
+        careerRole: "تم الإنجاز خلال: برنامج إعداد وتأهيل المدربين (TOT) بإشراف م. أحمد جبر",
+        careerDesc: "اجتياز 18 ساعة تدريبية معتمدة من مؤسسة صناع الأمل الشبابي والمجلس الأمريكي ACHDS، مع إتقان منهجيات التدريب الاحترافي، إدارة الجلسات وورش العمل التفاعلية، وتصميم وتقديم المناهج التقنية وهندسة الويب.",
+        tags: ["إعداد مدرب", "تدريب وتوجيه", "TOT"]
+      }
+    },
+    "php-laravel-bootcamp": {
+      id: "php-laravel-bootcamp",
+      image: "assets/achievements/php_laravel_learnmore.jpg",
+      url: "assets/achievements/php_laravel_learnmore.jpg",
+      en: {
+        title: "PHP Laravel Training Program (50 Hours)",
+        issuer: "Learn More for Training & Development",
+        type: "Engineering Bootcamp",
+        category: "Backend & Full Stack Development",
+        issueDate: "March 19, 2023",
+        badgeDate: "ISSUED ON MAR 19, 2023",
+        careerRole: "Earned during: Intensive PHP & Laravel Track (50 Hours)",
+        careerDesc: "Completed 50 training hours mastering PHP Object-Oriented Programming (OOP), MVC architectural patterns, Eloquent ORM, authentication guards, and MySQL schema design.",
+        tags: ["Bootcamp", "PHP Laravel"]
+      },
+      ar: {
+        title: "البرنامج التدريبي المتخصص في PHP Laravel (50 ساعة)",
+        issuer: "مركز Learn More للتدريب والتطوير",
+        type: "برنامج هندسي مكثف",
+        category: "تطوير الـ Backend والأنظمة",
+        issueDate: "19 مارس 2023",
+        badgeDate: "صادرة في 19 مارس 2023",
+        careerRole: "تم الإنجاز خلال: الدبلوم البرمجي المكثف في PHP & Laravel",
+        careerDesc: "إتمام 50 ساعة تدريبية في البرمجة الكائنية OOP، نمط التصميم المعماري MVC، محرك Eloquent ORM، إدارة الجلسات والصلاحيات، وتصميم قواعد البيانات.",
+        tags: ["برنامج مكثف", "PHP Laravel"]
+      }
+    },
+    "ux-ui-course": {
+      id: "ux-ui-course",
+      image: "assets/achievements/ux_ui_techbox.jpg",
+      url: "assets/achievements/ux_ui_techbox.jpg",
+      en: {
+        title: "UX/UI Design Course (50 Hours)",
+        issuer: "Tech Box — Engineering Forum Program",
+        type: "Professional Program",
+        category: "UI/UX & User Research",
+        issueDate: "October 16, 2022",
+        badgeDate: "ISSUED ON OCT 16, 2022",
+        careerRole: "Earned during: Engineering Forum UI/UX Design Track",
+        careerDesc: "Completed 50 hours of user experience design, wireframing, interactive prototyping, usability evaluation, design systems, and responsive interface workflows.",
+        tags: ["UI/UX", "Design Systems"]
+      },
+      ar: {
+        title: "دورة تصميم واجهات وتجربة المستخدم UX/UI (50 ساعة)",
+        issuer: "مؤسسة Tech Box — المنتدى الهندسي",
+        type: "برنامج تدريبي متخصص",
+        category: "تصميم الواجهات وتجربة المستخدم",
+        issueDate: "16 أكتوبر 2022",
+        badgeDate: "صادرة في 16 أكتوبر 2022",
+        careerRole: "تم الإنجاز خلال: برنامج المنتدى الهندسي لتصميم الواجهات",
+        careerDesc: "إتمام 50 ساعة تدريب وااختبار نهائي بنجاح في دراسة سلوك المستخدم، بناء المخططات السلكية Wireframes، النماذج التفاعلية، وأنظمة التصميم المتجاوبة.",
+        tags: ["تصميم واجهات", "تجربة المستخدم"]
+      }
+    },
+    "personal-website-course": {
+      id: "personal-website-course",
+      image: "assets/achievements/personal_website_daleel.jpg",
+      url: "assets/achievements/personal_website_daleel.jpg",
+      en: {
+        title: "Personal Website Designing & Programming (20 Hours)",
+        issuer: "Daleel Center for Training & Development",
+        type: "Practical Course",
+        category: "Frontend & Web Fundamentals",
+        issueDate: "August 17, 2022",
+        badgeDate: "ISSUED ON AUG 17, 2022",
+        careerRole: "Earned during: Web Development Fundamentals Track",
+        careerDesc: "Completed 20 training hours in custom website development, responsive CSS layouts, HTML semantics, cross-browser compatibility, and web publishing.",
+        tags: ["Web Design", "Frontend"]
+      },
+      ar: {
+        title: "دورة تصميم وبرمجة المواقع الشخصية (20 ساعة)",
+        issuer: "مركز دليل للتدريب والتطوير",
+        type: "دورة تدريبية تطبيقية",
+        category: "تطوير الويب والواجهات",
+        issueDate: "17 أغسطس 2022",
+        badgeDate: "صادرة في 17 أغسطس 2022",
+        careerRole: "تم الإنجاز خلال: مسار أساسيات تطوير الويب والتنسيق",
+        careerDesc: "إتمام 20 ساعة تدريبية في بناء الهياكل البرمجية والتنسيقات المتجاوبة والتوافق مع المتصفحات والنشر الرقمي على الويب.",
+        tags: ["تصميم الويب", "الواجهات"]
       }
     }
   };
@@ -2722,6 +3071,26 @@
 
       // Group 2: Featured Case Studies
       {
+        id: 'cs-lead-automation',
+        group: dict.groupProjects,
+        title: caseStudiesData['lead-automation'].title[currentLang] || caseStudiesData['lead-automation'].title.en,
+        desc: caseStudiesData['lead-automation'].subtitle[currentLang] || caseStudiesData['lead-automation'].subtitle.en,
+        icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14h-2v-4h2zm0-6h-2V8h2z" /></svg>',
+        badge: 'Featured',
+        keywords: 'lead automation n8n gemini triage queue workflow أتمتة معالجة عملاء محتملين',
+        action: () => navigateTo('project-lead-automation')
+      },
+      {
+        id: 'cs-sprint-mind',
+        group: dict.groupProjects,
+        title: caseStudiesData['sprint-mind'].title[currentLang] || caseStudiesData['sprint-mind'].title.en,
+        desc: caseStudiesData['sprint-mind'].subtitle[currentLang] || caseStudiesData['sprint-mind'].subtitle.en,
+        icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>',
+        badge: 'Featured',
+        keywords: 'sprintmind agile scrum task calendar heatmaps pest gemini laravel 13 ذكاء اصطناعي سبرنت تقويم',
+        action: () => navigateTo('project-sprint-mind')
+      },
+      {
         id: 'cs-marsa',
         group: dict.groupProjects,
         title: caseStudiesData['marsa-store'].title[currentLang] || caseStudiesData['marsa-store'].title.en,
@@ -2761,26 +3130,7 @@
         keywords: 'techno cms filament livewire admin dashboard لوحة تحكم إدارة محتوى',
         action: () => navigateTo('project-techno-cms')
       },
-      {
-        id: 'cs-holme',
-        group: dict.groupProjects,
-        title: caseStudiesData['holme'].title[currentLang] || caseStudiesData['holme'].title.en,
-        desc: caseStudiesData['holme'].subtitle[currentLang] || caseStudiesData['holme'].subtitle.en,
-        icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"></path><path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"></path></svg>',
-        badge: 'Study',
-        keywords: 'holme engineering civil structural portal هندسة شركات بوابات',
-        action: () => navigateTo('project-holme')
-      },
-      {
-        id: 'cs-cureway',
-        group: dict.groupProjects,
-        title: caseStudiesData['cureway'].title[currentLang] || caseStudiesData['cureway'].title.en,
-        desc: caseStudiesData['cureway'].subtitle[currentLang] || caseStudiesData['cureway'].subtitle.en,
-        icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>',
-        badge: 'Study',
-        keywords: 'cureway health medical clinic appointment رعاية صحية عيادات حجز',
-        action: () => navigateTo('project-cureway')
-      },
+
 
       // Group 3: Quick Actions
       {
@@ -3079,7 +3429,6 @@
 
   // --- 10.7 About Page Multi-Photo Slider Controller ---
   let currentAboutSlide = 0;
-  const totalAboutSlides = 2;
 
   function setAboutSlide(index) {
     const slides = document.querySelectorAll('.about-slider-slide');
@@ -3087,8 +3436,9 @@
     const counter = document.getElementById('about-slider-counter');
 
     if (!slides.length) return;
+    const totalSlides = slides.length;
 
-    currentAboutSlide = (index + totalAboutSlides) % totalAboutSlides;
+    currentAboutSlide = (index + totalSlides) % totalSlides;
 
     slides.forEach((slide, idx) => {
       if (idx === currentAboutSlide) {
@@ -3109,7 +3459,7 @@
     });
 
     if (counter) {
-      counter.textContent = `0${currentAboutSlide + 1} / 0${totalAboutSlides}`;
+      counter.textContent = `0${currentAboutSlide + 1} / 0${totalSlides}`;
     }
   }
 
@@ -3267,8 +3617,8 @@
   applyLanguage(currentLang);
   initAboutSlider();
   initAboutSkillsFilter();
-  const initialHash = window.location.hash.replace('#', '') || 'home';
-  navigateTo(initialHash, false);
+  const initialRoute = urlToRoute(window.location.pathname, window.location.hash);
+  navigateTo(initialRoute, true);
 
   console.log('Mohammed Jouda SPA Router initialized successfully.');
 })();
