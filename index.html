@@ -65,11 +65,10 @@
   <link rel="apple-touch-icon" href="/assets/images/mohammed-profile.webp">
   <link rel="manifest" href="/site.webmanifest">
 
-  <!-- Preload LCP Profile Image for Mobile & Desktop -->
-  <link rel="preload" as="image" href="/assets/images/mohammed-profile.webp" type="image/webp" fetchpriority="high">
+  <!-- Preload True LCP Hero Image for Instant Mobile & Desktop Render -->
+  <link rel="preload" as="image" href="/assets/projects/messenger/messenger_ai.webp" type="image/webp" fetchpriority="high">
 
-  <!-- Preload Critical CSS -->
-  <link rel="preload" as="style" href="/styles.css">
+  <!-- Main Stylesheet -->
   <link rel="stylesheet" href="/styles.css">
 
   <!-- Google Fonts: Inter (English) & Tajawal (Arabic) Non-blocking -->
@@ -412,6 +411,7 @@
              =================================================================== -->
         <section id="view-home" class="page-view active"
           data-page-title="Mohammed Jouda | Backend & AI Automation Engineer">
+          <span id="home" class="route-anchor" aria-hidden="true"></span>
           <!-- Hero Header -->
           <header class="hero-header">
             <div class="hero-top-row">
@@ -489,17 +489,17 @@
                 <div class="mockup-stack-container">
                   <div class="mockup-screen-item item-1">
                     <div class="laptop-bezel">
-                      <img src="assets/projects/sprint-mind/sprint-mind-hero.webp" alt="SprintMind AI - Agile Scrum & Project Management Workspace" width="640" height="400" loading="lazy" decoding="async">
+                      <img src="assets/projects/sprint-mind/sprint-mind-hero.webp" alt="SprintMind AI - Agile Scrum & Project Management Workspace" width="640" height="400" loading="eager" decoding="async">
                     </div>
                   </div>
                   <div class="mockup-screen-item item-2">
                     <div class="laptop-bezel">
-                      <img src="assets/projects/ai-leads/ai-leads.webp" alt="AI Lead Triage & Automation System" width="640" height="400" loading="lazy" decoding="async">
+                      <img src="assets/projects/ai-leads/ai-leads.webp" alt="AI Lead Triage & Automation System" width="640" height="400" loading="eager" decoding="async">
                     </div>
                   </div>
                   <div class="mockup-screen-item item-3">
                     <div class="laptop-bezel">
-                      <img src="assets/projects/messenger/messenger_ai.webp" alt="AI-Powered Real-Time Messenger" width="640" height="400" loading="lazy" decoding="async">
+                      <img src="assets/projects/messenger/messenger_ai.webp" alt="AI-Powered Real-Time Messenger" width="640" height="400" loading="eager" fetchpriority="high" decoding="async">
                     </div>
                   </div>
                 </div>
@@ -963,6 +963,7 @@
              VIEW 2: ABOUT ME (#about)
              =================================================================== -->
         <section id="view-about" class="page-view" data-page-title="Mohammed Jouda | About Me">
+          <span id="about" class="route-anchor" aria-hidden="true"></span>
           <div class="page-view-header">
             <div class="header-tag-pill" data-i18n="navAbout">About</div>
             <h1 class="page-view-title" data-i18n="aboutHeadline">Architecting Systems That Scale. Automating Workflows
@@ -1768,7 +1769,7 @@
              VIEW 3: CAREER EXPERIENCE (#career)
              =================================================================== -->
         <section id="view-career" class="page-view" data-page-title="Mohammed Jouda | Career Experience">
-
+          <span id="career" class="route-anchor" aria-hidden="true"></span>
           <!-- Career View Header -->
           <div class="page-view-header career-page-header">
             <div class="header-tag-pill" data-i18n="navCareer">Career</div>
@@ -2588,6 +2589,7 @@
              VIEW 4: FEATURED PROJECTS (#projects)
              =================================================================== -->
         <section id="view-projects" class="page-view" data-page-title="Mohammed Jouda | Featured Projects">
+          <span id="projects" class="route-anchor" aria-hidden="true"></span>
           <div class="page-view-header">
             <div class="header-tag-pill" data-i18n="navProjects">Projects</div>
             <h1 class="page-view-title" data-i18n="projectsTitle">Projects Showcase</h1>
@@ -3106,6 +3108,7 @@
              =================================================================== -->
         <section id="view-achievements" class="page-view"
           data-page-title="Mohammed Jouda | Achievements & Certifications">
+          <span id="achievements" class="route-anchor" aria-hidden="true"></span>
           <div class="page-view-header">
             <div class="header-tag-pill" data-i18n="navAchievements">Achievements</div>
             <h1 class="page-view-title" data-i18n="achievementsTitle">Achievements & Certifications</h1>
@@ -3384,6 +3387,7 @@
              VIEW 6: CONTACT PORTAL (#contact)
              =================================================================== -->
         <section id="view-contact" class="page-view" data-page-title="Mohammed Jouda | Contact & Consultation">
+          <span id="contact" class="route-anchor" aria-hidden="true"></span>
           <div class="page-view-header">
             <div class="header-tag-pill" data-i18n="navContact">Contact</div>
             <h1 class="page-view-title" data-i18n="contactTitle">Let's Build or Automate Your Next System.</h1>

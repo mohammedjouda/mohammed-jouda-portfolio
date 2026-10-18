@@ -9,7 +9,7 @@
     {
       "identifier": "urn:air:mohammedjouda.com:resource:portfolio",
       "displayName": "Mohammed Jouda Engineering Portfolio",
-      "type": "text/markdown",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://mohammedjouda.com/llms.txt",
       "description": "Structured catalog of backend engineering projects, AI automations, and architectural case studies.",
       "representativeQueries": [
