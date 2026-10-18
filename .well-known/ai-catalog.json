@@ -1,0 +1,22 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Mohammed Jouda Portfolio",
+    "documentationUrl": "https://mohammedjouda.com/about",
+    "logoUrl": "https://mohammedjouda.com/assets/images/mohammed-profile.webp"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:mohammedjouda.com:resource:portfolio",
+      "displayName": "Mohammed Jouda Engineering Portfolio",
+      "type": "text/markdown",
+      "url": "https://mohammedjouda.com/llms.txt",
+      "description": "Structured catalog of backend engineering projects, AI automations, and architectural case studies.",
+      "representativeQueries": [
+        "hire a Laravel and AI automation engineer",
+        "Mohammed Jouda background and case studies",
+        "backend architecture and workflow automation consulting"
+      ]
+    }
+  ]
+}

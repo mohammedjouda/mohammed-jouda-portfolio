@@ -2459,14 +2459,14 @@
     currentQuickModalProjectId = projectId;
     renderQuickModal(projectId);
 
-    projectQuickModal.classList.add('open');
+    projectQuickModal.classList.add('open'); projectQuickModal.removeAttribute('inert');
     projectQuickModal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
   }
 
   function closeQuickModal() {
     if (!projectQuickModal) return;
-    projectQuickModal.classList.remove('open');
+    projectQuickModal.classList.remove('open'); projectQuickModal.setAttribute('inert', '');
     projectQuickModal.setAttribute('aria-hidden', 'true');
     if (!(mobileDrawer && mobileDrawer.classList.contains('open')) && !isPaletteOpen()) {
       document.body.style.overflow = '';
@@ -2536,7 +2536,7 @@
     if (typeof closeCommandPalette === 'function' && isPaletteOpen()) {
       closeCommandPalette();
     }
-    photoLightboxModal.classList.add('open');
+    photoLightboxModal.classList.add('open'); photoLightboxModal.removeAttribute('inert');
     photoLightboxModal.setAttribute('aria-hidden', 'false');
     if (profilePhotoTrigger) {
       profilePhotoTrigger.setAttribute('aria-expanded', 'true');
@@ -2546,7 +2546,7 @@
 
   function closePhotoModal() {
     if (!photoLightboxModal) return;
-    photoLightboxModal.classList.remove('open');
+    photoLightboxModal.classList.remove('open'); photoLightboxModal.setAttribute('inert', '');
     photoLightboxModal.setAttribute('aria-hidden', 'true');
     if (profilePhotoTrigger) {
       profilePhotoTrigger.setAttribute('aria-expanded', 'false');
@@ -2873,14 +2873,14 @@
     if (careerRoleEl) careerRoleEl.textContent = data.careerRole;
     if (careerDescEl) careerDescEl.textContent = data.careerDesc;
 
-    certDetailModal.classList.add('active');
+    certDetailModal.classList.add('active'); certDetailModal.removeAttribute('inert');
     certDetailModal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
   }
 
   function closeCertModal() {
     if (!certDetailModal) return;
-    certDetailModal.classList.remove('active');
+    certDetailModal.classList.remove('active'); certDetailModal.setAttribute('inert', '');
     certDetailModal.setAttribute('aria-hidden', 'true');
     activeCertId = null;
 
@@ -3353,7 +3353,7 @@
     if (typeof closeQuickModal === 'function' && typeof isQuickModalOpen === 'function' && isQuickModalOpen()) {
       closeQuickModal();
     }
-    commandPaletteModal.classList.add('open');
+    commandPaletteModal.classList.add('open'); commandPaletteModal.removeAttribute('inert');
     commandPaletteModal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
 
@@ -3367,7 +3367,7 @@
 
   function closeCommandPalette() {
     if (!commandPaletteModal) return;
-    commandPaletteModal.classList.remove('open');
+    commandPaletteModal.classList.remove('open'); commandPaletteModal.setAttribute('inert', '');
     commandPaletteModal.setAttribute('aria-hidden', 'true');
     if (!(mobileDrawer && mobileDrawer.classList.contains('open')) && !(typeof isQuickModalOpen === 'function' && isQuickModalOpen())) {
       document.body.style.overflow = '';

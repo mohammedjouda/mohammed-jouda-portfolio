@@ -1,0 +1,17 @@
+# Mohammed Jouda | Backend & AI Automation Engineer
+
+> Mohammed Jouda is a Backend & AI Automation Engineer specializing in Laravel, PHP, REST APIs, and practical AI integrations.
+
+## Core Projects
+- [AI Lead Triage & Automation System](https://mohammedjouda.com/projects/lead-automation): Turning unstructured incoming leads into structured business workflows with Laravel, n8n, and Gemini.
+- [SprintMind AI Workspace](https://mohammedjouda.com/projects/sprint-mind): AI-powered agile development tool with automated story generation and sprint management.
+- [AI-Powered Real-Time Messenger](https://mohammedjouda.com/projects/messenger): Real-time chat application with integrated AI assistance, WebSockets, and sentiment analysis.
+- [Marsa Store](https://mohammedjouda.com/projects/marsa-store): Multi-vendor eCommerce marketplace platform with secure payments and inventory tracking.
+- [Write AI](https://mohammedjouda.com/projects/write-ai): AI blogging platform with automated SEO content generation and publishing pipelines.
+- [Techno Plus CMS](https://mohammedjouda.com/projects/techno-cms): Modular administrative CMS built on Laravel Filament, Livewire, and Alpine.js.
+
+## Professional Experience & Bio
+- [About Mohammed Jouda](https://mohammedjouda.com/about): Architecture principles, engineering standards, and background.
+- [Career Experience](https://mohammedjouda.com/career): Professional milestone timeline, training, and technical leadership.
+- [Verified Achievements](https://mohammedjouda.com/achievements): Academic degrees, Docker certifications, and engineering credentials.
+- [Contact Mohammed Jouda](https://mohammedjouda.com/contact): Direct communication and consultation inquiries.
