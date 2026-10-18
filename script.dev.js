@@ -1023,7 +1023,7 @@
       }
     }
 
-    if (mainContent) {
+    if (mainContent && mainContent.scrollTop > 0) {
       mainContent.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
