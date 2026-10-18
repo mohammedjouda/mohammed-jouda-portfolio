@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://mohammedjouda.com/sitemap.xml
-Agentmap: https://mohammedjouda.com/.well-known/ai-catalog.json
