@@ -60,9 +60,12 @@
   <meta name="twitter:image" content="https://mohammedjouda.com/assets/og/mohammed-jouda-og.jpg">
 
   <!-- Favicons & Web Manifest -->
-  <link rel="icon" type="image/jpeg" href="/assets/images/mohammed-profile.jpg">
-  <link rel="apple-touch-icon" href="/assets/images/mohammed-profile.jpg">
+  <link rel="icon" type="image/jpeg" href="/assets/images/mohammed-profile.webp">
+  <link rel="apple-touch-icon" href="/assets/images/mohammed-profile.webp">
   <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Preload LCP Profile Image for Mobile & Desktop -->
+  <link rel="preload" as="image" href="/assets/images/mohammed-profile.webp" type="image/webp" fetchpriority="high">
 
   <!-- Google Fonts: Inter (English) & Tajawal (Arabic) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -91,7 +94,7 @@
           "name": "Mohammed Jouda",
           "alternateName": "محمد جودة",
           "url": "https://mohammedjouda.com/",
-          "image": "https://mohammedjouda.com/assets/images/mohammed-profile.jpg",
+          "image": "https://mohammedjouda.com/assets/images/mohammed-profile.webp",
           "jobTitle": "Backend & AI Automation Engineer",
           "worksFor": {
             "@type": "Organization",
@@ -148,7 +151,7 @@
         </button>
         <a href="#home" class="mobile-profile-chip" data-route="home" data-cursor="Mohammed Jouda"
           data-cursor-color="#265C91">
-          <img src="assets/images/mohammed-profile.jpg" alt="Mohammed Jouda" class="avatar-sm">
+          <img src="assets/images/mohammed-profile.webp" alt="Mohammed Jouda" class="avatar-sm" width="40" height="40" fetchpriority="high">
           <div class="mobile-name-col">
             <div class="name-badge-row">
               <span class="user-name">Mohammed Jouda</span>
@@ -199,8 +202,7 @@
     <aside id="mobile-drawer" class="mobile-drawer">
       <div class="drawer-header">
         <div class="drawer-title-row">
-          <img src="assets/images/mohammed-profile.jpg" alt="Mohammed Jouda - Backend & AI Automation Engineer"
-            class="avatar-md">
+          <img src="assets/images/mohammed-profile.webp" alt="Mohammed Jouda - Backend & AI Automation Engineer" class="avatar-md" width="48" height="48" loading="lazy" decoding="async">
           <div>
             <h3 class="drawer-name">Mohammed Jouda</h3>
             <span class="handle-text">@mohamed-jouda</span>
@@ -269,8 +271,7 @@
           <button type="button" class="avatar-wrapper" id="profile-photo-trigger" aria-haspopup="dialog"
             aria-expanded="false" data-cursor="View Photo" data-cursor-color="#265C91"
             aria-label="View Mohammed Jouda Profile Photo">
-            <img src="assets/images/mohammed-profile.jpg" alt="Mohammed Jouda - Backend & AI Automation Engineer"
-              class="avatar-lg">
+            <img src="assets/images/mohammed-profile.webp" alt="Mohammed Jouda - Backend & AI Automation Engineer" class="avatar-lg" width="80" height="80" loading="eager" fetchpriority="high">
             <span class="online-indicator" title="Available for projects"></span>
           </button>
 
@@ -478,20 +479,17 @@
                 <div class="mockup-stack-container">
                   <div class="mockup-screen-item item-1">
                     <div class="laptop-bezel">
-                      <img src="assets/projects/sprint-mind/sprint-mind-hero.png"
-                        alt="SprintMind AI - Agile Scrum & Project Management Workspace" loading="lazy">
+                      <img src="assets/projects/sprint-mind/sprint-mind-hero.webp" alt="SprintMind AI - Agile Scrum & Project Management Workspace" width="640" height="400" loading="lazy" decoding="async">
                     </div>
                   </div>
                   <div class="mockup-screen-item item-2">
                     <div class="laptop-bezel">
-                      <img src="assets/projects/ai-leads/ai-leads.jpg" alt="AI Lead Triage & Automation System"
-                        loading="lazy">
+                      <img src="assets/projects/ai-leads/ai-leads.webp" alt="AI Lead Triage & Automation System" width="640" height="400" loading="lazy" decoding="async">
                     </div>
                   </div>
                   <div class="mockup-screen-item item-3">
                     <div class="laptop-bezel">
-                      <img src="assets/projects/messenger/messenger_ai.png" alt="AI-Powered Real-Time Messenger"
-                        loading="lazy">
+                      <img src="assets/projects/messenger/messenger_ai.webp" alt="AI-Powered Real-Time Messenger" width="640" height="400" loading="lazy" decoding="async">
                     </div>
                   </div>
                 </div>
@@ -519,8 +517,7 @@
                   <div class="polaroid-card under-card-1"></div>
                   <div class="polaroid-card main-polaroid">
                     <div class="polaroid-photo">
-                      <img src="assets/images/mohammed-presentation.jpg" alt="Mohammed Jouda presenting tech"
-                        loading="lazy">
+                      <img src="assets/images/mohammed-presentation.webp" alt="Mohammed Jouda presenting tech" width="320" height="320" loading="lazy" decoding="async">
                     </div>
                     <div class="polaroid-caption">
                       <span>Mohammed @ Gaza 🇵🇸</span>
@@ -804,16 +801,13 @@
                 <!-- Certificate Folder Fan Showcase -->
                 <div class="achievements-fan-wrapper">
                   <div class="cert-card cert-left">
-                    <img src="assets/achievements/n8n_datacamp.png" alt="Introduction to Workflow Automation with n8n"
-                      loading="lazy">
+                    <img src="assets/achievements/n8n_datacamp.webp" alt="Introduction to Workflow Automation with n8n" width="600" height="420" loading="lazy" decoding="async">
                   </div>
                   <div class="cert-card cert-right">
-                    <img src="assets/achievements/docker_foundations.png"
-                      alt="Docker Foundations Professional Certificate" loading="lazy">
+                    <img src="assets/achievements/docker_foundations.webp" alt="Docker Foundations Professional Certificate" width="600" height="420" loading="lazy" decoding="async">
                   </div>
                   <div class="cert-card cert-center">
-                    <img src="assets/achievements/bachelor_degree.png" alt="Bachelor of Web Technology & Info Security"
-                      loading="lazy">
+                    <img src="assets/achievements/bachelor_degree.webp" alt="Bachelor of Web Technology & Info Security" width="600" height="420" loading="lazy" decoding="async">
                   </div>
                   <div class="achievement-pocket-lip">
                     <span class="pocket-label" data-i18n="degreeHonor">Bachelor Degree - 83.92% (Very Good)</span>
@@ -841,22 +835,22 @@
                 <!-- Company Logos Grid Chips -->
                 <div class="career-logos-row">
                   <div class="career-logo-chip" data-cursor="UCASTI (Laravel & AI)" title="UCASTI">
-                    <img src="assets/aboutme/ucas.webp" alt="UCASTI">
+                    <img src="assets/aboutme/ucas.webp" alt="UCASTI" width="48" height="48" loading="lazy" decoding="async">
                   </div>
                   <div class="career-logo-chip" data-cursor="Areisto (Full Stack Trainee)" title="Areisto">
-                    <img src="assets/aboutme/holme-engineering.webp" alt="Areisto">
+                    <img src="assets/aboutme/holme-engineering.webp" alt="Areisto" width="48" height="48" loading="lazy" decoding="async">
                   </div>
                   <div class="career-logo-chip" data-cursor="Palestine Technical College" title="PTC">
-                    <img src="assets/aboutme/shifracenter.webp" alt="Palestine Technical College">
+                    <img src="assets/aboutme/shifracenter.webp" alt="Palestine Technical College" width="48" height="48" loading="lazy" decoding="async">
                   </div>
                   <div class="career-logo-chip" data-cursor="Remote Freelance" title="Freelance">
-                    <img src="assets/aboutme/besterra.webp" alt="Freelance">
+                    <img src="assets/aboutme/besterra.webp" alt="Freelance" width="48" height="48" loading="lazy" decoding="async">
                   </div>
                   <div class="career-logo-chip" data-cursor="Gaza Tech Ecosystem" title="Gaza Sky Geeks">
-                    <img src="assets/aboutme/gazaskygeeks.webp" alt="Gaza Sky Geeks">
+                    <img src="assets/aboutme/gazaskygeeks.webp" alt="Gaza Sky Geeks" width="48" height="48" loading="lazy" decoding="async">
                   </div>
                   <div class="career-logo-chip" data-cursor="Taqat Talent Program" title="Taqat">
-                    <img src="assets/aboutme/taqat.webp" alt="Taqat">
+                    <img src="assets/aboutme/taqat.webp" alt="Taqat" width="48" height="48" loading="lazy" decoding="async">
                   </div>
                 </div>
               </div>
@@ -977,8 +971,7 @@
                   <!-- Slide 1: Tech Presentation in Ecosystem -->
                   <div class="about-slider-slide active" data-slide-index="0" data-cursor="View Photo" tabindex="0"
                     role="button" aria-label="View Presentation Photo">
-                    <img src="assets/images/mohammed-presentation.jpg" alt="Mohammed Jouda presenting tech session"
-                      class="about-slide-img">
+                    <img src="assets/images/mohammed-presentation.webp" alt="Mohammed Jouda presenting tech session" class="about-slide-img" width="600" height="450" loading="lazy" decoding="async">
                     <div class="about-slide-gradient"></div>
                     <div class="about-slide-caption">
                       <div class="slide-caption-meta">
@@ -999,8 +992,7 @@
                   <!-- Slide 2: AI Workflow Keynote at Jreas Lab -->
                   <div class="about-slider-slide" data-slide-index="1" data-cursor="View Photo" tabindex="0"
                     role="button" aria-label="View Jreas Lab AI Presentation Photo">
-                    <img src="assets/images/mohammed-spike-presentation.jpg"
-                      alt="Mohammed Jouda presenting AI Workflows at Jreas Lab" class="about-slide-img">
+                    <img src="assets/images/mohammed-spike-presentation.webp" alt="Mohammed Jouda presenting AI Workflows at Jreas Lab" class="about-slide-img" width="600" height="450" loading="lazy" decoding="async">
                     <div class="about-slide-gradient"></div>
                     <div class="about-slide-caption">
                       <div class="slide-caption-meta">
@@ -1021,8 +1013,7 @@
                   <!-- Slide 3: Interactive AI Automation & Task Elimination Session -->
                   <div class="about-slider-slide" data-slide-index="2" data-cursor="View Photo" tabindex="0"
                     role="button" aria-label="View Hands-On AI Workshop Photo">
-                    <img src="assets/images/mohammed-ai-automation-workshop.jpg"
-                      alt="Mohammed Jouda leading hands-on AI automation workshop" class="about-slide-img">
+                    <img src="assets/images/mohammed-ai-automation-workshop.webp" alt="Mohammed Jouda leading hands-on AI automation workshop" class="about-slide-img" width="600" height="450" loading="lazy" decoding="async">
                     <div class="about-slide-gradient"></div>
                     <div class="about-slide-caption">
                       <div class="slide-caption-meta">
@@ -1043,8 +1034,7 @@
                   <!-- Slide 4: Technical Mentorship & Code Strategy -->
                   <div class="about-slider-slide" data-slide-index="3" data-cursor="View Photo" tabindex="0"
                     role="button" aria-label="View Technical Discussion Photo">
-                    <img src="assets/images/mohammed-spike-workshop.jpg"
-                      alt="Mohammed Jouda mentoring developers during tech session" class="about-slide-img">
+                    <img src="assets/images/mohammed-spike-workshop.webp" alt="Mohammed Jouda mentoring developers during tech session" class="about-slide-img" width="600" height="450" loading="lazy" decoding="async">
                     <div class="about-slide-gradient"></div>
                     <div class="about-slide-caption">
                       <div class="slide-caption-meta">
@@ -1065,8 +1055,7 @@
                   <!-- Slide 5: Official Professional Portrait -->
                   <div class="about-slider-slide" data-slide-index="4" data-cursor="View Photo" tabindex="0"
                     role="button" aria-label="View Profile Photo">
-                    <img src="assets/images/mohammed-profile.jpg" alt="Mohammed Jouda Backend & AI Automation Engineer"
-                      class="about-slide-img">
+                    <img src="assets/images/mohammed-profile.webp" alt="Mohammed Jouda Backend & AI Automation Engineer" class="about-slide-img" width="600" height="450" loading="lazy" decoding="async">
                     <div class="about-slide-gradient"></div>
                     <div class="about-slide-caption">
                       <div class="slide-caption-meta">
@@ -1797,7 +1786,7 @@
                 <div class="role-card-header">
                   <div class="role-header-lead">
                     <div class="company-brand-box" data-cursor="UCASTI">
-                      <img src="assets/aboutme/ucas.webp" alt="UCASTI Technology Incubator">
+                      <img src="assets/aboutme/ucas.webp" alt="UCASTI Technology Incubator" width="48" height="48" loading="lazy" decoding="async">
                     </div>
                     <div class="role-title-meta">
                       <div class="role-headline-row">
@@ -2007,7 +1996,7 @@
                 <div class="role-card-header">
                   <div class="role-header-lead">
                     <div class="company-brand-box" data-cursor="Areisto">
-                      <img src="assets/aboutme/holme-engineering.webp" alt="Areisto Software">
+                      <img src="assets/aboutme/holme-engineering.webp" alt="Areisto Software" width="48" height="48" loading="lazy" decoding="async">
                     </div>
                     <div class="role-title-meta">
                       <div class="role-headline-row">
@@ -2190,7 +2179,7 @@
                 <div class="role-card-header">
                   <div class="role-header-lead">
                     <div class="company-brand-box" data-cursor="Freelance">
-                      <img src="assets/aboutme/besterra.webp" alt="Remote Freelance">
+                      <img src="assets/aboutme/besterra.webp" alt="Remote Freelance" width="48" height="48" loading="lazy" decoding="async">
                     </div>
                     <div class="role-title-meta">
                       <div class="role-headline-row">
@@ -2408,7 +2397,7 @@
                   <div class="role-card-header">
                     <div class="role-header-lead">
                       <div class="company-brand-box" data-cursor="Palestine Technical College">
-                        <img src="assets/aboutme/shifracenter.webp" alt="Palestine Technical College">
+                        <img src="assets/aboutme/shifracenter.webp" alt="Palestine Technical College" width="48" height="48" loading="lazy" decoding="async">
                       </div>
                       <div class="role-title-meta">
                         <div class="role-headline-row">
@@ -2503,7 +2492,7 @@
                   <div class="role-card-header">
                     <div class="role-header-lead">
                       <div class="company-brand-box" data-cursor="Ahmed Al-Shuqairi School">
-                        <img src="assets/aboutme/shifracenter.webp" alt="Palestine Technical College">
+                        <img src="assets/aboutme/shifracenter.webp" alt="Palestine Technical College" width="48" height="48" loading="lazy" decoding="async">
                       </div>
                       <div class="role-title-meta">
                         <div class="role-headline-row">
@@ -2612,8 +2601,7 @@
               data-cursor="View Project" tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/ai-leads/ai-leads.jpg" alt="AI Lead Triage & Automation System"
-                  loading="lazy">
+                <img src="assets/projects/ai-leads/ai-leads.webp" alt="AI Lead Triage & Automation System" width="640" height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="featWorkBadge">Featured Work</div>
                 <div class="project-preview-hover-overlay">
                   <div class="btn-preview-action">
@@ -2692,8 +2680,7 @@
               data-cursor="View Project" tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/sprint-mind/sprint-mind-hero.png" alt="SprintMind AI Workspace"
-                  loading="lazy">
+                <img src="assets/projects/sprint-mind/sprint-mind-hero.webp" alt="SprintMind AI Workspace" width="640" height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="badgeAgileAi">Agile AI SaaS</div>
                 <div class="project-preview-hover-overlay">
                   <div class="btn-preview-action">
@@ -2775,7 +2762,7 @@
               data-cursor="View Project" tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/messenger/messenger_ai.png" alt="AI-Powered Messenger" loading="lazy">
+                <img src="assets/projects/messenger/messenger_ai.webp" alt="AI-Powered Messenger" width="640" height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="badgeRealTime">Real-Time System</div>
                 <div class="project-preview-hover-overlay">
                   <div class="btn-preview-action">
@@ -2854,8 +2841,7 @@
               data-cursor="View Project" tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/mersa/mersa-hero.jpg" alt="Marsa Store Multi-Vendor Marketplace"
-                  loading="lazy">
+                <img src="assets/projects/mersa/mersa-hero.webp" alt="Marsa Store Multi-Vendor Marketplace" width="640" height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="badgeGraduation">Graduation Project</div>
                 <div class="project-preview-hover-overlay">
                   <div class="btn-preview-action">
@@ -2934,7 +2920,7 @@
               tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/write-ai/hero-write-ai.png" alt="Write AI Blogging Platform" loading="lazy">
+                <img src="assets/projects/write-ai/hero-write-ai.webp" alt="Write AI Blogging Platform" width="640" height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="badgeAICapstone">AI Capstone</div>
                 <div class="project-preview-hover-overlay">
                   <div class="btn-preview-action">
@@ -3007,7 +2993,7 @@
               data-cursor="View Project" tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/cms-techno-plus/tecno-hero.jpg" alt="Techno Plus CMS" loading="lazy">
+                <img src="assets/projects/cms-techno-plus/tecno-hero.webp" alt="Techno Plus CMS" width="640" height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="badgeCMS">Content Management</div>
                 <div class="project-preview-hover-overlay">
                   <div class="btn-preview-action">
@@ -3123,8 +3109,7 @@
             <article class="cert-modern-card" data-cert-id="bachelor-degree" tabindex="0" role="button"
               aria-haspopup="dialog" data-cursor="View Certificate">
               <div class="cert-media-wrap">
-                <img src="assets/achievements/bachelor_degree.png" alt="Bachelor of Web Technology & Info Security"
-                  loading="lazy">
+                <img src="assets/achievements/bachelor_degree.webp" alt="Bachelor of Web Technology & Info Security" width="600" height="420" loading="lazy" decoding="async">
                 <div class="cert-hover-scrim">
                   <span class="cert-view-btn">
                     <span class="cert-view-btn-text" data-i18n="viewCertificate">View Certificate</span>
@@ -3153,8 +3138,7 @@
             <article class="cert-modern-card" data-cert-id="n8n-automation" tabindex="0" role="button"
               aria-haspopup="dialog" data-cursor="View Certificate">
               <div class="cert-media-wrap">
-                <img src="assets/achievements/n8n_datacamp.png" alt="Introduction to Workflow Automation with n8n"
-                  loading="lazy">
+                <img src="assets/achievements/n8n_datacamp.webp" alt="Introduction to Workflow Automation with n8n" width="600" height="420" loading="lazy" decoding="async">
                 <div class="cert-hover-scrim">
                   <span class="cert-view-btn">
                     <span class="cert-view-btn-text" data-i18n="viewCertificate">View Certificate</span>
@@ -3183,8 +3167,7 @@
             <article class="cert-modern-card" data-cert-id="docker-foundations" tabindex="0" role="button"
               aria-haspopup="dialog" data-cursor="View Certificate">
               <div class="cert-media-wrap">
-                <img src="assets/achievements/docker_foundations.png" alt="Docker Foundations Professional Certificate"
-                  loading="lazy">
+                <img src="assets/achievements/docker_foundations.webp" alt="Docker Foundations Professional Certificate" width="600" height="420" loading="lazy" decoding="async">
                 <div class="cert-hover-scrim">
                   <span class="cert-view-btn">
                     <span class="cert-view-btn-text" data-i18n="viewCertificate">View Certificate</span>
@@ -3213,7 +3196,7 @@
             <article class="cert-modern-card" data-cert-id="docker-first-project" tabindex="0" role="button"
               aria-haspopup="dialog" data-cursor="View Certificate">
               <div class="cert-media-wrap">
-                <img src="assets/achievements/docker_first_project.png" alt="Docker: Your First Project" loading="lazy">
+                <img src="assets/achievements/docker_first_project.webp" alt="Docker: Your First Project" width="600" height="420" loading="lazy" decoding="async">
                 <div class="cert-hover-scrim">
                   <span class="cert-view-btn">
                     <span class="cert-view-btn-text" data-i18n="viewCertificate">View Certificate</span>
@@ -3242,8 +3225,7 @@
             <article class="cert-modern-card" data-cert-id="laravel-rest-api" tabindex="0" role="button"
               aria-haspopup="dialog" data-cursor="View Certificate">
               <div class="cert-media-wrap">
-                <img src="assets/achievements/laravel_rest_api.png" alt="Building RESTful APIs in Laravel"
-                  loading="lazy">
+                <img src="assets/achievements/laravel_rest_api.webp" alt="Building RESTful APIs in Laravel" width="600" height="420" loading="lazy" decoding="async">
                 <div class="cert-hover-scrim">
                   <span class="cert-view-btn">
                     <span class="cert-view-btn-text" data-i18n="viewCertificate">View Certificate</span>
@@ -3272,8 +3254,7 @@
             <article class="cert-modern-card" data-cert-id="tot-training-certificate" tabindex="0" role="button"
               aria-haspopup="dialog" data-cursor="View Certificate">
               <div class="cert-media-wrap">
-                <img src="assets/achievements/tot_certificate.png" alt="Training of Trainers (TOT) Certification (18 Hours)"
-                  loading="lazy">
+                <img src="assets/achievements/tot_certificate.webp" alt="Training of Trainers (TOT) Certification (18 Hours)" width="600" height="420" loading="lazy" decoding="async">
                 <div class="cert-hover-scrim">
                   <span class="cert-view-btn">
                     <span class="cert-view-btn-text" data-i18n="viewCertificate">View Certificate</span>
@@ -3303,8 +3284,7 @@
             <article class="cert-modern-card" data-cert-id="php-laravel-bootcamp" tabindex="0" role="button"
               aria-haspopup="dialog" data-cursor="View Certificate">
               <div class="cert-media-wrap">
-                <img src="assets/achievements/php_laravel_learnmore.jpg" alt="PHP Laravel Training Program (50 Hours)"
-                  loading="lazy">
+                <img src="assets/achievements/php_laravel_learnmore.webp" alt="PHP Laravel Training Program (50 Hours)" width="600" height="420" loading="lazy" decoding="async">
                 <div class="cert-hover-scrim">
                   <span class="cert-view-btn">
                     <span class="cert-view-btn-text" data-i18n="viewCertificate">View Certificate</span>
@@ -3333,7 +3313,7 @@
             <article class="cert-modern-card" data-cert-id="ux-ui-course" tabindex="0" role="button"
               aria-haspopup="dialog" data-cursor="View Certificate">
               <div class="cert-media-wrap">
-                <img src="assets/achievements/ux_ui_techbox.jpg" alt="UX/UI Design Course (50 Hours)" loading="lazy">
+                <img src="assets/achievements/ux_ui_techbox.webp" alt="UX/UI Design Course (50 Hours)" width="600" height="420" loading="lazy" decoding="async">
                 <div class="cert-hover-scrim">
                   <span class="cert-view-btn">
                     <span class="cert-view-btn-text" data-i18n="viewCertificate">View Certificate</span>
@@ -3362,8 +3342,7 @@
             <article class="cert-modern-card" data-cert-id="personal-website-course" tabindex="0" role="button"
               aria-haspopup="dialog" data-cursor="View Certificate">
               <div class="cert-media-wrap">
-                <img src="assets/achievements/personal_website_daleel.jpg"
-                  alt="Personal Website Designing & Programming (20 Hours)" loading="lazy">
+                <img src="assets/achievements/personal_website_daleel.webp" alt="Personal Website Designing & Programming (20 Hours)" width="600" height="420" loading="lazy" decoding="async">
                 <div class="cert-hover-scrim">
                   <span class="cert-view-btn">
                     <span class="cert-view-btn-text" data-i18n="viewCertificate">View Certificate</span>
@@ -4168,8 +4147,7 @@
       </button>
 
       <div class="photo-lightbox-media-wrap">
-        <img src="assets/images/mohammed-profile.jpg" alt="Mohammed Jouda" class="photo-lightbox-img"
-          id="photo-lightbox-img">
+        <img src="assets/images/mohammed-profile.webp" alt="Mohammed Jouda" class="photo-lightbox-img" id="photo-lightbox-img" width="600" height="600" loading="lazy" decoding="async">
         <div class="photo-lightbox-gradient"></div>
 
         <div class="photo-lightbox-caption">
@@ -4303,7 +4281,7 @@
     </svg>
   </div>
 
-  <script src="/script.js"></script>
+  <script src="/script.js" defer></script>
 </body>
 
 </html>

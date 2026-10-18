@@ -1880,9 +1880,9 @@
         en: "Turning unstructured leads into structured business workflows with Laravel, n8n, and Gemini.",
         ar: "تحويل رسائل العملاء غير المنظمة إلى مسارات عمل منظمة عبر Laravel و n8n و Gemini."
       },
-      image: "assets/projects/ai-leads/ai-leads.jpg",
+      image: "assets/projects/ai-leads/ai-leads.webp",
       gallery: [
-        "assets/projects/ai-leads/ai-leads.jpg"
+        "assets/projects/ai-leads/ai-leads.webp"
       ],
       metrics: [
         { value: "End-to-End", labelEn: "Automation Flow", labelAr: "مسار أتمتة متكامل" },
@@ -1933,10 +1933,10 @@
         en: "Automating sprint planning, Markdown note task extraction, calendar auto-scheduling, and real-time sprint health check audits with Gemini 3.5.",
         ar: "أتمتة تخطيط السبرنتات، واستخراج المهام من الملاحظات، والجدولة التلقائية في التقويم، والتدقيق الفوري لصحة السبرنت بـ Gemini 3.5."
       },
-      image: "assets/projects/sprint-mind/sprint-mind-hero.png",
+      image: "assets/projects/sprint-mind/sprint-mind-hero.webp",
       gallery: [
-        "assets/projects/sprint-mind/sprint-mind-hero.png",
-        "assets/projects/sprint-mind/sprint-mind-1.png"
+        "assets/projects/sprint-mind/sprint-mind-hero.webp",
+        "assets/projects/sprint-mind/sprint-mind-1.webp"
       ],
       metrics: [
         { value: "Gemini 3.5", labelEn: "AI Core Engine", labelAr: "محرك الذكاء الاصطناعي" },
@@ -1984,9 +1984,9 @@
         en: "Scalable backend architecture with isolated multi-tenant workflows and dynamic permission matrix.",
         ar: "معمارية خلفية قابلة للتوسع مع عزل بيانات التجار وإدارة الصلاحيات متعددة المستويات."
       },
-      image: "assets/projects/mersa/mersa-hero.jpg",
+      image: "assets/projects/mersa/mersa-hero.webp",
       gallery: [
-        "assets/projects/mersa/mersa-hero.jpg"
+        "assets/projects/mersa/mersa-hero.webp"
       ],
       metrics: [
         { value: "Eager Load", labelEn: "Query Optimization", labelAr: "تحسين الاستعلامات" },
@@ -2032,9 +2032,9 @@
         en: "Automated content generation, prompt engineering, and real-time Markdown editor integrated with LLM APIs.",
         ar: "توليد تلقائي للمحتوى، وهندسة الأوامر الذكية، ومحرر Markdown فوري متصل بنماذج الذكاء الاصطناعي."
       },
-      image: "assets/projects/write-ai/hero-write-ai.png",
+      image: "assets/projects/write-ai/hero-write-ai.webp",
       gallery: [
-        "assets/projects/write-ai/hero-write-ai.png"
+        "assets/projects/write-ai/hero-write-ai.webp"
       ],
       metrics: [
         { value: "< 2.5s", labelEn: "Generation Speed", labelAr: "سرعة توليد المسودة" },
@@ -2080,10 +2080,10 @@
         en: "Instant peer-to-peer and group messaging with live typing indicators and AI conversational assist.",
         ar: "محادثات فورية مباشرة وجماعية مع مؤشرات الكتابة الحية ومساعد ذكي للردود المحادثية."
       },
-      image: "assets/projects/messenger/messenger_ai.png",
+      image: "assets/projects/messenger/messenger_ai.webp",
       gallery: [
-        "assets/projects/messenger/messenger_ai.png",
-        "assets/projects/messenger/396shots_so.png"
+        "assets/projects/messenger/messenger_ai.webp",
+        "assets/projects/messenger/396shots_so.webp"
       ],
       metrics: [
         { value: "< 50ms", labelEn: "Message Latency", labelAr: "زمن وصول الرسالة" },
@@ -2129,10 +2129,10 @@
         en: "Reactive administrative content control built with Laravel, Filament, and Livewire for rapid workflows.",
         ar: "لوحة تحكم تفاعلية لإدارة المحتوى تعتمد على Laravel و Filament و Livewire لإدارة سريعة وخفيفة."
       },
-      image: "assets/projects/cms-techno-plus/tecno-hero.jpg",
+      image: "assets/projects/cms-techno-plus/tecno-hero.webp",
       gallery: [
-        "assets/projects/cms-techno-plus/tecno-hero.jpg",
-        "assets/projects/cms-techno-plus/dashbord.png"
+        "assets/projects/cms-techno-plus/tecno-hero.webp",
+        "assets/projects/cms-techno-plus/dashbord.webp"
       ],
       metrics: [
         { value: "-60%", labelEn: "Admin Setup Time", labelAr: "سرعة تجهيز الواجهات" },
@@ -2522,7 +2522,7 @@
         if (captionDot) captionDot.style.display = 'none';
       }
     } else if (photoLightboxImg && !customSrc) {
-      photoLightboxImg.src = 'assets/images/mohammed-profile.jpg';
+      photoLightboxImg.src = 'assets/images/mohammed-profile.webp';
       const dict = i18n[currentLang] || i18n.en;
       if (captionName) captionName.textContent = dict.heroTitleShort || 'Mohammed Jouda';
       if (captionRole) captionRole.textContent = dict.roleTitle || 'Backend & AI Automation Engineer';
@@ -2579,8 +2579,8 @@
   const CERTIFICATES_DATA = {
     "bachelor-degree": {
       id: "bachelor-degree",
-      image: "assets/achievements/bachelor_degree.png",
-      url: "assets/achievements/bachelor_degree.png",
+      image: "assets/achievements/bachelor_degree.webp",
+      url: "assets/achievements/bachelor_degree.webp",
       en: {
         title: "Bachelor of Web Technology & Info Security",
         issuer: "Palestine Technical College - Deir El-Balah",
@@ -2606,8 +2606,8 @@
     },
     "n8n-automation": {
       id: "n8n-automation",
-      image: "assets/achievements/n8n_datacamp.png",
-      url: "assets/achievements/n8n_datacamp.png",
+      image: "assets/achievements/n8n_datacamp.webp",
+      url: "assets/achievements/n8n_datacamp.webp",
       en: {
         title: "Introduction to Workflow Automation with n8n",
         issuer: "DataCamp",
@@ -2633,8 +2633,8 @@
     },
     "docker-foundations": {
       id: "docker-foundations",
-      image: "assets/achievements/docker_foundations.png",
-      url: "assets/achievements/docker_foundations.png",
+      image: "assets/achievements/docker_foundations.webp",
+      url: "assets/achievements/docker_foundations.webp",
       en: {
         title: "Docker Foundations Professional Certificate",
         issuer: "LinkedIn Learning & Docker",
@@ -2660,8 +2660,8 @@
     },
     "docker-first-project": {
       id: "docker-first-project",
-      image: "assets/achievements/docker_first_project.png",
-      url: "assets/achievements/docker_first_project.png",
+      image: "assets/achievements/docker_first_project.webp",
+      url: "assets/achievements/docker_first_project.webp",
       en: {
         title: "Docker: Your First Project",
         issuer: "LinkedIn Learning",
@@ -2687,8 +2687,8 @@
     },
     "laravel-rest-api": {
       id: "laravel-rest-api",
-      image: "assets/achievements/laravel_rest_api.png",
-      url: "assets/achievements/laravel_rest_api.png",
+      image: "assets/achievements/laravel_rest_api.webp",
+      url: "assets/achievements/laravel_rest_api.webp",
       en: {
         title: "Building RESTful APIs in Laravel",
         issuer: "LinkedIn Learning",
@@ -2714,8 +2714,8 @@
     },
     "tot-training-certificate": {
       id: "tot-training-certificate",
-      image: "assets/achievements/tot_certificate.png",
-      url: "assets/achievements/tot_certificate.png",
+      image: "assets/achievements/tot_certificate.webp",
+      url: "assets/achievements/tot_certificate.webp",
       en: {
         title: "Training of Trainers (TOT) Certification (18 Hours)",
         issuer: "Youth Hope Makers Foundation & ACHDS",
@@ -2741,8 +2741,8 @@
     },
     "php-laravel-bootcamp": {
       id: "php-laravel-bootcamp",
-      image: "assets/achievements/php_laravel_learnmore.jpg",
-      url: "assets/achievements/php_laravel_learnmore.jpg",
+      image: "assets/achievements/php_laravel_learnmore.webp",
+      url: "assets/achievements/php_laravel_learnmore.webp",
       en: {
         title: "PHP Laravel Training Program (50 Hours)",
         issuer: "Learn More for Training & Development",
@@ -2768,8 +2768,8 @@
     },
     "ux-ui-course": {
       id: "ux-ui-course",
-      image: "assets/achievements/ux_ui_techbox.jpg",
-      url: "assets/achievements/ux_ui_techbox.jpg",
+      image: "assets/achievements/ux_ui_techbox.webp",
+      url: "assets/achievements/ux_ui_techbox.webp",
       en: {
         title: "UX/UI Design Course (50 Hours)",
         issuer: "Tech Box — Engineering Forum Program",
@@ -2795,8 +2795,8 @@
     },
     "personal-website-course": {
       id: "personal-website-course",
-      image: "assets/achievements/personal_website_daleel.jpg",
-      url: "assets/achievements/personal_website_daleel.jpg",
+      image: "assets/achievements/personal_website_daleel.webp",
+      url: "assets/achievements/personal_website_daleel.webp",
       en: {
         title: "Personal Website Designing & Programming (20 Hours)",
         issuer: "Daleel Center for Training & Development",

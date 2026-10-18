@@ -9,7 +9,7 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "assets/images/mohammed-profile.jpg",
+      "src": "assets/images/mohammed-profile.webp",
       "sizes": "192x192 512x512",
       "type": "image/jpeg",
       "purpose": "any maskable"
