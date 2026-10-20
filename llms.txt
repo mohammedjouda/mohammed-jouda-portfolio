@@ -1,6 +1,6 @@
-# Mohammed Jouda | Backend & AI Automation Engineer
+# Mohammed Jouda (محمد جودة) | Backend & AI Automation Engineer
 
-> Mohammed Jouda is a Backend & AI Automation Engineer specializing in Laravel, PHP, REST APIs, and practical AI integrations.
+> محمد جودة (Mohammed Jouda) is a Backend & AI Automation Engineer specializing in Laravel, PHP, REST APIs, and practical AI integrations. مهندس تطوير خلفي وأتمتة ذكاء اصطناعي متخصص في بناء معمارية الأنظمة بـ Laravel و PHP والحلول الذكية.
 
 ## Core Projects
 - [AI Lead Triage & Automation System](https://www.mohammedjouda.com/projects/lead-automation): Turning unstructured incoming leads into structured business workflows with Laravel, n8n, and Gemini.

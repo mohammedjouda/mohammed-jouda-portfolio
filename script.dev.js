@@ -10,7 +10,7 @@
   const i18n = {
     en: {
       pageTitles: {
-        home: "Mohammed Jouda | Backend & AI Automation Engineer",
+        home: "محمد جودة | Mohammed Jouda | Backend & AI Automation Engineer",
         about: "Mohammed Jouda | About Me & Architecture",
         career: "Mohammed Jouda | Career Experience",
         projects: "Mohammed Jouda | Featured Projects & Systems",
