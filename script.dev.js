@@ -935,7 +935,7 @@
 
     let canonicalEl = document.querySelector('link[rel="canonical"]');
     if (canonicalEl) {
-      canonicalEl.setAttribute('href', `https://mohammedjouda.com${canonicalPath}`);
+      canonicalEl.setAttribute('href', `https://www.mohammedjouda.com${canonicalPath}`);
     }
 
     let metaDesc = document.querySelector('meta[name="description"]');
@@ -948,7 +948,7 @@
     if (ogTitle) ogTitle.setAttribute('content', title);
 
     let ogUrl = document.querySelector('meta[property="og:url"]');
-    if (ogUrl) ogUrl.setAttribute('content', `https://mohammedjouda.com${canonicalPath}`);
+    if (ogUrl) ogUrl.setAttribute('content', `https://www.mohammedjouda.com${canonicalPath}`);
   }
 
   function navigateTo(route, updateHistory = true) {
