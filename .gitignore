@@ -19,3 +19,9 @@ yarn-error.log*
 10k-websites/
 frontend-design/
 scratch/
+
+# Google API & OAuth Secrets (NEVER commit to public git)
+client_secrets*.json
+token*.json
+credentials*.json
+.credentials/
