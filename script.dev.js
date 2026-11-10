@@ -26,7 +26,7 @@
       navAchievements: "Achievements",
       navContact: "Contact",
       rights: "All rights reserved.",
-      heroTitle: "Mohammed Jouda (محمد جودة)",
+      heroTitle: "Mohammed Jouda",
       roleTitle: "Backend & AI Integration Engineer",
       location: "Gaza, Palestine • Available for Remote Roles",
       downloadCv: "Download CV",
