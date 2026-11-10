@@ -10,7 +10,7 @@
   const i18n = {
     en: {
       pageTitles: {
-        home: "محمد جودة | Mohammed Jouda | Backend & AI Automation Engineer",
+        home: "محمد جودة | Mohammed Jouda | Backend & AI Integration Engineer",
         about: "Mohammed Jouda | About Me & Architecture",
         career: "Mohammed Jouda | Career Experience",
         projects: "Mohammed Jouda | Featured Projects & Systems",
@@ -27,7 +27,7 @@
       navContact: "Contact",
       rights: "All rights reserved.",
       heroTitle: "Mohammed Jouda (محمد جودة)",
-      roleTitle: "Backend & AI Automation Engineer",
+      roleTitle: "Backend & AI Integration Engineer",
       location: "Gaza, Palestine • Available for Remote Roles",
       downloadCv: "Download CV",
       viewWork: "View My Work",
@@ -49,7 +49,7 @@
       aboutSlide4Loc: "Technical Mentorship & Code Strategy",
       aboutSlide4Title: "Engineering Discussion & Mentorship",
       aboutSlide5Status: "Available for High-Impact Roles",
-      aboutSlide5Title: "Mohammed Jouda • Backend & AI Automation Engineer",
+      aboutSlide5Title: "Mohammed Jouda • Backend & AI Integration Engineer",
       workshopsChip: "Technical Trainer & AI Automation Mentor",
       workshopsTitle: "Technical Workshops & AI Training",
       workshopsDesc: "Delivered 6 intensive technical workshops in Web Engineering, Business Automation, and AI Workflows at Jreas Lab. Instructed 160+ attendees including developers, freelancers, students, and business owners with outstanding participant feedback.",
@@ -64,7 +64,7 @@
       wTopic1: "AI & n8n Workflow Automation",
       wTopic2: "Laravel & REST API Architecture",
       wTopic3: "Task Elimination & Process Efficiency",
-      bioLeadRole: "Backend & AI Automation Engineer",
+      bioLeadRole: "Backend & AI Integration Engineer",
       bioExpHighlight: "Production & Practical Engineering",
       aboutMetricsTitle: "Verified Engineering Metrics",
       aboutMetric1Label: "Core Stack",
@@ -175,7 +175,7 @@
       technoH2: "✓ Livewire Reactive Components without JS Bloat",
 
       aboutHeadline: "Architecting Systems That Scale. Automating Workflows That Matter.",
-      aboutP1: "I am a Backend & AI Automation Engineer focused on building robust server-side architectures and intelligent business automations. My core expertise lies in PHP and Laravel, where I design secure REST APIs, implement Role-Based Access Control (RBAC), and optimize database performance to resolve complex N+1 bottlenecks.",
+      aboutP1: "I am a Backend & AI Integration Engineer focused on building robust server-side architectures and intelligent business automations. My core expertise lies in PHP and Laravel, where I design secure REST APIs, implement Role-Based Access Control (RBAC), and optimize database performance to resolve complex N+1 bottlenecks.",
       aboutP2: "Beyond traditional backend development, I specialize in treating AI as a practical engineering capability. I integrate Large Language Models (like Google Gemini and OpenAI) and automation platforms (n8n) directly into web applications to streamline repetitive tasks and parse unstructured data into structured JSON schemas.",
       aboutP3: "With a Bachelor's degree in Web Technology & Information Security (Honors), I prioritize clean code (SOLID principles), robust queuing systems (Redis), and secure architectures from day one.",
       whyWorkTitle: "Why Work With Me",
@@ -411,7 +411,7 @@
     },
     ar: {
       pageTitles: {
-        home: "محمد جودة | مهندس Backend وأتمتة بالذكاء الاصطناعي",
+        home: "محمد جودة | مهندس Backend وتكامل الذكاء الاصطناعي",
         about: "محمد جودة | عنّي والقدرات الهندسية",
         career: "محمد جودة | المسيرة المهنية والخبرات",
         projects: "محمد جودة | معرض المشاريع ودراسات الحالة",
@@ -428,7 +428,7 @@
       navContact: "تواصل معي",
       rights: "جميع الحقوق محفوظة.",
       heroTitle: "محمد جودة",
-      roleTitle: "مهندس Backend وأتمتة بالذكاء الاصطناعي",
+      roleTitle: "مهندس Backend وتكامل الذكاء الاصطناعي",
       location: "غزة، فلسطين • متاح للعمل عن بعد",
       downloadCv: "تحميل السيرة الذاتية",
       viewWork: "شاهد مشاريعي",
@@ -450,7 +450,7 @@
       aboutSlide4Loc: "توجيه تقني ونقاشات هندسية",
       aboutSlide4Title: "نقاش برمجي وتوجيه هندسي للمطورين",
       aboutSlide5Status: "متاح للمشاريع والفرص النوعية",
-      aboutSlide5Title: "محمد جودة • مهندس Backend وأتمتة بالذكاء الاصطناعي",
+      aboutSlide5Title: "محمد جودة • مهندس Backend وتكامل الذكاء الاصطناعي",
       workshopsChip: "مدرب تقني وموجه أتمتة بالذكاء الاصطناعي",
       workshopsTitle: "الورشات والتدريبات التقنية",
       workshopsDesc: "تقديم 6 ورش عمل تدريبية مكثفة في مجالات هندسة الويب، أتمتة الأعمال، ومسارات الذكاء الاصطناعي في Jreas Lab. تم تدريب أكثر من 160 مشاركاً من المطورين، المستقلين، الطلاب، وأصحاب الأعمال مع انطباعات وتقييمات ممتازة جداً من الحضور.",
@@ -465,7 +465,7 @@
       wTopic1: "أتمتة الأعمال بـ n8n والذكاء الاصطناعي",
       wTopic2: "معمارية Laravel وتطوير REST APIs",
       wTopic3: "تحليل وتفريغ المهام التكرارية",
-      bioLeadRole: "مهندس Backend وأتمتة بالذكاء الاصطناعي",
+      bioLeadRole: "مهندس Backend وتكامل الذكاء الاصطناعي",
       bioExpHighlight: "خبرة هندسية وإنتاجية عملية",
       aboutMetricsTitle: "مؤشرات الأثر والإنجاز الهندسي",
       aboutMetric1Label: "التركيز الأساسي",
@@ -575,7 +575,7 @@
       technoH1: "✓ توليد موارد متقدمة وجداول مخصصة عبر Filament",
 
       aboutHeadline: "هندسة أنظمة قابلة للتوسع. أتمتة مسارات عمل تصنع الفارق.",
-      aboutP1: "أنا مهندس Backend وأتمتة بالذكاء الاصطناعي أركز على بناء بنى خوادم متينة وأتمتة مسارات العمل التجاري الذكية. تتركز خبرتي الأساسية في PHP و Laravel، حيث أصمم واجهات برمجة تطبيقات REST آمنة، وأطبق التحكم بالوصول المستند إلى الأدوار (RBAC)، وأحسن أداء قواعد البيانات لمعالجة مشاكل استعلامات N+1 المعقدة.",
+      aboutP1: "أنا مهندس Backend وتكامل الذكاء الاصطناعي أركز على بناء بنى خوادم متينة وأتمتة مسارات العمل التجاري الذكية. تتركز خبرتي الأساسية في PHP و Laravel، حيث أصمم واجهات برمجة تطبيقات REST آمنة، وأطبق التحكم بالوصول المستند إلى الأدوار (RBAC)، وأحسن أداء قواعد البيانات لمعالجة مشاكل استعلامات N+1 المعقدة.",
       aboutP2: "إلى جانب تطوير الـ Backend التقليدي، أتعامل مع الذكاء الاصطناعي كقدرة هندسية تطبيقية. أدمج النماذج اللغوية الكبيرة (مثل Google Gemini و OpenAI) ومنصات الأتمتة (n8n) مباشرة داخل تطبيقات الويب لتبسيط المهام المتكررة وتحويل النصوص غير المنظمة إلى مخرجات JSON مهيكلة ومدققة.",
       aboutP3: "انطلاقاً من دراستي الأكاديمية وحصولي على بكالوريوس تكنولوجيا الويب وأمن المعلومات (بتقدير جيد جداً مع مرتبة الشرف)، أضع في صدارة أولوياتي الكود النظيف (مبادئ SOLID)، وأنظمة طوابير المهام المتينة (Redis)، والمعماريات الآمنة والموثوقة منذ اليوم الأول.",
       whyWorkTitle: "لماذا العمل معي؟",
@@ -916,8 +916,8 @@
 
   function updateMetaForRoute(route, lang) {
     const dict = i18n[lang] || i18n.en;
-    let title = dict.pageTitles && dict.pageTitles[route] ? dict.pageTitles[route] : (lang === 'ar' ? 'محمد جودة | مهندس Backend وأتمتة بالذكاء الاصطناعي' : 'Mohammed Jouda | Backend & AI Automation Engineer');
-    let description = lang === 'ar' ? 'محمد جودة مهندس Backend وأتمتة بالذكاء الاصطناعي يتخصص في Laravel و PHP و REST APIs و n8n و Gemini.' : 'Mohammed Jouda is a Backend & AI Automation Engineer specializing in Laravel, PHP, REST APIs, AI integration, and business automation.';
+    let title = dict.pageTitles && dict.pageTitles[route] ? dict.pageTitles[route] : (lang === 'ar' ? 'محمد جودة | مهندس Backend وتكامل الذكاء الاصطناعي' : 'Mohammed Jouda | Backend & AI Integration Engineer');
+    let description = lang === 'ar' ? 'محمد جودة مهندس Backend وتكامل الذكاء الاصطناعي يتخصص في Laravel و PHP و REST APIs و n8n و Gemini.' : 'Mohammed Jouda is a Backend & AI Integration Engineer specializing in Laravel, PHP, REST APIs, AI integration, and business automation.';
     let canonicalPath = routeToUrl(route);
 
     if (route && (route.startsWith('project-') || route.startsWith('project/'))) {
@@ -2526,7 +2526,7 @@
       photoLightboxImg.src = 'assets/images/mohammed-profile.webp';
       const dict = i18n[currentLang] || i18n.en;
       if (captionName) captionName.textContent = dict.heroTitleShort || 'Mohammed Jouda';
-      if (captionRole) captionRole.textContent = dict.roleTitle || 'Backend & AI Automation Engineer';
+      if (captionRole) captionRole.textContent = dict.roleTitle || 'Backend & AI Integration Engineer';
       if (captionVerified) captionVerified.style.display = '';
       if (captionStatus) captionStatus.style.display = '';
       if (captionDot) captionDot.style.display = '';

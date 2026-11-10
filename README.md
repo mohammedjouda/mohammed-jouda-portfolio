@@ -1,4 +1,4 @@
-# Mohammed Jouda — Backend & AI Automation Engineer Portfolio
+# Mohammed Jouda — Backend & AI Integration Engineer Portfolio
 
 [![Live Site](https://img.shields.io/badge/Live%20Website-mohammedjouda.com-1C477A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mohammedjouda.com)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)](https://mohammedjouda.com)

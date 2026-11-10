@@ -31,8 +31,8 @@ const routes = [
   {
     path: 'ar',
     canonical: 'https://www.mohammedjouda.com/ar',
-    title: 'محمد جودة | مهندس Backend وأتمتة بالذكاء الاصطناعي | Mohammed Jouda',
-    description: 'محمد جودة (Mohammed Jouda) مهندس تطوير خلفي وأتمتة ذكاء اصطناعي متخصص في Laravel و PHP و REST APIs والحلول السحابية وأتمتة مسارات العمل.',
+    title: 'محمد جودة | مهندس Backend وتكامل الذكاء الاصطناعي | Mohammed Jouda',
+    description: 'محمد جودة (Mohammed Jouda) مهندس تطوير خلفي وتكامل الذكاء الاصطناعي متخصص في Laravel و PHP و REST APIs والحلول السحابية وأتمتة مسارات العمل.',
     activeViewId: 'view-home',
     navRoute: 'home',
     lang: 'ar',
@@ -42,7 +42,7 @@ const routes = [
     path: 'about',
     canonical: 'https://www.mohammedjouda.com/about',
     title: 'محمد جودة | عنّي والقدرات الهندسية | Mohammed Jouda | About Me',
-    description: 'محمد جودة (Mohammed Jouda) مهندس تطوير خلفي وأتمتة ذكاء اصطناعي متخصص في Laravel و PHP و REST APIs والحلول الذكية. استكشف المعايير والقدرات الهندسية.',
+    description: 'محمد جودة (Mohammed Jouda) مهندس تطوير خلفي وتكامل الذكاء الاصطناعي متخصص في Laravel و PHP و REST APIs والحلول الذكية. استكشف المعايير والقدرات الهندسية.',
     activeViewId: 'view-about',
     navRoute: 'about'
   },
