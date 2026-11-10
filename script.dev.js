@@ -950,6 +950,24 @@
 
     let ogUrl = document.querySelector('meta[property="og:url"]');
     if (ogUrl) ogUrl.setAttribute('content', `https://www.mohammedjouda.com${canonicalPath}`);
+
+    let ogImageEl = document.querySelector('meta[property="og:image"]');
+    let twImageEl = document.querySelector('meta[name="twitter:image"]');
+    let projectOgImages = {
+      'lead-automation': 'https://www.mohammedjouda.com/assets/projects/ai-leads/ai-leads.webp',
+      'sprint-mind': 'https://www.mohammedjouda.com/assets/projects/sprint-mind/sprint-mind-hero.webp',
+      'messenger': 'https://www.mohammedjouda.com/assets/projects/messenger/messenger_ai.webp',
+      'marsa-store': 'https://www.mohammedjouda.com/assets/projects/mersa/mersa-hero.webp',
+      'write-ai': 'https://www.mohammedjouda.com/assets/projects/write-ai/hero-write-ai.webp',
+      'techno-cms': 'https://www.mohammedjouda.com/assets/projects/cms-techno-plus/tecno-hero.webp'
+    };
+    let targetOgImg = 'https://www.mohammedjouda.com/assets/og/mohammed-jouda-og.jpg';
+    if (route && (route.startsWith('project-') || route.startsWith('project/'))) {
+      const pId = route.replace(/^project[-/]/, '');
+      if (projectOgImages[pId]) targetOgImg = projectOgImages[pId];
+    }
+    if (ogImageEl) ogImageEl.setAttribute('content', targetOgImg);
+    if (twImageEl) twImageEl.setAttribute('content', targetOgImg);
   }
 
   function navigateTo(route, updateHistory = true) {

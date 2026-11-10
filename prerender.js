@@ -84,7 +84,11 @@ const routes = [
     title: 'محمد جودة | نظام AI لمعالجة العملاء المحتملين | AI Lead Triage & Automation',
     description: 'دراسة حالة هندسية: نظام معالجة وتوجيه العملاء المحتملين بالذكاء الاصطناعي باستخدام Laravel و Redis Queues و n8n و Gemini بواسطة محمد جودة.',
     activeViewId: 'view-project-detail',
-    navRoute: 'projects'
+    navRoute: 'projects',
+    ogImage: 'https://www.mohammedjouda.com/assets/projects/ai-leads/ai-leads.webp',
+    ogImageWidth: 500,
+    ogImageHeight: 373,
+    ogImageAlt: 'AI Lead Triage & Automation - Mohammed Jouda'
   },
   {
     path: 'projects/sprint-mind',
@@ -92,7 +96,11 @@ const routes = [
     title: 'محمد جودة | منظومة SprintMind AI لإدارة السبرنتات والتخطيط | SprintMind AI',
     description: 'دراسة حالة هندسية: منصة إدارة سبرنتات وتخطيط بالذكاء الاصطناعي تعتمد على Laravel 13 و Gemini 3.5 Flash وأتمتة المهام بواسطة محمد جودة.',
     activeViewId: 'view-project-detail',
-    navRoute: 'projects'
+    navRoute: 'projects',
+    ogImage: 'https://www.mohammedjouda.com/assets/projects/sprint-mind/sprint-mind-hero.webp',
+    ogImageWidth: 500,
+    ogImageHeight: 400,
+    ogImageAlt: 'SprintMind AI Platform - Mohammed Jouda'
   },
   {
     path: 'projects/messenger',
@@ -100,7 +108,11 @@ const routes = [
     title: 'محمد جودة | تطبيق المراسلة الفورية بالذكاء الاصطناعي | Real-Time AI Messenger',
     description: 'دراسة حالة هندسية: منصة محادثة فورية مباشرة مع مساعد ذكي مدمج تعتمد على WebSockets و Laravel Echo و Vue 3 بواسطة محمد جودة.',
     activeViewId: 'view-project-detail',
-    navRoute: 'projects'
+    navRoute: 'projects',
+    ogImage: 'https://www.mohammedjouda.com/assets/projects/messenger/messenger_ai.webp',
+    ogImageWidth: 480,
+    ogImageHeight: 480,
+    ogImageAlt: 'Real-Time AI Messenger - Mohammed Jouda'
   },
   {
     path: 'projects/marsa-store',
@@ -108,7 +120,11 @@ const routes = [
     title: 'محمد جودة | متجر مرسى متعدد البائعين | Marsa Store Multi-Vendor',
     description: 'دراسة حالة هندسية: منصة تجارة إلكترونية متعددة التجار في Laravel مع عزل صارم لبيانات التجار وتحسين استعلامات قواعد البيانات بواسطة محمد جودة.',
     activeViewId: 'view-project-detail',
-    navRoute: 'projects'
+    navRoute: 'projects',
+    ogImage: 'https://www.mohammedjouda.com/assets/projects/mersa/mersa-hero.webp',
+    ogImageWidth: 1400,
+    ogImageHeight: 781,
+    ogImageAlt: 'Marsa Store Multi-Vendor Platform - Mohammed Jouda'
   },
   {
     path: 'projects/write-ai',
@@ -116,7 +132,11 @@ const routes = [
     title: 'محمد جودة | منصة Write AI للتدوين الذكي | Write AI Platform',
     description: 'دراسة حالة هندسية: منصة SaaS ذكية للتدوين تجمع بين إدارة المحتوى وأتمتة توليد المحتوى وتحسين محركات البحث SEO بواسطة محمد جودة.',
     activeViewId: 'view-project-detail',
-    navRoute: 'projects'
+    navRoute: 'projects',
+    ogImage: 'https://www.mohammedjouda.com/assets/projects/write-ai/hero-write-ai.webp',
+    ogImageWidth: 800,
+    ogImageHeight: 829,
+    ogImageAlt: 'Write AI Content Platform - Mohammed Jouda'
   },
   {
     path: 'projects/techno-cms',
@@ -124,7 +144,11 @@ const routes = [
     title: 'محمد جودة | منصة Techno Plus لإدارة المحتوى المعيارية | Techno Plus CMS',
     description: 'دراسة حالة هندسية: نظام إدارة محتوى معياري متطور يعتمد على Laravel و Filament و Livewire لإدارة المحتوى والصلاحيات بواسطة محمد جودة.',
     activeViewId: 'view-project-detail',
-    navRoute: 'projects'
+    navRoute: 'projects',
+    ogImage: 'https://www.mohammedjouda.com/assets/projects/cms-techno-plus/tecno-hero.webp',
+    ogImageWidth: 1400,
+    ogImageHeight: 933,
+    ogImageAlt: 'Techno Plus CMS - Mohammed Jouda'
   }
 ];
 
@@ -145,9 +169,21 @@ function generateRouteHtml(route) {
   html = html.replace(/<meta property="og:description"\s+content="[^"]*">/i, `<meta property="og:description"\n    content="${route.description}">`);
   html = html.replace(/<meta property="og:url" content="[^"]*">/i, `<meta property="og:url" content="${route.canonical}">`);
 
+  if (route.ogImage) {
+    html = html.replace(/<meta property="og:image" content="[^"]*">/i, `<meta property="og:image" content="${route.ogImage}">`);
+    html = html.replace(/<meta property="og:image:width" content="[^"]*">/i, `<meta property="og:image:width" content="${route.ogImageWidth || 1200}">`);
+    html = html.replace(/<meta property="og:image:height" content="[^"]*">/i, `<meta property="og:image:height" content="${route.ogImageHeight || 630}">`);
+    if (route.ogImageAlt) {
+      html = html.replace(/<meta property="og:image:alt" content="[^"]*">/i, `<meta property="og:image:alt" content="${route.ogImageAlt}">`);
+    }
+  }
+
   // 5. Replace Twitter tags
   html = html.replace(/<meta name="twitter:title" content="[^"]*">/i, `<meta name="twitter:title" content="${route.title}">`);
   html = html.replace(/<meta name="twitter:description"\s+content="[^"]*">/i, `<meta name="twitter:description"\n    content="${route.description}">`);
+  if (route.ogImage) {
+    html = html.replace(/<meta name="twitter:image" content="[^"]*">/i, `<meta name="twitter:image" content="${route.ogImage}">`);
+  }
 
   // 6. Handle language and RTL for Arabic page
   if (route.lang === 'ar') {
