@@ -26,7 +26,7 @@
       navAchievements: "Achievements",
       navContact: "Contact",
       rights: "All rights reserved.",
-      heroTitle: "Mohammed Jouda",
+      heroTitle: "Mohammed Jouda (محمد جودة)",
       roleTitle: "Backend & AI Automation Engineer",
       location: "Gaza, Palestine • Available for Remote Roles",
       downloadCv: "Download CV",
@@ -812,7 +812,8 @@
   };
 
   // --- State Variables ---
-  let currentLang = localStorage.getItem('portfolio_lang') || 'en';
+  const initialPath = (typeof window !== 'undefined' && window.location ? window.location.pathname : '/');
+  let currentLang = (initialPath === '/ar' || initialPath.startsWith('/ar/')) ? 'ar' : (localStorage.getItem('portfolio_lang') || 'en');
   let currentTheme = localStorage.getItem('portfolio_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
   let currentRoute = 'home';
 

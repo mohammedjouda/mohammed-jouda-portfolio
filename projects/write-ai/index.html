@@ -15,7 +15,8 @@
         } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
           document.documentElement.classList.remove('dark');
         }
-        var l = localStorage.getItem('portfolio_lang');
+        var p = window.location.pathname;
+        var l = (p === '/ar' || p.indexOf('/ar/') === 0) ? 'ar' : localStorage.getItem('portfolio_lang');
         if (l === 'ar') {
           document.documentElement.setAttribute('dir', 'rtl');
           document.documentElement.setAttribute('lang', 'ar');
@@ -30,6 +31,9 @@
   <meta name="author" content="Mohammed Jouda">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://www.mohammedjouda.com/projects/write-ai">
+  <link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/">
+  <link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar">
+  <link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/">
   <link rel="alternate" type="text/markdown" href="/llms.txt" title="LLM Context">
 
   <!-- Theme & PWA Colors -->
@@ -439,7 +443,7 @@
           <header class="hero-header">
             <div class="hero-top-row">
               <div class="hero-title-col">
-                <h1 class="hero-title" data-i18n="heroTitle">Hi, I'm Mohammed Jouda (محمد جودة)</h1>
+                <h1 class="hero-title" data-i18n="heroTitle">Mohammed Jouda (محمد جودة)</h1>
                 <div class="hero-meta-badges">
                   <span class="meta-item">
                     <span class="meta-dot"></span>

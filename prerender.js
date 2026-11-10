@@ -11,7 +11,33 @@ const rootDir = __dirname;
 const indexHtmlPath = path.join(rootDir, 'index.html');
 const indexHtml = fs.readFileSync(indexHtmlPath, 'utf8');
 
+// Load i18n from script.dev.js
+const scriptContent = fs.readFileSync(path.join(rootDir, 'script.dev.js'), 'utf8');
+const start = scriptContent.indexOf('const i18n = {');
+const end = scriptContent.indexOf('// --- State Variables ---');
+const i18nCode = scriptContent.substring(start + 13, end).trim().replace(/;$/, '');
+const i18n = eval('(' + i18nCode + ')');
+
+function translateHtml(html, dict) {
+  return html.replace(/(<([a-zA-Z0-9]+)\b[^>]*?\bdata-i18n="([^"]+)"[^>]*>)([\s\S]*?)(<\/\2>)/gi, (match, openTag, tagName, key, innerContent, closeTag) => {
+    if (dict && dict[key]) {
+      return `${openTag}${dict[key]}${closeTag}`;
+    }
+    return match;
+  });
+}
+
 const routes = [
+  {
+    path: 'ar',
+    canonical: 'https://www.mohammedjouda.com/ar',
+    title: 'محمد جودة | مهندس Backend وأتمتة بالذكاء الاصطناعي | Mohammed Jouda',
+    description: 'محمد جودة (Mohammed Jouda) مهندس تطوير خلفي وأتمتة ذكاء اصطناعي متخصص في Laravel و PHP و REST APIs والحلول السحابية وأتمتة مسارات العمل.',
+    activeViewId: 'view-home',
+    navRoute: 'home',
+    lang: 'ar',
+    dir: 'rtl'
+  },
   {
     path: 'about',
     canonical: 'https://www.mohammedjouda.com/about',
@@ -123,21 +149,27 @@ function generateRouteHtml(route) {
   html = html.replace(/<meta name="twitter:title" content="[^"]*">/i, `<meta name="twitter:title" content="${route.title}">`);
   html = html.replace(/<meta name="twitter:description"\s+content="[^"]*">/i, `<meta name="twitter:description"\n    content="${route.description}">`);
 
-  // 6. Adjust active view class in body
-  // Remove 'active' from view-home
-  html = html.replace(/id="view-home" class="page-view active"/i, 'id="view-home" class="page-view"');
+  // 6. Handle language and RTL for Arabic page
+  if (route.lang === 'ar') {
+    html = html.replace(/<html\b[^>]*>/i, '<html lang="ar" class="dark" dir="rtl">');
+    html = html.replace(/<meta property="og:locale" content="[^"]*">/i, '<meta property="og:locale" content="ar_AR">');
+    html = html.replace(/<button class="lang-btn active" data-lang="en">EN<\/button>/gi, '<button class="lang-btn" data-lang="en">EN</button>');
+    html = html.replace(/<button class="lang-btn" data-lang="ar">عربي<\/button>/gi, '<button class="lang-btn active" data-lang="ar">عربي</button>');
+    html = translateHtml(html, i18n.ar);
+  }
 
-  // Add 'active' to the target view
-  const targetRegex = new RegExp(`id="${route.activeViewId}" class="page-view"`, 'i');
-  html = html.replace(targetRegex, `id="${route.activeViewId}" class="page-view active"`);
+  // 7. Adjust active view class in body
+  if (route.activeViewId && route.activeViewId !== 'view-home') {
+    html = html.replace(/id="view-home" class="page-view active"/i, 'id="view-home" class="page-view"');
+    const targetRegex = new RegExp(`id="${route.activeViewId}" class="page-view"`, 'i');
+    html = html.replace(targetRegex, `id="${route.activeViewId}" class="page-view active"`);
+  }
 
-  // 7. Adjust desktop and mobile nav active items
-  if (route.navRoute) {
-    // Remove active from home nav link
+  // 8. Adjust desktop and mobile nav active items
+  if (route.navRoute && route.navRoute !== 'home') {
     html = html.replace(/<a href="#home" class="nav-link active"/i, '<a href="#home" class="nav-link"');
     html = html.replace(/<a href="#home" class="nav-item active"/i, '<a href="#home" class="nav-item"');
 
-    // Add active to current route nav link
     const desktopNavRegex = new RegExp(`(<a href="#${route.navRoute}" class="nav-link)"`, 'i');
     html = html.replace(desktopNavRegex, '$1 active"');
 
