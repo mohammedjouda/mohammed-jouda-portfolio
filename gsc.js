@@ -215,6 +215,22 @@ async function listSites() {
   return data.siteEntry;
 }
 
+async function submitSitemap(feedUrl = 'https://www.mohammedjouda.com/sitemap.xml', siteUrl = DEFAULT_SITE) {
+  const token = await getValidAccessToken();
+  const encodedSite = encodeURIComponent(siteUrl);
+  const encodedFeed = encodeURIComponent(feedUrl);
+  const res = await fetch(`https://www.googleapis.com/webmasters/v3/sites/${encodedSite}/sitemaps/${encodedFeed}`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${token}` }
+  });
+  if (res.status === 200 || res.status === 204) {
+    console.log(`\n[SUCCESS] Sitemap successfully submitted to Google Search Console: ${feedUrl}\n`);
+  } else {
+    const text = await res.text();
+    console.error(`[ERROR] Failed to submit sitemap (${res.status}): ${text}`);
+  }
+}
+
 async function listSitemaps(siteUrl = DEFAULT_SITE) {
   const token = await getValidAccessToken();
   const encodedSite = encodeURIComponent(siteUrl);
@@ -387,6 +403,9 @@ async function main() {
         break;
       case 'sitemaps':
         await listSitemaps(args[1] || DEFAULT_SITE);
+        break;
+      case 'submit-sitemap':
+        await submitSitemap(args[1] || 'https://www.mohammedjouda.com/sitemap.xml', args[2] || DEFAULT_SITE);
         break;
       case 'inspect':
         await inspectUrl(args[1], args[2] || DEFAULT_SITE);
