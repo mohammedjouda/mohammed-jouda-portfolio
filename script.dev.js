@@ -671,7 +671,7 @@
       marsaTitle: "Marsa Store — متجر متعدد البائعين",
       marsaSummary:
         "بنية تجارة إلكترونية متعددة التجار جاهزة للإنتاج. حلت اختناقات قواعد البيانات المعقدة وضمنت عزلاً صارماً للبيانات عبر جلسات التجار المتزامنة.",
-      marsaOrigin: "التعليم: مشروع التخرج (83.92%)",
+      marsaOrigin: "التعليم: مشروع التخرج ",
       marsaH1: "✓ عزل متكامل لحسابات التجار والمنتجات والطلبات",
       marsaH2: "✓ نظام صلاحيات متقدم ومصادقة ثنائية 2FA",
       marsaH3: "✓ تحسين استعلامات قاعدة البيانات بـ Eager Loading وفهارس MySQL",
@@ -980,9 +980,7 @@
       ? window.location.pathname
       : "/";
   let currentLang =
-    initialPath === "/ar" || initialPath.startsWith("/ar/")
-      ? "ar"
-      : "en";
+    initialPath === "/ar" || initialPath.startsWith("/ar/") ? "ar" : "en";
   let currentTheme =
     localStorage.getItem("portfolio_theme") ||
     (window.matchMedia("(prefers-color-scheme: dark)").matches
@@ -1175,7 +1173,9 @@
       );
     }
 
-    let enAltEl = document.querySelector('link[rel="alternate"][hreflang="en"]');
+    let enAltEl = document.querySelector(
+      'link[rel="alternate"][hreflang="en"]',
+    );
     if (enAltEl) {
       enAltEl.setAttribute(
         "href",
@@ -1183,7 +1183,9 @@
       );
     }
 
-    let arAltEl = document.querySelector('link[rel="alternate"][hreflang="ar"]');
+    let arAltEl = document.querySelector(
+      'link[rel="alternate"][hreflang="ar"]',
+    );
     if (arAltEl) {
       arAltEl.setAttribute(
         "href",
@@ -1191,7 +1193,9 @@
       );
     }
 
-    let xDefaultEl = document.querySelector('link[rel="alternate"][hreflang="x-default"]');
+    let xDefaultEl = document.querySelector(
+      'link[rel="alternate"][hreflang="x-default"]',
+    );
     if (xDefaultEl) {
       xDefaultEl.setAttribute(
         "href",
@@ -1220,9 +1224,14 @@
       ogLocale.setAttribute("content", targetLang === "ar" ? "ar_AR" : "en_US");
     }
 
-    let ogLocaleAlt = document.querySelector('meta[property="og:locale:alternate"]');
+    let ogLocaleAlt = document.querySelector(
+      'meta[property="og:locale:alternate"]',
+    );
     if (ogLocaleAlt) {
-      ogLocaleAlt.setAttribute("content", targetLang === "ar" ? "en_US" : "ar_AR");
+      ogLocaleAlt.setAttribute(
+        "content",
+        targetLang === "ar" ? "en_US" : "ar_AR",
+      );
     }
 
     let ogImageEl = document.querySelector('meta[property="og:image"]');
@@ -1237,7 +1246,7 @@
       "marsa-store":
         "https://www.mohammedjouda.com/assets/projects/mersa/mersa-hero.webp",
       "write-ai":
-        "https://www.mohammedjouda.com/assets/projects/write-ai/13.png",
+        "https://www.mohammedjouda.com/assets/projects/write-ai/hero-wite-ai.png",
       "techno-cms":
         "https://www.mohammedjouda.com/assets/projects/cms-techno-plus/22.png",
     };
@@ -2335,7 +2344,7 @@
         "assets/projects/ai-leads/624shots_so.png",
         "assets/projects/ai-leads/277shots_so.png",
         "assets/projects/ai-leads/170shots_so.png",
-        "assets/projects/ai-leads/Untitled-2026-05-28-1518.png"
+        "assets/projects/ai-leads/Untitled-2026-05-28-1518.png",
       ],
       metrics: [
         {
@@ -2421,7 +2430,7 @@
         "assets/projects/sprint-mind/screencapture-sprintmind-ai-test-tasks-54-2026-11-14-11_40_12.png",
         "assets/projects/sprint-mind/Screenshot 2026-11-14 112447.png",
         "assets/projects/sprint-mind/Screenshot 2026-11-14 113731.png",
-        "assets/projects/sprint-mind/screencapture-sprintmind-ai-test-login-2026-11-14-11_18_58.png"
+        "assets/projects/sprint-mind/screencapture-sprintmind-ai-test-login-2026-11-14-11_18_58.png",
       ],
       metrics: [
         {
@@ -2508,7 +2517,7 @@
         "assets/projects/mersa/screencapture-marsa-store-multi-vendor-test-customer-store-4-2026-11-14-12_46_26.png",
         "assets/projects/mersa/screencapture-marsa-store-multi-vendor-test-customer-checkout-2026-11-14-12_49_41.png",
         "assets/projects/mersa/screencapture-marsa-store-multi-vendor-test-customer-categories-1-products-2026-11-14-12_56_20.png",
-        "assets/projects/mersa/Screenshot 2026-11-14 125606.png"
+        "assets/projects/mersa/Screenshot 2026-11-14 125606.png",
       ],
       metrics: [
         {
@@ -2580,8 +2589,9 @@
         en: "Automated content generation, prompt engineering, and real-time Markdown editor integrated with LLM APIs.",
         ar: "توليد تلقائي للمحتوى، وهندسة الأوامر الذكية، ومحرر Markdown فوري متصل بنماذج الذكاء الاصطناعي.",
       },
-      image: "assets/projects/write-ai/13.png",
+      image: "assets/projects/write-ai/hero-wite-ai.png",
       gallery: [
+        "assets/projects/write-ai/hero-wite-ai.png",
         "assets/projects/write-ai/13.png",
         "assets/projects/write-ai/14.png",
         "assets/projects/write-ai/15.png",
@@ -2589,8 +2599,7 @@
         "assets/projects/write-ai/17.png",
         "assets/projects/write-ai/18.png",
         "assets/projects/write-ai/19.png",
-        "assets/projects/write-ai/20.png",
-        "assets/projects/write-ai/ChatGPT Image Jul 29, 2026, 03_12_49 PM.png"
+        "assets/projects/write-ai/20.png"
       ],
       metrics: [
         {
@@ -2662,13 +2671,13 @@
         en: "Instant peer-to-peer and group messaging with live typing indicators and AI conversational assist.",
         ar: "محادثات فورية مباشرة وجماعية مع مؤشرات الكتابة الحية ومساعد ذكي للردود المحادثية.",
       },
-      image: "assets/projects/messenger/1.png",
+      image: "assets/projects/messenger/messenger_ai.png",
       gallery: [
+        "assets/projects/messenger/messenger_ai.png",
         "assets/projects/messenger/1.png",
         "assets/projects/messenger/942shots_so.png",
         "assets/projects/messenger/697shots_so.png",
         "assets/projects/messenger/396shots_so.png",
-        "assets/projects/messenger/messenger_ai.png",
         "assets/projects/messenger/5.png",
         "assets/projects/messenger/6.png",
         "assets/projects/messenger/7.png"
@@ -2752,7 +2761,7 @@
         "assets/projects/cms-techno-plus/25.png",
         "assets/projects/cms-techno-plus/4.png",
         "assets/projects/cms-techno-plus/6.png",
-        "assets/projects/cms-techno-plus/10.png"
+        "assets/projects/cms-techno-plus/10.png",
       ],
       metrics: [
         {
