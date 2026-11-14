@@ -1229,17 +1229,17 @@
     let twImageEl = document.querySelector('meta[name="twitter:image"]');
     let projectOgImages = {
       "lead-automation":
-        "https://www.mohammedjouda.com/assets/projects/ai-leads/ai-leads.webp",
+        "https://www.mohammedjouda.com/assets/projects/ai-leads/dashboard-ai-leads.png",
       "sprint-mind":
-        "https://www.mohammedjouda.com/assets/projects/sprint-mind/sprint-mind-hero.webp",
+        "https://www.mohammedjouda.com/assets/projects/sprint-mind/hero.png",
       messenger:
-        "https://www.mohammedjouda.com/assets/projects/messenger/messenger_ai.webp",
+        "https://www.mohammedjouda.com/assets/projects/messenger/1.png",
       "marsa-store":
         "https://www.mohammedjouda.com/assets/projects/mersa/mersa-hero.webp",
       "write-ai":
-        "https://www.mohammedjouda.com/assets/projects/write-ai/hero-write-ai.webp",
+        "https://www.mohammedjouda.com/assets/projects/write-ai/13.png",
       "techno-cms":
-        "https://www.mohammedjouda.com/assets/projects/cms-techno-plus/tecno-hero.webp",
+        "https://www.mohammedjouda.com/assets/projects/cms-techno-plus/22.png",
     };
     let targetOgImg =
       "https://www.mohammedjouda.com/assets/og/mohammed-jouda-og.jpg";
@@ -2329,8 +2329,14 @@
         en: "Turning unstructured leads into structured business workflows with Laravel, n8n, and Gemini.",
         ar: "تحويل رسائل العملاء غير المنظمة إلى مسارات عمل منظمة عبر Laravel و n8n و Gemini.",
       },
-      image: "assets/projects/ai-leads/ai-leads.webp",
-      gallery: ["assets/projects/ai-leads/ai-leads.webp"],
+      image: "assets/projects/ai-leads/dashboard-ai-leads.png",
+      gallery: [
+        "assets/projects/ai-leads/dashboard-ai-leads.png",
+        "assets/projects/ai-leads/624shots_so.png",
+        "assets/projects/ai-leads/277shots_so.png",
+        "assets/projects/ai-leads/170shots_so.png",
+        "assets/projects/ai-leads/Untitled-2026-05-28-1518.png"
+      ],
       metrics: [
         {
           value: "End-to-End",
@@ -2407,10 +2413,15 @@
         en: "Automating sprint planning, Markdown note task extraction, calendar auto-scheduling, and real-time sprint health check audits with Gemini 3.5.",
         ar: "أتمتة تخطيط السبرنتات، واستخراج المهام من الملاحظات، والجدولة التلقائية في التقويم، والتدقيق الفوري لصحة السبرنت بـ Gemini 3.5.",
       },
-      image: "assets/projects/sprint-mind/sprint-mind-hero.webp",
+      image: "assets/projects/sprint-mind/hero.png",
       gallery: [
-        "assets/projects/sprint-mind/sprint-mind-hero.webp",
-        "assets/projects/sprint-mind/sprint-mind-1.webp",
+        "assets/projects/sprint-mind/hero.png",
+        "assets/projects/sprint-mind/screencapture-sprintmind-ai-test-2026-11-14-11_45_43.png",
+        "assets/projects/sprint-mind/screencapture-sprintmind-ai-test-tasks-create-2026-11-14-11_36_52.png",
+        "assets/projects/sprint-mind/screencapture-sprintmind-ai-test-tasks-54-2026-11-14-11_40_12.png",
+        "assets/projects/sprint-mind/Screenshot 2026-11-14 112447.png",
+        "assets/projects/sprint-mind/Screenshot 2026-11-14 113731.png",
+        "assets/projects/sprint-mind/screencapture-sprintmind-ai-test-login-2026-11-14-11_18_58.png"
       ],
       metrics: [
         {
@@ -2490,7 +2501,15 @@
         ar: "معمارية خلفية قابلة للتوسع مع عزل بيانات التجار وإدارة الصلاحيات متعددة المستويات.",
       },
       image: "assets/projects/mersa/mersa-hero.webp",
-      gallery: ["assets/projects/mersa/mersa-hero.webp"],
+      gallery: [
+        "assets/projects/mersa/mersa-hero.webp",
+        "assets/projects/mersa/Screenshot 2026-11-14 115926.png",
+        "assets/projects/mersa/screencapture-marsa-store-multi-vendor-test-customer-product-26-2026-11-14-12_45_59.png",
+        "assets/projects/mersa/screencapture-marsa-store-multi-vendor-test-customer-store-4-2026-11-14-12_46_26.png",
+        "assets/projects/mersa/screencapture-marsa-store-multi-vendor-test-customer-checkout-2026-11-14-12_49_41.png",
+        "assets/projects/mersa/screencapture-marsa-store-multi-vendor-test-customer-categories-1-products-2026-11-14-12_56_20.png",
+        "assets/projects/mersa/Screenshot 2026-11-14 125606.png"
+      ],
       metrics: [
         {
           value: "Eager Load",
@@ -2561,8 +2580,18 @@
         en: "Automated content generation, prompt engineering, and real-time Markdown editor integrated with LLM APIs.",
         ar: "توليد تلقائي للمحتوى، وهندسة الأوامر الذكية، ومحرر Markdown فوري متصل بنماذج الذكاء الاصطناعي.",
       },
-      image: "assets/projects/write-ai/hero-write-ai.webp",
-      gallery: ["assets/projects/write-ai/hero-write-ai.webp"],
+      image: "assets/projects/write-ai/13.png",
+      gallery: [
+        "assets/projects/write-ai/13.png",
+        "assets/projects/write-ai/14.png",
+        "assets/projects/write-ai/15.png",
+        "assets/projects/write-ai/16.png",
+        "assets/projects/write-ai/17.png",
+        "assets/projects/write-ai/18.png",
+        "assets/projects/write-ai/19.png",
+        "assets/projects/write-ai/20.png",
+        "assets/projects/write-ai/ChatGPT Image Jul 29, 2026, 03_12_49 PM.png"
+      ],
       metrics: [
         {
           value: "< 2.5s",
@@ -2633,10 +2662,16 @@
         en: "Instant peer-to-peer and group messaging with live typing indicators and AI conversational assist.",
         ar: "محادثات فورية مباشرة وجماعية مع مؤشرات الكتابة الحية ومساعد ذكي للردود المحادثية.",
       },
-      image: "assets/projects/messenger/messenger_ai.webp",
+      image: "assets/projects/messenger/1.png",
       gallery: [
-        "assets/projects/messenger/messenger_ai.webp",
-        "assets/projects/messenger/396shots_so.webp",
+        "assets/projects/messenger/1.png",
+        "assets/projects/messenger/942shots_so.png",
+        "assets/projects/messenger/697shots_so.png",
+        "assets/projects/messenger/396shots_so.png",
+        "assets/projects/messenger/messenger_ai.png",
+        "assets/projects/messenger/5.png",
+        "assets/projects/messenger/6.png",
+        "assets/projects/messenger/7.png"
       ],
       metrics: [
         {
@@ -2708,10 +2743,16 @@
         en: "Reactive administrative content control built with Laravel, Filament, and Livewire for rapid workflows.",
         ar: "لوحة تحكم تفاعلية لإدارة المحتوى تعتمد على Laravel و Filament و Livewire لإدارة سريعة وخفيفة.",
       },
-      image: "assets/projects/cms-techno-plus/tecno-hero.webp",
+      image: "assets/projects/cms-techno-plus/22.png",
       gallery: [
-        "assets/projects/cms-techno-plus/tecno-hero.webp",
-        "assets/projects/cms-techno-plus/dashbord.webp",
+        "assets/projects/cms-techno-plus/22.png",
+        "assets/projects/cms-techno-plus/dashbord.png",
+        "assets/projects/cms-techno-plus/23.png",
+        "assets/projects/cms-techno-plus/24.png",
+        "assets/projects/cms-techno-plus/25.png",
+        "assets/projects/cms-techno-plus/4.png",
+        "assets/projects/cms-techno-plus/6.png",
+        "assets/projects/cms-techno-plus/10.png"
       ],
       metrics: [
         {
