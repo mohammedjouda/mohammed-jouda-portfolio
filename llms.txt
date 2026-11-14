@@ -2,7 +2,7 @@
 
 > محمد جودة (Mohammed Jouda) is a Backend & AI Integration Engineer specializing in Laravel, PHP, REST APIs, and practical AI integrations. مهندس تطوير خلفي وتكامل الذكاء الاصطناعي متخصص في بناء معمارية الأنظمة بـ Laravel و PHP والحلول الذكية.
 
-## Core Projects
+## Core Projects (English)
 - [AI Lead Triage & Automation System](https://www.mohammedjouda.com/projects/lead-automation): Turning unstructured incoming leads into structured business workflows with Laravel, n8n, and Gemini.
 - [SprintMind AI Workspace](https://www.mohammedjouda.com/projects/sprint-mind): AI-powered agile development tool with automated story generation and sprint management.
 - [AI-Powered Real-Time Messenger](https://www.mohammedjouda.com/projects/messenger): Real-time chat application with integrated AI assistance, WebSockets, and sentiment analysis.
@@ -10,8 +10,22 @@
 - [Write AI](https://www.mohammedjouda.com/projects/write-ai): AI blogging platform with automated SEO content generation and publishing pipelines.
 - [Techno Plus CMS](https://www.mohammedjouda.com/projects/techno-cms): Modular administrative CMS built on Laravel Filament, Livewire, and Alpine.js.
 
-## Professional Experience & Bio
+## Professional Experience & Bio (English)
 - [About Mohammed Jouda](https://www.mohammedjouda.com/about): Architecture principles, engineering standards, and background.
 - [Career Experience](https://www.mohammedjouda.com/career): Professional milestone timeline, training, and technical leadership.
 - [Verified Achievements](https://www.mohammedjouda.com/achievements): Academic degrees, Docker certifications, and engineering credentials.
 - [Contact Mohammed Jouda](https://www.mohammedjouda.com/contact): Direct communication and consultation inquiries.
+
+## Arabic Language Mirror | النسخة العربية الرسمية
+- [الرئيسية](https://www.mohammedjouda.com/ar): الصفحة الرئيسية باللغة العربية مع دعم كامل للـ RTL.
+- [عنّي والقدرات الهندسية](https://www.mohammedjouda.com/ar/about): المعايير الهندسية ومعمارية الـ Backend.
+- [المسيرة المهنية والخبرات](https://www.mohammedjouda.com/ar/career): جدول الخبرات والتدريبات التقنية وإدارة المشاريع.
+- [معرض المشاريع ودراسات الحالة](https://www.mohammedjouda.com/ar/projects): دراسات الحالة الهندسية الشاملة.
+- [الإنجازات والشهادات](https://www.mohammedjouda.com/ar/achievements): الشهادات الأكاديمية والاعتمادات التقنية الموثقة.
+- [تواصل معي للعمل](https://www.mohammedjouda.com/ar/contact): قنوات التواصل المباشر ونموذج الاستفسارات الهندسية.
+- [دراسة حالة: نظام AI لمعالجة العملاء المحتملين](https://www.mohammedjouda.com/ar/projects/lead-automation): أتمتة مسارات العمل وتوجيه العملاء عبر Laravel و n8n و Gemini.
+- [دراسة حالة: منظومة SprintMind AI](https://www.mohammedjouda.com/ar/projects/sprint-mind): منصة إدارة السبرنتات والتخطيط الذكي.
+- [دراسة حالة: تطبيق المراسلة الفورية بالذكاء الاصطناعي](https://www.mohammedjouda.com/ar/projects/messenger): دردشة فورية مع WebSockets ومساعد ذكي مدمج.
+- [دراسة حالة: متجر مرسى متعدد البائعين](https://www.mohammedjouda.com/ar/projects/marsa-store): منصة تجارة إلكترونية متعددة التجار في Laravel.
+- [دراسة حالة: منصة Write AI للتدوين الذكي](https://www.mohammedjouda.com/ar/projects/write-ai): أتمتة توليد المحتوى وتحسين SEO.
+- [دراسة حالة: منصة Techno Plus CMS](https://www.mohammedjouda.com/ar/projects/techno-cms): نظام إدارة محتوى معياري متطور بـ Laravel Filament.

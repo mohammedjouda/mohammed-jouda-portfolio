@@ -15,10 +15,14 @@
         } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
           document.documentElement.classList.remove('dark');
         }
-        var l = localStorage.getItem('portfolio_lang');
+        var p = window.location.pathname;
+        var l = (p === '/ar' || p.indexOf('/ar/') === 0) ? 'ar' : 'en';
         if (l === 'ar') {
           document.documentElement.setAttribute('dir', 'rtl');
           document.documentElement.setAttribute('lang', 'ar');
+        } else {
+          document.documentElement.setAttribute('dir', 'ltr');
+          document.documentElement.setAttribute('lang', 'en');
         }
       } catch (e) {}
     })();

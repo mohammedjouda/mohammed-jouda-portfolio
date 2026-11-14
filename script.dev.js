@@ -4,7 +4,7 @@
  */
 
 (function () {
-  'use strict';
+  "use strict";
 
   // --- Translation Dictionary (EN & AR) for Mohammed Jouda ---
   const i18n = {
@@ -16,8 +16,8 @@
         projects: "Mohammed Jouda | Featured Projects & Systems",
         achievements: "Mohammed Jouda | Achievements & Certifications",
         contact: "Mohammed Jouda | Get In Touch & Hire",
-        'project-detail': "Mohammed Jouda | Technical Case Study",
-        '404': "Mohammed Jouda | 404 - Page Not Found"
+        "project-detail": "Mohammed Jouda | Technical Case Study",
+        404: "Mohammed Jouda | 404 - Page Not Found",
       },
       navHome: "Home",
       navAbout: "About",
@@ -32,14 +32,19 @@
       downloadCv: "Download CV",
       viewWork: "View My Work",
       letsWorkTogether: "Let's Work Together",
-      heroBio: "I architect high-performance Laravel backends and integrate AI-driven automations. I help businesses eliminate operational bottlenecks, optimize database queries, and turn raw data into intelligent, scalable workflows.",
-      heroStack: "Laravel & PHP · REST APIs · AI Integration · Business Automation",
-      sectionLead: "Scalable backend systems, AI integrations, and automated workflows designed to solve concrete business problems.",
+      heroBio:
+        "I architect high-performance Laravel backends and integrate AI-driven automations. I help businesses eliminate operational bottlenecks, optimize database queries, and turn raw data into intelligent, scalable workflows.",
+      heroStack:
+        "Laravel & PHP · REST APIs · AI Integration · Business Automation",
+      sectionLead:
+        "Scalable backend systems, AI integrations, and automated workflows designed to solve concrete business problems.",
       projectsTitle: "Selected Projects",
-      projectsSubtitle: "Production-grade backend architectures, practical AI integrations, and real-time systems.",
+      projectsSubtitle:
+        "Production-grade backend architectures, practical AI integrations, and real-time systems.",
       exploreAll: "Explore all projects",
       aboutTitle: "About Me",
-      aboutSubtitle: "Who I am, what drives me, and the architectural principles I follow.",
+      aboutSubtitle:
+        "Who I am, what drives me, and the architectural principles I follow.",
       aboutSlide1Loc: "Gaza, Palestine • Tech Ecosystem",
       aboutSlide1Title: "Tech Presentations & Community Workshops",
       aboutSlide2Loc: "Jreas Lab • AI Workflows & Web Engineering",
@@ -52,7 +57,8 @@
       aboutSlide5Title: "Mohammed Jouda • Backend & AI Integration Engineer",
       workshopsChip: "Technical Trainer & AI Automation Mentor",
       workshopsTitle: "Technical Workshops & AI Training",
-      workshopsDesc: "Delivered 6 intensive technical workshops in Web Engineering, Business Automation, and AI Workflows at Jreas Lab. Instructed 160+ attendees including developers, freelancers, students, and business owners with outstanding participant feedback.",
+      workshopsDesc:
+        "Delivered 6 intensive technical workshops in Web Engineering, Business Automation, and AI Workflows at Jreas Lab. Instructed 160+ attendees including developers, freelancers, students, and business owners with outstanding participant feedback.",
       wStat1Label: "Workshops Delivered",
       wStat1Sub: "Web Dev & AI Automation",
       wStat2Label: "Total Attendees",
@@ -77,32 +83,46 @@
       aboutMetric4Sub: "Documented via Swagger",
       aboutPhilEyebrow: "CORE PRINCIPLES",
       aboutPhilTitle: "Architectural Philosophy & Standards",
-      aboutPhilSubtitle: "Engineering standards that guarantee resilience, speed, and clean code maintainability.",
+      aboutPhilSubtitle:
+        "Engineering standards that guarantee resilience, speed, and clean code maintainability.",
       philPerfTitle: "Performance & Scalability",
-      philPerfDesc: "Query optimization, database indexing, Redis caching, and async queues to deliver sub-100ms API response times.",
+      philPerfDesc:
+        "Query optimization, database indexing, Redis caching, and async queues to deliver sub-100ms API response times.",
       philSecTitle: "Information Security",
-      philSecDesc: "Hardened RBAC, OAuth, 2FA, sanitized endpoints, and strict data protection by design.",
+      philSecDesc:
+        "Hardened RBAC, OAuth, 2FA, sanitized endpoints, and strict data protection by design.",
       philAiTitle: "Practical AI Integration",
-      philAiDesc: "Leveraging LLM APIs, structured JSON schemas, and context handling to build reliable, high-value workflows.",
+      philAiDesc:
+        "Leveraging LLM APIs, structured JSON schemas, and context handling to build reliable, high-value workflows.",
       philArchTitle: "Clean Architecture",
-      philArchDesc: "Adherence to SOLID, decoupled service layers, and event-driven patterns that make codebases a joy to scale.",
+      philArchDesc:
+        "Adherence to SOLID, decoupled service layers, and event-driven patterns that make codebases a joy to scale.",
       whatIBuildTitle: "What I Build",
-      whatIBuildSubtitle: "High-reliability backend architectures, practical AI integrations, and automated workflows designed to solve concrete business problems.",
+      whatIBuildSubtitle:
+        "High-reliability backend architectures, practical AI integrations, and automated workflows designed to solve concrete business problems.",
       srvBackendTitle: "Backend Systems",
-      srvBackendDesc: "Scalable Laravel and PHP backends, REST APIs, authentication, role-based access control, databases, queues, and third-party integrations.",
+      srvBackendDesc:
+        "Scalable Laravel and PHP backends, REST APIs, authentication, role-based access control, databases, queues, and third-party integrations.",
       srvAiTitle: "AI Integration",
-      srvAiDesc: "Practical AI features built into real applications using LLM APIs, structured outputs, context-aware workflows, and application-level AI logic.",
+      srvAiDesc:
+        "Practical AI features built into real applications using LLM APIs, structured outputs, context-aware workflows, and application-level AI logic.",
       srvAutoTitle: "Business Automation",
-      srvAutoDesc: "Automated workflows that connect business tools, APIs, databases, and AI to reduce repetitive work and improve how information moves through a business.",
+      srvAutoDesc:
+        "Automated workflows that connect business tools, APIs, databases, and AI to reduce repetitive work and improve how information moves through a business.",
       srvAppsTitle: "AI-Powered Applications",
-      srvAppsDesc: "Applications where AI is part of the product itself — from intelligent assistants and communication tools to automated lead processing and internal workflows.",
+      srvAppsDesc:
+        "Applications where AI is part of the product itself — from intelligent assistants and communication tools to automated lead processing and internal workflows.",
       featWorkBadge: "FEATURED WORK",
       featLeadTitle: "AI Lead Triage & Automation System",
-      featLeadSubtitle: "Turning unstructured leads into structured business workflows",
-      featLeadDesc: "Built an automation system that receives leads from different sources, processes them through a Laravel backend and queue, sends them to n8n for orchestration, and uses Gemini to analyze and structure the lead information.",
+      featLeadSubtitle:
+        "Turning unstructured leads into structured business workflows",
+      featLeadDesc:
+        "Built an automation system that receives leads from different sources, processes them through a Laravel backend and queue, sends them to n8n for orchestration, and uses Gemini to analyze and structure the lead information.",
       featWorkflowHeading: "System Architecture & Workflow",
-      featWorkflowFlow: "Lead → Laravel → Queue → n8n → Gemini → Structured Analysis → Laravel → Dashboard / Notifications",
-      featLeadSummary: "The AI supports the decision-making process rather than making the final business decision, providing intent classification, urgency estimation, and concise summaries.",
+      featWorkflowFlow:
+        "Lead → Laravel → Queue → n8n → Gemini → Structured Analysis → Laravel → Dashboard / Notifications",
+      featLeadSummary:
+        "The AI supports the decision-making process rather than making the final business decision, providing intent classification, urgency estimation, and concise summaries.",
       featLeadCta: "View Case Study",
       filterAllSkills: "All",
       filterBackend: "Backend & APIs",
@@ -111,11 +131,14 @@
       filterDevops: "DevOps & Tools",
       aboutCtaReadyBadge: "Ready to Build Scalable Systems",
       aboutCtaHeading: "Have a System You Want to Build or Automate?",
-      aboutCtaDesc: "Tell me what you're trying to improve. I can help with backend architecture, AI integration, API development, or business automation.",
+      aboutCtaDesc:
+        "Tell me what you're trying to improve. I can help with backend architecture, AI integration, API development, or business automation.",
       skillsTitle: "Engineering Capabilities",
-      skillsSubtitle: "Backend development, AI integrations, automations, and engineering practices.",
+      skillsSubtitle:
+        "Backend development, AI integrations, automations, and engineering practices.",
       achievementsTitle: "Achievements & Certifications",
-      achievementsSubtitle: "A curated collection of certificates and badges earned throughout my professional and academic journey.",
+      achievementsSubtitle:
+        "A curated collection of certificates and badges earned throughout my professional and academic journey.",
       viewCertificate: "View Certificate",
       certTypeLabel: "TYPE",
       certCategoryLabel: "CATEGORY",
@@ -123,17 +146,22 @@
       credentialUrlBtn: "Credential URL",
       certCareerLabel: "CAREER",
       careerTitle: "Professional Experience",
-      careerSubtitle: "My engineering journey, practical contributions, and impactful systems.",
+      careerSubtitle:
+        "My engineering journey, practical contributions, and impactful systems.",
       testimonialsTitle: "Testimonials",
-      testimonialsSubtitle: "Observations from academic faculty, mentors, and enterprise project leads.",
+      testimonialsSubtitle:
+        "Observations from academic faculty, mentors, and enterprise project leads.",
       degreeHonor: "Bachelor Degree - 83.92% (Very Good / Honors)",
       tarekRole: "Project Lead & Enterprise Client",
-      tarekQuote: "He was committed, responsive, and capable of working through technical challenges to reach a working solution. He paid great attention to code quality and delivering a reliable system.",
+      tarekQuote:
+        "He was committed, responsive, and capable of working through technical challenges to reach a working solution. He paid great attention to code quality and delivering a reliable system.",
       alaaRole: "Senior Backend Mentor — UCASTI",
-      alaaQuote: "Mohammed demonstrated strong technical skills, a willingness to learn, and the ability to turn requirements into practical solutions; deeply committed to clean code and SOLID principles.",
+      alaaQuote:
+        "Mohammed demonstrated strong technical skills, a willingness to learn, and the ability to turn requirements into practical solutions; deeply committed to clean code and SOLID principles.",
       leadCategory: "AI Automation & Backend",
       leadTitle: "AI Lead Triage & Automation System",
-      leadSummary: "A zero-touch lead routing system. Ingests unstructured inbound queries, orchestrates them via n8n, and utilizes Gemini to classify intent and urgency before pushing structured data back to Laravel.",
+      leadSummary:
+        "A zero-touch lead routing system. Ingests unstructured inbound queries, orchestrates them via n8n, and utilizes Gemini to classify intent and urgency before pushing structured data back to Laravel.",
       leadOrigin: "FEATURED: AI Automation & Laravel Queues",
       leadH1: "✓ End-to-End Async Queue Processing (Laravel & Redis)",
       leadH2: "✓ n8n Orchestration with Google Gemini Structured Output",
@@ -141,74 +169,97 @@
       badgeAgileAi: "Agile AI SaaS",
       sprintMindCategory: "AI-Powered Project Management & Agile Workspace",
       sprintMindTitle: "SprintMind AI — AI-Powered Agile Scrum Workspace",
-      sprintMindSummary: "Advanced Agile Scrum workspace built on Laravel 13 integrating Google Gemini AI to automate sprint planning, Markdown note task extraction, calendar auto-scheduling, and real-time sprint health check audits.",
+      sprintMindSummary:
+        "Advanced Agile Scrum workspace built on Laravel 13 integrating Google Gemini AI to automate sprint planning, Markdown note task extraction, calendar auto-scheduling, and real-time sprint health check audits.",
       sprintMindOrigin: "FEATURED: Laravel 13 & Gemini 3.5 Flash",
       sprintMindH1: "✓ Automated Gemini 3.5 Sprint Planning & Task Extraction",
       sprintMindH2: "✓ FullCalendar.js Auto-Scheduler with Capacity Heatmaps",
       sprintMindH3: "✓ Comprehensive Pest PHP Automated Test Suite",
       messengerCategory: "Real-Time Systems & AI",
       messengerTitle: "AI-Powered Real-Time Communication System",
-      messengerSummary: "A real-time messaging platform built with Laravel and Vue where AI is integrated directly into the communication experience. Combines WebSockets, live indicators, 2FA, and an AI conversational assistant.",
+      messengerSummary:
+        "A real-time messaging platform built with Laravel and Vue where AI is integrated directly into the communication experience. Combines WebSockets, live indicators, 2FA, and an AI conversational assistant.",
       messengerOrigin: "CAREER: Real-Time WebSockets & AI",
       messengerH1: "✓ WebSockets & Laravel Echo Live Broadcasting",
       messengerH2: "✓ Decoupled Conversational AI Assistant Layer",
       messengerH3: "✓ Vue 3 Composition API & Reactive State Architecture",
       marsaCategory: "E-Commerce & Multi-Vendor",
       marsaTitle: "Marsa Store — Multi-Vendor Marketplace",
-      marsaSummary: "A production-ready multi-vendor e-commerce architecture. Solved severe database bottlenecks and ensured strict data isolation across concurrent tenant sessions.",
+      marsaSummary:
+        "A production-ready multi-vendor e-commerce architecture. Solved severe database bottlenecks and ensured strict data isolation across concurrent tenant sessions.",
       marsaOrigin: "EDUCATION: Graduation Project (83.92%)",
       marsaH1: "✓ Multi-Vendor Product & Order Data Isolation",
       marsaH2: "✓ Role-Based Access Control (RBAC), OAuth & 2FA",
       marsaH3: "✓ Eager Loading & Database Indexing Optimization",
       writeaiCategory: "AI SaaS & Content Workflows",
       writeaiTitle: "Write AI — AI-Powered Blog Application",
-      writeaiSummary: "An intelligent SaaS blogging platform that merges traditional CMS functionality with automated AI content workflows. Engineered with decoupled background workers to prevent third-party LLM API latency.",
+      writeaiSummary:
+        "An intelligent SaaS blogging platform that merges traditional CMS functionality with automated AI content workflows. Engineered with decoupled background workers to prevent third-party LLM API latency.",
       writeaiOrigin: "CERTIFICATES: AI Capstone @ UCASTI 90h",
       writeaiH1: "✓ LLM Prompt Engineering & Context Injection",
       writeaiH2: "✓ Automated Meta Generation & SEO Optimization",
       writeaiH3: "✓ Reactive Markdown Editor with Background Workers",
       technoCategory: "Enterprise CMS & Admin",
       technoTitle: "Techno Plus Modular CMS Platform",
-      technoSummary: "A content management system built with Laravel, Livewire, and Filament with a focus on administrative workflows, role-based access, and a smooth application experience without unnecessary page reloads.",
+      technoSummary:
+        "A content management system built with Laravel, Livewire, and Filament with a focus on administrative workflows, role-based access, and a smooth application experience without unnecessary page reloads.",
       technoOrigin: "CAREER: Filament CMS Platform",
       technoH1: "✓ Filament Resource Scaffolding & Custom Tables",
       technoH2: "✓ Livewire Reactive Components without JS Bloat",
 
-      aboutHeadline: "Architecting Systems That Scale. Automating Workflows That Matter.",
-      aboutP1: "I am a Backend & AI Integration Engineer focused on building robust server-side architectures and intelligent business automations. My core expertise lies in PHP and Laravel, where I design secure REST APIs, implement Role-Based Access Control (RBAC), and optimize database performance to resolve complex N+1 bottlenecks.",
-      aboutP2: "Beyond traditional backend development, I specialize in treating AI as a practical engineering capability. I integrate Large Language Models (like Google Gemini and OpenAI) and automation platforms (n8n) directly into web applications to streamline repetitive tasks and parse unstructured data into structured JSON schemas.",
-      aboutP3: "With a Bachelor's degree in Web Technology & Information Security (Honors), I prioritize clean code (SOLID principles), robust queuing systems (Redis), and secure architectures from day one.",
+      aboutHeadline:
+        "Architecting Systems That Scale. Automating Workflows That Matter.",
+      aboutP1:
+        "I am a Backend & AI Integration Engineer focused on building robust server-side architectures and intelligent business automations. My core expertise lies in PHP and Laravel, where I design secure REST APIs, implement Role-Based Access Control (RBAC), and optimize database performance to resolve complex N+1 bottlenecks.",
+      aboutP2:
+        "Beyond traditional backend development, I specialize in treating AI as a practical engineering capability. I integrate Large Language Models (like Google Gemini and OpenAI) and automation platforms (n8n) directly into web applications to streamline repetitive tasks and parse unstructured data into structured JSON schemas.",
+      aboutP3:
+        "With a Bachelor's degree in Web Technology & Information Security (Honors), I prioritize clean code (SOLID principles), robust queuing systems (Redis), and secure architectures from day one.",
       whyWorkTitle: "Why Work With Me",
       whyWorkHeading: "Backend-first engineering with practical AI integration",
-      whyWorkDesc: "I combine backend engineering fundamentals with modern AI and automation tools. That means I don't just connect an AI API and call it a feature. I think about the complete system around it: Input → Validation → Processing → AI → Business Logic → Storage → Monitoring → Human Review. The goal is to build something that works as part of a real product or business process.",
+      whyWorkDesc:
+        "I combine backend engineering fundamentals with modern AI and automation tools. That means I don't just connect an AI API and call it a feature. I think about the complete system around it: Input → Validation → Processing → AI → Business Logic → Storage → Monitoring → Human Review. The goal is to build something that works as part of a real product or business process.",
       howIWorkTitle: "How I Work",
       howStep1Title: "01 — Understand",
-      howStep1Desc: "First, I understand the business problem, existing workflow, users, and constraints.",
+      howStep1Desc:
+        "First, I understand the business problem, existing workflow, users, and constraints.",
       howStep2Title: "02 — Design",
-      howStep2Desc: "I define the system architecture, data flow, integrations, and responsibilities of each component.",
+      howStep2Desc:
+        "I define the system architecture, data flow, integrations, and responsibilities of each component.",
       howStep3Title: "03 — Build",
-      howStep3Desc: "I implement the backend, APIs, integrations, AI components, and automation workflows.",
+      howStep3Desc:
+        "I implement the backend, APIs, integrations, AI components, and automation workflows.",
       howStep4Title: "04 — Validate",
-      howStep4Desc: "I test the system, handle failure cases, validate AI outputs, and make sure the workflow behaves reliably.",
+      howStep4Desc:
+        "I test the system, handle failure cases, validate AI outputs, and make sure the workflow behaves reliably.",
       howStep5Title: "05 — Improve",
-      howStep5Desc: "After the core system works, I look for opportunities to improve performance, reliability, usability, and maintainability.",
+      howStep5Desc:
+        "After the core system works, I look for opportunities to improve performance, reliability, usability, and maintainability.",
       whoIWorkTitle: "Who I Work With",
       whoStartups: "Startups",
-      whoStartupsDesc: "Build the backend and technical foundation needed to turn an idea into a working product.",
+      whoStartupsDesc:
+        "Build the backend and technical foundation needed to turn an idea into a working product.",
       whoBusinesses: "Businesses",
-      whoBusinessesDesc: "Automate repetitive processes and connect disconnected tools and workflows.",
+      whoBusinessesDesc:
+        "Automate repetitive processes and connect disconnected tools and workflows.",
       whoTeams: "Software Teams",
-      whoTeamsDesc: "Extend existing backend systems, build APIs, integrate AI services, or contribute to Laravel/PHP projects.",
+      whoTeamsDesc:
+        "Extend existing backend systems, build APIs, integrate AI services, or contribute to Laravel/PHP projects.",
       whoFounders: "Founders & Product Teams",
-      whoFoundersDesc: "Turn a product requirement into a reliable technical system.",
+      whoFoundersDesc:
+        "Turn a product requirement into a reliable technical system.",
       eduTitle: "Bachelor of Web Technology & Information Security",
-      eduSub: "Palestine Technical College | Gaza, Palestine - GPA: 83.92% (Very Good / Honors)",
+      eduSub:
+        "Palestine Technical College | Gaza, Palestine - GPA: 83.92% (Very Good / Honors)",
       career1Role: "Backend Developer Trainee — Laravel & AI Integration",
-      career1Desc: "Intensive 120-hour program in Laravel ecosystem, decoupled AI micro-services, and enterprise SOLID patterns.",
+      career1Desc:
+        "Intensive 120-hour program in Laravel ecosystem, decoupled AI micro-services, and enterprise SOLID patterns.",
       career2Role: "Full Stack Developer (Trainee)",
-      career2Desc: "Documented 40+ RESTful APIs (Swagger) and diagnosed query execution plans to reduce latency.",
+      career2Desc:
+        "Documented 40+ RESTful APIs (Swagger) and diagnosed query execution plans to reduce latency.",
       career3Role: "Backend Development & Web Projects",
-      career3Desc: "Normalized MySQL schemas and transactional webhook handlers, improving lead turnaround times by 35% through automated routing.",
+      career3Desc:
+        "Normalized MySQL schemas and transactional webhook handlers, improving lead turnaround times by 35% through automated routing.",
       careerHeroBadge: "Verified Engineering Experience",
       careerActionCv: "Download Full CV (PDF)",
       careerActionHire: "Discuss Opportunities",
@@ -241,25 +292,31 @@
       careerDeepDiveBtn: "Technical Architecture & Deep-Dive",
       careerDeepDiveClose: "Hide Architecture Details",
       careerFoundationsTitle: "Academic Foundations & Growth Programs",
-      careerFoundationsSub: "Formal web technology & information security degree paired with competitive talent acceleration fellowships.",
+      careerFoundationsSub:
+        "Formal web technology & information security degree paired with competitive talent acceleration fellowships.",
       careerEducationHeading: "Academic Degree & Selective Growth Programs",
       eduDegreeTitle: "Bachelor of Web Technology & Information Security",
-      eduDegreeDesc: "Comprehensive engineering education covering distributed web architectures, relational database modeling, network defense, secure cryptography, and modern software engineering principles.",
+      eduDegreeDesc:
+        "Comprehensive engineering education covering distributed web architectures, relational database modeling, network defense, secure cryptography, and modern software engineering principles.",
       degreeConferredStatus: "Degree Conferred",
       eduHonorGpa: "GPA: 83.92% (Very Good / Honors)",
       eduMajorSecurity: "Web Security & Cryptography",
       eduRelationalDb: "Relational Data Systems (MySQL)",
       capstoneBadgeTitle: "Graduation Capstone Project • Grade: 83.92%",
       capstoneProjectTitle: "Marsa Store - Multi-Vendor Marketplace Platform",
-      capstoneProjectSummary: "Architected a production-ready multi-vendor e-commerce platform in Laravel with tenant vendor isolation, Role-Based Access Control (RBAC), multi-currency dynamic listings, and optimized database query plans.",
+      capstoneProjectSummary:
+        "Architected a production-ready multi-vendor e-commerce platform in Laravel with tenant vendor isolation, Role-Based Access Control (RBAC), multi-currency dynamic listings, and optimized database query plans.",
       capstoneViewCaseBtn: "Explore Project Case Study",
       taqatTitle: "Tech Ecosystem & Talent Acceleration Fellow",
-      taqatSummary: "Selected for intensive talent programs focused on cutting-edge software development practices, cross-border freelance collaboration, code reviews, and agile engineering workflows.",
+      taqatSummary:
+        "Selected for intensive talent programs focused on cutting-edge software development practices, cross-border freelance collaboration, code reviews, and agile engineering workflows.",
       fellowshipStatus: "Selective Fellowship",
       careerEndorsementsTitle: "Mentorship & Client Endorsements",
-      careerEndorsementsSub: "Observations from academic faculty and enterprise project leads.",
+      careerEndorsementsSub:
+        "Observations from academic faculty and enterprise project leads.",
       careerCtaTitle: "Need an Engineer Who Delivers Reliable Systems?",
-      careerCtaSubtitle: "Available for backend engineering, API development, AI integration, and workflow automations.",
+      careerCtaSubtitle:
+        "Available for backend engineering, API development, AI integration, and workflow automations.",
       careerCtaBtn: "Start a Conversation",
       careerCtaCv: "Download Resume (PDF)",
       locationRemote: "International Remote",
@@ -277,34 +334,52 @@
       career3Metric2: "+35% Lead Conversion Efficiency",
       career3Metric3: "Strict Role-Based Access Control (RBAC)",
       careerAccomplishmentsHeading: "Key Technical Accomplishments",
-      career1Bullet1: "Mastered advanced Laravel 11 ecosystem capabilities including asynchronous Queues, Event Broadcasting (WebSockets), and Livewire for reactive, server-rendered UIs.",
-      career1Bullet2: "Architected decoupled AI micro-service layers connecting external LLM APIs (OpenAI / Gemini), automating prompt optimization, context ingestion, and structured JSON parsing.",
-      career1Bullet3: "Implemented Clean Code and enterprise SOLID design patterns, repository abstractions, and automated test coverage matching international engineering standards.",
+      career1Bullet1:
+        "Mastered advanced Laravel 11 ecosystem capabilities including asynchronous Queues, Event Broadcasting (WebSockets), and Livewire for reactive, server-rendered UIs.",
+      career1Bullet2:
+        "Architected decoupled AI micro-service layers connecting external LLM APIs (OpenAI / Gemini), automating prompt optimization, context ingestion, and structured JSON parsing.",
+      career1Bullet3:
+        "Implemented Clean Code and enterprise SOLID design patterns, repository abstractions, and automated test coverage matching international engineering standards.",
       career1DecTitle1: "Core Engineering Decisions",
-      career1DecDesc1: "Decoupled AI interactions behind dedicated Service Providers and Job Queues to prevent slow third-party LLM response times from blocking the HTTP request-response lifecycle. Integrated exponential backoff retries and payload fallback handlers.",
+      career1DecDesc1:
+        "Decoupled AI interactions behind dedicated Service Providers and Job Queues to prevent slow third-party LLM response times from blocking the HTTP request-response lifecycle. Integrated exponential backoff retries and payload fallback handlers.",
       career1DecTitle2: "Framework & Tooling Deep Dive",
-      career1DecDesc2: "Utilized Laravel 11 streamlined bootstrap routing, PHP 8.3 typed properties and match expressions, Pest PHP automated testing suites, and Docker containerized development environments for reproducible deployments.",
-      career2Bullet1: "Built and documented 40+ secure RESTful endpoints with granular request validation, JWT authentication, and standardized JSON:API envelope structures using Swagger and Postman.",
-      career2Bullet2: "Diagnosed query execution plans via Laravel Telescope & Debugbar; solved severe N+1 bottlenecks with eager loading and indexed compound foreign keys, slashing database wait times by 20%.",
-      career2Bullet3: "Coordinated smoothly with frontend UI/UX engineers and QA testers in Git feature-branch workflows, pull-request code reviews, and daily standups.",
+      career1DecDesc2:
+        "Utilized Laravel 11 streamlined bootstrap routing, PHP 8.3 typed properties and match expressions, Pest PHP automated testing suites, and Docker containerized development environments for reproducible deployments.",
+      career2Bullet1:
+        "Built and documented 40+ secure RESTful endpoints with granular request validation, JWT authentication, and standardized JSON:API envelope structures using Swagger and Postman.",
+      career2Bullet2:
+        "Diagnosed query execution plans via Laravel Telescope & Debugbar; solved severe N+1 bottlenecks with eager loading and indexed compound foreign keys, slashing database wait times by 20%.",
+      career2Bullet3:
+        "Coordinated smoothly with frontend UI/UX engineers and QA testers in Git feature-branch workflows, pull-request code reviews, and daily standups.",
       career2DecTitle1: "API Design & Security",
-      career2DecDesc1: "Authored comprehensive API specifications adhering to OpenAPI 3.0 standards. Hardened endpoints with rate limiting, sanitization middleware, and scoped API tokens to prevent malicious payload attacks.",
+      career2DecDesc1:
+        "Authored comprehensive API specifications adhering to OpenAPI 3.0 standards. Hardened endpoints with rate limiting, sanitization middleware, and scoped API tokens to prevent malicious payload attacks.",
       career2DecTitle2: "Performance Profiling",
-      career2DecDesc2: "Replaced repetitive database queries with multi-layer Redis caching. Set up tag-based cache invalidation so customer listings immediately update without sacrificing sub-50ms cache read latencies.",
-      career3Bullet1: "Modeled a normalized relational MySQL schema indexing thousands of dynamic listing attributes, multi-currency rates, and historic client interactions with zero schema locking.",
-      career3Bullet2: "Engineered a multi-tenant Role-Based Access Control (RBAC) policy layer protecting private client documents, contract PDFs, and financial lead pipelines with audit logging.",
-      career3Bullet3: "Constructed reactive administration consoles and transactional webhook handlers, accelerating client inquiry response times by 35%.",
+      career2DecDesc2:
+        "Replaced repetitive database queries with multi-layer Redis caching. Set up tag-based cache invalidation so customer listings immediately update without sacrificing sub-50ms cache read latencies.",
+      career3Bullet1:
+        "Modeled a normalized relational MySQL schema indexing thousands of dynamic listing attributes, multi-currency rates, and historic client interactions with zero schema locking.",
+      career3Bullet2:
+        "Engineered a multi-tenant Role-Based Access Control (RBAC) policy layer protecting private client documents, contract PDFs, and financial lead pipelines with audit logging.",
+      career3Bullet3:
+        "Constructed reactive administration consoles and transactional webhook handlers, accelerating client inquiry response times by 35%.",
       career3DecTitle1: "Database Integrity & Indexing",
-      career3DecDesc1: "Designed clean B-tree indices on frequent search filters (location, price bracket, status). Used foreign key cascade rules and database transactions (ACID) to ensure 100% data consistency across concurrent leads.",
+      career3DecDesc1:
+        "Designed clean B-tree indices on frequent search filters (location, price bracket, status). Used foreign key cascade rules and database transactions (ACID) to ensure 100% data consistency across concurrent leads.",
       career3DecTitle2: "Client Satisfaction & Impact",
-      career3DecDesc2: "Delivered the project on time and within budget. Client praise confirmed that automated lead distribution webhooks eliminated manual forwarding, cutting lead turnaround times from hours to seconds.",
+      career3DecDesc2:
+        "Delivered the project on time and within budget. Client praise confirmed that automated lead distribution webhooks eliminated manual forwarding, cutting lead turnaround times from hours to seconds.",
       tawjihiTitle: "General Secondary Education - Tawjihi",
-      tawjihiDesc: "The general secondary education certificate is the final preparatory stage to enter university.",
+      tawjihiDesc:
+        "The general secondary education certificate is the final preparatory stage to enter university.",
       tawjihiStream: "Scientific Stream",
       contactTitle: "Let's Build or Automate Your Next System.",
-      contactSubtitle: "Whether you are facing performance bottlenecks in your current Laravel application, need a secure REST API from scratch, or want to automate manual business processes using AI and n8n — let's discuss the technical solution.",
+      contactSubtitle:
+        "Whether you are facing performance bottlenecks in your current Laravel application, need a secure REST API from scratch, or want to automate manual business processes using AI and n8n — let's discuss the technical solution.",
       statusAvailableTitle: "Available for New Opportunities",
-      statusAvailableSub: "Open to high-impact backend contracts, business automation systems, and engineering roles.",
+      statusAvailableSub:
+        "Open to high-impact backend contracts, business automation systems, and engineering roles.",
       statusResponseTime: "Reply time: under 24 hours",
       statusTimezone: "UTC+2 (Gaza / Palestine)",
       directEmail: "Direct Email",
@@ -314,16 +389,19 @@
       connectSocial: "Professional Networks",
       directMessageTitle: "Send Direct Message",
       reachOut: "Have a project or problem to solve?",
-      contactText: "Tell me what you're trying to build, improve, or automate. Let's discuss the problem first.",
+      contactText:
+        "Tell me what you're trying to build, improve, or automate. Let's discuss the problem first.",
       basedIn: "Location",
       formName: "Your Name",
       formEmail: "Email Address",
       formSubject: "Project or Company Name",
       formMsg: "What are you looking to build or automate?",
       sendMsg: "Send Message",
-      msgSent: "Thank you! Your message has been sent successfully. I will get back to you shortly.",
+      msgSent:
+        "Thank you! Your message has been sent successfully. I will get back to you shortly.",
       sendingMsg: "Sending message...",
-      msgError: "Failed to send message. Please reach out directly at mohammedjouda02@gmail.com or via WhatsApp.",
+      msgError:
+        "Failed to send message. Please reach out directly at mohammedjouda02@gmail.com or via WhatsApp.",
       quickConsultText: "Need a direct technical discussion?",
       quickConsultLink: "Chat on WhatsApp →",
       searchTrigger: "Search or jump to...",
@@ -380,7 +458,8 @@
       systemPerformanceTitle: "Architectural Impact & Verified Metrics",
       engineeringHighlightsTitle: "Key Engineering Highlights",
       ctaProjectTitle: "Ready to Build a Reliable System?",
-      ctaProjectDesc: "Let's collaborate to architect scalable, resilient backend workflows tailored to your business goals.",
+      ctaProjectDesc:
+        "Let's collaborate to architect scalable, resilient backend workflows tailored to your business goals.",
       badgeGraduation: "Graduation Project",
       badgeAICapstone: "AI Capstone",
       badgeRealTime: "Real-Time System",
@@ -398,16 +477,19 @@
       filterAi: "AI & Automation",
       filterCms: "Laravel & Filament",
       emptyProjectsTitle: "No projects match this category",
-      emptyProjectsDesc: "Try selecting another category or view all available engineering case studies.",
+      emptyProjectsDesc:
+        "Try selecting another category or view all available engineering case studies.",
       resetFilter: "View All Projects",
       notFoundTag: "Error 404 • Not Found",
       notFoundTitle: "Route Not Found",
-      notFoundSubtitle: "The page or case study you're looking for doesn't exist, has been relocated, or the link is broken.",
+      notFoundSubtitle:
+        "The page or case study you're looking for doesn't exist, has been relocated, or the link is broken.",
       returnHome: "Back to Home",
       exploreProjects: "Explore Projects",
       contactMe: "Contact Me",
-      notFoundHint: "Tip: Press Ctrl + K to open Command Palette and jump anywhere across the portfolio.",
-      backToTop: "Back to top"
+      notFoundHint:
+        "Tip: Press Ctrl + K to open Command Palette and jump anywhere across the portfolio.",
+      backToTop: "Back to top",
     },
     ar: {
       pageTitles: {
@@ -417,8 +499,8 @@
         projects: "محمد جودة | معرض المشاريع ودراسات الحالة",
         achievements: "محمد جودة | الإنجازات والشهادات",
         contact: "محمد جودة | تواصل معي للعمل",
-        'project-detail': "محمد جودة | تفاصيل دراسة الحالة",
-        '404': "محمد جودة | 404 - الصفحة غير موجودة"
+        "project-detail": "محمد جودة | تفاصيل دراسة الحالة",
+        404: "محمد جودة | 404 - الصفحة غير موجودة",
       },
       navHome: "الرئيسية",
       navAbout: "عنّي",
@@ -433,18 +515,24 @@
       downloadCv: "تحميل السيرة الذاتية",
       viewWork: "شاهد مشاريعي",
       letsWorkTogether: "لنتحدث عن مشروعك",
-      heroBio: "أبني وأهندس أنظمة Laravel خلفية عالية الأداء وأدمج حلول الأتمتة بالذكاء الاصطناعي. أساعد الشركات في التخلص من الاختناقات التشغيلية، وتحسين استعلامات قواعد البيانات، وتحويل البيانات الأولية إلى مسارات عمل ذكية وقابلة للتوسع.",
-      heroStack: "Laravel & PHP · REST APIs · AI Integration · Business Automation",
-      sectionLead: "أنظمة Backend موثوقة، دمج عملي للذكاء الاصطناعي، وأتمتة مسارات العمل لحل مشاكل برمجية وتجارية فعلية.",
+      heroBio:
+        "أبني وأهندس أنظمة Laravel خلفية عالية الأداء وأدمج حلول الأتمتة بالذكاء الاصطناعي. أساعد الشركات في التخلص من الاختناقات التشغيلية، وتحسين استعلامات قواعد البيانات، وتحويل البيانات الأولية إلى مسارات عمل ذكية وقابلة للتوسع.",
+      heroStack:
+        "Laravel & PHP · REST APIs · AI Integration · Business Automation",
+      sectionLead:
+        "أنظمة Backend موثوقة، دمج عملي للذكاء الاصطناعي، وأتمتة مسارات العمل لحل مشاكل برمجية وتجارية فعلية.",
       projectsTitle: "مشاريع مختارة",
-      projectsSubtitle: "أنظمة Backend بمستوى إنتاجي، حلول الذكاء الاصطناعي العملية، والأنظمة الفورية.",
+      projectsSubtitle:
+        "أنظمة Backend بمستوى إنتاجي، حلول الذكاء الاصطناعي العملية، والأنظمة الفورية.",
       exploreAll: "استكشف كافة المشاريع",
       aboutTitle: "عنّي",
       aboutSubtitle: "من أنا، وما الذي يلهمني، والمبادئ الهندسية التي أتبعها.",
       aboutSlide1Loc: "غزة، فلسطين • البيئة التقنية وريادة الأعمال",
       aboutSlide1Title: "محاضرات تقنية وورش عمل برمجية للمجتمع التقني",
-      aboutSlide2Loc: "مختبر جريس (Jreas Lab) • مسارات الذكاء الاصطناعي وهندسة الويب",
-      aboutSlide2Title: "عرض تقديمي في أتمتة الأعمال وبناء مسارات الذكاء الاصطناعي",
+      aboutSlide2Loc:
+        "مختبر جريس (Jreas Lab) • مسارات الذكاء الاصطناعي وهندسة الويب",
+      aboutSlide2Title:
+        "عرض تقديمي في أتمتة الأعمال وبناء مسارات الذكاء الاصطناعي",
       aboutSlide3Loc: "ورشة عمل تطبيقية • أتمتة المهام البرمجية",
       aboutSlide3Title: "جلسة تفاعلية في تحليل وأتمتة المهام التكرارية",
       aboutSlide4Loc: "توجيه تقني ونقاشات هندسية",
@@ -453,7 +541,8 @@
       aboutSlide5Title: "محمد جودة • مهندس Backend وتكامل الذكاء الاصطناعي",
       workshopsChip: "مدرب تقني وموجه أتمتة بالذكاء الاصطناعي",
       workshopsTitle: "الورشات والتدريبات التقنية",
-      workshopsDesc: "تقديم 6 ورش عمل تدريبية مكثفة في مجالات هندسة الويب، أتمتة الأعمال، ومسارات الذكاء الاصطناعي في Jreas Lab. تم تدريب أكثر من 160 مشاركاً من المطورين، المستقلين، الطلاب، وأصحاب الأعمال مع انطباعات وتقييمات ممتازة جداً من الحضور.",
+      workshopsDesc:
+        "تقديم 6 ورش عمل تدريبية مكثفة في مجالات هندسة الويب، أتمتة الأعمال، ومسارات الذكاء الاصطناعي في Jreas Lab. تم تدريب أكثر من 160 مشاركاً من المطورين، المستقلين، الطلاب، وأصحاب الأعمال مع انطباعات وتقييمات ممتازة جداً من الحضور.",
       wStat1Label: "ورش تدريبية مكثفة",
       wStat1Sub: "تطوير الويب وأتمتة الذكاء الاصطناعي",
       wStat2Label: "حاضر ومشارك",
@@ -478,32 +567,46 @@
       aboutMetric4Sub: "توثيق Swagger ومعمارية آمنة",
       aboutPhilEyebrow: "المبادئ الهندسية الأساسية",
       aboutPhilTitle: "المعمارية البرمجية والمبادئ الهندسية",
-      aboutPhilSubtitle: "معايير تضمن متانة الأنظمة، سرعة الاستجابة، وقابلية التوسع والصيانة بكفاءة.",
+      aboutPhilSubtitle:
+        "معايير تضمن متانة الأنظمة، سرعة الاستجابة، وقابلية التوسع والصيانة بكفاءة.",
       philPerfTitle: "الأداء الفائق وقابلية التوسع",
-      philPerfDesc: "تحسين استعلامات قواعد البيانات، الفهرسة، التخزين المؤقت بـ Redis، وطوابير المهام لسرعة استجابة فائقة تحت 100ms.",
+      philPerfDesc:
+        "تحسين استعلامات قواعد البيانات، الفهرسة، التخزين المؤقت بـ Redis، وطوابير المهام لسرعة استجابة فائقة تحت 100ms.",
       philSecTitle: "أمن المعلومات والتشفير",
-      philSecDesc: "صلاحيات RBAC محكمة، مصادقة ثنائية 2FA، تطهير وفحص المدخلات، وحماية البيانات بالتصميم.",
+      philSecDesc:
+        "صلاحيات RBAC محكمة، مصادقة ثنائية 2FA، تطهير وفحص المدخلات، وحماية البيانات بالتصميم.",
       philAiTitle: "دمج عملي للذكاء الاصطناعي",
-      philAiDesc: "توظيف نماذج LLM ومخرجات JSON المنظمة والتعامل الذكي مع السياق لبناء أنظمة موثوقة.",
+      philAiDesc:
+        "توظيف نماذج LLM ومخرجات JSON المنظمة والتعامل الذكي مع السياق لبناء أنظمة موثوقة.",
       philArchTitle: "الكود النظيف والمعمارية المتينة",
-      philArchDesc: "التزام راسخ بمبادئ SOLID، وعزل طبقات الخدمات، وأنماط التصميم المتطورة لسهولة التوسع.",
+      philArchDesc:
+        "التزام راسخ بمبادئ SOLID، وعزل طبقات الخدمات، وأنماط التصميم المتطورة لسهولة التوسع.",
       whatIBuildTitle: "ماذا أبني؟",
-      whatIBuildSubtitle: "أنظمة backend عالية الاعتمادية، دمج عملي للذكاء الاصطناعي، وأتمتة مسارات العمل لحل مشاكل برمجية وتجارية فعلية.",
+      whatIBuildSubtitle:
+        "أنظمة backend عالية الاعتمادية، دمج عملي للذكاء الاصطناعي، وأتمتة مسارات العمل لحل مشاكل برمجية وتجارية فعلية.",
       srvBackendTitle: "أنظمة Backend",
-      srvBackendDesc: "أبني أنظمة Backend باستخدام Laravel وPHP، تشمل REST APIs، المصادقة والصلاحيات، قواعد البيانات، الـQueues والتكامل مع الخدمات الخارجية.",
+      srvBackendDesc:
+        "أبني أنظمة Backend باستخدام Laravel وPHP، تشمل REST APIs، المصادقة والصلاحيات، قواعد البيانات، الـQueues والتكامل مع الخدمات الخارجية.",
       srvAiTitle: "دمج الذكاء الاصطناعي",
-      srvAiDesc: "أضيف قدرات AI عملية إلى التطبيقات باستخدام LLM APIs وStructured Outputs وعمليات معالجة تعتمد على السياق، بحيث يكون الذكاء الاصطناعي جزءًا فعليًا من التطبيق.",
+      srvAiDesc:
+        "أضيف قدرات AI عملية إلى التطبيقات باستخدام LLM APIs وStructured Outputs وعمليات معالجة تعتمد على السياق، بحيث يكون الذكاء الاصطناعي جزءًا فعليًا من التطبيق.",
       srvAutoTitle: "أتمتة عمليات الأعمال",
-      srvAutoDesc: "أربط الأدوات والأنظمة وقواعد البيانات والـAPIs والذكاء الاصطناعي ضمن workflows تقلل العمل اليدوي وتسرّع انتقال المعلومات داخل العمل.",
+      srvAutoDesc:
+        "أربط الأدوات والأنظمة وقواعد البيانات والـAPIs والذكاء الاصطناعي ضمن workflows تقلل العمل اليدوي وتسرّع انتقال المعلومات داخل العمل.",
       srvAppsTitle: "تطبيقات مدعومة بالذكاء الاصطناعي",
-      srvAppsDesc: "أبني تطبيقات يكون فيها AI جزءًا من المنتج نفسه، مثل المساعدات الذكية، أنظمة التواصل، معالجة العملاء المحتملين، والأتمتة الداخلية.",
+      srvAppsDesc:
+        "أبني تطبيقات يكون فيها AI جزءًا من المنتج نفسه، مثل المساعدات الذكية، أنظمة التواصل، معالجة العملاء المحتملين، والأتمتة الداخلية.",
       featWorkBadge: "مشروع مميز",
       featLeadTitle: "نظام AI لمعالجة العملاء المحتملين وأتمتة المتابعة",
-      featLeadSubtitle: "تحويل رسائل العملاء غير المنظمة إلى Workflow واضح وقابل للمعالجة",
-      featLeadDesc: "بنيت نظام أتمتة يستقبل الـLeads من مصادر مختلفة، ويمررها عبر Laravel والـQueue، ثم يستخدم n8n لتنظيم الـWorkflow وGemini لتحليل البيانات وتحويلها إلى معلومات منظمة يمكن استخدامها داخل النظام.",
+      featLeadSubtitle:
+        "تحويل رسائل العملاء غير المنظمة إلى Workflow واضح وقابل للمعالجة",
+      featLeadDesc:
+        "بنيت نظام أتمتة يستقبل الـLeads من مصادر مختلفة، ويمررها عبر Laravel والـQueue، ثم يستخدم n8n لتنظيم الـWorkflow وGemini لتحليل البيانات وتحويلها إلى معلومات منظمة يمكن استخدامها داخل النظام.",
       featWorkflowHeading: "مسار ومعمارية النظام",
-      featWorkflowFlow: "Lead → Laravel → Queue → n8n → Gemini → Structured Analysis → Laravel → Dashboard / Notifications",
-      featLeadSummary: "الـAI هنا يساعد في عملية اتخاذ القرار، لكنه لا يتخذ القرار التجاري النهائي بدل الإنسان، ويشمل تصنيف الطلب وتقدير الاستعجال والملخص.",
+      featWorkflowFlow:
+        "Lead → Laravel → Queue → n8n → Gemini → Structured Analysis → Laravel → Dashboard / Notifications",
+      featLeadSummary:
+        "الـAI هنا يساعد في عملية اتخاذ القرار، لكنه لا يتخذ القرار التجاري النهائي بدل الإنسان، ويشمل تصنيف الطلب وتقدير الاستعجال والملخص.",
       featLeadCta: "شاهد دراسة المشروع",
       filterAllSkills: "الكل",
       filterBackend: "الأنظمة الخلفية والـ APIs",
@@ -512,11 +615,14 @@
       filterDevops: "الأدوات والـ DevOps",
       aboutCtaReadyBadge: "جاهز لبناء أنظمة موثوقة",
       aboutCtaHeading: "عندك مشروع أو مشكلة تريد أتمتتها؟",
-      aboutCtaDesc: "احكي لي باختصار ماذا تريد أن تبني أو تطور أو تؤتمت. سأساعدك في هندسة النظم الخلفية، دمج الذكاء الاصطناعي، أو أتمتة العمليات.",
+      aboutCtaDesc:
+        "احكي لي باختصار ماذا تريد أن تبني أو تطور أو تؤتمت. سأساعدك في هندسة النظم الخلفية، دمج الذكاء الاصطناعي، أو أتمتة العمليات.",
       skillsTitle: "القدرات التقنية والهندسية",
-      skillsSubtitle: "هندسة النظم الخلفية، تكامل الذكاء الاصطناعي، الأتمتة، وأفضل الممارسات الهندسية.",
+      skillsSubtitle:
+        "هندسة النظم الخلفية، تكامل الذكاء الاصطناعي، الأتمتة، وأفضل الممارسات الهندسية.",
       achievementsTitle: "الإنجازات والشهادات",
-      achievementsSubtitle: "مجموعة مختارة من الشهادات والاعتمادات التي نلتها خلال مسيرتي المهنية والأكاديمية.",
+      achievementsSubtitle:
+        "مجموعة مختارة من الشهادات والاعتمادات التي نلتها خلال مسيرتي المهنية والأكاديمية.",
       viewCertificate: "عرض الشهادة",
       certTypeLabel: "النوع",
       certCategoryLabel: "التصنيف",
@@ -526,89 +632,116 @@
       careerTitle: "المسيرة المهنية",
       careerSubtitle: "مسيرتي المهنية وخبراتي العملية ومشاركاتي التقنية.",
       testimonialsTitle: "شهادات وتوصيات",
-      testimonialsSubtitle: "آراء من المشرفين الأكاديميين وأصحاب المشاريع المؤسسية.",
+      testimonialsSubtitle:
+        "آراء من المشرفين الأكاديميين وأصحاب المشاريع المؤسسية.",
       degreeHonor: "درجة البكالوريوس - 83.92% (مرتبة الشرف)",
       tarekRole: "مشرف مشروع وعميل مؤسسي",
-      tarekQuote: "كان ملتزماً ومتجاوباً وقادراً على التعامل مع التحديات التقنية للوصول إلى حل عملي. اهتمامه بجودة الكود وتحسين الاستعلامات جعل النظام موثوقاً وسريعاً للغاية.",
+      tarekQuote:
+        "كان ملتزماً ومتجاوباً وقادراً على التعامل مع التحديات التقنية للوصول إلى حل عملي. اهتمامه بجودة الكود وتحسين الاستعلامات جعل النظام موثوقاً وسريعاً للغاية.",
       alaaRole: "مشرف هندسي ومطور أول — حاضنة UCASTI",
-      alaaQuote: "أظهر محمد مهارات تقنية قوية، واستعداداً للتعلم، وقدرة على تحويل المتطلبات إلى حلول عملية؛ ملتزم جداً بمعايير الكود النظيف ومبادئ SOLID.",
+      alaaQuote:
+        "أظهر محمد مهارات تقنية قوية، واستعداداً للتعلم، وقدرة على تحويل المتطلبات إلى حلول عملية؛ ملتزم جداً بمعايير الكود النظيف ومبادئ SOLID.",
       leadCategory: "أتمتة بالذكاء الاصطناعي وهندسة Backend",
       leadTitle: "نظام AI لمعالجة العملاء المحتملين وأتمتة المتابعة",
-      leadSummary: "نظام مؤتمت بالكامل لتوجيه العملاء المحتملين. يستقبل الاستفسارات غير المنظمة، وينسقها عبر n8n، ويستعين بـ Gemini لتصنيف الهدف ودرجة الاستعجال قبل إعادة البيانات المهيكلة إلى Laravel.",
+      leadSummary:
+        "نظام مؤتمت بالكامل لتوجيه العملاء المحتملين. يستقبل الاستفسارات غير المنظمة، وينسقها عبر n8n، ويستعين بـ Gemini لتصنيف الهدف ودرجة الاستعجال قبل إعادة البيانات المهيكلة إلى Laravel.",
       leadOrigin: "مشروع مميز: أتمتة الذكاء الاصطناعي وطوابير Laravel",
       leadH1: "✓ معالجة غير متزامنة لطوابير المهام بـ Laravel و Redis",
       leadH2: "✓ تنظيم سير العمل بـ n8n ومخرجات JSON المنظمة بـ Gemini",
       leadH3: "✓ حماية الـ Webhooks وإدارة حالات الخطأ وإعادة المحاولة",
       badgeAgileAi: "منظومة Agile ذكية",
       sprintMindCategory: "أنظمة إدارة المشاريع وتخطيط Agile بالذكاء الاصطناعي",
-      sprintMindTitle: "SprintMind AI — منظومة إدارة السبرنتات والتخطيط بالذكاء الاصطناعي",
-      sprintMindSummary: "منظومة إدارة سبرنتات ومشاريع متكاملة بـ Laravel 13 مدعومة بالذكاء الاصطناعي (Gemini 3.5) لأتمتة تخطيط السبرنتات، واستخراج المهام من الملاحظات، والجدولة التلقائية في التقويم، والتدقيق الفوري لصحة السبرنت.",
+      sprintMindTitle:
+        "SprintMind AI — منظومة إدارة السبرنتات والتخطيط بالذكاء الاصطناعي",
+      sprintMindSummary:
+        "منظومة إدارة سبرنتات ومشاريع متكاملة بـ Laravel 13 مدعومة بالذكاء الاصطناعي (Gemini 3.5) لأتمتة تخطيط السبرنتات، واستخراج المهام من الملاحظات، والجدولة التلقائية في التقويم، والتدقيق الفوري لصحة السبرنت.",
       sprintMindOrigin: "مشروع مميز: Laravel 13 وتكامل Gemini 3.5",
       sprintMindH1: "✓ أتمتة تخطيط السبرنت واستخراج المهام بـ Gemini 3.5",
       sprintMindH2: "✓ تقويم FullCalendar تفاعلي مع خريطة السعة اليومية",
       sprintMindH3: "✓ تغطية اختبارات آلية كاملة باستخدام Pest PHP",
       messengerCategory: "أنظمة فورية وتكامل الذكاء الاصطناعي",
       messengerTitle: "نظام تواصل فوري مدعوم بالذكاء الاصطناعي",
-      messengerSummary: "منصة مراسلة فورية مبنية باستخدام Laravel وVue، مع دمج الذكاء الاصطناعي داخل تجربة التواصل نفسها، ودعم WebSockets والإشعارات والتواجد ومساعد ذكي.",
+      messengerSummary:
+        "منصة مراسلة فورية مبنية باستخدام Laravel وVue، مع دمج الذكاء الاصطناعي داخل تجربة التواصل نفسها، ودعم WebSockets والإشعارات والتواجد ومساعد ذكي.",
       messengerOrigin: "المسيرة المهنية: أنظمة محادثة فورية بـ WebSockets",
       messengerH1: "✓ بث فوري للرسائل عبر تقنيات WebSockets و Laravel Echo",
       messengerH2: "✓ بوت محادثة ذكي بطبقة خدمات مستقلة",
       messengerH3: "✓ بنية تفاعلية متطورة باستخدام Vue 3 Composition API",
       marsaCategory: "تجارة إلكترونية ومتعدد التجار",
       marsaTitle: "Marsa Store — متجر متعدد البائعين",
-      marsaSummary: "بنية تجارة إلكترونية متعددة التجار جاهزة للإنتاج. حلت اختناقات قواعد البيانات المعقدة وضمنت عزلاً صارماً للبيانات عبر جلسات التجار المتزامنة.",
+      marsaSummary:
+        "بنية تجارة إلكترونية متعددة التجار جاهزة للإنتاج. حلت اختناقات قواعد البيانات المعقدة وضمنت عزلاً صارماً للبيانات عبر جلسات التجار المتزامنة.",
       marsaOrigin: "التعليم: مشروع التخرج (83.92%)",
       marsaH1: "✓ عزل متكامل لحسابات التجار والمنتجات والطلبات",
       marsaH2: "✓ نظام صلاحيات متقدم ومصادقة ثنائية 2FA",
       marsaH3: "✓ تحسين استعلامات قاعدة البيانات بـ Eager Loading وفهارس MySQL",
       writeaiCategory: "منصة ذكاء اصطناعي SaaS",
       writeaiTitle: "Write AI — تطبيق تدوين مدعوم بالذكاء الاصطناعي",
-      writeaiSummary: "منصة SaaS ذكية للتدوين تجمع بين إدارة المحتوى ومسارات توليد المحتوى المؤتمتة بالذكاء الاصطناعي، مبنية بمعالجات مهام خلفية منفصلة لمنع بطء واجهات LLM الخارجية.",
-      writeaiOrigin: "الشهادات: مشروع التخرج للذكاء الاصطناعي (حاضنة UCASTI 90 ساعة)",
+      writeaiSummary:
+        "منصة SaaS ذكية للتدوين تجمع بين إدارة المحتوى ومسارات توليد المحتوى المؤتمتة بالذكاء الاصطناعي، مبنية بمعالجات مهام خلفية منفصلة لمنع بطء واجهات LLM الخارجية.",
+      writeaiOrigin:
+        "الشهادات: مشروع التخرج للذكاء الاصطناعي (حاضنة UCASTI 90 ساعة)",
       writeaiH1: "✓ هندسة أوامر النماذج اللغوية وحقن السياق الذكي",
       writeaiH2: "✓ توليد تلقائي للبيانات الوصفية وتحسين محركات البحث SEO",
       writeaiH3: "✓ محرر Markdown تفاعلي متقدم مع طوابير معالجة خلفية",
       technoCategory: "نظام إدارة محتوى ولوحات تحكم مؤسسية",
       technoTitle: "Techno Plus CMS — نظام إدارة المحتوى المعياري",
-      technoSummary: "نظام إدارة محتوى مبني باستخدام Laravel وLivewire وFilament، مع التركيز على سهولة إدارة المحتوى، الصلاحيات، وتجربة استخدام سلسة دون إعادة تحميل الصفحة.",
+      technoSummary:
+        "نظام إدارة محتوى مبني باستخدام Laravel وLivewire وFilament، مع التركيز على سهولة إدارة المحتوى، الصلاحيات، وتجربة استخدام سلسة دون إعادة تحميل الصفحة.",
       technoOrigin: "المسيرة المهنية: منصة إدارة محتوى بـ Filament",
       technoH1: "✓ توليد موارد متقدمة وجداول مخصصة عبر Filament",
 
       aboutHeadline: "هندسة أنظمة قابلة للتوسع. أتمتة مسارات عمل تصنع الفارق.",
-      aboutP1: "أنا مهندس Backend وتكامل الذكاء الاصطناعي أركز على بناء بنى خوادم متينة وأتمتة مسارات العمل التجاري الذكية. تتركز خبرتي الأساسية في PHP و Laravel، حيث أصمم واجهات برمجة تطبيقات REST آمنة، وأطبق التحكم بالوصول المستند إلى الأدوار (RBAC)، وأحسن أداء قواعد البيانات لمعالجة مشاكل استعلامات N+1 المعقدة.",
-      aboutP2: "إلى جانب تطوير الـ Backend التقليدي، أتعامل مع الذكاء الاصطناعي كقدرة هندسية تطبيقية. أدمج النماذج اللغوية الكبيرة (مثل Google Gemini و OpenAI) ومنصات الأتمتة (n8n) مباشرة داخل تطبيقات الويب لتبسيط المهام المتكررة وتحويل النصوص غير المنظمة إلى مخرجات JSON مهيكلة ومدققة.",
-      aboutP3: "انطلاقاً من دراستي الأكاديمية وحصولي على بكالوريوس تكنولوجيا الويب وأمن المعلومات (بتقدير جيد جداً مع مرتبة الشرف)، أضع في صدارة أولوياتي الكود النظيف (مبادئ SOLID)، وأنظمة طوابير المهام المتينة (Redis)، والمعماريات الآمنة والموثوقة منذ اليوم الأول.",
+      aboutP1:
+        "أنا مهندس Backend وتكامل الذكاء الاصطناعي أركز على بناء بنى خوادم متينة وأتمتة مسارات العمل التجاري الذكية. تتركز خبرتي الأساسية في PHP و Laravel، حيث أصمم واجهات برمجة تطبيقات REST آمنة، وأطبق التحكم بالوصول المستند إلى الأدوار (RBAC)، وأحسن أداء قواعد البيانات لمعالجة مشاكل استعلامات N+1 المعقدة.",
+      aboutP2:
+        "إلى جانب تطوير الـ Backend التقليدي، أتعامل مع الذكاء الاصطناعي كقدرة هندسية تطبيقية. أدمج النماذج اللغوية الكبيرة (مثل Google Gemini و OpenAI) ومنصات الأتمتة (n8n) مباشرة داخل تطبيقات الويب لتبسيط المهام المتكررة وتحويل النصوص غير المنظمة إلى مخرجات JSON مهيكلة ومدققة.",
+      aboutP3:
+        "انطلاقاً من دراستي الأكاديمية وحصولي على بكالوريوس تكنولوجيا الويب وأمن المعلومات (بتقدير جيد جداً مع مرتبة الشرف)، أضع في صدارة أولوياتي الكود النظيف (مبادئ SOLID)، وأنظمة طوابير المهام المتينة (Redis)، والمعماريات الآمنة والموثوقة منذ اليوم الأول.",
       whyWorkTitle: "لماذا العمل معي؟",
       whyWorkHeading: "Backend-first Engineering مع AI عملي",
-      whyWorkDesc: "أجمع بين أساس قوي في هندسة الـBackend وبين أدوات الذكاء الاصطناعي والأتمتة الحديثة. لذلك لا أتعامل مع AI على أنه مجرد API يتم توصيله بالتطبيق، بل أفكر في النظام كاملاً: Input → Validation → Processing → AI → Business Logic → Storage → Monitoring → Human Review. الهدف هو بناء شيء يعمل فعلياً كجزء من منتج أو عملية تجارية، وليس مجرد Demo.",
+      whyWorkDesc:
+        "أجمع بين أساس قوي في هندسة الـBackend وبين أدوات الذكاء الاصطناعي والأتمتة الحديثة. لذلك لا أتعامل مع AI على أنه مجرد API يتم توصيله بالتطبيق، بل أفكر في النظام كاملاً: Input → Validation → Processing → AI → Business Logic → Storage → Monitoring → Human Review. الهدف هو بناء شيء يعمل فعلياً كجزء من منتج أو عملية تجارية، وليس مجرد Demo.",
       howIWorkTitle: "طريقة عملي",
       howStep1Title: "01 — أفهم",
-      howStep1Desc: "أبدأ بفهم المشكلة، والـWorkflow الحالي، والمستخدمين، والقيود الموجودة.",
+      howStep1Desc:
+        "أبدأ بفهم المشكلة، والـWorkflow الحالي، والمستخدمين، والقيود الموجودة.",
       howStep2Title: "02 — أصمم",
-      howStep2Desc: "أحدد الـArchitecture، وتدفق البيانات، والتكاملات، ومسؤولية كل جزء من النظام.",
+      howStep2Desc:
+        "أحدد الـArchitecture، وتدفق البيانات، والتكاملات، ومسؤولية كل جزء من النظام.",
       howStep3Title: "03 — أبني",
-      howStep3Desc: "أطوّر الـBackend والـAPIs والتكاملات ومكونات AI وعمليات الأتمتة.",
+      howStep3Desc:
+        "أطوّر الـBackend والـAPIs والتكاملات ومكونات AI وعمليات الأتمتة.",
       howStep4Title: "04 — أختبر",
-      howStep4Desc: "أختبر النظام، وأتعامل مع حالات الفشل، وأتحقق من مخرجات AI، وأتأكد من أن الـWorkflow يعمل بشكل موثوق.",
+      howStep4Desc:
+        "أختبر النظام، وأتعامل مع حالات الفشل، وأتحقق من مخرجات AI، وأتأكد من أن الـWorkflow يعمل بشكل موثوق.",
       howStep5Title: "05 — أحسّن",
-      howStep5Desc: "بعد عمل النظام الأساسي، أبحث عن فرص تحسين الأداء، والاعتمادية، وتجربة الاستخدام، وسهولة الصيانة.",
+      howStep5Desc:
+        "بعد عمل النظام الأساسي، أبحث عن فرص تحسين الأداء، والاعتمادية، وتجربة الاستخدام، وسهولة الصيانة.",
       whoIWorkTitle: "من أعمل معهم؟",
       whoStartups: "الشركات الناشئة",
-      whoStartupsDesc: "بناء الـBackend والبنية التقنية اللازمة لتحويل الفكرة إلى منتج فعلي.",
+      whoStartupsDesc:
+        "بناء الـBackend والبنية التقنية اللازمة لتحويل الفكرة إلى منتج فعلي.",
       whoBusinesses: "الشركات والأعمال",
-      whoBusinessesDesc: "أتمتة العمليات المتكررة وربط الأدوات والأنظمة المنفصلة مع بعضها.",
+      whoBusinessesDesc:
+        "أتمتة العمليات المتكررة وربط الأدوات والأنظمة المنفصلة مع بعضها.",
       whoTeams: "فرق البرمجة",
-      whoTeamsDesc: "تطوير أنظمة Backend موجودة، بناء APIs، دمج خدمات AI، أو المساهمة في مشاريع Laravel/PHP.",
+      whoTeamsDesc:
+        "تطوير أنظمة Backend موجودة، بناء APIs، دمج خدمات AI، أو المساهمة في مشاريع Laravel/PHP.",
       whoFounders: "المؤسسون وفرق المنتجات",
       whoFoundersDesc: "تحويل متطلبات المنتج إلى نظام تقني واضح وموثوق.",
       eduTitle: "بكالوريوس تكنولوجيا الويب وأمن المعلومات",
-      eduSub: "كلية فلسطين التقنية | غزة، فلسطين - معدل: 83.92% (جيد جداً مرتفع)",
+      eduSub:
+        "كلية فلسطين التقنية | غزة، فلسطين - معدل: 83.92% (جيد جداً مرتفع)",
       career1Role: "متدرب تطوير Backend — Laravel ودمج الذكاء الاصطناعي",
-      career1Desc: "برنامج تدريبي مكثف (120+ ساعة) في منظومة Laravel، والخدمات المصغرة للذكاء الاصطناعي، وأنماط SOLID للمؤسسات.",
+      career1Desc:
+        "برنامج تدريبي مكثف (120+ ساعة) في منظومة Laravel، والخدمات المصغرة للذكاء الاصطناعي، وأنماط SOLID للمؤسسات.",
       career2Role: "متدرب مطور Full Stack",
-      career2Desc: "توثيق أكثر من 40 واجهة RESTful API (باستخدام Swagger) وتحليل خطط تنفيذ الاستعلامات لتقليل زمن الاستجابة.",
+      career2Desc:
+        "توثيق أكثر من 40 واجهة RESTful API (باستخدام Swagger) وتحليل خطط تنفيذ الاستعلامات لتقليل زمن الاستجابة.",
       career3Role: "تطوير Backend ومشاريع Web مستقلة",
-      career3Desc: "تصميم وتطبيع مخططات MySQL ومعالجات Webhook المتزامنة، مع تسريع معالجة العملاء المحتملين بنسبة 35% عبر التوجيه المؤتمت.",
+      career3Desc:
+        "تصميم وتطبيع مخططات MySQL ومعالجات Webhook المتزامنة، مع تسريع معالجة العملاء المحتملين بنسبة 35% عبر التوجيه المؤتمت.",
       careerHeroBadge: "خبرة هندسية موثقة",
       careerActionCv: "تحميل السيرة الذاتية (PDF)",
       careerActionHire: "تواصل لمناقشة فرصة",
@@ -641,25 +774,31 @@
       careerDeepDiveBtn: "المعمارية التقنية والتفاصيل الهندسية",
       careerDeepDiveClose: "إخفاء التفاصيل المعمارية",
       careerFoundationsTitle: "الأساس الأكاديمي والبرامج الريادية",
-      careerFoundationsSub: "درجة بكالوريوس في تكنولوجيا الويب وأمن المعلومات مع برامج تنافسية لتسريع المواهب التقنية.",
+      careerFoundationsSub:
+        "درجة بكالوريوس في تكنولوجيا الويب وأمن المعلومات مع برامج تنافسية لتسريع المواهب التقنية.",
       careerEducationHeading: "الدرجة الأكاديمية وبرامج تسريع المواهب التقنية",
       eduDegreeTitle: "بكالوريوس تكنولوجيا الويب وأمن المعلومات",
-      eduDegreeDesc: "منهاج هندسي مكثف في معمارية الويب، ونمذجة قواعد البيانات العلائقية، والتشفير التطبيقي، ومبادئ هندسة البرمجيات الحديثة.",
+      eduDegreeDesc:
+        "منهاج هندسي مكثف في معمارية الويب، ونمذجة قواعد البيانات العلائقية، والتشفير التطبيقي، ومبادئ هندسة البرمجيات الحديثة.",
       degreeConferredStatus: "تخرج مع مرتبة الشرف",
       eduHonorGpa: "المعدل التراكمي: 83.92% (جيد جداً مرتفع)",
       eduMajorSecurity: "أمن الويب والتشفير التطبيقي",
       eduRelationalDb: "أنظمة قواعد البيانات العلائقية (MySQL)",
       capstoneBadgeTitle: "مشروع التخرج المعتمد • بمعدل 83.92%",
       capstoneProjectTitle: "متجر مرسى - منصة تجارة إلكترونية متعددة التجار",
-      capstoneProjectSummary: "تصميم وبناء بنية برمجية متكاملة لمتجر متعدد التجار في Laravel مع عزل بيانات التجار، وصلاحيات RBAC، وفهارس استعلام محسنة ذات أداء عالي.",
+      capstoneProjectSummary:
+        "تصميم وبناء بنية برمجية متكاملة لمتجر متعدد التجار في Laravel مع عزل بيانات التجار، وصلاحيات RBAC، وفهارس استعلام محسنة ذات أداء عالي.",
       capstoneViewCaseBtn: "استعراض دراسة حالة المشروع",
       taqatTitle: "زميل تسريع المواهب وتطوير البرمجيات",
-      taqatSummary: "تم اختياري ضمن برامج ريادية مكثفة ركزت على أفضل الممارسات البرمجية، والعمل الحر العابر للحدود، ومراجعة الأكواد، ومنهجيات Agile.",
+      taqatSummary:
+        "تم اختياري ضمن برامج ريادية مكثفة ركزت على أفضل الممارسات البرمجية، والعمل الحر العابر للحدود، ومراجعة الأكواد، ومنهجيات Agile.",
       fellowshipStatus: "زمالة تنافسية مميزة",
       careerEndorsementsTitle: "شهادات وتوصيات المشرفين والعملاء",
-      careerEndorsementsSub: "آراء من المشرفين الأكاديميين وأصحاب المشاريع المؤسسية.",
+      careerEndorsementsSub:
+        "آراء من المشرفين الأكاديميين وأصحاب المشاريع المؤسسية.",
       careerCtaTitle: "تبحث عن مهندس يبني أنظمة يمكن الاعتماد عليها؟",
-      careerCtaSubtitle: "متاح لهندسة النظم الخلفية، بناء APIs، دمج خدمات الذكاء الاصطناعي، وأتمتة مسارات العمل.",
+      careerCtaSubtitle:
+        "متاح لهندسة النظم الخلفية، بناء APIs، دمج خدمات الذكاء الاصطناعي، وأتمتة مسارات العمل.",
       careerCtaBtn: "تواصل معي الآن",
       careerCtaCv: "تحميل السيرة الذاتية (PDF)",
       locationRemote: "عمل عن بعد (دولي)",
@@ -677,34 +816,52 @@
       career3Metric2: "+35% كفاءة معالجة وتوجيه الطلبات",
       career3Metric3: "صلاحيات RBAC وحماية بيانات محكمة",
       careerAccomplishmentsHeading: "أبرز الإنجازات التقنية والمعمارية",
-      career1Bullet1: "إتقان قدرات منظومة Laravel 11 المتقدمة بما في ذلك طوابير المهام غير المتزامنة (Queues)، وبث الأحداث الفوري (WebSockets)، و Livewire لبناء واجهات تفاعلية وسريعة.",
-      career1Bullet2: "بناء وتصميم طبقات خدمات مصغرة مستقلة للذكاء الاصطناعي تربط واجهات LLM APIs (OpenAI / Gemini)، مع أتمتة تحسين التعليمات واستخلاص مخرجات JSON المنظمة.",
-      career1Bullet3: "تطبيق مبادئ الكود النظيف وأنماط تصميم SOLID للمؤسسات، وتجريد المستودعات (Repositories)، وتغطية الاختبارات التلقائية وفق المعايير العالمية.",
+      career1Bullet1:
+        "إتقان قدرات منظومة Laravel 11 المتقدمة بما في ذلك طوابير المهام غير المتزامنة (Queues)، وبث الأحداث الفوري (WebSockets)، و Livewire لبناء واجهات تفاعلية وسريعة.",
+      career1Bullet2:
+        "بناء وتصميم طبقات خدمات مصغرة مستقلة للذكاء الاصطناعي تربط واجهات LLM APIs (OpenAI / Gemini)، مع أتمتة تحسين التعليمات واستخلاص مخرجات JSON المنظمة.",
+      career1Bullet3:
+        "تطبيق مبادئ الكود النظيف وأنماط تصميم SOLID للمؤسسات، وتجريد المستودعات (Repositories)، وتغطية الاختبارات التلقائية وفق المعايير العالمية.",
       career1DecTitle1: "القرارات البرمجية والمعمارية",
-      career1DecDesc1: "عزل تفاعلات الذكاء الاصطناعي خلف Service Providers وطوابير مهام خفية لمنع تأخر استجابات LLM الخارجية من تعطيل دورة طلبات HTTP، مع تفعيل إعادة المحاولة التلقائية وحماية الاستجابات البديلة.",
+      career1DecDesc1:
+        "عزل تفاعلات الذكاء الاصطناعي خلف Service Providers وطوابير مهام خفية لمنع تأخر استجابات LLM الخارجية من تعطيل دورة طلبات HTTP، مع تفعيل إعادة المحاولة التلقائية وحماية الاستجابات البديلة.",
       career1DecTitle2: "أدوات وبيئة العمل الهندسية",
-      career1DecDesc2: "استخدام مسارات Laravel 11 المبسطة، وخصائص PHP 8.3 المنمطة، وحزم اختبارات Pest PHP التلقائية، وبيئات تطوير Docker الحاوية لضمان تطابق بيئات التشغيل.",
-      career2Bullet1: "بناء وتوثيق أكثر من 40 واجهة برمجية آمنة (RESTful Endpoints) مع التحقق الدقيق من المدخلات، ومصادقة JWT، وهياكل استجابة موحدة باستعمال Swagger و Postman.",
-      career2Bullet2: "تحليل خطط تنفيذ الاستعلامات عبر Laravel Telescope؛ وحل مشاكل استعلامات N+1 باستخدام Eager Loading وفهارس المفاتيح الأجنبية المركبة، مما خفض زمن انتظار قاعدة البيانات بنسبة 20%.",
-      career2Bullet3: "التعاون السلس مع مهندسي الواجهات واختبار الجودة ضمن مسارات عمل Git المسؤولة عن الفروع، ومراجعات الأكواد (Pull Requests)، واجتماعات التتبع اليومية.",
+      career1DecDesc2:
+        "استخدام مسارات Laravel 11 المبسطة، وخصائص PHP 8.3 المنمطة، وحزم اختبارات Pest PHP التلقائية، وبيئات تطوير Docker الحاوية لضمان تطابق بيئات التشغيل.",
+      career2Bullet1:
+        "بناء وتوثيق أكثر من 40 واجهة برمجية آمنة (RESTful Endpoints) مع التحقق الدقيق من المدخلات، ومصادقة JWT، وهياكل استجابة موحدة باستعمال Swagger و Postman.",
+      career2Bullet2:
+        "تحليل خطط تنفيذ الاستعلامات عبر Laravel Telescope؛ وحل مشاكل استعلامات N+1 باستخدام Eager Loading وفهارس المفاتيح الأجنبية المركبة، مما خفض زمن انتظار قاعدة البيانات بنسبة 20%.",
+      career2Bullet3:
+        "التعاون السلس مع مهندسي الواجهات واختبار الجودة ضمن مسارات عمل Git المسؤولة عن الفروع، ومراجعات الأكواد (Pull Requests)، واجتماعات التتبع اليومية.",
       career2DecTitle1: "تصميم الـ APIs وأمن البيانات",
-      career2DecDesc1: "صياغة مواصفات API شاملة وفق معايير OpenAPI 3.0. تحصين النقاط النهائية بمحددات معدل الطلبات (Rate Limiting)، وبرمجيات تطهير المدخلات، ورموز الوصول المحدودة لمنع الهجمات.",
+      career2DecDesc1:
+        "صياغة مواصفات API شاملة وفق معايير OpenAPI 3.0. تحصين النقاط النهائية بمحددات معدل الطلبات (Rate Limiting)، وبرمجيات تطهير المدخلات، ورموز الوصول المحدودة لمنع الهجمات.",
       career2DecTitle2: "تحليل وتطوير الأداء",
-      career2DecDesc2: "استبدال الاستعلامات المتكررة بنظام تخزين مؤقت متمدد على Redis. إعداد إلغاء التخزين المؤقت المستند إلى الوسوم لحديث البيانات الفوري مع الحفاظ على سرعة قراءة تحت 50ms.",
-      career3Bullet1: "نمذجة مخطط MySQL علائقي منظم يفهرس آلاف السمات الديناميكية للسيارات/العقارات، وأسعار العملات المتعددة، وتفاعلات العملاء التاريخية دون إغلاق المخطط.",
-      career3Bullet2: "هندسة طبقة سياسات التحكم بالوصول المستند إلى الأدوار (RBAC) متعددة المستأجرين لحماية المستندات والوثائق الخاصة وسجلات التدقيق.",
-      career3Bullet3: "بناء لوحات تحكم إدارية تفاعلية ومعالجات Webhook المتزامنة، مما سرّع زمن الاستجابة لطلبات واستفسارات العملاء بنسبة 35%.",
+      career2DecDesc2:
+        "استبدال الاستعلامات المتكررة بنظام تخزين مؤقت متمدد على Redis. إعداد إلغاء التخزين المؤقت المستند إلى الوسوم لحديث البيانات الفوري مع الحفاظ على سرعة قراءة تحت 50ms.",
+      career3Bullet1:
+        "نمذجة مخطط MySQL علائقي منظم يفهرس آلاف السمات الديناميكية للسيارات/العقارات، وأسعار العملات المتعددة، وتفاعلات العملاء التاريخية دون إغلاق المخطط.",
+      career3Bullet2:
+        "هندسة طبقة سياسات التحكم بالوصول المستند إلى الأدوار (RBAC) متعددة المستأجرين لحماية المستندات والوثائق الخاصة وسجلات التدقيق.",
+      career3Bullet3:
+        "بناء لوحات تحكم إدارية تفاعلية ومعالجات Webhook المتزامنة، مما سرّع زمن الاستجابة لطلبات واستفسارات العملاء بنسبة 35%.",
       career3DecTitle1: "سلامة قاعدة البيانات وفهرسة الأداء",
-      career3DecDesc1: "تصميم فهارس B-tree عالية الكفاءة على مرشحات البحث الشائعة. استخدام قواعد المفاتيح الأجنبية ومعاملات ACID لضمان اتساق البيانات 100% بين الطلبات المتزامنة.",
+      career3DecDesc1:
+        "تصميم فهارس B-tree عالية الكفاءة على مرشحات البحث الشائعة. استخدام قواعد المفاتيح الأجنبية ومعاملات ACID لضمان اتساق البيانات 100% بين الطلبات المتزامنة.",
       career3DecTitle2: "رضا العملاء والأثر التشغيلي",
-      career3DecDesc2: "تسليم المشروع في الوقت المحدد والميزانية المحددة. أكدت تقييمات العملاء أن أتمتة توجيه الطلبات عبر الـ Webhooks ألغت التوجيه اليدوي وقلصت الوقت من ساعات إلى ثوانٍ.",
+      career3DecDesc2:
+        "تسليم المشروع في الوقت المحدد والميزانية المحددة. أكدت تقييمات العملاء أن أتمتة توجيه الطلبات عبر الـ Webhooks ألغت التوجيه اليدوي وقلصت الوقت من ساعات إلى ثوانٍ.",
       tawjihiTitle: "الثانوية العامة - التوجيهي",
-      tawjihiDesc: "شهادة الثانوية العامة هي المرحلة الإعدادية النهائية التي تمكن الطالب من الالتحاق بالتعليم الجامعي.",
+      tawjihiDesc:
+        "شهادة الثانوية العامة هي المرحلة الإعدادية النهائية التي تمكن الطالب من الالتحاق بالتعليم الجامعي.",
       tawjihiStream: "الفرع العلمي",
       contactTitle: "دعنا نبني أو نؤتمت نظامك القادم.",
-      contactSubtitle: "سواء كنت تواجه اختناقات في أداء تطبيق Laravel الحالي، أو تحتاج واجهة REST API آمنة من الصفر، أو ترغب في أتمتة العمليات اليدوية عبر الذكاء الاصطناعي و n8n — يسعدني مناقشة الحل التقني المناسب.",
+      contactSubtitle:
+        "سواء كنت تواجه اختناقات في أداء تطبيق Laravel الحالي، أو تحتاج واجهة REST API آمنة من الصفر، أو ترغب في أتمتة العمليات اليدوية عبر الذكاء الاصطناعي و n8n — يسعدني مناقشة الحل التقني المناسب.",
       statusAvailableTitle: "متاح للفرص والمشاريع الجديدة",
-      statusAvailableSub: "مستعد لمشاريع هندسة الـ Backend، وأنظمة أتمتة الأعمال، والفرص الهندسية المتكاملة.",
+      statusAvailableSub:
+        "مستعد لمشاريع هندسة الـ Backend، وأنظمة أتمتة الأعمال، والفرص الهندسية المتكاملة.",
       statusResponseTime: "زمن الرد: أقل من 24 ساعة",
       statusTimezone: "توقيت القدس UTC+2 (غزة / فلسطين)",
       directEmail: "البريد الإلكتروني المباشر",
@@ -714,7 +871,8 @@
       connectSocial: "الشبكات والمنصات المهنية",
       directMessageTitle: "إرسال رسالة مباشرة",
       reachOut: "عندك مشروع أو مشكلة برمجية؟",
-      contactText: "احكي لي باختصار ماذا تريد أن تبني أو تطور أو تؤتمت. ولنبدأ بمناقشة المشكلة أولاً.",
+      contactText:
+        "احكي لي باختصار ماذا تريد أن تبني أو تطور أو تؤتمت. ولنبدأ بمناقشة المشكلة أولاً.",
       basedIn: "الموقع",
       formName: "الاسم الكامل",
       formEmail: "البريد الإلكتروني",
@@ -723,7 +881,8 @@
       sendMsg: "إرسال الرسالة",
       msgSent: "شكراً لك! تم استلام رسالتك بنجاح وسأتواصل معك في أقرب وقت.",
       sendingMsg: "جاري الإرسال...",
-      msgError: "تعذر إرسال الرسالة تلقائياً. يُرجى التواصل مباشرة عبر البريد الإلكتروني أو واتساب.",
+      msgError:
+        "تعذر إرسال الرسالة تلقائياً. يُرجى التواصل مباشرة عبر البريد الإلكتروني أو واتساب.",
       quickConsultText: "هل تحتاج إلى مناقشة فنية فورية لمشروعك؟",
       quickConsultLink: "تحدث مباشرة عبر واتساب ←",
       searchTrigger: "بحث أو اضغط",
@@ -780,7 +939,8 @@
       systemPerformanceTitle: "الأثر المعماري والمقاييس المعتمدة",
       engineeringHighlightsTitle: "أبرز النقاط الهندسية",
       ctaProjectTitle: "هل تود بناء نظام برمجي عالي الاعتمادية؟",
-      ctaProjectDesc: "دعنا نتعاون لتصميم وبناء تطبيقات ويب وأنظمة أتمتة تلبي أهداف أعمالك.",
+      ctaProjectDesc:
+        "دعنا نتعاون لتصميم وبناء تطبيقات ويب وأنظمة أتمتة تلبي أهداف أعمالك.",
       badgeGraduation: "مشروع التخرج",
       badgeAICapstone: "مشروع ذكاء اصطناعي",
       badgeRealTime: "نظام فوري",
@@ -798,137 +958,210 @@
       filterAi: "ذكاء اصطناعي وأتمتة",
       filterCms: "لارافيل ولوحات تحكم",
       emptyProjectsTitle: "لا توجد مشاريع مطابقة لهذا التصنيف",
-      emptyProjectsDesc: "جرّب اختيار تصنيف آخر أو استعرض كافة دراسات الحالة الهندسية المتاحة.",
+      emptyProjectsDesc:
+        "جرّب اختيار تصنيف آخر أو استعرض كافة دراسات الحالة الهندسية المتاحة.",
       resetFilter: "عرض كافة المشاريع",
       notFoundTag: "خطأ 404 • غير موجود",
       notFoundTitle: "الصفحة غير موجودة",
-      notFoundSubtitle: "الصفحة أو دراسة الحالة التي تبحث عنها غير متوفرة، أو تم نقلها، أو الرابط غير صالح.",
+      notFoundSubtitle:
+        "الصفحة أو دراسة الحالة التي تبحث عنها غير متوفرة، أو تم نقلها، أو الرابط غير صالح.",
       returnHome: "العودة للرئيسية",
       exploreProjects: "استعراض المشاريع",
       contactMe: "تواصل معي",
-      notFoundHint: "تلميح: اضغط Ctrl + K لفتح لوحة الأوامر والانتقال الفوري إلى أي قسم في الموقع.",
-      backToTop: "إلى الأعلى"
-    }
+      notFoundHint:
+        "تلميح: اضغط Ctrl + K لفتح لوحة الأوامر والانتقال الفوري إلى أي قسم في الموقع.",
+      backToTop: "إلى الأعلى",
+    },
   };
 
   // --- State Variables ---
-  const initialPath = (typeof window !== 'undefined' && window.location ? window.location.pathname : '/');
-  let currentLang = (initialPath === '/ar' || initialPath.startsWith('/ar/')) ? 'ar' : (localStorage.getItem('portfolio_lang') || 'en');
-  let currentTheme = localStorage.getItem('portfolio_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  let currentRoute = 'home';
+  const initialPath =
+    typeof window !== "undefined" && window.location
+      ? window.location.pathname
+      : "/";
+  let currentLang =
+    initialPath === "/ar" || initialPath.startsWith("/ar/")
+      ? "ar"
+      : "en";
+  let currentTheme =
+    localStorage.getItem("portfolio_theme") ||
+    (window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light");
+  let currentRoute = "home";
 
   // --- DOM Elements ---
   const htmlEl = document.documentElement;
-  const mainContent = document.getElementById('main-content');
-  const allViews = document.querySelectorAll('.page-view');
-  const cursor = document.getElementById('custom-cursor');
-  const cursorArrowPath = document.getElementById('cursor-arrow-path');
-  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-  const closeDrawerBtn = document.getElementById('close-drawer-btn');
-  const mobileDrawer = document.getElementById('mobile-drawer');
-  const drawerOverlay = document.getElementById('drawer-overlay');
-  const toastContainer = document.getElementById('toast-container');
-  const commandPaletteModal = document.getElementById('command-palette-modal');
-  const paletteSearchInput = document.getElementById('palette-search-input');
-  const paletteCloseBtn = document.getElementById('palette-close-btn');
-  const paletteResults = document.getElementById('palette-results');
-  const desktopSearchBtn = document.getElementById('desktop-search-btn');
-  const mobileSearchBtn = document.getElementById('mobile-search-btn');
-  const viewProjectDetail = document.getElementById('view-project-detail');
-  const detailBackBtn = document.getElementById('detail-back-btn');
-  const detailBreadcrumbTitle = document.getElementById('detail-breadcrumb-title');
-  const detailCategory = document.getElementById('detail-category');
-  const detailYear = document.getElementById('detail-year');
-  const detailStatus = document.getElementById('detail-status');
-  const detailTitle = document.getElementById('detail-title');
-  const detailSubtitle = document.getElementById('detail-subtitle');
-  const detailDemoLink = document.getElementById('detail-demo-link');
-  const detailGithubLink = document.getElementById('detail-github-link');
-  const detailDiscussBtn = document.getElementById('detail-discuss-btn');
-  const detailMainImage = document.getElementById('detail-main-image');
-  const galleryPrevBtn = document.getElementById('gallery-prev-btn');
-  const galleryNextBtn = document.getElementById('gallery-next-btn');
-  const galleryCounter = document.getElementById('gallery-counter');
-  const detailThumbnailsStrip = document.getElementById('detail-thumbnails-strip');
-  const detailMetricsGrid = document.getElementById('detail-metrics-grid');
-  const detailChallenge = document.getElementById('detail-challenge');
-  const detailSolution = document.getElementById('detail-solution');
-  const detailTechTags = document.getElementById('detail-tech-tags');
-  const detailHighlightsList = document.getElementById('detail-highlights-list');
-  const seqPrevProject = document.getElementById('seq-prev-project');
-  const seqPrevTitle = document.getElementById('seq-prev-title');
-  const seqNextProject = document.getElementById('seq-next-project');
-  const seqNextTitle = document.getElementById('seq-next-title');
-  const detailOriginBadge = document.getElementById('detail-origin-badge');
-  const detailSpecTimeline = document.getElementById('detail-spec-timeline');
-  const detailSpecContext = document.getElementById('detail-spec-context');
-  const detailGalleryViewport = document.getElementById('detail-gallery-viewport');
-  const sidebarDiscussBtn = document.getElementById('sidebar-discuss-btn');
-  const projectQuickModal = document.getElementById('project-quick-modal');
-  const quickModalCategory = document.getElementById('quick-modal-category');
-  const quickModalStatus = document.getElementById('quick-modal-status');
-  const quickModalYear = document.getElementById('quick-modal-year');
-  const quickModalCloseBtn = document.getElementById('quick-modal-close-btn');
-  const quickModalImage = document.getElementById('quick-modal-image');
-  const quickModalTitle = document.getElementById('quick-modal-title');
-  const quickModalDesc = document.getElementById('quick-modal-desc');
-  const quickModalProvIcon = document.getElementById('quick-modal-prov-icon');
-  const quickModalProvText = document.getElementById('quick-modal-prov-text');
-  const quickModalMetrics = document.getElementById('quick-modal-metrics');
-  const quickModalHighlights = document.getElementById('quick-modal-highlights');
-  const quickModalTechTags = document.getElementById('quick-modal-tech-tags');
-  const quickModalDemoLink = document.getElementById('quick-modal-demo-link');
-  const quickModalCodeLink = document.getElementById('quick-modal-code-link');
-  const quickModalDismissBtn = document.getElementById('quick-modal-dismiss-btn');
-  const quickModalViewFullBtn = document.getElementById('quick-modal-view-full-btn');
+  const mainContent = document.getElementById("main-content");
+  const allViews = document.querySelectorAll(".page-view");
+  const cursor = document.getElementById("custom-cursor");
+  const cursorArrowPath = document.getElementById("cursor-arrow-path");
+  const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+  const closeDrawerBtn = document.getElementById("close-drawer-btn");
+  const mobileDrawer = document.getElementById("mobile-drawer");
+  const drawerOverlay = document.getElementById("drawer-overlay");
+  const toastContainer = document.getElementById("toast-container");
+  const commandPaletteModal = document.getElementById("command-palette-modal");
+  const paletteSearchInput = document.getElementById("palette-search-input");
+  const paletteCloseBtn = document.getElementById("palette-close-btn");
+  const paletteResults = document.getElementById("palette-results");
+  const desktopSearchBtn = document.getElementById("desktop-search-btn");
+  const mobileSearchBtn = document.getElementById("mobile-search-btn");
+  const viewProjectDetail = document.getElementById("view-project-detail");
+  const detailBackBtn = document.getElementById("detail-back-btn");
+  const detailBreadcrumbTitle = document.getElementById(
+    "detail-breadcrumb-title",
+  );
+  const detailCategory = document.getElementById("detail-category");
+  const detailYear = document.getElementById("detail-year");
+  const detailStatus = document.getElementById("detail-status");
+  const detailTitle = document.getElementById("detail-title");
+  const detailSubtitle = document.getElementById("detail-subtitle");
+  const detailDemoLink = document.getElementById("detail-demo-link");
+  const detailGithubLink = document.getElementById("detail-github-link");
+  const detailDiscussBtn = document.getElementById("detail-discuss-btn");
+  const detailMainImage = document.getElementById("detail-main-image");
+  const galleryPrevBtn = document.getElementById("gallery-prev-btn");
+  const galleryNextBtn = document.getElementById("gallery-next-btn");
+  const galleryCounter = document.getElementById("gallery-counter");
+  const detailThumbnailsStrip = document.getElementById(
+    "detail-thumbnails-strip",
+  );
+  const detailMetricsGrid = document.getElementById("detail-metrics-grid");
+  const detailChallenge = document.getElementById("detail-challenge");
+  const detailSolution = document.getElementById("detail-solution");
+  const detailTechTags = document.getElementById("detail-tech-tags");
+  const detailHighlightsList = document.getElementById(
+    "detail-highlights-list",
+  );
+  const seqPrevProject = document.getElementById("seq-prev-project");
+  const seqPrevTitle = document.getElementById("seq-prev-title");
+  const seqNextProject = document.getElementById("seq-next-project");
+  const seqNextTitle = document.getElementById("seq-next-title");
+  const detailOriginBadge = document.getElementById("detail-origin-badge");
+  const detailSpecTimeline = document.getElementById("detail-spec-timeline");
+  const detailSpecContext = document.getElementById("detail-spec-context");
+  const detailGalleryViewport = document.getElementById(
+    "detail-gallery-viewport",
+  );
+  const sidebarDiscussBtn = document.getElementById("sidebar-discuss-btn");
+  const projectQuickModal = document.getElementById("project-quick-modal");
+  const quickModalCategory = document.getElementById("quick-modal-category");
+  const quickModalStatus = document.getElementById("quick-modal-status");
+  const quickModalYear = document.getElementById("quick-modal-year");
+  const quickModalCloseBtn = document.getElementById("quick-modal-close-btn");
+  const quickModalImage = document.getElementById("quick-modal-image");
+  const quickModalTitle = document.getElementById("quick-modal-title");
+  const quickModalDesc = document.getElementById("quick-modal-desc");
+  const quickModalProvIcon = document.getElementById("quick-modal-prov-icon");
+  const quickModalProvText = document.getElementById("quick-modal-prov-text");
+  const quickModalMetrics = document.getElementById("quick-modal-metrics");
+  const quickModalHighlights = document.getElementById(
+    "quick-modal-highlights",
+  );
+  const quickModalTechTags = document.getElementById("quick-modal-tech-tags");
+  const quickModalDemoLink = document.getElementById("quick-modal-demo-link");
+  const quickModalCodeLink = document.getElementById("quick-modal-code-link");
+  const quickModalDismissBtn = document.getElementById(
+    "quick-modal-dismiss-btn",
+  );
+  const quickModalViewFullBtn = document.getElementById(
+    "quick-modal-view-full-btn",
+  );
 
   // --- 1. CLIENT-SIDE SPA ROUTER (HTML5 History API Navigation) ---
-  const validRoutes = ['home', 'about', 'career', 'projects', 'achievements', 'contact', 'project-detail', '404'];
+  const validRoutes = [
+    "home",
+    "about",
+    "career",
+    "projects",
+    "achievements",
+    "contact",
+    "project-detail",
+    "404",
+  ];
 
-  function routeToUrl(route) {
-    if (route === 'home' || route === '' || !route) return '/';
-    if (route.startsWith('project-') || route.startsWith('project/')) {
-      const pId = route.replace(/^project[-/]/, '');
-      return `/projects/${pId}`;
+  function routeToUrl(route, lang) {
+    const targetLang = lang || currentLang;
+    const isAr = targetLang === "ar";
+    const prefix = isAr ? "/ar" : "";
+    let sub = "";
+    if (route === "home" || route === "" || !route) {
+      sub = "";
+    } else if (route.startsWith("project-") || route.startsWith("project/")) {
+      const pId = route.replace(/^project[-/]/, "");
+      sub = `/projects/${pId}`;
+    } else {
+      sub = `/${route}`;
     }
-    return `/${route}`;
+    const full = `${prefix}${sub}`;
+    return full || "/";
   }
 
   function urlToRoute(path, hash) {
-    path = path || (typeof window !== 'undefined' && window.location ? window.location.pathname : '/');
-    hash = hash || (typeof window !== 'undefined' && window.location ? window.location.hash : '');
-    if (hash && hash !== '') {
-      return hash.replace('#', '');
+    path =
+      path ||
+      (typeof window !== "undefined" && window.location
+        ? window.location.pathname
+        : "/");
+    hash =
+      hash ||
+      (typeof window !== "undefined" && window.location
+        ? window.location.hash
+        : "");
+    if (hash && hash !== "") {
+      return hash.replace("#", "");
     }
-    const cleanPath = (path || '/').replace(/\/$/, '') || '/';
-    if (cleanPath === '/' || cleanPath === '') return 'home';
-    if (cleanPath === '/about') return 'about';
-    if (cleanPath === '/career') return 'career';
-    if (cleanPath === '/projects') return 'projects';
-    if (cleanPath === '/achievements') return 'achievements';
-    if (cleanPath === '/contact') return 'contact';
-    if (cleanPath.startsWith('/projects/')) {
-      const pId = cleanPath.replace('/projects/', '');
+    let cleanPath = (path || "/").replace(/\/$/, "") || "/";
+    if (cleanPath === "/ar") {
+      return "home";
+    }
+    if (cleanPath.startsWith("/ar/")) {
+      cleanPath = cleanPath.slice(3) || "/";
+    }
+    if (cleanPath === "/" || cleanPath === "") return "home";
+    if (cleanPath === "/about") return "about";
+    if (cleanPath === "/career") return "career";
+    if (cleanPath === "/projects") return "projects";
+    if (cleanPath === "/achievements") return "achievements";
+    if (cleanPath === "/contact") return "contact";
+    if (cleanPath.startsWith("/projects/")) {
+      const pId = cleanPath.replace("/projects/", "");
       return `project-${pId}`;
     }
-    return '404';
+    return "404";
   }
 
   function updateMetaForRoute(route, lang) {
-    const dict = i18n[lang] || i18n.en;
-    let title = dict.pageTitles && dict.pageTitles[route] ? dict.pageTitles[route] : (lang === 'ar' ? 'محمد جودة | مهندس Backend وتكامل الذكاء الاصطناعي' : 'Mohammed Jouda | Backend & AI Integration Engineer');
-    let description = lang === 'ar' ? 'محمد جودة مهندس Backend وتكامل الذكاء الاصطناعي يتخصص في Laravel و PHP و REST APIs و n8n و Gemini.' : 'Mohammed Jouda is a Backend & AI Integration Engineer specializing in Laravel, PHP, REST APIs, AI integration, and business automation.';
-    let canonicalPath = routeToUrl(route);
+    const targetLang = lang || currentLang;
+    const dict = i18n[targetLang] || i18n.en;
+    let title =
+      dict.pageTitles && dict.pageTitles[route]
+        ? dict.pageTitles[route]
+        : targetLang === "ar"
+          ? "محمد جودة | مهندس Backend وتكامل الذكاء الاصطناعي"
+          : "Mohammed Jouda | Backend & AI Integration Engineer";
+    let description =
+      targetLang === "ar"
+        ? "محمد جودة مهندس Backend وتكامل الذكاء الاصطناعي يتخصص في Laravel و PHP و REST APIs و n8n و Gemini."
+        : "Mohammed Jouda is a Backend & AI Integration Engineer specializing in Laravel, PHP, REST APIs, AI integration, and business automation.";
+    let canonicalPath = routeToUrl(route, targetLang);
 
-    if (route && (route.startsWith('project-') || route.startsWith('project/'))) {
-      const pId = route.replace(/^project[-/]/, '');
+    if (
+      route &&
+      (route.startsWith("project-") || route.startsWith("project/"))
+    ) {
+      const pId = route.replace(/^project[-/]/, "");
       if (caseStudiesData && caseStudiesData[pId]) {
         const p = caseStudiesData[pId];
-        const pTitle = p.title[lang] || p.title.en;
-        const pSub = p.subtitle[lang] || p.subtitle.en;
-        title = lang === 'ar' ? `محمد جودة | دراسة حالة ${pTitle}` : `Mohammed Jouda | ${pTitle} Case Study`;
+        const pTitle = p.title[targetLang] || p.title.en;
+        const pSub = p.subtitle[targetLang] || p.subtitle.en;
+        title =
+          targetLang === "ar"
+            ? `محمد جودة | دراسة حالة ${pTitle}`
+            : `Mohammed Jouda | ${pTitle} Case Study`;
         description = pSub;
-        canonicalPath = `/projects/${pId}`;
+        canonicalPath = routeToUrl(route, targetLang);
       }
     }
 
@@ -936,132 +1169,189 @@
 
     let canonicalEl = document.querySelector('link[rel="canonical"]');
     if (canonicalEl) {
-      canonicalEl.setAttribute('href', `https://www.mohammedjouda.com${canonicalPath}`);
+      canonicalEl.setAttribute(
+        "href",
+        `https://www.mohammedjouda.com${canonicalPath}`,
+      );
+    }
+
+    let enAltEl = document.querySelector('link[rel="alternate"][hreflang="en"]');
+    if (enAltEl) {
+      enAltEl.setAttribute(
+        "href",
+        `https://www.mohammedjouda.com${routeToUrl(route, "en")}`,
+      );
+    }
+
+    let arAltEl = document.querySelector('link[rel="alternate"][hreflang="ar"]');
+    if (arAltEl) {
+      arAltEl.setAttribute(
+        "href",
+        `https://www.mohammedjouda.com${routeToUrl(route, "ar")}`,
+      );
+    }
+
+    let xDefaultEl = document.querySelector('link[rel="alternate"][hreflang="x-default"]');
+    if (xDefaultEl) {
+      xDefaultEl.setAttribute(
+        "href",
+        `https://www.mohammedjouda.com${routeToUrl(route, "en")}`,
+      );
     }
 
     let metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', description);
+    if (metaDesc) metaDesc.setAttribute("content", description);
 
     let ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', description);
+    if (ogDesc) ogDesc.setAttribute("content", description);
 
     let ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', title);
+    if (ogTitle) ogTitle.setAttribute("content", title);
 
     let ogUrl = document.querySelector('meta[property="og:url"]');
-    if (ogUrl) ogUrl.setAttribute('content', `https://www.mohammedjouda.com${canonicalPath}`);
+    if (ogUrl)
+      ogUrl.setAttribute(
+        "content",
+        `https://www.mohammedjouda.com${canonicalPath}`,
+      );
+
+    let ogLocale = document.querySelector('meta[property="og:locale"]');
+    if (ogLocale) {
+      ogLocale.setAttribute("content", targetLang === "ar" ? "ar_AR" : "en_US");
+    }
+
+    let ogLocaleAlt = document.querySelector('meta[property="og:locale:alternate"]');
+    if (ogLocaleAlt) {
+      ogLocaleAlt.setAttribute("content", targetLang === "ar" ? "en_US" : "ar_AR");
+    }
 
     let ogImageEl = document.querySelector('meta[property="og:image"]');
     let twImageEl = document.querySelector('meta[name="twitter:image"]');
     let projectOgImages = {
-      'lead-automation': 'https://www.mohammedjouda.com/assets/projects/ai-leads/ai-leads.webp',
-      'sprint-mind': 'https://www.mohammedjouda.com/assets/projects/sprint-mind/sprint-mind-hero.webp',
-      'messenger': 'https://www.mohammedjouda.com/assets/projects/messenger/messenger_ai.webp',
-      'marsa-store': 'https://www.mohammedjouda.com/assets/projects/mersa/mersa-hero.webp',
-      'write-ai': 'https://www.mohammedjouda.com/assets/projects/write-ai/hero-write-ai.webp',
-      'techno-cms': 'https://www.mohammedjouda.com/assets/projects/cms-techno-plus/tecno-hero.webp'
+      "lead-automation":
+        "https://www.mohammedjouda.com/assets/projects/ai-leads/ai-leads.webp",
+      "sprint-mind":
+        "https://www.mohammedjouda.com/assets/projects/sprint-mind/sprint-mind-hero.webp",
+      messenger:
+        "https://www.mohammedjouda.com/assets/projects/messenger/messenger_ai.webp",
+      "marsa-store":
+        "https://www.mohammedjouda.com/assets/projects/mersa/mersa-hero.webp",
+      "write-ai":
+        "https://www.mohammedjouda.com/assets/projects/write-ai/hero-write-ai.webp",
+      "techno-cms":
+        "https://www.mohammedjouda.com/assets/projects/cms-techno-plus/tecno-hero.webp",
     };
-    let targetOgImg = 'https://www.mohammedjouda.com/assets/og/mohammed-jouda-og.jpg';
-    if (route && (route.startsWith('project-') || route.startsWith('project/'))) {
-      const pId = route.replace(/^project[-/]/, '');
+    let targetOgImg =
+      "https://www.mohammedjouda.com/assets/og/mohammed-jouda-og.jpg";
+    if (
+      route &&
+      (route.startsWith("project-") || route.startsWith("project/"))
+    ) {
+      const pId = route.replace(/^project[-/]/, "");
       if (projectOgImages[pId]) targetOgImg = projectOgImages[pId];
     }
-    if (ogImageEl) ogImageEl.setAttribute('content', targetOgImg);
-    if (twImageEl) twImageEl.setAttribute('content', targetOgImg);
+    if (ogImageEl) ogImageEl.setAttribute("content", targetOgImg);
+    if (twImageEl) twImageEl.setAttribute("content", targetOgImg);
   }
 
   function navigateTo(route, updateHistory = true) {
     const requestedRoute = route;
 
     // Check if route is a direct project detail route (e.g. project-marsa-store or project/marsa-store)
-    if (route && (route.startsWith('project-') || route.startsWith('project/'))) {
-      const projectId = route.replace(/^project[-/]/, '');
+    if (
+      route &&
+      (route.startsWith("project-") || route.startsWith("project/"))
+    ) {
+      const projectId = route.replace(/^project[-/]/, "");
       if (caseStudiesData && caseStudiesData[projectId]) {
         currentRoute = route;
 
         // Hide all views & show project detail view
-        allViews.forEach((view) => view.classList.remove('active'));
+        allViews.forEach((view) => view.classList.remove("active"));
         if (viewProjectDetail) {
-          viewProjectDetail.classList.add('active');
+          viewProjectDetail.classList.add("active");
         }
 
         // Render project data
         renderProjectDetail(projectId);
 
         // Update active nav links (highlight projects nav item)
-        document.querySelectorAll('[data-route]').forEach((link) => {
-          if (link.getAttribute('data-route') === 'projects') {
-            link.classList.add('active');
+        document.querySelectorAll("[data-route]").forEach((link) => {
+          if (link.getAttribute("data-route") === "projects") {
+            link.classList.add("active");
           } else {
-            link.classList.remove('active');
+            link.classList.remove("active");
           }
         });
 
         updateMetaForRoute(route, currentLang);
 
         if (mainContent) {
-          mainContent.scrollTo({ top: 0, behavior: 'smooth' });
+          mainContent.scrollTo({ top: 0, behavior: "smooth" });
         }
 
-        if (updateHistory && typeof window !== 'undefined' && window.history) {
-          const targetUrl = routeToUrl(route);
+        if (updateHistory && typeof window !== "undefined" && window.history) {
+          const targetUrl = routeToUrl(route, currentLang);
           if (window.location && window.location.hash) {
-            window.history.replaceState(null, '', targetUrl);
-          } else if (window.location && window.location.pathname !== targetUrl) {
-            window.history.pushState(null, '', targetUrl);
+            window.history.replaceState(null, "", targetUrl);
+          } else if (
+            window.location &&
+            window.location.pathname !== targetUrl
+          ) {
+            window.history.pushState(null, "", targetUrl);
           }
         }
 
         closeDrawer();
         return;
       } else {
-        route = '404';
+        route = "404";
       }
     }
 
     if (!validRoutes.includes(route)) {
-      route = '404';
+      route = "404";
     }
 
     currentRoute = route;
 
     // 1. Hide all views & show active
     allViews.forEach((view) => {
-      view.classList.remove('active');
+      view.classList.remove("active");
     });
 
     const targetView = document.getElementById(`view-${route}`);
     if (targetView) {
-      targetView.classList.add('active');
+      targetView.classList.add("active");
     }
 
-    if (route === '404') {
-      const pathDisplay = document.getElementById('not-found-path-display');
+    if (route === "404") {
+      const pathDisplay = document.getElementById("not-found-path-display");
       if (pathDisplay) {
-        pathDisplay.textContent = `/${requestedRoute || 'unknown'}`;
+        pathDisplay.textContent = `/${requestedRoute || "unknown"}`;
       }
     }
 
     if (mainContent && mainContent.scrollTop > 0) {
-      mainContent.scrollTo({ top: 0, behavior: 'smooth' });
+      mainContent.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    document.querySelectorAll('[data-route]').forEach((link) => {
-      if (link.getAttribute('data-route') === route) {
-        link.classList.add('active');
+    document.querySelectorAll("[data-route]").forEach((link) => {
+      if (link.getAttribute("data-route") === route) {
+        link.classList.add("active");
       } else {
-        link.classList.remove('active');
+        link.classList.remove("active");
       }
     });
 
     updateMetaForRoute(route, currentLang);
 
-    if (updateHistory && typeof window !== 'undefined' && window.history) {
-      const targetUrl = routeToUrl(route);
+    if (updateHistory && typeof window !== "undefined" && window.history) {
+      const targetUrl = routeToUrl(route, currentLang);
       if (window.location && window.location.hash) {
-        window.history.replaceState(null, '', targetUrl);
+        window.history.replaceState(null, "", targetUrl);
       } else if (window.location && window.location.pathname !== targetUrl) {
-        window.history.pushState(null, '', targetUrl);
+        window.history.pushState(null, "", targetUrl);
       }
     }
 
@@ -1069,24 +1359,33 @@
   }
 
   // Handle routing clicks on any element with data-route
-  document.addEventListener('click', (e) => {
-    const routeTrigger = e.target.closest('[data-route]');
+  document.addEventListener("click", (e) => {
+    const routeTrigger = e.target.closest("[data-route]");
     if (routeTrigger) {
       e.preventDefault();
-      const targetRoute = routeTrigger.getAttribute('data-route');
+      const targetRoute = routeTrigger.getAttribute("data-route");
       navigateTo(targetRoute, true);
     }
   });
 
   // Listen to browser Back / Forward buttons & direct path navigation
-  window.addEventListener('popstate', () => {
-    const route = urlToRoute(window.location.pathname, window.location.hash);
+  window.addEventListener("popstate", () => {
+    const path = window.location.pathname;
+    const isAr = path === "/ar" || path.startsWith("/ar/");
+    const targetLang = isAr ? "ar" : "en";
+    if (targetLang !== currentLang) {
+      applyLanguage(targetLang, false, false);
+    }
+    const route = urlToRoute(path, window.location.hash);
     navigateTo(route, false);
   });
 
   // --- 2. Custom Blue Pointer Cursor Implementation ---
-  const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const isTouchDevice = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+  const prefersReducedMotion =
+    window.matchMedia &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const isTouchDevice =
+    window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
 
   if (cursor && !prefersReducedMotion && !isTouchDevice) {
     let targetX = -100;
@@ -1097,18 +1396,18 @@
     function showCursor() {
       if (!isVisible) {
         isVisible = true;
-        cursor.classList.add('visible');
-        cursor.style.opacity = '1';
-        htmlEl.classList.add('has-custom-cursor');
+        cursor.classList.add("visible");
+        cursor.style.opacity = "1";
+        htmlEl.classList.add("has-custom-cursor");
       }
     }
 
     function hideCursor() {
       if (isVisible) {
         isVisible = false;
-        cursor.classList.remove('visible', 'clicking', 'hovering');
-        cursor.style.opacity = '0';
-        htmlEl.classList.remove('has-custom-cursor');
+        cursor.classList.remove("visible", "clicking", "hovering");
+        cursor.style.opacity = "0";
+        htmlEl.classList.remove("has-custom-cursor");
       }
     }
 
@@ -1139,57 +1438,61 @@
     }
 
     // 1. Mouse movement tracking
-    window.addEventListener('mousemove', onMouseMove, { passive: true });
+    window.addEventListener("mousemove", onMouseMove, { passive: true });
 
     // 2. Comprehensive viewport exit detection across window, document, and root html
-    document.addEventListener('mouseleave', hideCursor);
-    document.documentElement.addEventListener('mouseleave', hideCursor);
-    window.addEventListener('mouseleave', hideCursor);
+    document.addEventListener("mouseleave", hideCursor);
+    document.documentElement.addEventListener("mouseleave", hideCursor);
+    window.addEventListener("mouseleave", hideCursor);
 
     // 3. Out-of-document boundary check
-    document.addEventListener('mouseout', (e) => {
+    document.addEventListener("mouseout", (e) => {
       if (!e.relatedTarget && !e.toElement) {
         hideCursor();
       }
     });
 
     // 4. Window blur and tab visibility change (alt-tab, devtools, other apps)
-    window.addEventListener('blur', hideCursor);
-    document.addEventListener('visibilitychange', () => {
+    window.addEventListener("blur", hideCursor);
+    document.addEventListener("visibilitychange", () => {
       if (document.hidden) hideCursor();
     });
 
     // 5. Re-entry detection
-    document.addEventListener('mouseenter', showCursor);
-    document.documentElement.addEventListener('mouseenter', showCursor);
+    document.addEventListener("mouseenter", showCursor);
+    document.documentElement.addEventListener("mouseenter", showCursor);
 
     // 6. Click interactions
-    window.addEventListener('mousedown', () => {
-      if (isVisible) cursor.classList.add('clicking');
+    window.addEventListener("mousedown", () => {
+      if (isVisible) cursor.classList.add("clicking");
     });
 
-    window.addEventListener('mouseup', () => {
-      cursor.classList.remove('clicking');
+    window.addEventListener("mouseup", () => {
+      cursor.classList.remove("clicking");
     });
 
     // 7. Interactive Hover Listeners with delegation for static and dynamic controls
-    document.addEventListener('mouseover', (e) => {
-      const el = e.target.closest('a, button, input, textarea, select, [data-route], [data-cursor], .palette-item, .cs-action-btn, .cs-link-btn, .filter-btn, .bento-card, .method-interactive-card, .btn-preview-action, .quick-tech-tag, .career-toggle-details-btn, .career-project-chip, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .career-role-card, .not-found-card, .floating-back-to-top, .projects-empty-state');
+    document.addEventListener("mouseover", (e) => {
+      const el = e.target.closest(
+        "a, button, input, textarea, select, [data-route], [data-cursor], .palette-item, .cs-action-btn, .cs-link-btn, .filter-btn, .bento-card, .method-interactive-card, .btn-preview-action, .quick-tech-tag, .career-toggle-details-btn, .career-project-chip, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .career-role-card, .not-found-card, .floating-back-to-top, .projects-empty-state",
+      );
       if (el && isVisible) {
-        cursor.classList.add('hovering');
-        const color = el.getAttribute('data-cursor-color');
+        cursor.classList.add("hovering");
+        const color = el.getAttribute("data-cursor-color");
         if (color && cursorArrowPath) {
           cursorArrowPath.style.fill = color;
         }
       }
     });
 
-    document.addEventListener('mouseout', (e) => {
-      const el = e.target.closest('a, button, input, textarea, select, [data-route], [data-cursor], .palette-item, .cs-action-btn, .cs-link-btn, .filter-btn, .bento-card, .method-interactive-card, .btn-preview-action, .quick-tech-tag, .career-toggle-details-btn, .career-project-chip, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .career-role-card, .not-found-card, .floating-back-to-top, .projects-empty-state');
+    document.addEventListener("mouseout", (e) => {
+      const el = e.target.closest(
+        "a, button, input, textarea, select, [data-route], [data-cursor], .palette-item, .cs-action-btn, .cs-link-btn, .filter-btn, .bento-card, .method-interactive-card, .btn-preview-action, .quick-tech-tag, .career-toggle-details-btn, .career-project-chip, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .career-role-card, .not-found-card, .floating-back-to-top, .projects-empty-state",
+      );
       if (el && (!e.relatedTarget || !el.contains(e.relatedTarget))) {
-        cursor.classList.remove('hovering');
+        cursor.classList.remove("hovering");
         if (cursorArrowPath) {
-          cursorArrowPath.style.fill = '#265C91';
+          cursorArrowPath.style.fill = "#265C91";
         }
       }
     });
@@ -1197,23 +1500,28 @@
 
   // --- 3. Dynamic Radial Spotlight & 3D Perspective Tilt on Cards (Bento, Projects, Career, Achievements & Contact) ---
   const bentoCards = document.querySelectorAll(
-    '.bento-card, .about-bento-card, .project-full-card, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .contact-bento-form-panel, .career-role-card, .not-found-card, .projects-empty-state'
+    ".bento-card, .about-bento-card, .project-full-card, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .contact-bento-form-panel, .career-role-card, .not-found-card, .projects-empty-state",
   );
-  const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const prefersReduced =
+    window.matchMedia &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   bentoCards.forEach((card) => {
-    card.addEventListener('mousemove', (e) => {
+    card.addEventListener("mousemove", (e) => {
       const rect = card.getBoundingClientRect();
       const x = e.clientX - rect.left;
       const y = e.clientY - rect.top;
-      card.style.setProperty('--mouse-x', `${x}px`);
-      card.style.setProperty('--mouse-y', `${y}px`);
+      card.style.setProperty("--mouse-x", `${x}px`);
+      card.style.setProperty("--mouse-y", `${y}px`);
 
       if (prefersReduced) return;
 
       // Do not tilt form panel while user is actively interacting with form fields
-      if (card.classList.contains('contact-bento-form-panel') && e.target.closest('input, textarea, button')) {
-        card.style.transform = '';
+      if (
+        card.classList.contains("contact-bento-form-panel") &&
+        e.target.closest("input, textarea, button")
+      ) {
+        card.style.transform = "";
         return;
       }
 
@@ -1227,35 +1535,35 @@
       let translateY = -2;
       let perspective = 850;
 
-      if (card.classList.contains('project-full-card')) {
+      if (card.classList.contains("project-full-card")) {
         maxTilt = 3.2;
         translateY = -6;
         perspective = 1000;
-      } else if (card.classList.contains('cert-modern-card')) {
+      } else if (card.classList.contains("cert-modern-card")) {
         maxTilt = 3.6;
         translateY = -6;
         perspective = 950;
-      } else if (card.classList.contains('contact-status-card')) {
+      } else if (card.classList.contains("contact-status-card")) {
         maxTilt = 2.4;
         translateY = -4;
         perspective = 850;
-      } else if (card.classList.contains('method-card')) {
+      } else if (card.classList.contains("method-card")) {
         maxTilt = 2.0;
         translateY = -3;
         perspective = 800;
-      } else if (card.classList.contains('social-brand-card')) {
+      } else if (card.classList.contains("social-brand-card")) {
         maxTilt = 2.8;
         translateY = -3;
         perspective = 750;
-      } else if (card.classList.contains('not-found-card')) {
+      } else if (card.classList.contains("not-found-card")) {
         maxTilt = 2.4;
         translateY = -4;
         perspective = 900;
-      } else if (card.classList.contains('career-role-card')) {
+      } else if (card.classList.contains("career-role-card")) {
         maxTilt = 2.0;
         translateY = -3;
         perspective = 900;
-      } else if (card.classList.contains('contact-bento-form-panel')) {
+      } else if (card.classList.contains("contact-bento-form-panel")) {
         maxTilt = 1.2;
         translateY = -2;
         perspective = 1200;
@@ -1267,61 +1575,66 @@
       card.style.transform = `perspective(${perspective}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(${translateY}px)`;
     });
 
-    card.addEventListener('mouseleave', () => {
-      card.style.transform = '';
+    card.addEventListener("mouseleave", () => {
+      card.style.transform = "";
     });
   });
 
   // --- 4. Theme Toggle (Dark / Light) ---
   function applyTheme(theme, showFeedback = false) {
     currentTheme = theme;
-    if (theme === 'dark') {
-      htmlEl.classList.add('dark');
+    if (theme === "dark") {
+      htmlEl.classList.add("dark");
     } else {
-      htmlEl.classList.remove('dark');
+      htmlEl.classList.remove("dark");
     }
-    localStorage.setItem('portfolio_theme', theme);
-    if (showFeedback && typeof showToast === 'function') {
+    localStorage.setItem("portfolio_theme", theme);
+    if (showFeedback && typeof showToast === "function") {
       const dict = i18n[currentLang] || i18n.en;
-      showToast(dict.toastThemeChanged, 'theme');
+      showToast(dict.toastThemeChanged, "theme");
     }
   }
 
   const themeBtns = [
-    document.getElementById('desktop-theme-btn'),
-    document.getElementById('mobile-theme-btn')
+    document.getElementById("desktop-theme-btn"),
+    document.getElementById("mobile-theme-btn"),
   ].filter(Boolean);
 
   themeBtns.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const newTheme = htmlEl.classList.contains('dark') ? 'light' : 'dark';
+    btn.addEventListener("click", () => {
+      const newTheme = htmlEl.classList.contains("dark") ? "light" : "dark";
       applyTheme(newTheme, true);
     });
   });
 
   // --- 5. Language & RTL Switching ---
-  function applyLanguage(lang, showFeedback = false) {
+  function applyLanguage(lang, showFeedback = false, updateUrl = false) {
     currentLang = lang;
-    localStorage.setItem('portfolio_lang', lang);
-    htmlEl.setAttribute('lang', lang);
-    htmlEl.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+    localStorage.setItem("portfolio_lang", lang);
+    htmlEl.setAttribute("lang", lang);
+    htmlEl.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");
 
     // Update buttons active state
-    document.querySelectorAll('.lang-btn').forEach((btn) => {
-      if (btn.getAttribute('data-lang') === lang) {
-        btn.classList.add('active');
+    document.querySelectorAll(".lang-btn").forEach((btn) => {
+      if (btn.getAttribute("data-lang") === lang) {
+        btn.classList.add("active");
       } else {
-        btn.classList.remove('active');
+        btn.classList.remove("active");
       }
     });
 
     // Update all i18n text nodes
     const dict = i18n[lang] || i18n.en;
-    document.querySelectorAll('[data-i18n]').forEach((el) => {
-      const key = el.getAttribute('data-i18n');
-      const toggleBtn = el.closest('.career-deep-dive-toggle');
-      if (toggleBtn && toggleBtn.getAttribute('aria-expanded') === 'true' && key === 'careerDeepDiveBtn') {
-        el.textContent = dict.careerDeepDiveClose || 'Hide Architecture Details';
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      const toggleBtn = el.closest(".career-deep-dive-toggle");
+      if (
+        toggleBtn &&
+        toggleBtn.getAttribute("aria-expanded") === "true" &&
+        key === "careerDeepDiveBtn"
+      ) {
+        el.textContent =
+          dict.careerDeepDiveClose || "Hide Architecture Details";
       } else if (dict[key]) {
         el.textContent = dict[key];
       }
@@ -1333,94 +1646,164 @@
     }
 
     // Update profile photo trigger and lightbox labels
-    const profileTrigger = document.getElementById('profile-photo-trigger');
+    const profileTrigger = document.getElementById("profile-photo-trigger");
     if (profileTrigger) {
-      profileTrigger.setAttribute('data-cursor', dict.viewPhoto || 'View Photo');
-      profileTrigger.setAttribute('aria-label', lang === 'ar' ? 'عرض الصورة الشخصية لمحمد جودة' : 'View Mohammed Jouda Profile Photo');
+      profileTrigger.setAttribute(
+        "data-cursor",
+        dict.viewPhoto || "View Photo",
+      );
+      profileTrigger.setAttribute(
+        "aria-label",
+        lang === "ar"
+          ? "عرض الصورة الشخصية لمحمد جودة"
+          : "View Mohammed Jouda Profile Photo",
+      );
     }
-    const photoCloseBtn = document.getElementById('photo-lightbox-close-btn');
+    const photoCloseBtn = document.getElementById("photo-lightbox-close-btn");
     if (photoCloseBtn) {
-      photoCloseBtn.setAttribute('data-cursor', dict.closeModal || 'Close');
-      photoCloseBtn.setAttribute('aria-label', dict.closeModal || 'Close');
+      photoCloseBtn.setAttribute("data-cursor", dict.closeModal || "Close");
+      photoCloseBtn.setAttribute("aria-label", dict.closeModal || "Close");
     }
 
-    const certCloseBtn = document.getElementById('cert-modal-close-btn');
+    const certCloseBtn = document.getElementById("cert-modal-close-btn");
     if (certCloseBtn) {
-      certCloseBtn.setAttribute('data-cursor', dict.closeModal || 'Close');
-      certCloseBtn.setAttribute('aria-label', dict.closeModal || 'Close');
+      certCloseBtn.setAttribute("data-cursor", dict.closeModal || "Close");
+      certCloseBtn.setAttribute("aria-label", dict.closeModal || "Close");
     }
 
     // Update contact form placeholders and cursor hints
-    const contactName = document.getElementById('contact-name');
-    if (contactName) contactName.placeholder = lang === 'ar' ? 'الاسم بالكامل' : 'John Doe';
-    const contactEmail = document.getElementById('contact-email');
-    if (contactEmail) contactEmail.placeholder = lang === 'ar' ? 'name@example.com' : 'john@example.com';
-    const contactSubject = document.getElementById('contact-subject');
-    if (contactSubject) contactSubject.placeholder = lang === 'ar' ? 'استفسار عن مشروع / استشارة تقنية' : 'Project Inquiry / Consultation';
-    const contactMsg = document.getElementById('contact-msg');
-    if (contactMsg) contactMsg.placeholder = lang === 'ar' ? 'صف متطلبات مشروعك، أو الاختناقات التقنية الحالية، أو مسار العمل المحدد الذي ترغب في أتمتته...' : "Describe your project requirements, current technical bottlenecks, or the specific workflow you want to automate...";
+    const contactName = document.getElementById("contact-name");
+    if (contactName)
+      contactName.placeholder = lang === "ar" ? "الاسم بالكامل" : "John Doe";
+    const contactEmail = document.getElementById("contact-email");
+    if (contactEmail)
+      contactEmail.placeholder =
+        lang === "ar" ? "name@example.com" : "john@example.com";
+    const contactSubject = document.getElementById("contact-subject");
+    if (contactSubject)
+      contactSubject.placeholder =
+        lang === "ar"
+          ? "استفسار عن مشروع / استشارة تقنية"
+          : "Project Inquiry / Consultation";
+    const contactMsg = document.getElementById("contact-msg");
+    if (contactMsg)
+      contactMsg.placeholder =
+        lang === "ar"
+          ? "صف متطلبات مشروعك، أو الاختناقات التقنية الحالية، أو مسار العمل المحدد الذي ترغب في أتمتته..."
+          : "Describe your project requirements, current technical bottlenecks, or the specific workflow you want to automate...";
 
-    const contactStatusCard = document.querySelector('.contact-status-card');
-    if (contactStatusCard) contactStatusCard.setAttribute('data-cursor', lang === 'ar' ? 'متاح' : 'Available');
-    const emailMethodCard = document.querySelector('.method-card-email');
-    if (emailMethodCard) emailMethodCard.setAttribute('data-cursor', lang === 'ar' ? 'إرسال بريد' : 'Send Email');
-    const phoneMethodCard = document.querySelector('.method-card-phone');
-    if (phoneMethodCard) phoneMethodCard.setAttribute('data-cursor', lang === 'ar' ? 'محادثة واتساب' : 'Chat on WhatsApp');
-    const locationMethodCard = document.querySelector('.method-card-location');
-    if (locationMethodCard) locationMethodCard.setAttribute('data-cursor', lang === 'ar' ? 'الموقع' : 'Location');
-    const contactSubmitBtn = document.querySelector('.spa-submit-btn');
-    if (contactSubmitBtn) contactSubmitBtn.setAttribute('data-cursor', lang === 'ar' ? 'إرسال الرسالة' : 'Send Message');
+    const contactStatusCard = document.querySelector(".contact-status-card");
+    if (contactStatusCard)
+      contactStatusCard.setAttribute(
+        "data-cursor",
+        lang === "ar" ? "متاح" : "Available",
+      );
+    const emailMethodCard = document.querySelector(".method-card-email");
+    if (emailMethodCard)
+      emailMethodCard.setAttribute(
+        "data-cursor",
+        lang === "ar" ? "إرسال بريد" : "Send Email",
+      );
+    const phoneMethodCard = document.querySelector(".method-card-phone");
+    if (phoneMethodCard)
+      phoneMethodCard.setAttribute(
+        "data-cursor",
+        lang === "ar" ? "محادثة واتساب" : "Chat on WhatsApp",
+      );
+    const locationMethodCard = document.querySelector(".method-card-location");
+    if (locationMethodCard)
+      locationMethodCard.setAttribute(
+        "data-cursor",
+        lang === "ar" ? "الموقع" : "Location",
+      );
+    const contactSubmitBtn = document.querySelector(".spa-submit-btn");
+    if (contactSubmitBtn)
+      contactSubmitBtn.setAttribute(
+        "data-cursor",
+        lang === "ar" ? "إرسال الرسالة" : "Send Message",
+      );
 
     // Update project cards cursor
-    document.querySelectorAll('.project-full-card').forEach(card => {
-      card.setAttribute('data-cursor', dict.viewProject || 'View Project');
+    document.querySelectorAll(".project-full-card").forEach((card) => {
+      card.setAttribute("data-cursor", dict.viewProject || "View Project");
     });
 
     // Refresh achievements cards language
-    if (typeof updateAchievementsGridLanguage === 'function') {
+    if (typeof updateAchievementsGridLanguage === "function") {
       updateAchievementsGridLanguage(lang);
     }
 
     // Refresh active certificate detail modal if open
-    if (typeof isCertModalOpen === 'function' && isCertModalOpen() && activeCertId) {
+    if (
+      typeof isCertModalOpen === "function" &&
+      isCertModalOpen() &&
+      activeCertId
+    ) {
       openCertModal(activeCertId);
     }
 
     // Refresh command palette if active
-    if (typeof renderPaletteResults === 'function' && typeof isPaletteOpen === 'function' && isPaletteOpen()) {
-      renderPaletteResults(paletteSearchInput ? paletteSearchInput.value : '');
+    if (
+      typeof renderPaletteResults === "function" &&
+      typeof isPaletteOpen === "function" &&
+      isPaletteOpen()
+    ) {
+      renderPaletteResults(paletteSearchInput ? paletteSearchInput.value : "");
     }
 
     // Refresh quick preview modal if open
-    if (typeof isQuickModalOpen === 'function' && isQuickModalOpen() && currentQuickModalProjectId) {
+    if (
+      typeof isQuickModalOpen === "function" &&
+      isQuickModalOpen() &&
+      currentQuickModalProjectId
+    ) {
       renderQuickModal(currentQuickModalProjectId);
     }
 
     // If currently on a project detail page, re-render it
-    if (currentRoute && (currentRoute.startsWith('project-') || currentRoute.startsWith('project/'))) {
-      const projectId = currentRoute.replace(/^project[-/]/, '');
-      if (typeof renderProjectDetail === 'function') {
+    if (
+      currentRoute &&
+      (currentRoute.startsWith("project-") ||
+        currentRoute.startsWith("project/"))
+    ) {
+      const projectId = currentRoute.replace(/^project[-/]/, "");
+      if (typeof renderProjectDetail === "function") {
         renderProjectDetail(projectId);
       }
       const project = caseStudiesData[projectId];
       if (project) {
         const projTitle = project.title[lang] || project.title.en;
-        document.title = lang === 'ar' ? `محمد جودة | ${projTitle}` : `Mohammed Jouda | ${projTitle}`;
+        document.title =
+          lang === "ar"
+            ? `محمد جودة | ${projTitle}`
+            : `Mohammed Jouda | ${projTitle}`;
       }
     } else if (dict.pageTitles && dict.pageTitles[currentRoute]) {
       document.title = dict.pageTitles[currentRoute];
     }
 
-    if (showFeedback && typeof showToast === 'function') {
-      showToast(dict.toastLanguageChanged, 'globe');
+    if (updateUrl) {
+      const targetUrl = routeToUrl(currentRoute, lang);
+      if (
+        typeof window !== "undefined" &&
+        window.history &&
+        window.location.pathname !== targetUrl
+      ) {
+        window.history.pushState(null, "", targetUrl);
+      }
+      updateMetaForRoute(currentRoute, lang);
+    }
+
+    if (showFeedback && typeof showToast === "function") {
+      showToast(dict.toastLanguageChanged, "globe");
     }
   }
 
-  document.querySelectorAll('.lang-btn').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const selected = btn.getAttribute('data-lang');
+  document.querySelectorAll(".lang-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const selected = btn.getAttribute("data-lang");
       if (selected && selected !== currentLang) {
-        applyLanguage(selected, true);
+        applyLanguage(selected, true, true);
       }
     });
   });
@@ -1428,94 +1811,96 @@
   // --- 6. Mobile Navigation Drawer ---
   function openDrawer() {
     if (mobileDrawer && drawerOverlay) {
-      mobileDrawer.classList.add('open');
-      drawerOverlay.classList.add('open');
-      document.body.style.overflow = 'hidden';
+      mobileDrawer.classList.add("open");
+      drawerOverlay.classList.add("open");
+      document.body.style.overflow = "hidden";
     }
   }
 
   function closeDrawer() {
     if (mobileDrawer && drawerOverlay) {
-      mobileDrawer.classList.remove('open');
-      drawerOverlay.classList.remove('open');
-      document.body.style.overflow = '';
+      mobileDrawer.classList.remove("open");
+      drawerOverlay.classList.remove("open");
+      document.body.style.overflow = "";
     }
   }
 
-  if (mobileMenuBtn) mobileMenuBtn.addEventListener('click', openDrawer);
-  if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', closeDrawer);
-  if (drawerOverlay) drawerOverlay.addEventListener('click', closeDrawer);
+  if (mobileMenuBtn) mobileMenuBtn.addEventListener("click", openDrawer);
+  if (closeDrawerBtn) closeDrawerBtn.addEventListener("click", closeDrawer);
+  if (drawerOverlay) drawerOverlay.addEventListener("click", closeDrawer);
 
   // --- 7. Projects Category Filter & Smooth Motion (in #view-projects) ---
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const projectCards = document.querySelectorAll('.project-full-card');
+  const filterBtns = document.querySelectorAll(".filter-btn");
+  const projectCards = document.querySelectorAll(".project-full-card");
 
   filterBtns.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      if (btn.classList.contains('active')) return;
-      filterBtns.forEach((b) => b.classList.remove('active'));
-      btn.classList.add('active');
+    btn.addEventListener("click", () => {
+      if (btn.classList.contains("active")) return;
+      filterBtns.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
 
-      const filter = btn.getAttribute('data-filter');
+      const filter = btn.getAttribute("data-filter");
       let visibleIndex = 0;
 
       projectCards.forEach((card) => {
-        const category = card.getAttribute('data-category') || '';
-        const matches = filter === 'all' || category.includes(filter);
+        const category = card.getAttribute("data-category") || "";
+        const matches = filter === "all" || category.includes(filter);
 
         if (matches) {
-          card.classList.remove('filtering-hidden', 'filtering-out');
-          card.classList.add('filtering-in');
+          card.classList.remove("filtering-hidden", "filtering-out");
+          card.classList.add("filtering-in");
           card.style.animationDelay = `${visibleIndex * 60}ms`;
           visibleIndex++;
 
           const cleanup = () => {
-            card.classList.remove('filtering-in');
-            card.style.animationDelay = '';
-            card.removeEventListener('animationend', cleanup);
+            card.classList.remove("filtering-in");
+            card.style.animationDelay = "";
+            card.removeEventListener("animationend", cleanup);
           };
-          card.addEventListener('animationend', cleanup);
+          card.addEventListener("animationend", cleanup);
         } else {
-          card.classList.remove('filtering-in');
-          card.style.animationDelay = '';
-          card.classList.add('filtering-out');
+          card.classList.remove("filtering-in");
+          card.style.animationDelay = "";
+          card.classList.add("filtering-out");
 
           setTimeout(() => {
-            if (card.classList.contains('filtering-out')) {
-              card.classList.remove('filtering-out');
-              card.classList.add('filtering-hidden');
+            if (card.classList.contains("filtering-out")) {
+              card.classList.remove("filtering-out");
+              card.classList.add("filtering-hidden");
             }
           }, 200);
         }
       });
 
       // Dynamic empty state indicator for project category filtering
-      const emptyStateEl = document.getElementById('projects-empty-state');
+      const emptyStateEl = document.getElementById("projects-empty-state");
       if (emptyStateEl) {
         if (visibleIndex === 0) {
-          emptyStateEl.classList.remove('hidden');
+          emptyStateEl.classList.remove("hidden");
         } else {
-          emptyStateEl.classList.add('hidden');
+          emptyStateEl.classList.add("hidden");
         }
       }
     });
   });
 
-  const emptyStateResetBtn = document.getElementById('empty-state-reset-btn');
+  const emptyStateResetBtn = document.getElementById("empty-state-reset-btn");
   if (emptyStateResetBtn) {
-    emptyStateResetBtn.addEventListener('click', () => {
-      const allFilterBtn = document.querySelector('.filter-btn[data-filter="all"]');
+    emptyStateResetBtn.addEventListener("click", () => {
+      const allFilterBtn = document.querySelector(
+        '.filter-btn[data-filter="all"]',
+      );
       if (allFilterBtn) allFilterBtn.click();
     });
   }
 
   // Accessible keyboard activation for project cards (Enter and Space)
   projectCards.forEach((card) => {
-    card.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        if (e.target.closest('a, button, input')) return;
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        if (e.target.closest("a, button, input")) return;
         e.preventDefault();
-        const projectId = card.getAttribute('data-project-id');
+        const projectId = card.getAttribute("data-project-id");
         if (projectId) {
           navigateTo(`project-${projectId}`, true);
         }
@@ -1524,72 +1909,76 @@
   });
 
   // --- 7b. Career Experience Interactive Filters & View Modes (in #view-career) ---
-  const careerFilterBtns = document.querySelectorAll('.career-filter-btn');
-  const careerNodes = document.querySelectorAll('.career-milestone-node');
+  const careerFilterBtns = document.querySelectorAll(".career-filter-btn");
+  const careerNodes = document.querySelectorAll(".career-milestone-node");
 
   careerFilterBtns.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      careerFilterBtns.forEach((b) => b.classList.remove('active'));
-      btn.classList.add('active');
+    btn.addEventListener("click", () => {
+      careerFilterBtns.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
 
-      const filter = btn.getAttribute('data-career-filter');
+      const filter = btn.getAttribute("data-career-filter");
 
       careerNodes.forEach((node) => {
-        const track = node.getAttribute('data-track') || '';
-        if (filter === 'all' || track.includes(filter)) {
-          node.style.display = '';
-          node.classList.remove('filtered-out');
+        const track = node.getAttribute("data-track") || "";
+        if (filter === "all" || track.includes(filter)) {
+          node.style.display = "";
+          node.classList.remove("filtered-out");
         } else {
-          node.style.display = 'none';
-          node.classList.add('filtered-out');
+          node.style.display = "none";
+          node.classList.add("filtered-out");
         }
       });
     });
   });
 
   // Career View Mode (Timeline vs Impact Grid)
-  const careerViewBtns = document.querySelectorAll('.career-view-btn');
-  const careerContainer = document.getElementById('career-timeline-container');
+  const careerViewBtns = document.querySelectorAll(".career-view-btn");
+  const careerContainer = document.getElementById("career-timeline-container");
 
   careerViewBtns.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      careerViewBtns.forEach((b) => b.classList.remove('active'));
-      btn.classList.add('active');
-      const mode = btn.getAttribute('data-view-mode');
+    btn.addEventListener("click", () => {
+      careerViewBtns.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      const mode = btn.getAttribute("data-view-mode");
       if (careerContainer) {
-        if (mode === 'grid') {
-          careerContainer.classList.add('mode-grid');
-          careerContainer.classList.remove('mode-timeline');
+        if (mode === "grid") {
+          careerContainer.classList.add("mode-grid");
+          careerContainer.classList.remove("mode-timeline");
         } else {
-          careerContainer.classList.add('mode-timeline');
-          careerContainer.classList.remove('mode-grid');
+          careerContainer.classList.add("mode-timeline");
+          careerContainer.classList.remove("mode-grid");
         }
       }
     });
   });
 
   // Career Technical Deep-Dive Accordion Trigger
-  document.addEventListener('click', (e) => {
-    const trigger = e.target.closest('.career-deep-dive-toggle');
+  document.addEventListener("click", (e) => {
+    const trigger = e.target.closest(".career-deep-dive-toggle");
     if (trigger) {
       e.preventDefault();
-      const targetId = trigger.getAttribute('data-target');
+      const targetId = trigger.getAttribute("data-target");
       const drawer = document.getElementById(targetId);
-      const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+      const isExpanded = trigger.getAttribute("aria-expanded") === "true";
 
       if (drawer) {
         if (isExpanded) {
-          drawer.classList.remove('open');
-          trigger.setAttribute('aria-expanded', 'false');
-          const toggleText = trigger.querySelector('.toggle-text');
+          drawer.classList.remove("open");
+          trigger.setAttribute("aria-expanded", "false");
+          const toggleText = trigger.querySelector(".toggle-text");
           const dict = i18n[currentLang] || i18n.en;
-          if (toggleText) toggleText.textContent = dict.careerDeepDiveBtn || 'Technical Architecture & Deep-Dive';
+          if (toggleText)
+            toggleText.textContent =
+              dict.careerDeepDiveBtn || "Technical Architecture & Deep-Dive";
         } else {
-          drawer.classList.add('open');
-          trigger.setAttribute('aria-expanded', 'true');
-          const toggleText = trigger.querySelector('.toggle-text');
+          drawer.classList.add("open");
+          trigger.setAttribute("aria-expanded", "true");
+          const toggleText = trigger.querySelector(".toggle-text");
           const dict = i18n[currentLang] || i18n.en;
-          if (toggleText) toggleText.textContent = dict.careerDeepDiveClose || 'Hide Architecture Details';
+          if (toggleText)
+            toggleText.textContent =
+              dict.careerDeepDiveClose || "Hide Architecture Details";
         }
       }
     }
@@ -1602,34 +1991,34 @@
       timestamp: new Date().toISOString(),
       lang: currentLang,
       route: currentRoute,
-      ...params
+      ...params,
     };
 
     console.log(`[Lead & Conversion Tracker] ${eventName}:`, payload);
 
     // Push to Google Tag / GA4 if present
-    if (typeof window.gtag === 'function') {
-      window.gtag('event', eventName, payload);
+    if (typeof window.gtag === "function") {
+      window.gtag("event", eventName, payload);
     }
     // Push to Google Tag Manager dataLayer if present
     if (window.dataLayer && Array.isArray(window.dataLayer)) {
       window.dataLayer.push(payload);
     }
     // Push to Cloudflare Web Analytics / custom event if available
-    if (window.cfAnalytics && typeof window.cfAnalytics.track === 'function') {
+    if (window.cfAnalytics && typeof window.cfAnalytics.track === "function") {
       window.cfAnalytics.track(eventName, payload);
     }
   }
   window.trackConversion = trackConversion;
 
   // Global Conversion Tracking Listener for High-Impact Lead Actions
-  document.addEventListener('click', (e) => {
+  document.addEventListener("click", (e) => {
     // 1. Resume / CV PDF Download
     const cvLink = e.target.closest('a[href*="Mohammed_Jouda_CV.pdf"]');
     if (cvLink) {
-      trackConversion('lead_cv_download', {
-        href: cvLink.getAttribute('href'),
-        label: cvLink.textContent.trim() || 'Download CV'
+      trackConversion("lead_cv_download", {
+        href: cvLink.getAttribute("href"),
+        label: cvLink.textContent.trim() || "Download CV",
       });
       return;
     }
@@ -1637,9 +2026,9 @@
     // 2. WhatsApp Direct Chat
     const waLink = e.target.closest('a[href*="wa.me"]');
     if (waLink) {
-      trackConversion('lead_whatsapp_click', {
-        href: waLink.getAttribute('href'),
-        label: 'Direct WhatsApp Chat'
+      trackConversion("lead_whatsapp_click", {
+        href: waLink.getAttribute("href"),
+        label: "Direct WhatsApp Chat",
       });
       return;
     }
@@ -1647,48 +2036,56 @@
     // 3. Email Direct Click
     const mailLink = e.target.closest('a[href^="mailto:"]');
     if (mailLink) {
-      trackConversion('lead_email_click', {
-        href: mailLink.getAttribute('href'),
-        label: 'Direct Email Contact'
+      trackConversion("lead_email_click", {
+        href: mailLink.getAttribute("href"),
+        label: "Direct Email Contact",
       });
       return;
     }
 
     // 4. Project Case Study Exploration
-    const projectTrigger = e.target.closest('[data-project-id], .project-full-card, .btn-preview-action');
+    const projectTrigger = e.target.closest(
+      "[data-project-id], .project-full-card, .btn-preview-action",
+    );
     if (projectTrigger) {
-      const pId = projectTrigger.getAttribute('data-project-id') || 
-                  (projectTrigger.closest('[data-project-id]') && projectTrigger.closest('[data-project-id]').getAttribute('data-project-id'));
+      const pId =
+        projectTrigger.getAttribute("data-project-id") ||
+        (projectTrigger.closest("[data-project-id]") &&
+          projectTrigger
+            .closest("[data-project-id]")
+            .getAttribute("data-project-id"));
       if (pId) {
-        trackConversion('case_study_interaction', { project_id: pId });
+        trackConversion("case_study_interaction", { project_id: pId });
       }
     }
   });
 
   // --- 8b. Real Asynchronous Contact Form Submission Handler ---
   window.handleContactSubmit = async function () {
-    const form = document.getElementById('contact-form');
-    const nameInput = document.getElementById('contact-name');
-    const emailInput = document.getElementById('contact-email');
-    const subjectInput = document.getElementById('contact-subject');
-    const msgInput = document.getElementById('contact-msg');
-    const botcheck = document.getElementById('contact-botcheck');
-    const feedback = document.getElementById('form-feedback');
-    const submitBtn = document.getElementById('contact-submit-btn');
-    const submitText = document.getElementById('contact-submit-text');
-    const submitIcon = document.getElementById('contact-submit-icon');
+    const form = document.getElementById("contact-form");
+    const nameInput = document.getElementById("contact-name");
+    const emailInput = document.getElementById("contact-email");
+    const subjectInput = document.getElementById("contact-subject");
+    const msgInput = document.getElementById("contact-msg");
+    const botcheck = document.getElementById("contact-botcheck");
+    const feedback = document.getElementById("form-feedback");
+    const submitBtn = document.getElementById("contact-submit-btn");
+    const submitText = document.getElementById("contact-submit-text");
+    const submitIcon = document.getElementById("contact-submit-icon");
 
     // Anti-spam honeypot verification
-    if (botcheck && botcheck.value.trim() !== '') {
-      console.warn('Spam bot caught via honeypot field.');
+    if (botcheck && botcheck.value.trim() !== "") {
+      console.warn("Spam bot caught via honeypot field.");
       return;
     }
 
     const dict = i18n[currentLang] || i18n.en;
-    const name = nameInput ? nameInput.value.trim() : '';
-    const email = emailInput ? emailInput.value.trim() : '';
-    const subject = subjectInput ? subjectInput.value.trim() : 'Project Inquiry / Consultation';
-    const message = msgInput ? msgInput.value.trim() : '';
+    const name = nameInput ? nameInput.value.trim() : "";
+    const email = emailInput ? emailInput.value.trim() : "";
+    const subject = subjectInput
+      ? subjectInput.value.trim()
+      : "Project Inquiry / Consultation";
+    const message = msgInput ? msgInput.value.trim() : "";
 
     if (!name || !email || !message) {
       return;
@@ -1696,13 +2093,15 @@
 
     // Set interactive loading state
     if (submitBtn) submitBtn.disabled = true;
-    if (submitText) submitText.textContent = dict.sendingMsg || 'Sending message...';
+    if (submitText)
+      submitText.textContent = dict.sendingMsg || "Sending message...";
     if (submitIcon) {
-      submitIcon.outerHTML = '<span id="contact-submit-icon" class="spa-submit-spinner" aria-hidden="true"></span>';
+      submitIcon.outerHTML =
+        '<span id="contact-submit-icon" class="spa-submit-spinner" aria-hidden="true"></span>';
     }
     if (feedback) {
-      feedback.className = 'form-feedback hidden';
-      feedback.textContent = '';
+      feedback.className = "form-feedback hidden";
+      feedback.textContent = "";
     }
 
     const payload = {
@@ -1710,39 +2109,43 @@
       email: email,
       _subject: `[Portfolio Lead] ${subject} - from ${name}`,
       message: message,
-      _template: 'table',
-      _captcha: 'false',
-      site_locale: currentLang
+      _template: "table",
+      _captcha: "false",
+      site_locale: currentLang,
     };
 
     // Check if running on file:// protocol where FormSubmit blocks requests
-    if (window.location.protocol === 'file:') {
-      console.warn('FormSubmit requires an HTTP/HTTPS origin and cannot accept file:// protocol.');
+    if (window.location.protocol === "file:") {
+      console.warn(
+        "FormSubmit requires an HTTP/HTTPS origin and cannot accept file:// protocol.",
+      );
       if (feedback) {
         feedback.innerHTML = `
           <div style="font-weight: 700; margin-bottom: 6px;">
-            ${currentLang === 'ar' ? '⚠️ تنبيه للتطوير المحلي' : '⚠️ Local Protocol Notice'}
+            ${currentLang === "ar" ? "⚠️ تنبيه للتطوير المحلي" : "⚠️ Local Protocol Notice"}
           </div>
           <div style="font-size: 13px; line-height: 1.5; margin-bottom: 8px;">
-            ${currentLang === 'ar' 
-              ? 'خدمات نماذج الويب تمنع استقبال الطلبات من مسار الملفات المباشر (file://). لتجربة النموذج بنجاح، يُرجى فتح الموقع عبر خادم محلي مثل <code>http://localhost:3333</code> أو بعد رفعه على الاستضافة الحية.' 
-              : 'Web form APIs block requests originating from file:// URLs. To test live submission, please run via local web server (e.g. <code>http://localhost:3333</code>) or on a live domain.'}
+            ${
+              currentLang === "ar"
+                ? "خدمات نماذج الويب تمنع استقبال الطلبات من مسار الملفات المباشر (file://). لتجربة النموذج بنجاح، يُرجى فتح الموقع عبر خادم محلي مثل <code>http://localhost:3333</code> أو بعد رفعه على الاستضافة الحية."
+                : "Web form APIs block requests originating from file:// URLs. To test live submission, please run via local web server (e.g. <code>http://localhost:3333</code>) or on a live domain."
+            }
           </div>
           <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 8px;">
-            <a href="mailto:mohammedjouda02@gmail.com?subject=${encodeURIComponent('[Portfolio Inquiry] ' + subject)}&body=${encodeURIComponent('From: ' + name + '\n\n' + message)}" class="error-action-link">
-              ✉ ${currentLang === 'ar' ? 'إرسال عبر البريد مباشرة' : 'Email Directly'}
+            <a href="mailto:mohammedjouda02@gmail.com?subject=${encodeURIComponent("[Portfolio Inquiry] " + subject)}&body=${encodeURIComponent("From: " + name + "\n\n" + message)}" class="error-action-link">
+              ✉ ${currentLang === "ar" ? "إرسال عبر البريد مباشرة" : "Email Directly"}
             </a>
-            <a href="https://wa.me/970599108787?text=${encodeURIComponent('Hello Mohammed, my name is ' + name + '. ' + subject + ' - ' + message)}" target="_blank" rel="noopener noreferrer" class="error-action-link">
-              💬 ${currentLang === 'ar' ? 'مراسلة عبر واتساب' : 'Chat on WhatsApp'}
+            <a href="https://wa.me/970599108787?text=${encodeURIComponent("Hello Mohammed, my name is " + name + ". " + subject + " - " + message)}" target="_blank" rel="noopener noreferrer" class="error-action-link">
+              💬 ${currentLang === "ar" ? "مراسلة عبر واتساب" : "Chat on WhatsApp"}
             </a>
           </div>
         `;
-        feedback.className = 'form-feedback warning';
-        feedback.classList.remove('hidden');
+        feedback.className = "form-feedback warning";
+        feedback.classList.remove("hidden");
       }
       if (submitBtn) submitBtn.disabled = false;
-      if (submitText) submitText.textContent = dict.sendMsg || 'Send Message';
-      const sp = document.getElementById('contact-submit-icon');
+      if (submitText) submitText.textContent = dict.sendMsg || "Send Message";
+      const sp = document.getElementById("contact-submit-icon");
       if (sp) {
         sp.outerHTML = `<svg id="contact-submit-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>`;
       }
@@ -1751,85 +2154,104 @@
 
     try {
       // FormSubmit AJAX API delivers messages directly to mohammedjouda02@gmail.com via activated secure token
-      const response = await fetch('https://formsubmit.co/ajax/1961d5ede44be63fef11e95540ad8fb4', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
+      const response = await fetch(
+        "https://formsubmit.co/ajax/1961d5ede44be63fef11e95540ad8fb4",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify(payload),
         },
-        body: JSON.stringify(payload)
-      });
+      );
 
       const result = await response.json().catch(() => ({}));
-      const isSuccess = response.ok && (result.success === 'true' || result.success === true);
+      const isSuccess =
+        response.ok && (result.success === "true" || result.success === true);
 
       if (isSuccess) {
         // Genuine Success
-        const successMsg = dict.msgSent || 'Thank you! Your message has been sent successfully.';
+        const successMsg =
+          dict.msgSent || "Thank you! Your message has been sent successfully.";
         if (feedback) {
           feedback.textContent = successMsg;
-          feedback.className = 'form-feedback success';
-          feedback.classList.remove('hidden');
+          feedback.className = "form-feedback success";
+          feedback.classList.remove("hidden");
         }
 
         if (form) form.reset();
-        showToast(successMsg, 'check');
+        showToast(successMsg, "check");
 
-        trackConversion('lead_form_submitted', {
+        trackConversion("lead_form_submitted", {
           sender_name: name,
           sender_email: email,
-          subject: subject
+          subject: subject,
         });
 
         setTimeout(() => {
-          if (feedback) feedback.classList.add('hidden');
+          if (feedback) feedback.classList.add("hidden");
         }, 9000);
       } else if (result.message && /activation/i.test(result.message)) {
         // First-time Form Activation Required by FormSubmit
-        console.warn('FormSubmit Activation Required:', result.message);
+        console.warn("FormSubmit Activation Required:", result.message);
         if (feedback) {
           feedback.innerHTML = `
             <div style="font-weight: 700; margin-bottom: 6px;">
-              ${currentLang === 'ar' ? '⚠️ خطوة أخيرة مطلوبة لتفعيل الاستلام' : '⚠️ Activation Required for First Use'}
+              ${currentLang === "ar" ? "⚠️ خطوة أخيرة مطلوبة لتفعيل الاستلام" : "⚠️ Activation Required for First Use"}
             </div>
             <div style="font-size: 13px; line-height: 1.55;">
-              ${currentLang === 'ar' 
-                ? 'أرسلت خدمة FormSubmit رسالة تأكيد إلى بريدك <strong>mohammedjouda02@gmail.com</strong>. يُرجى فتح بريدك (أو مجلد الـ Spam / الرسائل غير المرغوب فيها) والضغط على زر <strong>Activate Form</strong> لمرة واحدة فقط، لتبدأ كل الرسائل القادمة بالوصول فوراً لصندوق بريدك!' 
-                : 'FormSubmit has sent an activation link to <strong>mohammedjouda02@gmail.com</strong>. Please check your inbox or Spam folder and click <strong>Activate Form</strong> once to enable direct delivery for all future messages.'}
+              ${
+                currentLang === "ar"
+                  ? "أرسلت خدمة FormSubmit رسالة تأكيد إلى بريدك <strong>mohammedjouda02@gmail.com</strong>. يُرجى فتح بريدك (أو مجلد الـ Spam / الرسائل غير المرغوب فيها) والضغط على زر <strong>Activate Form</strong> لمرة واحدة فقط، لتبدأ كل الرسائل القادمة بالوصول فوراً لصندوق بريدك!"
+                  : "FormSubmit has sent an activation link to <strong>mohammedjouda02@gmail.com</strong>. Please check your inbox or Spam folder and click <strong>Activate Form</strong> once to enable direct delivery for all future messages."
+              }
             </div>
           `;
-          feedback.className = 'form-feedback warning';
-          feedback.classList.remove('hidden');
+          feedback.className = "form-feedback warning";
+          feedback.classList.remove("hidden");
         }
-        showToast(currentLang === 'ar' ? 'تحقق من بريدك لتأكيد تفعيل النموذج' : 'Check email to activate form', 'alert');
+        showToast(
+          currentLang === "ar"
+            ? "تحقق من بريدك لتأكيد تفعيل النموذج"
+            : "Check email to activate form",
+          "alert",
+        );
       } else {
-        throw new Error(result.message || 'Submission failed');
+        throw new Error(result.message || "Submission failed");
       }
     } catch (err) {
-      console.warn('Direct API submission encountered issue:', err);
-      const errorMsg = dict.msgError || 'Failed to send message. Please reach out directly at mohammedjouda02@gmail.com or via WhatsApp.';
+      console.warn("Direct API submission encountered issue:", err);
+      const errorMsg =
+        dict.msgError ||
+        "Failed to send message. Please reach out directly at mohammedjouda02@gmail.com or via WhatsApp.";
       if (feedback) {
         feedback.innerHTML = `
           <div>${errorMsg}</div>
           <div style="margin-top: 10px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-            <a href="mailto:mohammedjouda02@gmail.com?subject=${encodeURIComponent('[Portfolio] ' + subject)}&body=${encodeURIComponent('From: ' + name + '\n\n' + message)}" class="error-action-link">
-              ✉ ${currentLang === 'ar' ? 'مراسلة عبر البريد مباشرة' : 'Email Directly'}
+            <a href="mailto:mohammedjouda02@gmail.com?subject=${encodeURIComponent("[Portfolio] " + subject)}&body=${encodeURIComponent("From: " + name + "\n\n" + message)}" class="error-action-link">
+              ✉ ${currentLang === "ar" ? "مراسلة عبر البريد مباشرة" : "Email Directly"}
             </a>
-            <a href="https://wa.me/970599108787?text=${encodeURIComponent('Hello Mohammed, my name is ' + name + '. ' + subject + ' - ' + message)}" target="_blank" rel="noopener noreferrer" class="error-action-link">
-              💬 ${currentLang === 'ar' ? 'محادثة عبر واتساب' : 'Chat on WhatsApp'}
+            <a href="https://wa.me/970599108787?text=${encodeURIComponent("Hello Mohammed, my name is " + name + ". " + subject + " - " + message)}" target="_blank" rel="noopener noreferrer" class="error-action-link">
+              💬 ${currentLang === "ar" ? "محادثة عبر واتساب" : "Chat on WhatsApp"}
             </a>
           </div>
         `;
-        feedback.className = 'form-feedback error';
-        feedback.classList.remove('hidden');
+        feedback.className = "form-feedback error";
+        feedback.classList.remove("hidden");
       }
 
-      showToast(currentLang === 'ar' ? 'تعذر الإرسال الآلي، يُرجى المراسلة المباشرة' : 'Auto-send failed, please email directly', 'alert');
+      showToast(
+        currentLang === "ar"
+          ? "تعذر الإرسال الآلي، يُرجى المراسلة المباشرة"
+          : "Auto-send failed, please email directly",
+        "alert",
+      );
     } finally {
       // Restore submit button state
       if (submitBtn) submitBtn.disabled = false;
-      if (submitText) submitText.textContent = dict.sendMsg || 'Send Message';
-      const spinner = document.getElementById('contact-submit-icon');
+      if (submitText) submitText.textContent = dict.sendMsg || "Send Message";
+      const spinner = document.getElementById("contact-submit-icon");
       if (spinner) {
         spinner.outerHTML = `
           <svg id="contact-submit-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -1842,23 +2264,28 @@
   };
 
   // --- 9. Toast Notification System ---
-  function showToast(message, iconType = 'check') {
+  function showToast(message, iconType = "check") {
     if (!toastContainer) return;
 
-    const toast = document.createElement('div');
-    toast.className = 'toast-item';
+    const toast = document.createElement("div");
+    toast.className = "toast-item";
 
-    let iconSvg = '';
-    if (iconType === 'check') {
-      iconSvg = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>';
-    } else if (iconType === 'copy') {
-      iconSvg = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>';
-    } else if (iconType === 'sun' || iconType === 'theme') {
-      iconSvg = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>';
-    } else if (iconType === 'globe') {
-      iconSvg = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>';
+    let iconSvg = "";
+    if (iconType === "check") {
+      iconSvg =
+        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+    } else if (iconType === "copy") {
+      iconSvg =
+        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>';
+    } else if (iconType === "sun" || iconType === "theme") {
+      iconSvg =
+        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>';
+    } else if (iconType === "globe") {
+      iconSvg =
+        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>';
     } else {
-      iconSvg = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>';
+      iconSvg =
+        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>';
     }
 
     toast.innerHTML = `<span class="toast-icon">${iconSvg}</span><span class="toast-text">${message}</span>`;
@@ -1868,7 +2295,7 @@
     const dismiss = () => {
       if (dismissed) return;
       dismissed = true;
-      toast.classList.add('fade-out');
+      toast.classList.add("fade-out");
       setTimeout(() => {
         if (toast.parentNode) {
           toast.parentNode.removeChild(toast);
@@ -1876,313 +2303,465 @@
       }, 260);
     };
 
-    toast.addEventListener('click', dismiss);
+    toast.addEventListener("click", dismiss);
     setTimeout(dismiss, 3200);
   }
 
   // --- 10. Interactive Case Studies Modal System ---
   const caseStudiesData = {
-    'lead-automation': {
-      category: { en: "AI Automation & Backend", ar: "أتمتة بالذكاء الاصطناعي وهندسة Backend" },
+    "lead-automation": {
+      category: {
+        en: "AI Automation & Backend",
+        ar: "أتمتة بالذكاء الاصطناعي وهندسة Backend",
+      },
       year: "2026",
       status: { en: "Featured Case Study", ar: "مشروع مميز ودراسة حالة" },
       origin: {
         icon: "ai",
         en: "FEATURED: AI Automation & Laravel Queues",
-        ar: "مشروع مميز: أتمتة الذكاء الاصطناعي وطوابير Laravel"
+        ar: "مشروع مميز: أتمتة الذكاء الاصطناعي وطوابير Laravel",
       },
       title: {
         en: "AI Lead Triage & Automation System",
-        ar: "نظام AI لمعالجة العملاء المحتملين وأتمتة المتابعة"
+        ar: "نظام AI لمعالجة العملاء المحتملين وأتمتة المتابعة",
       },
       subtitle: {
         en: "Turning unstructured leads into structured business workflows with Laravel, n8n, and Gemini.",
-        ar: "تحويل رسائل العملاء غير المنظمة إلى مسارات عمل منظمة عبر Laravel و n8n و Gemini."
+        ar: "تحويل رسائل العملاء غير المنظمة إلى مسارات عمل منظمة عبر Laravel و n8n و Gemini.",
       },
       image: "assets/projects/ai-leads/ai-leads.webp",
-      gallery: [
-        "assets/projects/ai-leads/ai-leads.webp"
-      ],
+      gallery: ["assets/projects/ai-leads/ai-leads.webp"],
       metrics: [
-        { value: "End-to-End", labelEn: "Automation Flow", labelAr: "مسار أتمتة متكامل" },
-        { value: "JSON Schema", labelEn: "Structured Output", labelAr: "مخرجات منظمة ومحققة" },
-        { value: "Async Queues", labelEn: "Worker Resilience", labelAr: "معالجة غير متزامنة" }
+        {
+          value: "End-to-End",
+          labelEn: "Automation Flow",
+          labelAr: "مسار أتمتة متكامل",
+        },
+        {
+          value: "JSON Schema",
+          labelEn: "Structured Output",
+          labelAr: "مخرجات منظمة ومحققة",
+        },
+        {
+          value: "Async Queues",
+          labelEn: "Worker Resilience",
+          labelAr: "معالجة غير متزامنة",
+        },
       ],
       challenge: {
         en: "Inbound business leads arrive from multiple disparate channels in messy, unstructured text formats. Sales and technical teams waste hours manually reading messages, estimating urgency, categorizing inquiry types, and routing tasks, leading to delayed response times and lost commercial opportunities.",
-        ar: "تصل استفسارات العملاء والـ Leads من قنوات متعددة في صورة نصوص غير منظمة. تضيع فرق المبيعات والدعم ساعات طويلة في القراءة اليدوية وتحديد مدى الاستعجال وتصنيف نوع الطلب، مما يؤدي إلى بطء الرد وفقدان فرص تجارية مهمة."
+        ar: "تصل استفسارات العملاء والـ Leads من قنوات متعددة في صورة نصوص غير منظمة. تضيع فرق المبيعات والدعم ساعات طويلة في القراءة اليدوية وتحديد مدى الاستعجال وتصنيف نوع الطلب، مما يؤدي إلى بطء الرد وفقدان فرص تجارية مهمة.",
       },
       solution: {
         en: "Architected a reliable automation pipeline: incoming leads hit an authenticated Laravel webhook, are dispatched into asynchronous Redis queues, and get orchestrated through n8n. Google Gemini evaluates the lead against a strict structured JSON schema (intent classification, urgency estimation, lead score, concise summary, and recommended next action). The structured analysis returns to Laravel for database persistence, dashboard alerts, and team notifications.",
-        ar: "بناء مسار أتمتة موثوق: يستقبل الـ Laravel Webhook المعتمد بيانات العميل، ويدفعها إلى طوابير Redis غير المتزامنة، ثم يتولى n8n تنسيق سير العمل. يحلل نموذج Google Gemini نص الرسالة وفق schema صارمة (تصنيف الهدف، تقدير الاستعجال، تقييم الفرصة، ملخص موجز، وتوصية بالخطوة التالية)، ثم تعود البيانات المنظمة إلى Laravel للتخزين وتنبيه الإدارة."
+        ar: "بناء مسار أتمتة موثوق: يستقبل الـ Laravel Webhook المعتمد بيانات العميل، ويدفعها إلى طوابير Redis غير المتزامنة، ثم يتولى n8n تنسيق سير العمل. يحلل نموذج Google Gemini نص الرسالة وفق schema صارمة (تصنيف الهدف، تقدير الاستعجال، تقييم الفرصة، ملخص موجز، وتوصية بالخطوة التالية)، ثم تعود البيانات المنظمة إلى Laravel للتخزين وتنبيه الإدارة.",
       },
-      techStack: ["Laravel 11", "PHP 8.3", "n8n", "Google Gemini API", "Redis Queues", "Webhook Auth", "MySQL", "Structured JSON"],
+      techStack: [
+        "Laravel 11",
+        "PHP 8.3",
+        "n8n",
+        "Google Gemini API",
+        "Redis Queues",
+        "Webhook Auth",
+        "MySQL",
+        "Structured JSON",
+      ],
       highlights: {
         en: [
           "Workflow Pipeline: Lead → Laravel → Queue → n8n → Gemini → Structured Analysis → Laravel → Dashboard.",
           "Strict JSON schema enforcement with schema validation and fallback error handlers.",
           "Idempotent webhook processing and dead-letter queues to prevent duplicated tasks.",
-          "Human-in-the-loop design: AI assists and scores, empowering human operators to make final decisions."
+          "Human-in-the-loop design: AI assists and scores, empowering human operators to make final decisions.",
         ],
         ar: [
           "مسار النظام: Lead ← Laravel ← طوابير المهام ← n8n ← تحليل Gemini المنظم ← Laravel ← لوحة التحكم والإشعارات.",
           "إلزام النماذج بمخرجات JSON Schema محققة مع آليات تعامل مع حالات الفشل والـ Retries.",
           "معالجة معتمدة على Idempotency لمنع تكرار معالجة الرسائل والطلبات.",
-          "تصميم يدعم اتخاذ القرار البشري (Human-in-the-loop): الذكاء الاصطناعي يقدم التحليل والتوصية ولا ينفرد بالقرار النهائي."
-        ]
+          "تصميم يدعم اتخاذ القرار البشري (Human-in-the-loop): الذكاء الاصطناعي يقدم التحليل والتوصية ولا ينفرد بالقرار النهائي.",
+        ],
       },
       liveUrl: "",
-      codeUrl: "https://github.com/mohamed-jouda/ai-lead-automation",
-      contactSubject: "Project Inquiry: AI Lead Triage & Automation System"
+      codeUrl: "https://github.com/mohammedjouda/ai-lead-automation",
+      contactSubject: "Project Inquiry: AI Lead Triage & Automation System",
     },
-    'sprint-mind': {
-      category: { en: "AI-Powered Project Management & Agile Workspace", ar: "أنظمة إدارة المشاريع وتخطيط Agile بالذكاء الاصطناعي" },
+    "sprint-mind": {
+      category: {
+        en: "AI-Powered Project Management & Agile Workspace",
+        ar: "أنظمة إدارة المشاريع وتخطيط Agile بالذكاء الاصطناعي",
+      },
       year: "2026",
-      status: { en: "Agile AI Workspace", ar: "منظومة إدارة سبرنتات بالذكاء الاصطناعي" },
+      status: {
+        en: "Agile AI Workspace",
+        ar: "منظومة إدارة سبرنتات بالذكاء الاصطناعي",
+      },
       origin: {
         icon: "ai",
         en: "FEATURED: Laravel 13 & Gemini 3.5 Flash",
-        ar: "مشروع مميز: Laravel 13 وتكامل Gemini 3.5"
+        ar: "مشروع مميز: Laravel 13 وتكامل Gemini 3.5",
       },
       title: {
         en: "SprintMind AI — AI-Powered Agile Scrum Workspace",
-        ar: "SprintMind AI — منظومة إدارة السبرنتات والتخطيط بالذكاء الاصطناعي"
+        ar: "SprintMind AI — منظومة إدارة السبرنتات والتخطيط بالذكاء الاصطناعي",
       },
       subtitle: {
         en: "Automating sprint planning, Markdown note task extraction, calendar auto-scheduling, and real-time sprint health check audits with Gemini 3.5.",
-        ar: "أتمتة تخطيط السبرنتات، واستخراج المهام من الملاحظات، والجدولة التلقائية في التقويم، والتدقيق الفوري لصحة السبرنت بـ Gemini 3.5."
+        ar: "أتمتة تخطيط السبرنتات، واستخراج المهام من الملاحظات، والجدولة التلقائية في التقويم، والتدقيق الفوري لصحة السبرنت بـ Gemini 3.5.",
       },
       image: "assets/projects/sprint-mind/sprint-mind-hero.webp",
       gallery: [
         "assets/projects/sprint-mind/sprint-mind-hero.webp",
-        "assets/projects/sprint-mind/sprint-mind-1.webp"
+        "assets/projects/sprint-mind/sprint-mind-1.webp",
       ],
       metrics: [
-        { value: "Gemini 3.5", labelEn: "AI Core Engine", labelAr: "محرك الذكاء الاصطناعي" },
-        { value: "Pest PHP", labelEn: "Test Suite Coverage", labelAr: "تغطية الاختبارات الآلية" },
-        { value: "< 1s", labelEn: "Auto-Scheduler Velocity", labelAr: "سرعة الجدولة التلقائية" }
+        {
+          value: "Gemini 3.5",
+          labelEn: "AI Core Engine",
+          labelAr: "محرك الذكاء الاصطناعي",
+        },
+        {
+          value: "Pest PHP",
+          labelEn: "Test Suite Coverage",
+          labelAr: "تغطية الاختبارات الآلية",
+        },
+        {
+          value: "< 1s",
+          labelEn: "Auto-Scheduler Velocity",
+          labelAr: "سرعة الجدولة التلقائية",
+        },
       ],
       challenge: {
         en: "Agile product teams lose significant time converting raw client meeting notes into backlog stories, balancing daily developer capacities manually, and catching sprint bottlenecks like code review congestion before sprint deadlines.",
-        ar: "تستهلك فرق التطوير وقتاً طويلاً في تحويل ملاحظات الاجتماعات إلى قَصص ومهام (Stories)، وتوزيع المواعيد يدوياً على التقويم، واكتشاف الاختناقات البرمجية في السبرنت مثل ازدحام الـ Code Review قبل فوات الأوان."
+        ar: "تستهلك فرق التطوير وقتاً طويلاً في تحويل ملاحظات الاجتماعات إلى قَصص ومهام (Stories)، وتوزيع المواعيد يدوياً على التقويم، واكتشاف الاختناقات البرمجية في السبرنت مثل ازدحام الـ Code Review قبل فوات الأوان.",
       },
       solution: {
         en: "Engineered an end-to-end AI Agile workspace powered by Laravel 13 and Gemini 3.5 Flash. Built AIAgileArchitectService to parse Markdown notes into actionable backlog tasks, dynamically auto-schedule unscheduled backlog items onto business weekdays based on daily capacity heatmaps (Story Point limits), and run real-time Sprint Health Checks with localized copilot advice.",
-        ar: "تطوير بيئة عمل Agile متكاملة تعتمد على Laravel 13 و Gemini 3.5 Flash. تم بناء خدمة AIAgileArchitectService لتحليل الملاحظات وتحويلها لمهام قابلة للتنفيذ، والجدولة الآلية للمهام غير المؤرخة على التقويم استناداً لخريطة السعة اليومية (Capacity Heatmaps)، وإجراء تدقيق فوري (Health Checks) للسبرنت لتنبيه الفريق بأي عوائق."
+        ar: "تطوير بيئة عمل Agile متكاملة تعتمد على Laravel 13 و Gemini 3.5 Flash. تم بناء خدمة AIAgileArchitectService لتحليل الملاحظات وتحويلها لمهام قابلة للتنفيذ، والجدولة الآلية للمهام غير المؤرخة على التقويم استناداً لخريطة السعة اليومية (Capacity Heatmaps)، وإجراء تدقيق فوري (Health Checks) للسبرنت لتنبيه الفريق بأي عوائق.",
       },
-      techStack: ["Laravel 13", "PHP 8.3", "Google Gemini API", "Pest PHP", "Tailwind CSS", "Alpine.js", "FullCalendar.js", "MySQL"],
+      techStack: [
+        "Laravel 13",
+        "PHP 8.3",
+        "Google Gemini API",
+        "Pest PHP",
+        "Tailwind CSS",
+        "Alpine.js",
+        "FullCalendar.js",
+        "MySQL",
+      ],
       highlights: {
         en: [
           "Gemini 3.5 Flash Integration: System prompt wrappers for target-velocity sprint planning, note story extraction, and fallback rules for zero downtime.",
           "Markdown Note Hub & Processor: Converts raw meeting transcripts directly into previewable backlog user stories with Fibonacci story points.",
           "Agile Calendar & Capacity Heatmaps: FullCalendar.js drag-and-drop integration with real-time daily SP capacity heatmaps (Green <=5, Amber 6-8, Red >8 SP).",
-          "Comprehensive Pest PHP Suite: Automated feature and unit tests verifying auth guards, note CRUD, backlog commits, notification hub, and global search."
+          "Comprehensive Pest PHP Suite: Automated feature and unit tests verifying auth guards, note CRUD, backlog commits, notification hub, and global search.",
         ],
         ar: [
           "تكامل ذكي مع Gemini 3.5 Flash: هندسة Prompts دقيقة لتخطيط السبرنت، واستخراج المهام، مع محرك احتياطي (Fallback Engine) لضمان استمرارية الخدمة.",
           "معالج الملاحظات بالذكاء الاصطناعي: تحويل المحاضر والملاحظات إلى Stories ومهام جاهزة للإضافة للـ Backlog بنقاط Story Points.",
           "تقويم تفاعلي وخريطة سعة: دمج FullCalendar.js مع خريطة حرارية لحسوبة السعة اليومية (أخضر <=5SP، أصفر 6-8SP، أحمر >8SP).",
-          "تغطية اختبارات شاملة بـ Pest PHP: فحص آلي لمصادقة المستخدمين، وإدارة الملاحظات، وإضافة المهام للـ Backlog، ونظام الإشعارات."
-        ]
+          "تغطية اختبارات شاملة بـ Pest PHP: فحص آلي لمصادقة المستخدمين، وإدارة الملاحظات، وإضافة المهام للـ Backlog، ونظام الإشعارات.",
+        ],
       },
       liveUrl: "",
       codeUrl: "https://github.com/mohammedjouda/SprintMind-Ai",
-      contactSubject: "Project Inquiry: AI-Powered Agile Workspace (SprintMind AI)"
+      contactSubject:
+        "Project Inquiry: AI-Powered Agile Workspace (SprintMind AI)",
     },
-    'marsa-store': {
-      category: { en: "E-Commerce & Multi-Vendor", ar: "التجارة الإلكترونية والمنصات المتعددة" },
+    "marsa-store": {
+      category: {
+        en: "E-Commerce & Multi-Vendor",
+        ar: "التجارة الإلكترونية والمنصات المتعددة",
+      },
       year: "2025",
-      status: { en: "Graduation Project (Honors)", ar: "مشروع التخرج بمرتبة الشرف" },
+      status: {
+        en: "Graduation Project (Honors)",
+        ar: "مشروع التخرج بمرتبة الشرف",
+      },
       origin: {
         icon: "edu",
         en: "EDUCATION: Graduation Project (83.92%)",
-        ar: "التعليم الأكاديمي: مشروع التخرج (83.92%)"
+        ar: "التعليم الأكاديمي: مشروع التخرج (83.92%)",
       },
-      title: { en: "Marsa Store — Multi-Vendor Marketplace", ar: "متجر مرسى — منصة تجارة متعددة التجار" },
+      title: {
+        en: "Marsa Store — Multi-Vendor Marketplace",
+        ar: "متجر مرسى — منصة تجارة متعددة التجار",
+      },
       subtitle: {
         en: "Scalable backend architecture with isolated multi-tenant workflows and dynamic permission matrix.",
-        ar: "معمارية خلفية قابلة للتوسع مع عزل بيانات التجار وإدارة الصلاحيات متعددة المستويات."
+        ar: "معمارية خلفية قابلة للتوسع مع عزل بيانات التجار وإدارة الصلاحيات متعددة المستويات.",
       },
       image: "assets/projects/mersa/mersa-hero.webp",
-      gallery: [
-        "assets/projects/mersa/mersa-hero.webp"
-      ],
+      gallery: ["assets/projects/mersa/mersa-hero.webp"],
       metrics: [
-        { value: "Eager Load", labelEn: "Query Optimization", labelAr: "تحسين الاستعلامات" },
-        { value: "RBAC + 2FA", labelEn: "Security Standard", labelAr: "معايير الأمان" },
-        { value: "500+", labelEn: "Catalog Capacity", labelAr: "سعة كتالوج المنتجات" }
+        {
+          value: "Eager Load",
+          labelEn: "Query Optimization",
+          labelAr: "تحسين الاستعلامات",
+        },
+        {
+          value: "RBAC + 2FA",
+          labelEn: "Security Standard",
+          labelAr: "معايير الأمان",
+        },
+        {
+          value: "500+",
+          labelEn: "Catalog Capacity",
+          labelAr: "سعة كتالوج المنتجات",
+        },
       ],
       challenge: {
         en: "Building a multi-vendor marketplace requires strict data isolation between vendors, dynamic commission calculation, and high-security transactional guarantees without performance bottlenecks when handling concurrent shopping carts.",
-        ar: "بناء منصة تجارة إلكترونية متعددة التجار يتطلب عزلاً صارماً لبيانات وسجلات كل تاجر، واحتساب العمولات بدقة، وضمان أمان المعاملات المالية دون التأثير على سرعة استجابة السلات الشرائية المتزامنة."
+        ar: "بناء منصة تجارة إلكترونية متعددة التجار يتطلب عزلاً صارماً لبيانات وسجلات كل تاجر، واحتساب العمولات بدقة، وضمان أمان المعاملات المالية دون التأثير على سرعة استجابة السلات الشرائية المتزامنة.",
       },
       solution: {
         en: "Engineered a modular Laravel backend using Repository and Service patterns. Implemented Role-Based Access Control (RBAC), OAuth2 authentication, two-factor verification (2FA), and indexed relational schemas in MySQL with eager loading to eliminate N+1 bottlenecks.",
-        ar: "تصميم بنية خلفية معيارية في Laravel بالاعتماد على نمطي Service و Repository. تطبيق نظام صلاحيات دقيق (RBAC)، ومصادقة OAuth2، والتحقق الثنائي (2FA)، مع فهرسة جداول MySQL و Eager Loading لمنع مشاكل N+1."
+        ar: "تصميم بنية خلفية معيارية في Laravel بالاعتماد على نمطي Service و Repository. تطبيق نظام صلاحيات دقيق (RBAC)، ومصادقة OAuth2، والتحقق الثنائي (2FA)، مع فهرسة جداول MySQL و Eager Loading لمنع مشاكل N+1.",
       },
-      techStack: ["Laravel 11", "PHP 8.2", "MySQL", "Vue.js", "RBAC & OAuth2", "Tailwind CSS", "Stripe API"],
+      techStack: [
+        "Laravel 11",
+        "PHP 8.2",
+        "MySQL",
+        "Vue.js",
+        "RBAC & OAuth2",
+        "Tailwind CSS",
+        "Stripe API",
+      ],
       highlights: {
         en: [
           "Vendor and customer data isolation with tenant-scoped Eloquent models.",
           "Fine-grained permissions engine with 2-Factor Authentication and secure session tokens.",
-          "Reduced unnecessary database queries through eager loading and indexing."
+          "Reduced unnecessary database queries through eager loading and indexing.",
         ],
         ar: [
           "عزل كامل لبيانات التجار والعملاء على مستوى نماذج Eloquent وقواعد البيانات.",
           "محرك صلاحيات متقدم مع التحقق الثنائي (2FA) وإدارة آمنة للجلسات والرموز المميزة.",
-          "تحسين استعلامات قاعدة البيانات وتقليل الاستعلامات الزائدة عبر Eager Loading والفهرسة."
-        ]
+          "تحسين استعلامات قاعدة البيانات وتقليل الاستعلامات الزائدة عبر Eager Loading والفهرسة.",
+        ],
       },
       liveUrl: "",
-      codeUrl: "https://github.com/mohamed-jouda/marsa-store",
-      contactSubject: "Project Inquiry: Multi-Vendor Platform (Marsa Store)"
+      codeUrl: "https://github.com/mohammedjouda/marsa-store",
+      contactSubject: "Project Inquiry: Multi-Vendor Platform (Marsa Store)",
     },
-    'write-ai': {
-      category: { en: "AI SaaS & Content Automation", ar: "برمجيات الذكاء الاصطناعي وصناعة المحتوى" },
+    "write-ai": {
+      category: {
+        en: "AI SaaS & Content Automation",
+        ar: "برمجيات الذكاء الاصطناعي وصناعة المحتوى",
+      },
       year: "2026",
       status: { en: "AI Capstone", ar: "مشروع ذكاء اصطناعي نوعي" },
       origin: {
         icon: "ai",
         en: "CERTIFICATES: AI Capstone @ UCASTI 90h",
-        ar: "الشهادات: مشروع التخرج للذكاء الاصطناعي (90 ساعة)"
+        ar: "الشهادات: مشروع التخرج للذكاء الاصطناعي (90 ساعة)",
       },
-      title: { en: "Write AI - Intelligent Blogging Application", ar: "Write AI - منصة تدوين ذكية بالذكاء الاصطناعي" },
+      title: {
+        en: "Write AI - Intelligent Blogging Application",
+        ar: "Write AI - منصة تدوين ذكية بالذكاء الاصطناعي",
+      },
       subtitle: {
         en: "Automated content generation, prompt engineering, and real-time Markdown editor integrated with LLM APIs.",
-        ar: "توليد تلقائي للمحتوى، وهندسة الأوامر الذكية، ومحرر Markdown فوري متصل بنماذج الذكاء الاصطناعي."
+        ar: "توليد تلقائي للمحتوى، وهندسة الأوامر الذكية، ومحرر Markdown فوري متصل بنماذج الذكاء الاصطناعي.",
       },
       image: "assets/projects/write-ai/hero-write-ai.webp",
-      gallery: [
-        "assets/projects/write-ai/hero-write-ai.webp"
-      ],
+      gallery: ["assets/projects/write-ai/hero-write-ai.webp"],
       metrics: [
-        { value: "< 2.5s", labelEn: "Generation Speed", labelAr: "سرعة توليد المسودة" },
-        { value: "70%", labelEn: "Draft Time Saved", labelAr: "توفير وقت الصياغة" },
-        { value: "LLMs", labelEn: "API Orchestration", labelAr: "تكامل نماذج الذكاء" }
+        {
+          value: "< 2.5s",
+          labelEn: "Generation Speed",
+          labelAr: "سرعة توليد المسودة",
+        },
+        {
+          value: "70%",
+          labelEn: "Draft Time Saved",
+          labelAr: "توفير وقت الصياغة",
+        },
+        {
+          value: "LLMs",
+          labelEn: "API Orchestration",
+          labelAr: "تكامل نماذج الذكاء",
+        },
       ],
       challenge: {
         en: "Writers often face creative blocks and formatting friction when drafting technical articles. The challenge was building an intelligent editor that generates cohesive, tone-consistent drafts while preserving complete author control without API timeouts.",
-        ar: "يواجه الكتّاب وصنّاع المحتوى تحدي انقطاع الأفكار وصياغة المقالات التقنية. كان التحدي هو ابتكار منصة ذكية تقترح وتصيغ مسودات متماسكة مع الحفاظ على تحكم الكاتب وتجنب الهلوسة في النصوص."
+        ar: "يواجه الكتّاب وصنّاع المحتوى تحدي انقطاع الأفكار وصياغة المقالات التقنية. كان التحدي هو ابتكار منصة ذكية تقترح وتصيغ مسودات متماسكة مع الحفاظ على تحكم الكاتب وتجنب الهلوسة في النصوص.",
       },
       solution: {
         en: "Connected Laravel to external LLM APIs using asynchronous queue workers for prompt evaluation. Built a reactive Markdown editor featuring side-by-side preview, configurable prompt templates, and automated SEO metadata generation.",
-        ar: "ربط نظام Laravel بواجهات الذكاء الاصطناعي (LLM APIs) عبر طوابير معالجة غير متزامنة (Queues) لمعالجة الـ Prompts. بناء محرر Markdown تفاعلي يدعم معاينة فورية، مع قوالب أوامر متخصصة وتوليد تلقائي لبيانات الـ SEO."
+        ar: "ربط نظام Laravel بواجهات الذكاء الاصطناعي (LLM APIs) عبر طوابير معالجة غير متزامنة (Queues) لمعالجة الـ Prompts. بناء محرر Markdown تفاعلي يدعم معاينة فورية، مع قوالب أوامر متخصصة وتوليد تلقائي لبيانات الـ SEO.",
       },
-      techStack: ["Laravel", "PHP 8.2", "OpenAI API", "RESTful APIs", "Vue.js", "Tailwind CSS", "Redis Queues"],
+      techStack: [
+        "Laravel",
+        "PHP 8.2",
+        "OpenAI API",
+        "RESTful APIs",
+        "Vue.js",
+        "Tailwind CSS",
+        "Redis Queues",
+      ],
       highlights: {
         en: [
           "Decoupled prompt engineering pipeline with fallback handlers for third-party API latency.",
           "Instant SEO slug, tag, and social summary generation based on article body.",
-          "Responsive live Markdown editor with synchronized side-by-side preview."
+          "Responsive live Markdown editor with synchronized side-by-side preview.",
         ],
         ar: [
           "بنية معمارية مستقلة لهندسة الأوامر مع آليات احتياطية عند بطء استجابة الـ API.",
           "توليد فوري للكلمات الدلالية والروابط الصديقة لمحركات البحث (SEO Slugs) وملخصات المشاركة.",
-          "محرر Markdown تفاعلي فوري متزامن مع شاشة المعاينة الحية."
-        ]
+          "محرر Markdown تفاعلي فوري متزامن مع شاشة المعاينة الحية.",
+        ],
       },
       liveUrl: "",
-      codeUrl: "https://github.com/mohamed-jouda/write-ai",
-      contactSubject: "Project Inquiry: AI-Powered Platform (Write AI)"
+      codeUrl: "https://github.com/mohammedjouda/write-ai",
+      contactSubject: "Project Inquiry: AI-Powered Platform (Write AI)",
     },
-    'messenger': {
-      category: { en: "Real-Time Systems & AI", ar: "أنظمة فورية وتكامل الذكاء الاصطناعي" },
+    messenger: {
+      category: {
+        en: "Real-Time Systems & AI",
+        ar: "أنظمة فورية وتكامل الذكاء الاصطناعي",
+      },
       year: "2025",
       status: { en: "Active Project", ar: "مشروع نشط" },
       origin: {
         icon: "career",
         en: "CAREER: Real-Time WebSockets",
-        ar: "المسيرة المهنية: أنظمة محادثة فورية بـ WebSockets"
+        ar: "المسيرة المهنية: أنظمة محادثة فورية بـ WebSockets",
       },
-      title: { en: "Real-Time AI Messenger Application", ar: "تطبيق المراسلة الفوري والذكي" },
+      title: {
+        en: "Real-Time AI Messenger Application",
+        ar: "تطبيق المراسلة الفوري والذكي",
+      },
       subtitle: {
         en: "Instant peer-to-peer and group messaging with live typing indicators and AI conversational assist.",
-        ar: "محادثات فورية مباشرة وجماعية مع مؤشرات الكتابة الحية ومساعد ذكي للردود المحادثية."
+        ar: "محادثات فورية مباشرة وجماعية مع مؤشرات الكتابة الحية ومساعد ذكي للردود المحادثية.",
       },
       image: "assets/projects/messenger/messenger_ai.webp",
       gallery: [
         "assets/projects/messenger/messenger_ai.webp",
-        "assets/projects/messenger/396shots_so.webp"
+        "assets/projects/messenger/396shots_so.webp",
       ],
       metrics: [
-        { value: "< 50ms", labelEn: "Message Latency", labelAr: "زمن وصول الرسالة" },
-        { value: "WebSockets", labelEn: "Transport Layer", labelAr: "بروتوكول النقل" },
-        { value: "99.9%", labelEn: "Delivery Guarantee", labelAr: "ضمان التسليم" }
+        {
+          value: "< 50ms",
+          labelEn: "Message Latency",
+          labelAr: "زمن وصول الرسالة",
+        },
+        {
+          value: "WebSockets",
+          labelEn: "Transport Layer",
+          labelAr: "بروتوكول النقل",
+        },
+        {
+          value: "99.9%",
+          labelEn: "Delivery Guarantee",
+          labelAr: "ضمان التسليم",
+        },
       ],
       challenge: {
         en: "Traditional HTTP polling creates noticeable latency and overburdens servers during peak activity. The application required instant delivery, user presence tracking, and an AI conversational partner without freezing the active UI thread.",
-        ar: "استخدام بروتوكول HTTP التقليدي للـ Polling يستهلك موارد الخادم ويسبب بطء المراسلة. تطلب المشروع تسليم الرسائل في أجزاء من الثانية، وتتبع حالة الاتصال وقراءة الرسائل، مع دمج مساعد ذكي دون تعطيل تدفق المحادثة."
+        ar: "استخدام بروتوكول HTTP التقليدي للـ Polling يستهلك موارد الخادم ويسبب بطء المراسلة. تطلب المشروع تسليم الرسائل في أجزاء من الثانية، وتتبع حالة الاتصال وقراءة الرسائل، مع دمج مساعد ذكي دون تعطيل تدفق المحادثة.",
       },
       solution: {
         en: "Implemented WebSockets architecture using Laravel Echo and Pusher/Soketi channels. Engineered asynchronous background dispatchers to handle AI response generation without delaying live messaging.",
-        ar: "تطبيق معمارية WebSockets المتطورة عبر Laravel Echo وخوادم Pusher/Soketi. تصميم مشغلات أحداث تعمل في الخلفية لمعالجة ردود الذكاء الاصطناعي دون إيقاف المحادثات الحية أو انتظار إجابة النموذج."
+        ar: "تطبيق معمارية WebSockets المتطورة عبر Laravel Echo وخوادم Pusher/Soketi. تصميم مشغلات أحداث تعمل في الخلفية لمعالجة ردود الذكاء الاصطناعي دون إيقاف المحادثات الحية أو انتظار إجابة النموذج.",
       },
-      techStack: ["Laravel", "WebSockets", "Pusher / Echo", "PHP", "MySQL", "JavaScript ES6+", "CSS3"],
+      techStack: [
+        "Laravel",
+        "WebSockets",
+        "Pusher / Echo",
+        "PHP",
+        "MySQL",
+        "JavaScript ES6+",
+        "CSS3",
+      ],
       highlights: {
         en: [
           "Sub-50ms message broadcast between active WebSocket channels.",
           "Live typing indicators, message seen status, and connection presence heartbeat.",
-          "Background worker pipeline handling AI assistant interactions cleanly."
+          "Background worker pipeline handling AI assistant interactions cleanly.",
         ],
         ar: [
           "بث فوري للرسائل خلال أقل من 50 ميلي ثانية بين قنوات الـ WebSockets النشطة.",
           "مؤشرات كتابة حية، وإشعارات قراءة الرسائل، وتتبع نبضات اتصال المستخدمين.",
-          "خط معالجة في الخلفية يدير تفاعلات الذكاء الاصطناعي بانسيابية تامة."
-        ]
+          "خط معالجة في الخلفية يدير تفاعلات الذكاء الاصطناعي بانسيابية تامة.",
+        ],
       },
       liveUrl: "",
-      codeUrl: "https://github.com/mohamed-jouda/ai-realtime-messenger",
-      contactSubject: "Project Inquiry: Real-Time Chat & AI (Messenger)"
+      codeUrl: "https://github.com/mohammedjouda/ai-realtime-messenger",
+      contactSubject: "Project Inquiry: Real-Time Chat & AI (Messenger)",
     },
-    'techno-cms': {
-      category: { en: "CMS & Administrative Frameworks", ar: "أنظمة إدارة المحتوى ولوحات التحكم" },
+    "techno-cms": {
+      category: {
+        en: "CMS & Administrative Frameworks",
+        ar: "أنظمة إدارة المحتوى ولوحات التحكم",
+      },
       year: "2024",
       status: { en: "Deployed", ar: "منشور ومكتمل" },
       origin: {
         icon: "career",
         en: "CAREER: Filament CMS Platform",
-        ar: "المسيرة المهنية: منصة إدارة محتوى بـ Filament"
+        ar: "المسيرة المهنية: منصة إدارة محتوى بـ Filament",
       },
-      title: { en: "Techno Plus Modular CMS Platform", ar: "منصة Techno Plus لإدارة المحتوى التفاعلي" },
+      title: {
+        en: "Techno Plus Modular CMS Platform",
+        ar: "منصة Techno Plus لإدارة المحتوى التفاعلي",
+      },
       subtitle: {
         en: "Reactive administrative content control built with Laravel, Filament, and Livewire for rapid workflows.",
-        ar: "لوحة تحكم تفاعلية لإدارة المحتوى تعتمد على Laravel و Filament و Livewire لإدارة سريعة وخفيفة."
+        ar: "لوحة تحكم تفاعلية لإدارة المحتوى تعتمد على Laravel و Filament و Livewire لإدارة سريعة وخفيفة.",
       },
       image: "assets/projects/cms-techno-plus/tecno-hero.webp",
       gallery: [
         "assets/projects/cms-techno-plus/tecno-hero.webp",
-        "assets/projects/cms-techno-plus/dashbord.webp"
+        "assets/projects/cms-techno-plus/dashbord.webp",
       ],
       metrics: [
-        { value: "-60%", labelEn: "Admin Setup Time", labelAr: "سرعة تجهيز الواجهات" },
-        { value: "Livewire SPA", labelEn: "Reactive Layer", labelAr: "طبقة التفاعل" },
-        { value: "12+ Resources", labelEn: "Configured Modules", labelAr: "الوحدات البرمجية" }
+        {
+          value: "-60%",
+          labelEn: "Admin Setup Time",
+          labelAr: "سرعة تجهيز الواجهات",
+        },
+        {
+          value: "Livewire SPA",
+          labelEn: "Reactive Layer",
+          labelAr: "طبقة التفاعل",
+        },
+        {
+          value: "12+ Resources",
+          labelEn: "Configured Modules",
+          labelAr: "الوحدات البرمجية",
+        },
       ],
       challenge: {
         en: "Custom administrative portals often suffer from duplicated CRUD logic, divergent design systems, and brittle client-side scripts that inflate development time and maintenance cost.",
-        ar: "لوحات التحكم التقليدية تعاني عادة من تكرار أكواد CRUD، وتناقض واجهات المستخدم، وهشاشة ربط مكتبات الـ JavaScript مما يبطئ تسليم الميزات للعملاء."
+        ar: "لوحات التحكم التقليدية تعاني عادة من تكرار أكواد CRUD، وتناقض واجهات المستخدم، وهشاشة ربط مكتبات الـ JavaScript مما يبطئ تسليم الميزات للعملاء.",
       },
       solution: {
         en: "Architected a modular Content Management System leveraging Laravel Filament and Livewire. Provided reactive client experiences with dynamic data tables, complex relational filters, export utilities, and localized admin dashboards.",
-        ar: "بناء نظام إدارة محتوى معياري بالاعتماد على Laravel Filament و Livewire. توفير تجربة مستخدم سريعة وفورية بجداول بيانات ديناميكية، وفلاتر علائقية معقدة، وأدوات تصدير بيانات، ودعم كامل للواجهات متعددة اللغات."
+        ar: "بناء نظام إدارة محتوى معياري بالاعتماد على Laravel Filament و Livewire. توفير تجربة مستخدم سريعة وفورية بجداول بيانات ديناميكية، وفلاتر علائقية معقدة، وأدوات تصدير بيانات، ودعم كامل للواجهات متعددة اللغات.",
       },
-      techStack: ["Laravel", "Filament v3", "Livewire", "Alpine.js", "Tailwind CSS", "MySQL"],
+      techStack: [
+        "Laravel",
+        "Filament v3",
+        "Livewire",
+        "Alpine.js",
+        "Tailwind CSS",
+        "MySQL",
+      ],
       highlights: {
         en: [
           "12+ specialized resource models configured with dynamic relations and audit logging.",
           "Zero custom JavaScript overhead thanks to Livewire component lifecycle.",
-          "Custom analytics widgets and export engines for tabular reporting."
+          "Custom analytics widgets and export engines for tabular reporting.",
         ],
         ar: [
           "أكثر من 12 نموذجاً ومورداً برمجياً مع علاقات ديناميكية وسجل تدقيق للعمليات.",
           "تجربة تفاعلية سلسة دون الحاجة لكتابة كود JavaScript مخصص بفضل Livewire.",
-          "عناصر إحصائية وتحليلية مخصصة ومحركات لتصدير التقارير وجداول البيانات."
-        ]
+          "عناصر إحصائية وتحليلية مخصصة ومحركات لتصدير التقارير وجداول البيانات.",
+        ],
       },
       liveUrl: "",
-      codeUrl: "https://github.com/mohamed-jouda/techno-plus-cms",
-      contactSubject: "Project Inquiry: Custom CMS / Admin Panel (Techno Plus)"
-    }
+      codeUrl: "https://github.com/mohammedjouda/techno-plus-cms",
+      contactSubject: "Project Inquiry: Custom CMS / Admin Panel (Techno Plus)",
+    },
   };
 
   // --- 10. Dedicated Project Detail View & Gallery Controller ---
@@ -2198,32 +2777,37 @@
 
     // Breadcrumb title
     if (detailBreadcrumbTitle) {
-      detailBreadcrumbTitle.textContent = project.title[currentLang] || project.title.en;
+      detailBreadcrumbTitle.textContent =
+        project.title[currentLang] || project.title.en;
     }
 
     // Header Badges & Titles
     if (detailCategory) {
-      detailCategory.textContent = project.category[currentLang] || project.category.en;
+      detailCategory.textContent =
+        project.category[currentLang] || project.category.en;
     }
     if (detailYear) {
       detailYear.textContent = project.year;
     }
     if (detailStatus) {
-      detailStatus.textContent = project.status[currentLang] || project.status.en;
+      detailStatus.textContent =
+        project.status[currentLang] || project.status.en;
     }
     if (detailOriginBadge) {
       if (project.origin) {
-        detailOriginBadge.textContent = project.origin[currentLang] || project.origin.en;
-        detailOriginBadge.style.display = 'inline-flex';
+        detailOriginBadge.textContent =
+          project.origin[currentLang] || project.origin.en;
+        detailOriginBadge.style.display = "inline-flex";
       } else {
-        detailOriginBadge.style.display = 'none';
+        detailOriginBadge.style.display = "none";
       }
     }
     if (detailTitle) {
       detailTitle.textContent = project.title[currentLang] || project.title.en;
     }
     if (detailSubtitle) {
-      detailSubtitle.textContent = project.subtitle[currentLang] || project.subtitle.en;
+      detailSubtitle.textContent =
+        project.subtitle[currentLang] || project.subtitle.en;
     }
 
     // Sidebar specifications
@@ -2231,32 +2815,33 @@
       detailSpecTimeline.textContent = project.year;
     }
     if (detailSpecContext) {
-      detailSpecContext.textContent = project.status[currentLang] || project.status.en;
+      detailSpecContext.textContent =
+        project.status[currentLang] || project.status.en;
     }
 
     // Action Links
     if (detailDemoLink) {
       if (project.liveUrl) {
         detailDemoLink.href = project.liveUrl;
-        detailDemoLink.classList.remove('hidden');
+        detailDemoLink.classList.remove("hidden");
       } else {
-        detailDemoLink.classList.add('hidden');
+        detailDemoLink.classList.add("hidden");
       }
     }
 
     if (detailGithubLink) {
       if (project.codeUrl) {
         detailGithubLink.href = project.codeUrl;
-        detailGithubLink.classList.remove('hidden');
+        detailGithubLink.classList.remove("hidden");
       } else {
-        detailGithubLink.classList.add('hidden');
+        detailGithubLink.classList.add("hidden");
       }
     }
 
     if (detailDiscussBtn) {
       detailDiscussBtn.onclick = () => {
-        navigateTo('contact');
-        const subjectField = document.getElementById('contact-subject');
+        navigateTo("contact");
+        const subjectField = document.getElementById("contact-subject");
         if (subjectField) {
           subjectField.value = project.contactSubject;
           subjectField.focus();
@@ -2271,14 +2856,17 @@
     }
 
     // Gallery Setup
-    currentGalleryImages = project.gallery && project.gallery.length > 0 ? project.gallery : [project.image];
+    currentGalleryImages =
+      project.gallery && project.gallery.length > 0
+        ? project.gallery
+        : [project.image];
     currentGalleryIndex = 0;
     updateGalleryView();
 
     // Clicking gallery viewport opens current image in full-screen Lightbox Modal
     if (detailGalleryViewport) {
       detailGalleryViewport.onclick = (e) => {
-        if (e.target.closest('.gallery-nav-btn')) return;
+        if (e.target.closest(".gallery-nav-btn")) return;
         if (currentGalleryImages && currentGalleryImages[currentGalleryIndex]) {
           const pTitle = project.title[currentLang] || project.title.en;
           openPhotoModal(currentGalleryImages[currentGalleryIndex], pTitle);
@@ -2288,57 +2876,86 @@
 
     // Architectural Metrics Grid
     if (detailMetricsGrid) {
-      detailMetricsGrid.innerHTML = project.metrics.map(m => `
+      detailMetricsGrid.innerHTML = project.metrics
+        .map(
+          (m) => `
         <div class="detail-metric-card">
           <span class="detail-metric-val">${m.value}</span>
-          <span class="detail-metric-label">${currentLang === 'ar' ? m.labelAr : m.labelEn}</span>
+          <span class="detail-metric-label">${currentLang === "ar" ? m.labelAr : m.labelEn}</span>
         </div>
-      `).join('');
+      `,
+        )
+        .join("");
     }
 
     // Problem & Solution
     if (detailChallenge) {
-      detailChallenge.textContent = project.challenge[currentLang] || project.challenge.en;
+      detailChallenge.textContent =
+        project.challenge[currentLang] || project.challenge.en;
     }
     if (detailSolution) {
-      detailSolution.textContent = project.solution[currentLang] || project.solution.en;
+      detailSolution.textContent =
+        project.solution[currentLang] || project.solution.en;
     }
 
     // Tech Tags in Sidebar
     if (detailTechTags) {
-      detailTechTags.innerHTML = project.techStack.map(t => `<span class="detail-tech-tag">${t}</span>`).join('');
+      detailTechTags.innerHTML = project.techStack
+        .map((t) => `<span class="detail-tech-tag">${t}</span>`)
+        .join("");
     }
 
     // Key Highlights with custom check icon
     if (detailHighlightsList) {
-      const list = project.highlights[currentLang] || project.highlights.en || [];
-      detailHighlightsList.innerHTML = list.map(h => `
+      const list =
+        project.highlights[currentLang] || project.highlights.en || [];
+      detailHighlightsList.innerHTML = list
+        .map(
+          (h) => `
         <div class="detail-highlight-card">
           <span class="check-icon">✓</span>
           <span>${h}</span>
         </div>
-      `).join('');
+      `,
+        )
+        .join("");
     }
 
     // Sequential Project Navigation (Prev / Next project)
-    const projectKeys = ['lead-automation', 'sprint-mind', 'messenger', 'marsa-store', 'write-ai', 'techno-cms'];
+    const projectKeys = [
+      "lead-automation",
+      "sprint-mind",
+      "messenger",
+      "marsa-store",
+      "write-ai",
+      "techno-cms",
+    ];
     const currentIndex = projectKeys.indexOf(projectId);
     if (currentIndex !== -1) {
-      const prevIndex = (currentIndex - 1 + projectKeys.length) % projectKeys.length;
+      const prevIndex =
+        (currentIndex - 1 + projectKeys.length) % projectKeys.length;
       const nextIndex = (currentIndex + 1) % projectKeys.length;
       const prevProj = caseStudiesData[projectKeys[prevIndex]];
       const nextProj = caseStudiesData[projectKeys[nextIndex]];
 
       if (seqPrevProject && prevProj) {
-        seqPrevProject.setAttribute('data-route', `project-${projectKeys[prevIndex]}`);
+        seqPrevProject.setAttribute(
+          "data-route",
+          `project-${projectKeys[prevIndex]}`,
+        );
         if (seqPrevTitle) {
-          seqPrevTitle.textContent = prevProj.title[currentLang] || prevProj.title.en;
+          seqPrevTitle.textContent =
+            prevProj.title[currentLang] || prevProj.title.en;
         }
       }
       if (seqNextProject && nextProj) {
-        seqNextProject.setAttribute('data-route', `project-${projectKeys[nextIndex]}`);
+        seqNextProject.setAttribute(
+          "data-route",
+          `project-${projectKeys[nextIndex]}`,
+        );
         if (seqNextTitle) {
-          seqNextTitle.textContent = nextProj.title[currentLang] || nextProj.title.en;
+          seqNextTitle.textContent =
+            nextProj.title[currentLang] || nextProj.title.en;
         }
       }
     }
@@ -2347,7 +2964,8 @@
   function updateGalleryView() {
     if (!currentGalleryImages || currentGalleryImages.length === 0) return;
     if (currentGalleryIndex < 0) currentGalleryIndex = 0;
-    if (currentGalleryIndex >= currentGalleryImages.length) currentGalleryIndex = currentGalleryImages.length - 1;
+    if (currentGalleryIndex >= currentGalleryImages.length)
+      currentGalleryIndex = currentGalleryImages.length - 1;
 
     if (detailMainImage) {
       detailMainImage.src = currentGalleryImages[currentGalleryIndex];
@@ -2357,37 +2975,46 @@
     }
 
     if (detailThumbnailsStrip) {
-      detailThumbnailsStrip.innerHTML = currentGalleryImages.map((src, idx) => `
-        <div class="gallery-thumb-item ${idx === currentGalleryIndex ? 'active' : ''}" data-thumb-index="${idx}">
+      detailThumbnailsStrip.innerHTML = currentGalleryImages
+        .map(
+          (src, idx) => `
+        <div class="gallery-thumb-item ${idx === currentGalleryIndex ? "active" : ""}" data-thumb-index="${idx}">
           <img src="${src}" alt="Thumbnail ${idx + 1}" loading="lazy">
         </div>
-      `).join('');
+      `,
+        )
+        .join("");
 
-      detailThumbnailsStrip.querySelectorAll('.gallery-thumb-item').forEach(thumb => {
-        thumb.addEventListener('click', () => {
-          const idx = parseInt(thumb.getAttribute('data-thumb-index'), 10);
-          if (!isNaN(idx)) {
-            currentGalleryIndex = idx;
-            updateGalleryView();
-          }
+      detailThumbnailsStrip
+        .querySelectorAll(".gallery-thumb-item")
+        .forEach((thumb) => {
+          thumb.addEventListener("click", () => {
+            const idx = parseInt(thumb.getAttribute("data-thumb-index"), 10);
+            if (!isNaN(idx)) {
+              currentGalleryIndex = idx;
+              updateGalleryView();
+            }
+          });
         });
-      });
     }
   }
 
   if (galleryPrevBtn) {
-    galleryPrevBtn.addEventListener('click', () => {
+    galleryPrevBtn.addEventListener("click", () => {
       if (currentGalleryImages.length > 1) {
-        currentGalleryIndex = (currentGalleryIndex - 1 + currentGalleryImages.length) % currentGalleryImages.length;
+        currentGalleryIndex =
+          (currentGalleryIndex - 1 + currentGalleryImages.length) %
+          currentGalleryImages.length;
         updateGalleryView();
       }
     });
   }
 
   if (galleryNextBtn) {
-    galleryNextBtn.addEventListener('click', () => {
+    galleryNextBtn.addEventListener("click", () => {
       if (currentGalleryImages.length > 1) {
-        currentGalleryIndex = (currentGalleryIndex + 1) % currentGalleryImages.length;
+        currentGalleryIndex =
+          (currentGalleryIndex + 1) % currentGalleryImages.length;
         updateGalleryView();
       }
     });
@@ -2397,7 +3024,9 @@
   let currentQuickModalProjectId = null;
 
   function isQuickModalOpen() {
-    return !!(projectQuickModal && projectQuickModal.classList.contains('open'));
+    return !!(
+      projectQuickModal && projectQuickModal.classList.contains("open")
+    );
   }
 
   function renderQuickModal(projectId) {
@@ -2405,10 +3034,12 @@
     if (!project) return;
 
     if (quickModalCategory) {
-      quickModalCategory.textContent = project.category[currentLang] || project.category.en;
+      quickModalCategory.textContent =
+        project.category[currentLang] || project.category.en;
     }
     if (quickModalStatus) {
-      quickModalStatus.textContent = project.status[currentLang] || project.status.en;
+      quickModalStatus.textContent =
+        project.status[currentLang] || project.status.en;
     }
     if (quickModalYear) {
       quickModalYear.textContent = project.year;
@@ -2418,55 +3049,71 @@
       quickModalImage.alt = project.title[currentLang] || project.title.en;
     }
     if (quickModalTitle) {
-      quickModalTitle.textContent = project.title[currentLang] || project.title.en;
+      quickModalTitle.textContent =
+        project.title[currentLang] || project.title.en;
     }
     if (quickModalDesc) {
-      quickModalDesc.textContent = project.subtitle[currentLang] || project.subtitle.en;
+      quickModalDesc.textContent =
+        project.subtitle[currentLang] || project.subtitle.en;
     }
 
     if (project.origin) {
-      if (quickModalProvIcon) // provenance icon updated via SVG
-      if (quickModalProvText) quickModalProvText.textContent = project.origin[currentLang] || project.origin.en;
+      if (quickModalProvIcon)
+        if (quickModalProvText)
+          // provenance icon updated via SVG
+          quickModalProvText.textContent =
+            project.origin[currentLang] || project.origin.en;
     }
 
     if (quickModalMetrics) {
-      quickModalMetrics.innerHTML = project.metrics.map(m => `
+      quickModalMetrics.innerHTML = project.metrics
+        .map(
+          (m) => `
         <div class="quick-metric-chip">
           <span class="quick-metric-val">${m.value}</span>
-          <span class="quick-metric-label">${currentLang === 'ar' ? m.labelAr : m.labelEn}</span>
+          <span class="quick-metric-label">${currentLang === "ar" ? m.labelAr : m.labelEn}</span>
         </div>
-      `).join('');
+      `,
+        )
+        .join("");
     }
 
     if (quickModalHighlights) {
-      const list = project.highlights[currentLang] || project.highlights.en || [];
-      quickModalHighlights.innerHTML = list.map(h => `
+      const list =
+        project.highlights[currentLang] || project.highlights.en || [];
+      quickModalHighlights.innerHTML = list
+        .map(
+          (h) => `
         <div class="quick-highlight-item">
           <span class="quick-highlight-check">✓</span>
           <span class="quick-highlight-text">${h}</span>
         </div>
-      `).join('');
+      `,
+        )
+        .join("");
     }
 
     if (quickModalTechTags) {
-      quickModalTechTags.innerHTML = project.techStack.map(t => `<span class="quick-tech-tag">${t}</span>`).join('');
+      quickModalTechTags.innerHTML = project.techStack
+        .map((t) => `<span class="quick-tech-tag">${t}</span>`)
+        .join("");
     }
 
     if (quickModalDemoLink) {
       if (project.liveUrl) {
         quickModalDemoLink.href = project.liveUrl;
-        quickModalDemoLink.classList.remove('hidden');
+        quickModalDemoLink.classList.remove("hidden");
       } else {
-        quickModalDemoLink.classList.add('hidden');
+        quickModalDemoLink.classList.add("hidden");
       }
     }
 
     if (quickModalCodeLink) {
       if (project.codeUrl) {
         quickModalCodeLink.href = project.codeUrl;
-        quickModalCodeLink.classList.remove('hidden');
+        quickModalCodeLink.classList.remove("hidden");
       } else {
-        quickModalCodeLink.classList.add('hidden');
+        quickModalCodeLink.classList.add("hidden");
       }
     }
   }
@@ -2478,25 +3125,32 @@
     currentQuickModalProjectId = projectId;
     renderQuickModal(projectId);
 
-    projectQuickModal.classList.add('open'); projectQuickModal.removeAttribute('inert');
-    projectQuickModal.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
+    projectQuickModal.classList.add("open");
+    projectQuickModal.removeAttribute("inert");
+    projectQuickModal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
   }
 
   function closeQuickModal() {
     if (!projectQuickModal) return;
-    projectQuickModal.classList.remove('open'); projectQuickModal.setAttribute('inert', '');
-    projectQuickModal.setAttribute('aria-hidden', 'true');
-    if (!(mobileDrawer && mobileDrawer.classList.contains('open')) && !isPaletteOpen()) {
-      document.body.style.overflow = '';
+    projectQuickModal.classList.remove("open");
+    projectQuickModal.setAttribute("inert", "");
+    projectQuickModal.setAttribute("aria-hidden", "true");
+    if (
+      !(mobileDrawer && mobileDrawer.classList.contains("open")) &&
+      !isPaletteOpen()
+    ) {
+      document.body.style.overflow = "";
     }
   }
 
-  if (quickModalCloseBtn) quickModalCloseBtn.addEventListener('click', closeQuickModal);
-  if (quickModalDismissBtn) quickModalDismissBtn.addEventListener('click', closeQuickModal);
+  if (quickModalCloseBtn)
+    quickModalCloseBtn.addEventListener("click", closeQuickModal);
+  if (quickModalDismissBtn)
+    quickModalDismissBtn.addEventListener("click", closeQuickModal);
 
   if (projectQuickModal) {
-    projectQuickModal.addEventListener('click', (e) => {
+    projectQuickModal.addEventListener("click", (e) => {
       if (e.target === projectQuickModal) {
         closeQuickModal();
       }
@@ -2504,7 +3158,7 @@
   }
 
   if (quickModalViewFullBtn) {
-    quickModalViewFullBtn.addEventListener('click', () => {
+    quickModalViewFullBtn.addEventListener("click", () => {
       if (currentQuickModalProjectId) {
         const targetId = currentQuickModalProjectId;
         closeQuickModal();
@@ -2514,73 +3168,104 @@
   }
 
   // --- 10.5 Profile Photo Lightbox Controller ---
-  const photoLightboxModal = document.getElementById('photo-lightbox-modal');
-  const photoLightboxCloseBtn = document.getElementById('photo-lightbox-close-btn');
-  const profilePhotoTrigger = document.getElementById('profile-photo-trigger');
+  const photoLightboxModal = document.getElementById("photo-lightbox-modal");
+  const photoLightboxCloseBtn = document.getElementById(
+    "photo-lightbox-close-btn",
+  );
+  const profilePhotoTrigger = document.getElementById("profile-photo-trigger");
 
   function isPhotoModalOpen() {
-    return !!(photoLightboxModal && photoLightboxModal.classList.contains('open'));
+    return !!(
+      photoLightboxModal && photoLightboxModal.classList.contains("open")
+    );
   }
 
   function openPhotoModal(customSrc, customCaption) {
     if (!photoLightboxModal) return;
-    const photoLightboxImg = document.getElementById('photo-lightbox-img');
-    const captionName = document.querySelector('.photo-lightbox-caption .caption-name');
-    const captionRole = document.querySelector('.photo-lightbox-caption .caption-role');
-    const captionVerified = document.querySelector('.photo-lightbox-caption .caption-verified-badge');
-    const captionStatus = document.querySelector('.photo-lightbox-caption .caption-status');
-    const captionDot = document.querySelector('.photo-lightbox-caption .caption-dot-sep');
+    const photoLightboxImg = document.getElementById("photo-lightbox-img");
+    const captionName = document.querySelector(
+      ".photo-lightbox-caption .caption-name",
+    );
+    const captionRole = document.querySelector(
+      ".photo-lightbox-caption .caption-role",
+    );
+    const captionVerified = document.querySelector(
+      ".photo-lightbox-caption .caption-verified-badge",
+    );
+    const captionStatus = document.querySelector(
+      ".photo-lightbox-caption .caption-status",
+    );
+    const captionDot = document.querySelector(
+      ".photo-lightbox-caption .caption-dot-sep",
+    );
 
     if (photoLightboxImg && customSrc) {
       photoLightboxImg.src = customSrc;
       if (customCaption) {
         if (captionName) captionName.textContent = customCaption;
-        if (captionRole) captionRole.textContent = currentLang === 'ar' ? 'معاينة المشروع بدقة عالية' : 'High-Resolution Project Preview';
-        if (captionVerified) captionVerified.style.display = 'none';
-        if (captionStatus) captionStatus.style.display = 'none';
-        if (captionDot) captionDot.style.display = 'none';
+        if (captionRole)
+          captionRole.textContent =
+            currentLang === "ar"
+              ? "معاينة المشروع بدقة عالية"
+              : "High-Resolution Project Preview";
+        if (captionVerified) captionVerified.style.display = "none";
+        if (captionStatus) captionStatus.style.display = "none";
+        if (captionDot) captionDot.style.display = "none";
       }
     } else if (photoLightboxImg && !customSrc) {
-      photoLightboxImg.src = 'assets/images/mohammed-profile.webp';
+      photoLightboxImg.src = "assets/images/mohammed-profile.webp";
       const dict = i18n[currentLang] || i18n.en;
-      if (captionName) captionName.textContent = dict.heroTitleShort || 'Mohammed Jouda';
-      if (captionRole) captionRole.textContent = dict.roleTitle || 'Backend & AI Integration Engineer';
-      if (captionVerified) captionVerified.style.display = '';
-      if (captionStatus) captionStatus.style.display = '';
-      if (captionDot) captionDot.style.display = '';
+      if (captionName)
+        captionName.textContent = dict.heroTitleShort || "Mohammed Jouda";
+      if (captionRole)
+        captionRole.textContent =
+          dict.roleTitle || "Backend & AI Integration Engineer";
+      if (captionVerified) captionVerified.style.display = "";
+      if (captionStatus) captionStatus.style.display = "";
+      if (captionDot) captionDot.style.display = "";
     }
-    if (typeof closeQuickModal === 'function' && typeof isQuickModalOpen === 'function' && isQuickModalOpen()) {
+    if (
+      typeof closeQuickModal === "function" &&
+      typeof isQuickModalOpen === "function" &&
+      isQuickModalOpen()
+    ) {
       closeQuickModal();
     }
-    if (typeof closeCommandPalette === 'function' && isPaletteOpen()) {
+    if (typeof closeCommandPalette === "function" && isPaletteOpen()) {
       closeCommandPalette();
     }
-    photoLightboxModal.classList.add('open'); photoLightboxModal.removeAttribute('inert');
-    photoLightboxModal.setAttribute('aria-hidden', 'false');
+    photoLightboxModal.classList.add("open");
+    photoLightboxModal.removeAttribute("inert");
+    photoLightboxModal.setAttribute("aria-hidden", "false");
     if (profilePhotoTrigger) {
-      profilePhotoTrigger.setAttribute('aria-expanded', 'true');
+      profilePhotoTrigger.setAttribute("aria-expanded", "true");
     }
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
   }
 
   function closePhotoModal() {
     if (!photoLightboxModal) return;
-    photoLightboxModal.classList.remove('open'); photoLightboxModal.setAttribute('inert', '');
-    photoLightboxModal.setAttribute('aria-hidden', 'true');
+    photoLightboxModal.classList.remove("open");
+    photoLightboxModal.setAttribute("inert", "");
+    photoLightboxModal.setAttribute("aria-hidden", "true");
     if (profilePhotoTrigger) {
-      profilePhotoTrigger.setAttribute('aria-expanded', 'false');
+      profilePhotoTrigger.setAttribute("aria-expanded", "false");
     }
-    if (!(mobileDrawer && mobileDrawer.classList.contains('open')) && !isPaletteOpen() && !(typeof isQuickModalOpen === 'function' && isQuickModalOpen())) {
-      document.body.style.overflow = '';
+    if (
+      !(mobileDrawer && mobileDrawer.classList.contains("open")) &&
+      !isPaletteOpen() &&
+      !(typeof isQuickModalOpen === "function" && isQuickModalOpen())
+    ) {
+      document.body.style.overflow = "";
     }
   }
 
   if (photoLightboxCloseBtn) {
-    photoLightboxCloseBtn.addEventListener('click', closePhotoModal);
+    photoLightboxCloseBtn.addEventListener("click", closePhotoModal);
   }
 
   if (photoLightboxModal) {
-    photoLightboxModal.addEventListener('click', (e) => {
+    photoLightboxModal.addEventListener("click", (e) => {
       if (e.target === photoLightboxModal) {
         closePhotoModal();
       }
@@ -2588,7 +3273,7 @@
   }
 
   if (profilePhotoTrigger) {
-    profilePhotoTrigger.addEventListener('click', (e) => {
+    profilePhotoTrigger.addEventListener("click", (e) => {
       e.preventDefault();
       openPhotoModal();
     });
@@ -2608,8 +3293,9 @@
         issueDate: "GPA 83.92% (Very Good / Honors)",
         badgeDate: "GRADUATED WITH 83.92%",
         careerRole: "Academic Distinction & Graduation Honors",
-        careerDesc: "Graduated with Very Good standing (83.92%). Specialized in secure full-stack web engineering, relational database architectures, network security, and modern web application development.",
-        tags: ["Degree", "Honors"]
+        careerDesc:
+          "Graduated with Very Good standing (83.92%). Specialized in secure full-stack web engineering, relational database architectures, network security, and modern web application development.",
+        tags: ["Degree", "Honors"],
       },
       ar: {
         title: "بكالوريوس تكنولوجيا الويب وأمن المعلومات",
@@ -2619,9 +3305,10 @@
         issueDate: "معدل 83.92% (جيد جداً / مرتبة الشرف)",
         badgeDate: "تخرج بمعدل 83.92%",
         careerRole: "تميز أكاديمي ومشروع تخرج هندسي",
-        careerDesc: "التخرج بتقدير جيد جداً مع مرتبة الشرف (83.92%). التخصص في هندسة برمجيات الويب الكاملة، المعماريات الآمنة لقواعد البيانات، وأمن الشبكات.",
-        tags: ["درجة علمية", "مرتبة الشرف"]
-      }
+        careerDesc:
+          "التخرج بتقدير جيد جداً مع مرتبة الشرف (83.92%). التخصص في هندسة برمجيات الويب الكاملة، المعماريات الآمنة لقواعد البيانات، وأمن الشبكات.",
+        tags: ["درجة علمية", "مرتبة الشرف"],
+      },
     },
     "n8n-automation": {
       id: "n8n-automation",
@@ -2635,8 +3322,9 @@
         issueDate: "September 30, 2026",
         badgeDate: "ISSUED ON SEP 30, 2026",
         careerRole: "Earned during: AI & Business Automation Specialization",
-        careerDesc: "Mastered n8n node-based orchestration, webhook handling, API payload transformations, error handling retries, and AI agent integration.",
-        tags: ["Certificate", "n8n & AI"]
+        careerDesc:
+          "Mastered n8n node-based orchestration, webhook handling, API payload transformations, error handling retries, and AI agent integration.",
+        tags: ["Certificate", "n8n & AI"],
       },
       ar: {
         title: "مقدمة في أتمتة مسارات العمل باستخدام n8n",
@@ -2646,9 +3334,10 @@
         issueDate: "30 سبتمبر 2026",
         badgeDate: "صادرة في 30 سبتمبر 2026",
         careerRole: "تم الإنجاز خلال: التخصص في أتمتة مسارات الذكاء الاصطناعي",
-        careerDesc: "إتقان تصميم مسارات n8n، معالجة الـ Webhooks، تحويل بياني الاستجابات APIs، إدارة أخطاء وإعادة المحاولات، وربط نماذج الذكاء الاصطناعي.",
-        tags: ["شهادة معتمدة", "n8n وأتمتة"]
-      }
+        careerDesc:
+          "إتقان تصميم مسارات n8n، معالجة الـ Webhooks، تحويل بياني الاستجابات APIs، إدارة أخطاء وإعادة المحاولات، وربط نماذج الذكاء الاصطناعي.",
+        tags: ["شهادة معتمدة", "n8n وأتمتة"],
+      },
     },
     "docker-foundations": {
       id: "docker-foundations",
@@ -2662,8 +3351,9 @@
         issueDate: "April 15, 2026",
         badgeDate: "ISSUED ON APR 15, 2026",
         careerRole: "Earned during: Containerization & DevOps Mastery",
-        careerDesc: "Comprehensive certification in Docker container packaging, multi-container orchestration with Docker Compose, volume persistent storage, and environment isolation.",
-        tags: ["Professional", "Docker & DevOps"]
+        careerDesc:
+          "Comprehensive certification in Docker container packaging, multi-container orchestration with Docker Compose, volume persistent storage, and environment isolation.",
+        tags: ["Professional", "Docker & DevOps"],
       },
       ar: {
         title: "الشهادة المهنية لأساسيات الحاويات Docker",
@@ -2672,10 +3362,12 @@
         category: "DevOps وبيئات الحاويات",
         issueDate: "15 أبريل 2026",
         badgeDate: "صادرة في 15 أبريل 2026",
-        careerRole: "تم الإنجاز خلال: المسار المتقدم في بيئات Docker والـ DevOps",
-        careerDesc: "اعتماد مهارات حزم التطبيقات في حاويات Docker، إدارة البيئات متعددة الحاويات بـ Docker Compose، والتخزين الدائم وعزل بيئات التطوير.",
-        tags: ["اعتماد احترافي", "Docker و DevOps"]
-      }
+        careerRole:
+          "تم الإنجاز خلال: المسار المتقدم في بيئات Docker والـ DevOps",
+        careerDesc:
+          "اعتماد مهارات حزم التطبيقات في حاويات Docker، إدارة البيئات متعددة الحاويات بـ Docker Compose، والتخزين الدائم وعزل بيئات التطوير.",
+        tags: ["اعتماد احترافي", "Docker و DevOps"],
+      },
     },
     "docker-first-project": {
       id: "docker-first-project",
@@ -2689,8 +3381,9 @@
         issueDate: "April 13, 2026",
         badgeDate: "ISSUED ON APR 13, 2026",
         careerRole: "Earned during: Applied Container Deployment Track",
-        careerDesc: "Practical implementation of Dockerfiles, custom base images, port mapping, container networking, and web app environment deployment.",
-        tags: ["Certificate", "Docker Products"]
+        careerDesc:
+          "Practical implementation of Dockerfiles, custom base images, port mapping, container networking, and web app environment deployment.",
+        tags: ["Certificate", "Docker Products"],
       },
       ar: {
         title: "Docker: مشروعك الأول التطبيقي",
@@ -2700,9 +3393,10 @@
         issueDate: "13 أبريل 2026",
         badgeDate: "صادرة في 13 أبريل 2026",
         careerRole: "تم الإنجاز خلال: مسار التطبيق العملي لشبكات وبيئات Docker",
-        careerDesc: "تطوير وبناء ملفات Dockerfile، تخصيص الصور المرجعية، ربط المنافذ والشبكات بالحاويات، ونشر بيئات تطبيقات الويب بكفاءة.",
-        tags: ["شهادة تطبيقية", "منتجات Docker"]
-      }
+        careerDesc:
+          "تطوير وبناء ملفات Dockerfile، تخصيص الصور المرجعية، ربط المنافذ والشبكات بالحاويات، ونشر بيئات تطبيقات الويب بكفاءة.",
+        tags: ["شهادة تطبيقية", "منتجات Docker"],
+      },
     },
     "laravel-rest-api": {
       id: "laravel-rest-api",
@@ -2716,8 +3410,9 @@
         issueDate: "March 9, 2026",
         badgeDate: "ISSUED ON MAR 09, 2026",
         careerRole: "Earned during: Advanced Laravel API Architecture Track",
-        careerDesc: "Advanced mastery in designing standardized JSON REST APIs in Laravel, Eloquent API Resources, Sanctum/Passport token authentication, and status code conventions.",
-        tags: ["REST APIs", "Laravel"]
+        careerDesc:
+          "Advanced mastery in designing standardized JSON REST APIs in Laravel, Eloquent API Resources, Sanctum/Passport token authentication, and status code conventions.",
+        tags: ["REST APIs", "Laravel"],
       },
       ar: {
         title: "بناء واجهات برمجة التطبيقات RESTful في Laravel",
@@ -2726,10 +3421,12 @@
         category: "تطوير الـ Backend واجهات APIs",
         issueDate: "9 مارس 2026",
         badgeDate: "صادرة في 9 مارس 2026",
-        careerRole: "تم الإنجاز خلال: مسار المعمارية المتقدمة لـ Laravel REST APIs",
-        careerDesc: "إتقان تصميم واجهات برمجة التطبيقات المعيارية، تحويل المخرجات بـ API Resources، حماية النقاط النهائية بمصادقة الرموز، والالتزام بمعايير الأداء والأمان.",
-        tags: ["REST APIs", "Laravel"]
-      }
+        careerRole:
+          "تم الإنجاز خلال: مسار المعمارية المتقدمة لـ Laravel REST APIs",
+        careerDesc:
+          "إتقان تصميم واجهات برمجة التطبيقات المعيارية، تحويل المخرجات بـ API Resources، حماية النقاط النهائية بمصادقة الرموز، والالتزام بمعايير الأداء والأمان.",
+        tags: ["REST APIs", "Laravel"],
+      },
     },
     "tot-training-certificate": {
       id: "tot-training-certificate",
@@ -2742,9 +3439,11 @@
         category: "Technical Training & Pedagogy",
         issueDate: "October 05, 2026",
         badgeDate: "ISSUED ON OCT 05, 2026",
-        careerRole: "Earned during: Training of Trainers (TOT) Program under Eng. Ahmad Jaber",
-        careerDesc: "Completed 18 intensive training hours certified by Youth Hope Makers Foundation & American Council of Human Development Scholars (ACHDS). Mastered technical workshop facilitation, instructional design, adult learning psychology, and interactive coding bootcamp delivery.",
-        tags: ["TOT", "Trainer", "Mentorship"]
+        careerRole:
+          "Earned during: Training of Trainers (TOT) Program under Eng. Ahmad Jaber",
+        careerDesc:
+          "Completed 18 intensive training hours certified by Youth Hope Makers Foundation & American Council of Human Development Scholars (ACHDS). Mastered technical workshop facilitation, instructional design, adult learning psychology, and interactive coding bootcamp delivery.",
+        tags: ["TOT", "Trainer", "Mentorship"],
       },
       ar: {
         title: "شهادة إعداد وتأهيل مدرب (TOT) — 18 ساعة تدريبية",
@@ -2753,10 +3452,12 @@
         category: "التدريب التقني وإعداد المدربين",
         issueDate: "5 أكتوبر 2026",
         badgeDate: "صادرة في 5 أكتوبر 2026",
-        careerRole: "تم الإنجاز خلال: برنامج إعداد وتأهيل المدربين (TOT) بإشراف م. أحمد جبر",
-        careerDesc: "اجتياز 18 ساعة تدريبية معتمدة من مؤسسة صناع الأمل الشبابي والمجلس الأمريكي ACHDS، مع إتقان منهجيات التدريب الاحترافي، إدارة الجلسات وورش العمل التفاعلية، وتصميم وتقديم المناهج التقنية وهندسة الويب.",
-        tags: ["إعداد مدرب", "تدريب وتوجيه", "TOT"]
-      }
+        careerRole:
+          "تم الإنجاز خلال: برنامج إعداد وتأهيل المدربين (TOT) بإشراف م. أحمد جبر",
+        careerDesc:
+          "اجتياز 18 ساعة تدريبية معتمدة من مؤسسة صناع الأمل الشبابي والمجلس الأمريكي ACHDS، مع إتقان منهجيات التدريب الاحترافي، إدارة الجلسات وورش العمل التفاعلية، وتصميم وتقديم المناهج التقنية وهندسة الويب.",
+        tags: ["إعداد مدرب", "تدريب وتوجيه", "TOT"],
+      },
     },
     "php-laravel-bootcamp": {
       id: "php-laravel-bootcamp",
@@ -2770,8 +3471,9 @@
         issueDate: "March 19, 2023",
         badgeDate: "ISSUED ON MAR 19, 2023",
         careerRole: "Earned during: Intensive PHP & Laravel Track (50 Hours)",
-        careerDesc: "Completed 50 training hours mastering PHP Object-Oriented Programming (OOP), MVC architectural patterns, Eloquent ORM, authentication guards, and MySQL schema design.",
-        tags: ["Bootcamp", "PHP Laravel"]
+        careerDesc:
+          "Completed 50 training hours mastering PHP Object-Oriented Programming (OOP), MVC architectural patterns, Eloquent ORM, authentication guards, and MySQL schema design.",
+        tags: ["Bootcamp", "PHP Laravel"],
       },
       ar: {
         title: "البرنامج التدريبي المتخصص في PHP Laravel (50 ساعة)",
@@ -2781,9 +3483,10 @@
         issueDate: "19 مارس 2023",
         badgeDate: "صادرة في 19 مارس 2023",
         careerRole: "تم الإنجاز خلال: الدبلوم البرمجي المكثف في PHP & Laravel",
-        careerDesc: "إتمام 50 ساعة تدريبية في البرمجة الكائنية OOP، نمط التصميم المعماري MVC، محرك Eloquent ORM، إدارة الجلسات والصلاحيات، وتصميم قواعد البيانات.",
-        tags: ["برنامج مكثف", "PHP Laravel"]
-      }
+        careerDesc:
+          "إتمام 50 ساعة تدريبية في البرمجة الكائنية OOP، نمط التصميم المعماري MVC، محرك Eloquent ORM، إدارة الجلسات والصلاحيات، وتصميم قواعد البيانات.",
+        tags: ["برنامج مكثف", "PHP Laravel"],
+      },
     },
     "ux-ui-course": {
       id: "ux-ui-course",
@@ -2797,8 +3500,9 @@
         issueDate: "October 16, 2022",
         badgeDate: "ISSUED ON OCT 16, 2022",
         careerRole: "Earned during: Engineering Forum UI/UX Design Track",
-        careerDesc: "Completed 50 hours of user experience design, wireframing, interactive prototyping, usability evaluation, design systems, and responsive interface workflows.",
-        tags: ["UI/UX", "Design Systems"]
+        careerDesc:
+          "Completed 50 hours of user experience design, wireframing, interactive prototyping, usability evaluation, design systems, and responsive interface workflows.",
+        tags: ["UI/UX", "Design Systems"],
       },
       ar: {
         title: "دورة تصميم واجهات وتجربة المستخدم UX/UI (50 ساعة)",
@@ -2808,9 +3512,10 @@
         issueDate: "16 أكتوبر 2022",
         badgeDate: "صادرة في 16 أكتوبر 2022",
         careerRole: "تم الإنجاز خلال: برنامج المنتدى الهندسي لتصميم الواجهات",
-        careerDesc: "إتمام 50 ساعة تدريب وااختبار نهائي بنجاح في دراسة سلوك المستخدم، بناء المخططات السلكية Wireframes، النماذج التفاعلية، وأنظمة التصميم المتجاوبة.",
-        tags: ["تصميم واجهات", "تجربة المستخدم"]
-      }
+        careerDesc:
+          "إتمام 50 ساعة تدريب وااختبار نهائي بنجاح في دراسة سلوك المستخدم، بناء المخططات السلكية Wireframes، النماذج التفاعلية، وأنظمة التصميم المتجاوبة.",
+        tags: ["تصميم واجهات", "تجربة المستخدم"],
+      },
     },
     "personal-website-course": {
       id: "personal-website-course",
@@ -2824,8 +3529,9 @@
         issueDate: "August 17, 2022",
         badgeDate: "ISSUED ON AUG 17, 2022",
         careerRole: "Earned during: Web Development Fundamentals Track",
-        careerDesc: "Completed 20 training hours in custom website development, responsive CSS layouts, HTML semantics, cross-browser compatibility, and web publishing.",
-        tags: ["Web Design", "Frontend"]
+        careerDesc:
+          "Completed 20 training hours in custom website development, responsive CSS layouts, HTML semantics, cross-browser compatibility, and web publishing.",
+        tags: ["Web Design", "Frontend"],
       },
       ar: {
         title: "دورة تصميم وبرمجة المواقع الشخصية (20 ساعة)",
@@ -2835,18 +3541,19 @@
         issueDate: "17 أغسطس 2022",
         badgeDate: "صادرة في 17 أغسطس 2022",
         careerRole: "تم الإنجاز خلال: مسار أساسيات تطوير الويب والتنسيق",
-        careerDesc: "إتمام 20 ساعة تدريبية في بناء الهياكل البرمجية والتنسيقات المتجاوبة والتوافق مع المتصفحات والنشر الرقمي على الويب.",
-        tags: ["تصميم الويب", "الواجهات"]
-      }
-    }
+        careerDesc:
+          "إتمام 20 ساعة تدريبية في بناء الهياكل البرمجية والتنسيقات المتجاوبة والتوافق مع المتصفحات والنشر الرقمي على الويب.",
+        tags: ["تصميم الويب", "الواجهات"],
+      },
+    },
   };
 
-  const certDetailModal = document.getElementById('cert-detail-modal');
-  const certModalCloseBtn = document.getElementById('cert-modal-close-btn');
+  const certDetailModal = document.getElementById("cert-detail-modal");
+  const certModalCloseBtn = document.getElementById("cert-modal-close-btn");
   let activeCertId = null;
 
   function isCertModalOpen() {
-    return !!(certDetailModal && certDetailModal.classList.contains('active'));
+    return !!(certDetailModal && certDetailModal.classList.contains("active"));
   }
 
   function openCertModal(certId) {
@@ -2854,28 +3561,36 @@
     if (!cert || !certDetailModal) return;
     activeCertId = certId;
 
-    if (typeof closePhotoModal === 'function' && typeof isPhotoModalOpen === 'function' && isPhotoModalOpen()) {
+    if (
+      typeof closePhotoModal === "function" &&
+      typeof isPhotoModalOpen === "function" &&
+      isPhotoModalOpen()
+    ) {
       closePhotoModal();
     }
-    if (typeof closeQuickModal === 'function' && typeof isQuickModalOpen === 'function' && isQuickModalOpen()) {
+    if (
+      typeof closeQuickModal === "function" &&
+      typeof isQuickModalOpen === "function" &&
+      isQuickModalOpen()
+    ) {
       closeQuickModal();
     }
-    if (typeof closeCommandPalette === 'function' && isPaletteOpen()) {
+    if (typeof closeCommandPalette === "function" && isPaletteOpen()) {
       closeCommandPalette();
     }
 
-    const isArabic = currentLang === 'ar';
+    const isArabic = currentLang === "ar";
     const data = isArabic ? cert.ar : cert.en;
 
-    const imgEl = document.getElementById('cert-modal-img');
-    const titleEl = document.getElementById('cert-modal-title');
-    const issuerEl = document.getElementById('cert-modal-issuer');
-    const typeEl = document.getElementById('cert-modal-type');
-    const catEl = document.getElementById('cert-modal-category');
-    const dateEl = document.getElementById('cert-modal-date');
-    const urlBtn = document.getElementById('cert-modal-url-btn');
-    const careerRoleEl = document.getElementById('cert-modal-career-role');
-    const careerDescEl = document.getElementById('cert-modal-career-desc');
+    const imgEl = document.getElementById("cert-modal-img");
+    const titleEl = document.getElementById("cert-modal-title");
+    const issuerEl = document.getElementById("cert-modal-issuer");
+    const typeEl = document.getElementById("cert-modal-type");
+    const catEl = document.getElementById("cert-modal-category");
+    const dateEl = document.getElementById("cert-modal-date");
+    const urlBtn = document.getElementById("cert-modal-url-btn");
+    const careerRoleEl = document.getElementById("cert-modal-career-role");
+    const careerDescEl = document.getElementById("cert-modal-career-desc");
 
     if (imgEl) {
       imgEl.src = cert.image;
@@ -2892,60 +3607,71 @@
     if (careerRoleEl) careerRoleEl.textContent = data.careerRole;
     if (careerDescEl) careerDescEl.textContent = data.careerDesc;
 
-    certDetailModal.classList.add('active'); certDetailModal.removeAttribute('inert');
-    certDetailModal.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
+    certDetailModal.classList.add("active");
+    certDetailModal.removeAttribute("inert");
+    certDetailModal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
   }
 
   function closeCertModal() {
     if (!certDetailModal) return;
-    certDetailModal.classList.remove('active'); certDetailModal.setAttribute('inert', '');
-    certDetailModal.setAttribute('aria-hidden', 'true');
+    certDetailModal.classList.remove("active");
+    certDetailModal.setAttribute("inert", "");
+    certDetailModal.setAttribute("aria-hidden", "true");
     activeCertId = null;
 
-    if (!(mobileDrawer && mobileDrawer.classList.contains('open')) && 
-        !isPaletteOpen() && 
-        !(typeof isQuickModalOpen === 'function' && isQuickModalOpen()) &&
-        !(typeof isPhotoModalOpen === 'function' && isPhotoModalOpen())) {
-      document.body.style.overflow = '';
+    if (
+      !(mobileDrawer && mobileDrawer.classList.contains("open")) &&
+      !isPaletteOpen() &&
+      !(typeof isQuickModalOpen === "function" && isQuickModalOpen()) &&
+      !(typeof isPhotoModalOpen === "function" && isPhotoModalOpen())
+    ) {
+      document.body.style.overflow = "";
     }
   }
 
   function updateAchievementsGridLanguage(lang) {
-    const grid = document.getElementById('achievements-grid');
+    const grid = document.getElementById("achievements-grid");
     if (!grid) return;
-    const cards = grid.querySelectorAll('.cert-modern-card');
+    const cards = grid.querySelectorAll(".cert-modern-card");
     cards.forEach((card) => {
-      const id = card.getAttribute('data-cert-id');
+      const id = card.getAttribute("data-cert-id");
       const cert = CERTIFICATES_DATA[id];
       if (!cert) return;
-      const data = lang === 'ar' ? cert.ar : cert.en;
+      const data = lang === "ar" ? cert.ar : cert.en;
 
       const titleEl = card.querySelector('[data-cert-field="title"]');
       const issuerEl = card.querySelector('[data-cert-field="issuer"]');
       const tagsWrap = card.querySelector('[data-cert-field="tags"]');
       const dateEl = card.querySelector('[data-cert-field="badgeDate"]');
-      const btnTextEl = card.querySelector('.cert-view-btn-text');
+      const btnTextEl = card.querySelector(".cert-view-btn-text");
 
       if (titleEl) titleEl.textContent = data.title;
       if (issuerEl) issuerEl.textContent = data.issuer;
       if (dateEl) dateEl.textContent = data.badgeDate;
-      if (btnTextEl) btnTextEl.textContent = lang === 'ar' ? 'عرض الشهادة' : 'View Certificate';
+      if (btnTextEl)
+        btnTextEl.textContent =
+          lang === "ar" ? "عرض الشهادة" : "View Certificate";
 
       if (tagsWrap && Array.isArray(data.tags)) {
-        tagsWrap.innerHTML = data.tags.map(t => `<span class="cert-tag">${t}</span>`).join('');
+        tagsWrap.innerHTML = data.tags
+          .map((t) => `<span class="cert-tag">${t}</span>`)
+          .join("");
       }
 
-      card.setAttribute('data-cursor', lang === 'ar' ? 'عرض الشهادة' : 'View Certificate');
+      card.setAttribute(
+        "data-cursor",
+        lang === "ar" ? "عرض الشهادة" : "View Certificate",
+      );
     });
   }
 
   if (certModalCloseBtn) {
-    certModalCloseBtn.addEventListener('click', closeCertModal);
+    certModalCloseBtn.addEventListener("click", closeCertModal);
   }
 
   if (certDetailModal) {
-    certDetailModal.addEventListener('click', (e) => {
+    certDetailModal.addEventListener("click", (e) => {
       if (e.target === certDetailModal) {
         closeCertModal();
       }
@@ -2953,27 +3679,35 @@
   }
 
   // Keyboard activation for cert cards
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' || e.key === ' ') {
-      const certCard = document.activeElement && document.activeElement.closest('.cert-modern-card');
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      const certCard =
+        document.activeElement &&
+        document.activeElement.closest(".cert-modern-card");
       if (certCard) {
         e.preventDefault();
-        const certId = certCard.getAttribute('data-cert-id');
+        const certId = certCard.getAttribute("data-cert-id");
         if (certId) openCertModal(certId);
       }
     }
   });
 
   // Project Cards & Profile Photo Click Delegation
-  document.addEventListener('click', (e) => {
+  document.addEventListener("click", (e) => {
     // If clicking inside certificate modal, photo lightbox, quick modal, or command palette, let their handlers take care of it
-    if (e.target.closest('#cert-detail-modal') || e.target.closest('#photo-lightbox-modal') || e.target.closest('#project-quick-modal') || e.target.closest('#command-palette-modal')) return;
+    if (
+      e.target.closest("#cert-detail-modal") ||
+      e.target.closest("#photo-lightbox-modal") ||
+      e.target.closest("#project-quick-modal") ||
+      e.target.closest("#command-palette-modal")
+    )
+      return;
 
     // Check if clicking a modern certificate card in achievements section
-    const certCard = e.target.closest('.cert-modern-card');
+    const certCard = e.target.closest(".cert-modern-card");
     if (certCard) {
       e.preventDefault();
-      const certId = certCard.getAttribute('data-cert-id');
+      const certId = certCard.getAttribute("data-cert-id");
       if (certId) {
         openCertModal(certId);
         return;
@@ -2981,9 +3715,16 @@
     }
 
     // Check if clicking personal profile photo trigger (sidebar avatar, mobile header avatar, drawer avatar)
-    const avatarEl = e.target.closest('#profile-photo-trigger, .avatar-wrapper, .avatar-lg, .avatar-sm, .avatar-md');
-    if (avatarEl && !avatarEl.closest('.testimonial-bubble')) {
-      if (avatarEl.closest('.mobile-profile-chip') || avatarEl.closest('.drawer-header') || avatarEl.id === 'profile-photo-trigger' || avatarEl.closest('.avatar-wrapper')) {
+    const avatarEl = e.target.closest(
+      "#profile-photo-trigger, .avatar-wrapper, .avatar-lg, .avatar-sm, .avatar-md",
+    );
+    if (avatarEl && !avatarEl.closest(".testimonial-bubble")) {
+      if (
+        avatarEl.closest(".mobile-profile-chip") ||
+        avatarEl.closest(".drawer-header") ||
+        avatarEl.id === "profile-photo-trigger" ||
+        avatarEl.closest(".avatar-wrapper")
+      ) {
         e.preventDefault();
         openPhotoModal();
         return;
@@ -2991,10 +3732,10 @@
     }
 
     // 1. Direct route button click (e.g. data-project-route if present anywhere)
-    const projectBtn = e.target.closest('[data-project-route]');
+    const projectBtn = e.target.closest("[data-project-route]");
     if (projectBtn) {
       e.preventDefault();
-      const projectId = projectBtn.getAttribute('data-project-route');
+      const projectId = projectBtn.getAttribute("data-project-route");
       if (projectId) {
         navigateTo(`project-${projectId}`, true);
       }
@@ -3002,12 +3743,12 @@
     }
 
     // 2. Click on a project card (.project-full-card) -> Navigate directly to Project Detail Page
-    const card = e.target.closest('.project-full-card');
+    const card = e.target.closest(".project-full-card");
     if (card) {
       // If user clicked an external link (like github/demo) inside the card, let it open
       if (e.target.closest('a[href]:not([href^="#"])')) return;
 
-      const projectId = card.getAttribute('data-project-id');
+      const projectId = card.getAttribute("data-project-id");
       if (projectId) {
         e.preventDefault();
         navigateTo(`project-${projectId}`, true);
@@ -3020,7 +3761,9 @@
   let currentFilteredItems = [];
 
   function isPaletteOpen() {
-    return !!(commandPaletteModal && commandPaletteModal.classList.contains('open'));
+    return !!(
+      commandPaletteModal && commandPaletteModal.classList.contains("open")
+    );
   }
 
   function getPaletteItems() {
@@ -3028,260 +3771,321 @@
     return [
       // Group 1: Navigation
       {
-        id: 'nav-home',
+        id: "nav-home",
         group: dict.groupPages,
         title: dict.navHome,
-        desc: currentLang === 'ar' ? 'الصفحة الرئيسية ونبذة موجزة' : 'Overview and signature bento grid',
+        desc:
+          currentLang === "ar"
+            ? "الصفحة الرئيسية ونبذة موجزة"
+            : "Overview and signature bento grid",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>',
-        badge: 'View',
-        keywords: 'home main start رئيسية بداية',
-        action: () => navigateTo('home')
+        badge: "View",
+        keywords: "home main start رئيسية بداية",
+        action: () => navigateTo("home"),
       },
       {
-        id: 'nav-about',
+        id: "nav-about",
         group: dict.groupPages,
         title: dict.navAbout,
-        desc: currentLang === 'ar' ? 'السيرة الهندسية والمهارات والتعليم' : 'Engineering bio, principles, and tech stack',
+        desc:
+          currentLang === "ar"
+            ? "السيرة الهندسية والمهارات والتعليم"
+            : "Engineering bio, principles, and tech stack",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>',
-        badge: 'View',
-        keywords: 'about bio skills education عني سيرة مهارات تعليم',
-        action: () => navigateTo('about')
+        badge: "View",
+        keywords: "about bio skills education عني سيرة مهارات تعليم",
+        action: () => navigateTo("about"),
       },
       {
-        id: 'nav-career',
+        id: "nav-career",
         group: dict.groupPages,
         title: dict.navCareer,
-        desc: currentLang === 'ar' ? 'الخبرات العملية والمسيرة المهنية' : 'Work experience, roles, and achievements',
+        desc:
+          currentLang === "ar"
+            ? "الخبرات العملية والمسيرة المهنية"
+            : "Work experience, roles, and achievements",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>',
-        badge: 'View',
-        keywords: 'career experience work jobs مهنة خبرات وظائف',
-        action: () => navigateTo('career')
+        badge: "View",
+        keywords: "career experience work jobs مهنة خبرات وظائف",
+        action: () => navigateTo("career"),
       },
       {
-        id: 'nav-projects',
+        id: "nav-projects",
         group: dict.groupPages,
         title: dict.navProjects,
-        desc: currentLang === 'ar' ? 'استعراض كافة المشاريع ودراسات الحالة' : 'Full gallery of production applications',
+        desc:
+          currentLang === "ar"
+            ? "استعراض كافة المشاريع ودراسات الحالة"
+            : "Full gallery of production applications",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 8 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"></path></svg>',
-        badge: 'View',
-        keywords: 'projects showcase portfolio مشاريع أعمال برمجة',
-        action: () => navigateTo('projects')
+        badge: "View",
+        keywords: "projects showcase portfolio مشاريع أعمال برمجة",
+        action: () => navigateTo("projects"),
       },
       {
-        id: 'nav-achievements',
+        id: "nav-achievements",
         group: dict.groupPages,
         title: dict.navAchievements,
-        desc: currentLang === 'ar' ? 'الشهادات والبرامج المكثفة والأوسمة' : 'Certifications and verified credentials',
+        desc:
+          currentLang === "ar"
+            ? "الشهادات والبرامج المكثفة والأوسمة"
+            : "Certifications and verified credentials",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path></svg>',
-        badge: 'View',
-        keywords: 'achievements certs diplomas شهادات إنجازات أوسمة',
-        action: () => navigateTo('achievements')
+        badge: "View",
+        keywords: "achievements certs diplomas شهادات إنجازات أوسمة",
+        action: () => navigateTo("achievements"),
       },
       {
-        id: 'nav-contact',
+        id: "nav-contact",
         group: dict.groupPages,
         title: dict.navContact,
-        desc: currentLang === 'ar' ? 'قنوات التواصل ونموذج الرسائل المباشر' : 'Get in touch for engineering collaborations',
+        desc:
+          currentLang === "ar"
+            ? "قنوات التواصل ونموذج الرسائل المباشر"
+            : "Get in touch for engineering collaborations",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>',
-        badge: 'View',
-        keywords: 'contact email phone message تواصل ايميل هاتف',
-        action: () => navigateTo('contact')
+        badge: "View",
+        keywords: "contact email phone message تواصل ايميل هاتف",
+        action: () => navigateTo("contact"),
       },
 
       // Group 2: Featured Case Studies
       {
-        id: 'cs-lead-automation',
+        id: "cs-lead-automation",
         group: dict.groupProjects,
-        title: caseStudiesData['lead-automation'].title[currentLang] || caseStudiesData['lead-automation'].title.en,
-        desc: caseStudiesData['lead-automation'].subtitle[currentLang] || caseStudiesData['lead-automation'].subtitle.en,
+        title:
+          caseStudiesData["lead-automation"].title[currentLang] ||
+          caseStudiesData["lead-automation"].title.en,
+        desc:
+          caseStudiesData["lead-automation"].subtitle[currentLang] ||
+          caseStudiesData["lead-automation"].subtitle.en,
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14h-2v-4h2zm0-6h-2V8h2z" /></svg>',
-        badge: 'Featured',
-        keywords: 'lead automation n8n gemini triage queue workflow أتمتة معالجة عملاء محتملين',
-        action: () => navigateTo('project-lead-automation')
+        badge: "Featured",
+        keywords:
+          "lead automation n8n gemini triage queue workflow أتمتة معالجة عملاء محتملين",
+        action: () => navigateTo("project-lead-automation"),
       },
       {
-        id: 'cs-sprint-mind',
+        id: "cs-sprint-mind",
         group: dict.groupProjects,
-        title: caseStudiesData['sprint-mind'].title[currentLang] || caseStudiesData['sprint-mind'].title.en,
-        desc: caseStudiesData['sprint-mind'].subtitle[currentLang] || caseStudiesData['sprint-mind'].subtitle.en,
+        title:
+          caseStudiesData["sprint-mind"].title[currentLang] ||
+          caseStudiesData["sprint-mind"].title.en,
+        desc:
+          caseStudiesData["sprint-mind"].subtitle[currentLang] ||
+          caseStudiesData["sprint-mind"].subtitle.en,
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>',
-        badge: 'Featured',
-        keywords: 'sprintmind agile scrum task calendar heatmaps pest gemini laravel 13 ذكاء اصطناعي سبرنت تقويم',
-        action: () => navigateTo('project-sprint-mind')
+        badge: "Featured",
+        keywords:
+          "sprintmind agile scrum task calendar heatmaps pest gemini laravel 13 ذكاء اصطناعي سبرنت تقويم",
+        action: () => navigateTo("project-sprint-mind"),
       },
       {
-        id: 'cs-marsa',
+        id: "cs-marsa",
         group: dict.groupProjects,
-        title: caseStudiesData['marsa-store'].title[currentLang] || caseStudiesData['marsa-store'].title.en,
-        desc: caseStudiesData['marsa-store'].subtitle[currentLang] || caseStudiesData['marsa-store'].subtitle.en,
+        title:
+          caseStudiesData["marsa-store"].title[currentLang] ||
+          caseStudiesData["marsa-store"].title.en,
+        desc:
+          caseStudiesData["marsa-store"].subtitle[currentLang] ||
+          caseStudiesData["marsa-store"].subtitle.en,
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><path d="M3 6h18"></path><path d="M16 10a4 4 0 0 1-8 0"></path></svg>',
-        badge: 'Study',
-        keywords: 'marsa store ecommerce marketplace multivendor laravel vue مرسى متجر تجارة إلكترونية',
-        action: () => navigateTo('project-marsa-store')
+        badge: "Study",
+        keywords:
+          "marsa store ecommerce marketplace multivendor laravel vue مرسى متجر تجارة إلكترونية",
+        action: () => navigateTo("project-marsa-store"),
       },
       {
-        id: 'cs-writeai',
+        id: "cs-writeai",
         group: dict.groupProjects,
-        title: caseStudiesData['write-ai'].title[currentLang] || caseStudiesData['write-ai'].title.en,
-        desc: caseStudiesData['write-ai'].subtitle[currentLang] || caseStudiesData['write-ai'].subtitle.en,
+        title:
+          caseStudiesData["write-ai"].title[currentLang] ||
+          caseStudiesData["write-ai"].title.en,
+        desc:
+          caseStudiesData["write-ai"].subtitle[currentLang] ||
+          caseStudiesData["write-ai"].subtitle.en,
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M9 9h6"></path><path d="M9 13h6"></path><path d="M9 17h4"></path></svg>',
-        badge: 'Study',
-        keywords: 'write ai blog saas llm openai prompt ذكاء اصطناعي تدوين محتوى',
-        action: () => navigateTo('project-write-ai')
+        badge: "Study",
+        keywords:
+          "write ai blog saas llm openai prompt ذكاء اصطناعي تدوين محتوى",
+        action: () => navigateTo("project-write-ai"),
       },
       {
-        id: 'cs-messenger',
+        id: "cs-messenger",
         group: dict.groupProjects,
-        title: caseStudiesData['messenger'].title[currentLang] || caseStudiesData['messenger'].title.en,
-        desc: caseStudiesData['messenger'].subtitle[currentLang] || caseStudiesData['messenger'].subtitle.en,
+        title:
+          caseStudiesData["messenger"].title[currentLang] ||
+          caseStudiesData["messenger"].title.en,
+        desc:
+          caseStudiesData["messenger"].subtitle[currentLang] ||
+          caseStudiesData["messenger"].subtitle.en,
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>',
-        badge: 'Study',
-        keywords: 'messenger chat websockets realtime pusher echo مراسلة دردشة فوري',
-        action: () => navigateTo('project-messenger')
+        badge: "Study",
+        keywords:
+          "messenger chat websockets realtime pusher echo مراسلة دردشة فوري",
+        action: () => navigateTo("project-messenger"),
       },
       {
-        id: 'cs-technocms',
+        id: "cs-technocms",
         group: dict.groupProjects,
-        title: caseStudiesData['techno-cms'].title[currentLang] || caseStudiesData['techno-cms'].title.en,
-        desc: caseStudiesData['techno-cms'].subtitle[currentLang] || caseStudiesData['techno-cms'].subtitle.en,
+        title:
+          caseStudiesData["techno-cms"].title[currentLang] ||
+          caseStudiesData["techno-cms"].title.en,
+        desc:
+          caseStudiesData["techno-cms"].subtitle[currentLang] ||
+          caseStudiesData["techno-cms"].subtitle.en,
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M3 9h18"></path><path d="M9 21V9"></path></svg>',
-        badge: 'Study',
-        keywords: 'techno cms filament livewire admin dashboard لوحة تحكم إدارة محتوى',
-        action: () => navigateTo('project-techno-cms')
+        badge: "Study",
+        keywords:
+          "techno cms filament livewire admin dashboard لوحة تحكم إدارة محتوى",
+        action: () => navigateTo("project-techno-cms"),
       },
-
 
       // Group 3: Quick Actions
       {
-        id: 'act-cv',
+        id: "act-cv",
         group: dict.groupActions,
         title: dict.actionDownloadCv,
-        desc: 'Mohammed_Jouda_CV.pdf',
+        desc: "Mohammed_Jouda_CV.pdf",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>',
-        badge: 'PDF',
-        keywords: 'resume cv pdf download سيرة ذاتية تحميل ملف',
+        badge: "PDF",
+        keywords: "resume cv pdf download سيرة ذاتية تحميل ملف",
         action: () => {
-          window.open('assets/Mohammed_Jouda_CV.pdf', '_blank');
-        }
+          window.open("assets/Mohammed_Jouda_CV.pdf", "_blank");
+        },
       },
       {
-        id: 'act-copy-email',
+        id: "act-copy-email",
         group: dict.groupActions,
         title: dict.actionCopyEmail,
-        desc: 'mohammedjouda02@gmail.com',
+        desc: "mohammedjouda02@gmail.com",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>',
-        badge: 'Copy',
-        keywords: 'copy email mail address نسخ بريد ايميل',
+        badge: "Copy",
+        keywords: "copy email mail address نسخ بريد ايميل",
         action: () => {
           if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText('mohammedjouda02@gmail.com').then(() => {
-              showToast(dict.toastEmailCopied, 'check');
-            }).catch(() => {
-              showToast('mohammedjouda02@gmail.com', 'check');
-            });
+            navigator.clipboard
+              .writeText("mohammedjouda02@gmail.com")
+              .then(() => {
+                showToast(dict.toastEmailCopied, "check");
+              })
+              .catch(() => {
+                showToast("mohammedjouda02@gmail.com", "check");
+              });
           } else {
-            showToast('mohammedjouda02@gmail.com', 'check');
+            showToast("mohammedjouda02@gmail.com", "check");
           }
-        }
+        },
       },
       {
-        id: 'act-copy-phone',
+        id: "act-copy-phone",
         group: dict.groupActions,
         title: dict.actionCopyPhone,
-        desc: '+970599108787',
+        desc: "+970599108787",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>',
-        badge: 'Copy',
-        keywords: 'copy phone whatsapp call نسخ هاتف جوال واتساب',
+        badge: "Copy",
+        keywords: "copy phone whatsapp call نسخ هاتف جوال واتساب",
         action: () => {
           if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText('+970599108787').then(() => {
-              showToast(dict.toastPhoneCopied, 'check');
-            }).catch(() => {
-              showToast('+970599108787', 'check');
-            });
+            navigator.clipboard
+              .writeText("+970599108787")
+              .then(() => {
+                showToast(dict.toastPhoneCopied, "check");
+              })
+              .catch(() => {
+                showToast("+970599108787", "check");
+              });
           } else {
-            showToast('+970599108787', 'check');
+            showToast("+970599108787", "check");
           }
-        }
+        },
       },
       {
-        id: 'act-theme',
+        id: "act-theme",
         group: dict.groupActions,
         title: dict.actionToggleTheme,
-        desc: currentLang === 'ar' ? 'التبديل الفوري بين المظهر المظلم والفاتح' : 'Instant toggle between dark and light modes',
+        desc:
+          currentLang === "ar"
+            ? "التبديل الفوري بين المظهر المظلم والفاتح"
+            : "Instant toggle between dark and light modes",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>',
-        badge: 'Theme',
-        keywords: 'theme dark light mode مظهر ليلي نهاري',
+        badge: "Theme",
+        keywords: "theme dark light mode مظهر ليلي نهاري",
         action: () => {
-          const nextTheme = htmlEl.classList.contains('dark') ? 'light' : 'dark';
+          const nextTheme = htmlEl.classList.contains("dark")
+            ? "light"
+            : "dark";
           applyTheme(nextTheme, true);
-        }
+        },
       },
       {
-        id: 'act-lang',
+        id: "act-lang",
         group: dict.groupActions,
         title: dict.actionSwitchLang,
-        desc: currentLang === 'en' ? 'التحويل إلى اللغة العربية مع اتجاه اليمين لليسار' : 'Switch interface to English (LTR)',
+        desc:
+          currentLang === "en"
+            ? "التحويل إلى اللغة العربية مع اتجاه اليمين لليسار"
+            : "Switch interface to English (LTR)",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>',
-        badge: 'Language',
-        keywords: 'language switch arabic english لغة عربي انجليزي ترجمة',
+        badge: "Language",
+        keywords: "language switch arabic english لغة عربي انجليزي ترجمة",
         action: () => {
-          const nextLang = currentLang === 'en' ? 'ar' : 'en';
-          applyLanguage(nextLang, true);
-        }
+          const nextLang = currentLang === "en" ? "ar" : "en";
+          applyLanguage(nextLang, true, true);
+        },
       },
       {
-        id: 'act-github',
+        id: "act-github",
         group: dict.groupActions,
         title: dict.actionGithub,
-        desc: 'github.com/mohamed-jouda',
+        desc: "github.com/mohammedjouda",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>',
-        badge: 'Link',
-        keywords: 'github code repo git جيت هب كود مستودع',
+        badge: "Link",
+        keywords: "github code repo git جيت هب كود مستودع",
         action: () => {
-          window.open('https://github.com/mohamed-jouda', '_blank');
-        }
+          window.open("https://github.com/mohammedjouda", "_blank");
+        },
       },
       {
-        id: 'act-linkedin',
+        id: "act-linkedin",
         group: dict.groupActions,
         title: dict.actionLinkedin,
-        desc: 'linkedin.com/in/mohammedajouda',
+        desc: "linkedin.com/in/mohammedajouda",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>',
-        badge: 'Link',
-        keywords: 'linkedin connect network لينكد ان شبكة تواصل',
+        badge: "Link",
+        keywords: "linkedin connect network لينكد ان شبكة تواصل",
         action: () => {
-          window.open('https://www.linkedin.com/in/mohammedajouda/', '_blank');
-        }
+          window.open("https://www.linkedin.com/in/mohammedajouda/", "_blank");
+        },
       },
       {
-        id: 'act-x',
+        id: "act-x",
         group: dict.groupActions,
         title: dict.actionX,
-        desc: 'x.com/mohammedajouda',
+        desc: "x.com/mohammedajouda",
         icon: '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>',
-        badge: 'Link',
-        keywords: 'x twitter tweet post تويتر منصة اكس تغريدات',
+        badge: "Link",
+        keywords: "x twitter tweet post تويتر منصة اكس تغريدات",
         action: () => {
-          window.open('https://x.com/mohammedajouda', '_blank');
-        }
+          window.open("https://x.com/mohammedajouda", "_blank");
+        },
       },
       {
-        id: 'act-instagram',
+        id: "act-instagram",
         group: dict.groupActions,
         title: dict.actionInstagram,
-        desc: 'instagram.com/mohammedajouda',
+        desc: "instagram.com/mohammedajouda",
         icon: '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>',
-        badge: 'Link',
-        keywords: 'instagram ig insta photo صور انستغرام تواصل',
+        badge: "Link",
+        keywords: "instagram ig insta photo صور انستغرام تواصل",
         action: () => {
-          window.open('https://instagram.com/mohammedajouda', '_blank');
-        }
-      }
+          window.open("https://instagram.com/mohammedajouda", "_blank");
+        },
+      },
     ];
   }
 
-  function renderPaletteResults(query = '') {
+  function renderPaletteResults(query = "") {
     if (!paletteResults) return;
 
     const allItems = getPaletteItems();
@@ -3290,11 +4094,15 @@
     if (!cleanQuery) {
       currentFilteredItems = allItems;
     } else {
-      currentFilteredItems = allItems.filter(item => {
+      currentFilteredItems = allItems.filter((item) => {
         const titleMatch = item.title.toLowerCase().includes(cleanQuery);
-        const descMatch = (item.desc || '').toLowerCase().includes(cleanQuery);
-        const kwMatch = (item.keywords || '').toLowerCase().includes(cleanQuery);
-        const groupMatch = (item.group || '').toLowerCase().includes(cleanQuery);
+        const descMatch = (item.desc || "").toLowerCase().includes(cleanQuery);
+        const kwMatch = (item.keywords || "")
+          .toLowerCase()
+          .includes(cleanQuery);
+        const groupMatch = (item.group || "")
+          .toLowerCase()
+          .includes(cleanQuery);
         return titleMatch || descMatch || kwMatch || groupMatch;
       });
     }
@@ -3303,26 +4111,29 @@
       const dict = i18n[currentLang] || i18n.en;
       paletteResults.innerHTML = `
         <div class="palette-empty">
-          <p>${dict.paletteEmpty || 'No matching commands or pages found.'}</p>
+          <p>${dict.paletteEmpty || "No matching commands or pages found."}</p>
         </div>
       `;
       paletteActiveIndex = -1;
       return;
     }
 
-    if (paletteActiveIndex >= currentFilteredItems.length || paletteActiveIndex < 0) {
+    if (
+      paletteActiveIndex >= currentFilteredItems.length ||
+      paletteActiveIndex < 0
+    ) {
       paletteActiveIndex = 0;
     }
 
-    let html = '';
-    let currentGroup = '';
+    let html = "";
+    let currentGroup = "";
     currentFilteredItems.forEach((item, index) => {
       if (item.group !== currentGroup) {
         currentGroup = item.group;
         html += `<div class="palette-group-title">${currentGroup}</div>`;
       }
 
-      const isActive = index === paletteActiveIndex ? ' active' : '';
+      const isActive = index === paletteActiveIndex ? " active" : "";
       html += `
         <div class="palette-item${isActive}" data-palette-index="${index}">
           <span class="palette-item-icon">${item.icon}</span>
@@ -3337,22 +4148,22 @@
 
     paletteResults.innerHTML = html;
 
-    const activeEl = paletteResults.querySelector('.palette-item.active');
+    const activeEl = paletteResults.querySelector(".palette-item.active");
     if (activeEl) {
-      activeEl.scrollIntoView({ block: 'nearest' });
+      activeEl.scrollIntoView({ block: "nearest" });
     }
   }
 
   function updatePaletteActiveItem() {
     if (!paletteResults) return;
-    const items = paletteResults.querySelectorAll('.palette-item');
-    items.forEach(el => {
-      const idx = parseInt(el.getAttribute('data-palette-index'), 10);
+    const items = paletteResults.querySelectorAll(".palette-item");
+    items.forEach((el) => {
+      const idx = parseInt(el.getAttribute("data-palette-index"), 10);
       if (idx === paletteActiveIndex) {
-        el.classList.add('active');
-        el.scrollIntoView({ block: 'nearest' });
+        el.classList.add("active");
+        el.scrollIntoView({ block: "nearest" });
       } else {
-        el.classList.remove('active');
+        el.classList.remove("active");
       }
     });
   }
@@ -3361,7 +4172,7 @@
     if (index >= 0 && index < currentFilteredItems.length) {
       const item = currentFilteredItems[index];
       closeCommandPalette();
-      if (typeof item.action === 'function') {
+      if (typeof item.action === "function") {
         item.action();
       }
     }
@@ -3369,37 +4180,49 @@
 
   function openCommandPalette() {
     if (!commandPaletteModal) return;
-    if (typeof closeQuickModal === 'function' && typeof isQuickModalOpen === 'function' && isQuickModalOpen()) {
+    if (
+      typeof closeQuickModal === "function" &&
+      typeof isQuickModalOpen === "function" &&
+      isQuickModalOpen()
+    ) {
       closeQuickModal();
     }
-    commandPaletteModal.classList.add('open'); commandPaletteModal.removeAttribute('inert');
-    commandPaletteModal.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
+    commandPaletteModal.classList.add("open");
+    commandPaletteModal.removeAttribute("inert");
+    commandPaletteModal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
 
     if (paletteSearchInput) {
-      paletteSearchInput.value = '';
+      paletteSearchInput.value = "";
       paletteActiveIndex = 0;
-      renderPaletteResults('');
+      renderPaletteResults("");
       setTimeout(() => paletteSearchInput.focus(), 60);
     }
   }
 
   function closeCommandPalette() {
     if (!commandPaletteModal) return;
-    commandPaletteModal.classList.remove('open'); commandPaletteModal.setAttribute('inert', '');
-    commandPaletteModal.setAttribute('aria-hidden', 'true');
-    if (!(mobileDrawer && mobileDrawer.classList.contains('open')) && !(typeof isQuickModalOpen === 'function' && isQuickModalOpen())) {
-      document.body.style.overflow = '';
+    commandPaletteModal.classList.remove("open");
+    commandPaletteModal.setAttribute("inert", "");
+    commandPaletteModal.setAttribute("aria-hidden", "true");
+    if (
+      !(mobileDrawer && mobileDrawer.classList.contains("open")) &&
+      !(typeof isQuickModalOpen === "function" && isQuickModalOpen())
+    ) {
+      document.body.style.overflow = "";
     }
     if (paletteSearchInput) paletteSearchInput.blur();
   }
 
-  if (desktopSearchBtn) desktopSearchBtn.addEventListener('click', openCommandPalette);
-  if (mobileSearchBtn) mobileSearchBtn.addEventListener('click', openCommandPalette);
-  if (paletteCloseBtn) paletteCloseBtn.addEventListener('click', closeCommandPalette);
+  if (desktopSearchBtn)
+    desktopSearchBtn.addEventListener("click", openCommandPalette);
+  if (mobileSearchBtn)
+    mobileSearchBtn.addEventListener("click", openCommandPalette);
+  if (paletteCloseBtn)
+    paletteCloseBtn.addEventListener("click", closeCommandPalette);
 
   if (commandPaletteModal) {
-    commandPaletteModal.addEventListener('click', (e) => {
+    commandPaletteModal.addEventListener("click", (e) => {
       if (e.target === commandPaletteModal) {
         closeCommandPalette();
       }
@@ -3407,28 +4230,31 @@
   }
 
   if (paletteSearchInput) {
-    paletteSearchInput.addEventListener('input', (e) => {
+    paletteSearchInput.addEventListener("input", (e) => {
       paletteActiveIndex = 0;
       renderPaletteResults(e.target.value);
     });
 
-    paletteSearchInput.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowDown') {
+    paletteSearchInput.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowDown") {
         e.preventDefault();
         if (currentFilteredItems.length > 0) {
-          paletteActiveIndex = (paletteActiveIndex + 1) % currentFilteredItems.length;
+          paletteActiveIndex =
+            (paletteActiveIndex + 1) % currentFilteredItems.length;
           updatePaletteActiveItem();
         }
-      } else if (e.key === 'ArrowUp') {
+      } else if (e.key === "ArrowUp") {
         e.preventDefault();
         if (currentFilteredItems.length > 0) {
-          paletteActiveIndex = (paletteActiveIndex - 1 + currentFilteredItems.length) % currentFilteredItems.length;
+          paletteActiveIndex =
+            (paletteActiveIndex - 1 + currentFilteredItems.length) %
+            currentFilteredItems.length;
           updatePaletteActiveItem();
         }
-      } else if (e.key === 'Enter') {
+      } else if (e.key === "Enter") {
         e.preventDefault();
         executePaletteItem(paletteActiveIndex);
-      } else if (e.key === 'Escape') {
+      } else if (e.key === "Escape") {
         e.preventDefault();
         closeCommandPalette();
       }
@@ -3436,23 +4262,22 @@
   }
 
   if (paletteResults) {
-    paletteResults.addEventListener('click', (e) => {
-      const itemEl = e.target.closest('.palette-item');
+    paletteResults.addEventListener("click", (e) => {
+      const itemEl = e.target.closest(".palette-item");
       if (itemEl) {
-        const idx = parseInt(itemEl.getAttribute('data-palette-index'), 10);
+        const idx = parseInt(itemEl.getAttribute("data-palette-index"), 10);
         executePaletteItem(idx);
       }
     });
   }
 
-
   // --- 10.7 About Page Multi-Photo Slider Controller ---
   let currentAboutSlide = 0;
 
   function setAboutSlide(index) {
-    const slides = document.querySelectorAll('.about-slider-slide');
-    const dots = document.querySelectorAll('.slider-dot');
-    const counter = document.getElementById('about-slider-counter');
+    const slides = document.querySelectorAll(".about-slider-slide");
+    const dots = document.querySelectorAll(".slider-dot");
+    const counter = document.getElementById("about-slider-counter");
 
     if (!slides.length) return;
     const totalSlides = slides.length;
@@ -3461,19 +4286,19 @@
 
     slides.forEach((slide, idx) => {
       if (idx === currentAboutSlide) {
-        slide.classList.add('active');
-        slide.setAttribute('aria-hidden', 'false');
+        slide.classList.add("active");
+        slide.setAttribute("aria-hidden", "false");
       } else {
-        slide.classList.remove('active');
-        slide.setAttribute('aria-hidden', 'true');
+        slide.classList.remove("active");
+        slide.setAttribute("aria-hidden", "true");
       }
     });
 
     dots.forEach((dot, idx) => {
       if (idx === currentAboutSlide) {
-        dot.classList.add('active');
+        dot.classList.add("active");
       } else {
-        dot.classList.remove('active');
+        dot.classList.remove("active");
       }
     });
 
@@ -3483,43 +4308,43 @@
   }
 
   function initAboutSlider() {
-    const prevBtn = document.getElementById('about-slider-prev');
-    const nextBtn = document.getElementById('about-slider-next');
-    const dots = document.querySelectorAll('.slider-dot');
-    const slides = document.querySelectorAll('.about-slider-slide');
+    const prevBtn = document.getElementById("about-slider-prev");
+    const nextBtn = document.getElementById("about-slider-next");
+    const dots = document.querySelectorAll(".slider-dot");
+    const slides = document.querySelectorAll(".about-slider-slide");
 
     if (prevBtn) {
-      prevBtn.addEventListener('click', (e) => {
+      prevBtn.addEventListener("click", (e) => {
         e.stopPropagation();
         setAboutSlide(currentAboutSlide - 1);
       });
     }
 
     if (nextBtn) {
-      nextBtn.addEventListener('click', (e) => {
+      nextBtn.addEventListener("click", (e) => {
         e.stopPropagation();
         setAboutSlide(currentAboutSlide + 1);
       });
     }
 
     dots.forEach((dot) => {
-      dot.addEventListener('click', (e) => {
+      dot.addEventListener("click", (e) => {
         e.stopPropagation();
-        const slideIdx = parseInt(dot.getAttribute('data-slide-to'), 10) || 0;
+        const slideIdx = parseInt(dot.getAttribute("data-slide-to"), 10) || 0;
         setAboutSlide(slideIdx);
       });
     });
 
     slides.forEach((slide) => {
-      slide.addEventListener('click', () => {
-        const img = slide.querySelector('.about-slide-img');
-        const src = img ? img.getAttribute('src') : null;
-        if (typeof openPhotoModal === 'function') {
+      slide.addEventListener("click", () => {
+        const img = slide.querySelector(".about-slide-img");
+        const src = img ? img.getAttribute("src") : null;
+        if (typeof openPhotoModal === "function") {
           openPhotoModal(src);
         }
       });
-      slide.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
+      slide.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
           slide.click();
         }
@@ -3529,25 +4354,25 @@
 
   // --- 10.8 About Page Skills & Tools Category Filter ---
   function initAboutSkillsFilter() {
-    const filterNav = document.getElementById('about-skills-filter-nav');
+    const filterNav = document.getElementById("about-skills-filter-nav");
     if (!filterNav) return;
 
-    const filterPills = filterNav.querySelectorAll('.skill-filter-pill');
-    const skillCards = document.querySelectorAll('.skill-card-item');
+    const filterPills = filterNav.querySelectorAll(".skill-filter-pill");
+    const skillCards = document.querySelectorAll(".skill-card-item");
 
     filterPills.forEach((pill) => {
-      pill.addEventListener('click', () => {
-        const filter = pill.getAttribute('data-filter');
+      pill.addEventListener("click", () => {
+        const filter = pill.getAttribute("data-filter");
 
-        filterPills.forEach((p) => p.classList.remove('active'));
-        pill.classList.add('active');
+        filterPills.forEach((p) => p.classList.remove("active"));
+        pill.classList.add("active");
 
         skillCards.forEach((card) => {
-          const category = card.getAttribute('data-category');
-          if (filter === 'all' || category === filter) {
-            card.classList.remove('hidden-skill');
+          const category = card.getAttribute("data-category");
+          if (filter === "all" || category === filter) {
+            card.classList.remove("hidden-skill");
           } else {
-            card.classList.add('hidden-skill');
+            card.classList.add("hidden-skill");
           }
         });
       });
@@ -3557,20 +4382,24 @@
   // Global Keyboard Shortcuts (Ctrl+K / Cmd+K Spotlight Search and Escape)
   function handleGlobalShortcuts(e) {
     // Check for K key across all layouts (English 'k'/'K', Arabic 'ن', e.code 'KeyK', keyCode 75, which 75)
-    const isK = e.code === 'KeyK' || 
-                (e.key && e.key.toLowerCase() === 'k') || 
-                e.key === 'ن' || 
-                e.keyCode === 75 || 
-                e.which === 75;
+    const isK =
+      e.code === "KeyK" ||
+      (e.key && e.key.toLowerCase() === "k") ||
+      e.key === "ن" ||
+      e.keyCode === 75 ||
+      e.which === 75;
 
     if ((e.ctrlKey || e.metaKey) && isK) {
       e.preventDefault();
       e.stopPropagation();
-      if (typeof e.stopImmediatePropagation === 'function') {
+      if (typeof e.stopImmediatePropagation === "function") {
         e.stopImmediatePropagation();
       }
 
-      if (commandPaletteModal && commandPaletteModal.classList.contains('open')) {
+      if (
+        commandPaletteModal &&
+        commandPaletteModal.classList.contains("open")
+      ) {
         closeCommandPalette();
       } else {
         openCommandPalette();
@@ -3578,23 +4407,26 @@
       return false;
     }
 
-    if (e.key === 'Escape' || e.code === 'Escape' || e.keyCode === 27) {
-      if (typeof isCertModalOpen === 'function' && isCertModalOpen()) {
+    if (e.key === "Escape" || e.code === "Escape" || e.keyCode === 27) {
+      if (typeof isCertModalOpen === "function" && isCertModalOpen()) {
         e.preventDefault();
         closeCertModal();
         return;
       }
-      if (typeof isPhotoModalOpen === 'function' && isPhotoModalOpen()) {
+      if (typeof isPhotoModalOpen === "function" && isPhotoModalOpen()) {
         e.preventDefault();
         closePhotoModal();
         return;
       }
-      if (typeof isQuickModalOpen === 'function' && isQuickModalOpen()) {
+      if (typeof isQuickModalOpen === "function" && isQuickModalOpen()) {
         e.preventDefault();
         closeQuickModal();
         return;
       }
-      if (commandPaletteModal && commandPaletteModal.classList.contains('open')) {
+      if (
+        commandPaletteModal &&
+        commandPaletteModal.classList.contains("open")
+      ) {
         e.preventDefault();
         closeCommandPalette();
       }
@@ -3602,42 +4434,52 @@
   }
 
   // Register in capture phase to reliably preempt browser default search shortcuts
-  window.addEventListener('keydown', handleGlobalShortcuts, { capture: true });
+  window.addEventListener("keydown", handleGlobalShortcuts, { capture: true });
 
   // --- Floating Back-To-Top Button Controller ---
-  const floatingBackToTopBtn = document.getElementById('floating-back-to-top');
+  const floatingBackToTopBtn = document.getElementById("floating-back-to-top");
 
   function checkBackToTopVisibility() {
     if (!floatingBackToTopBtn) return;
-    const scrollPos = (mainContent ? mainContent.scrollTop : 0) || window.pageYOffset || document.documentElement.scrollTop;
+    const scrollPos =
+      (mainContent ? mainContent.scrollTop : 0) ||
+      window.pageYOffset ||
+      document.documentElement.scrollTop;
     if (scrollPos > 350) {
-      floatingBackToTopBtn.classList.add('visible');
+      floatingBackToTopBtn.classList.add("visible");
     } else {
-      floatingBackToTopBtn.classList.remove('visible');
+      floatingBackToTopBtn.classList.remove("visible");
     }
   }
 
   if (mainContent) {
-    mainContent.addEventListener('scroll', checkBackToTopVisibility, { passive: true });
+    mainContent.addEventListener("scroll", checkBackToTopVisibility, {
+      passive: true,
+    });
   }
-  window.addEventListener('scroll', checkBackToTopVisibility, { passive: true });
+  window.addEventListener("scroll", checkBackToTopVisibility, {
+    passive: true,
+  });
 
   if (floatingBackToTopBtn) {
-    floatingBackToTopBtn.addEventListener('click', () => {
+    floatingBackToTopBtn.addEventListener("click", () => {
       if (mainContent) {
-        mainContent.scrollTo({ top: 0, behavior: 'smooth' });
+        mainContent.scrollTo({ top: 0, behavior: "smooth" });
       }
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
 
   // --- Initial State and Route Initialization on Page Load ---
   applyTheme(currentTheme);
-  applyLanguage(currentLang);
+  applyLanguage(currentLang, false, false);
   initAboutSlider();
   initAboutSkillsFilter();
-  const initialRoute = urlToRoute(window.location.pathname, window.location.hash);
+  const initialRoute = urlToRoute(
+    window.location.pathname,
+    window.location.hash,
+  );
   navigateTo(initialRoute, true);
 
-  console.log('Mohammed Jouda SPA Router initialized successfully.');
+  console.log("Mohammed Jouda SPA Router initialized successfully.");
 })();

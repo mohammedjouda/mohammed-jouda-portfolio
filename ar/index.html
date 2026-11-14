@@ -16,10 +16,13 @@
           document.documentElement.classList.remove('dark');
         }
         var p = window.location.pathname;
-        var l = (p === '/ar' || p.indexOf('/ar/') === 0) ? 'ar' : localStorage.getItem('portfolio_lang');
+        var l = (p === '/ar' || p.indexOf('/ar/') === 0) ? 'ar' : 'en';
         if (l === 'ar') {
           document.documentElement.setAttribute('dir', 'rtl');
           document.documentElement.setAttribute('lang', 'ar');
+        } else {
+          document.documentElement.setAttribute('dir', 'ltr');
+          document.documentElement.setAttribute('lang', 'en');
         }
       } catch (e) { }
     })();
@@ -54,7 +57,7 @@
   <meta property="og:image:alt" content="Mohammed Jouda - Backend & AI Integration Engineer">
   <meta property="og:site_name" content="Mohammed Jouda Portfolio">
   <meta property="og:locale" content="ar_AR">
-  <meta property="og:locale:alternate" content="ar_AR">
+  <meta property="og:locale:alternate" content="en_US">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -98,11 +101,11 @@
     "@graph": [
       {
         "@type": "ProfilePage",
-        "@id": "https://www.mohammedjouda.com/#profilepage",
-        "url": "https://www.mohammedjouda.com/",
+        "@id": "https://www.mohammedjouda.com/ar#profilepage",
+        "url": "https://www.mohammedjouda.com/ar",
         "name": "محمد جودة | Mohammed Jouda | Backend & AI Integration Engineer",
         "description": "الموقع الشخصي ومعرض أعمال المهندس محمد جودة (Mohammed Jouda) - مهندس تطوير خلفي وتكامل الذكاء الاصطناعي متخصص في Laravel و PHP و REST APIs والحلول الذكية.",
-        "inLanguage": ["ar", "en"],
+        "inLanguage": "ar",
         "mainEntity": {
           "@type": "Person",
           "@id": "https://www.mohammedjouda.com/#person",
@@ -155,7 +158,7 @@
             "Clean Architecture & SOLID"
           ],
           "sameAs": [
-            "https://github.com/mohamed-jouda",
+            "https://github.com/mohammedjouda",
             "https://www.linkedin.com/in/mohammedajouda/",
             "https://x.com/mohammedajouda",
             "https://instagram.com/mohammedajouda"
@@ -183,7 +186,7 @@
             <line x1="4" y1="18" x2="20" y2="18"></line>
           </svg>
         </button>
-        <a href="#home" class="mobile-profile-chip" data-route="home" data-cursor="Mohammed Jouda"
+        <a href="/ar" class="mobile-profile-chip" data-route="home" data-cursor="Mohammed Jouda"
           data-cursor-color="#265C91">
           <img src="assets/images/mohammed-profile.webp" alt="Mohammed Jouda" class="avatar-sm" width="40" height="40"
             fetchpriority="high">
@@ -205,8 +208,8 @@
       <div class="mobile-header-right">
         <!-- Language Switcher -->
         <div class="lang-switch-pill" role="radiogroup" aria-label="Language">
-          <button class="lang-btn active" data-lang="en" data-cursor="English">EN</button>
-          <button class="lang-btn" data-lang="ar" data-cursor="عربي">AR</button>
+          <button class="lang-btn" data-lang="en" data-cursor="English">EN</button>
+          <button class="lang-btn active" data-lang="ar" data-cursor="عربي">AR</button>
         </div>
         <!-- Search / Command Palette Button -->
         <button id="mobile-search-btn" class="icon-btn" aria-label="Open command palette" data-cursor="Search">
@@ -252,7 +255,7 @@
         </button>
       </div>
       <nav class="drawer-nav">
-        <a href="#home" class="nav-item active" data-route="home">
+        <a href="/ar" class="nav-item active" data-route="home">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
             <path
@@ -261,21 +264,21 @@
           </svg>
           <span data-i18n="navHome">الرئيسية</span>
         </a>
-        <a href="#about" class="nav-item" data-route="about">
+        <a href="/ar/about" class="nav-item" data-route="about">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
             <circle cx="12" cy="7" r="4"></circle>
           </svg>
           <span data-i18n="navAbout">عنّي</span>
         </a>
-        <a href="#career" class="nav-item" data-route="career">
+        <a href="/ar/career" class="nav-item" data-route="career">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect>
             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
           </svg>
           <span data-i18n="navCareer">المسيرة المهنية</span>
         </a>
-        <a href="#projects" class="nav-item" data-route="projects">
+        <a href="/ar/projects" class="nav-item" data-route="projects">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path
               d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 8 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z">
@@ -283,13 +286,13 @@
           </svg>
           <span data-i18n="navProjects">المشاريع</span>
         </a>
-        <a href="#achievements" class="nav-item" data-route="achievements">
+        <a href="/ar/achievements" class="nav-item" data-route="achievements">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path>
           </svg>
           <span data-i18n="navAchievements">الإنجازات</span>
         </a>
-        <a href="#contact" class="nav-item" data-route="contact">
+        <a href="/ar/contact" class="nav-item" data-route="contact">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <rect width="20" height="16" x="2" y="4" rx="2"></rect>
             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
@@ -314,7 +317,7 @@
 
           <div class="sidebar-identity">
             <div class="name-badge-row">
-              <a href="#home" data-route="home">
+              <a href="/ar" data-route="home">
                 <h2 class="sidebar-name">Mohammed Jouda</h2>
               </a>
               <span class="verified-pill" data-cursor="Verified">
@@ -327,15 +330,15 @@
                 </svg>
               </span>
             </div>
-            <a href="https://github.com/mohamed-jouda" target="_blank" rel="noopener" class="sidebar-handle"
+            <a href="https://github.com/mohammedjouda" target="_blank" rel="noopener" class="sidebar-handle"
               data-cursor="GitHub">@mohammedajouda</a>
           </div>
 
           <!-- Controls: Language & Theme -->
           <div class="sidebar-controls">
             <div class="lang-switch-pill" role="radiogroup" aria-label="Language selector">
-              <button class="lang-btn active" data-lang="en" data-cursor="English">EN</button>
-              <button class="lang-btn" data-lang="ar" data-cursor="عربي">AR</button>
+              <button class="lang-btn" data-lang="en" data-cursor="English">EN</button>
+              <button class="lang-btn active" data-lang="ar" data-cursor="عربي">AR</button>
             </div>
             <button id="desktop-theme-btn" class="icon-btn theme-btn" aria-label="Switch theme"
               data-cursor="Switch theme">
@@ -371,7 +374,7 @@
 
         <!-- Navigation Links (SPA client routing) -->
         <nav class="sidebar-nav">
-          <a href="#home" class="nav-link active" data-route="home" data-cursor="Home">
+          <a href="/ar" class="nav-link active" data-route="home" data-cursor="Home">
             <span class="nav-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="2">
                 <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
@@ -381,7 +384,7 @@
               </svg></span>
             <span class="nav-text" data-i18n="navHome">الرئيسية</span>
           </a>
-          <a href="#about" class="nav-link" data-route="about" data-cursor="About Me">
+          <a href="/ar/about" class="nav-link" data-route="about" data-cursor="About Me">
             <span class="nav-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="2">
                 <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
@@ -389,7 +392,7 @@
               </svg></span>
             <span class="nav-text" data-i18n="navAbout">عنّي</span>
           </a>
-          <a href="#career" class="nav-link" data-route="career" data-cursor="Career">
+          <a href="/ar/career" class="nav-link" data-route="career" data-cursor="Career">
             <span class="nav-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="2">
                 <rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect>
@@ -397,7 +400,7 @@
               </svg></span>
             <span class="nav-text" data-i18n="navCareer">المسيرة المهنية</span>
           </a>
-          <a href="#projects" class="nav-link" data-route="projects" data-cursor="Projects">
+          <a href="/ar/projects" class="nav-link" data-route="projects" data-cursor="Projects">
             <span class="nav-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="2">
                 <path
@@ -406,14 +409,14 @@
               </svg></span>
             <span class="nav-text" data-i18n="navProjects">المشاريع</span>
           </a>
-          <a href="#achievements" class="nav-link" data-route="achievements" data-cursor="Achievements">
+          <a href="/ar/achievements" class="nav-link" data-route="achievements" data-cursor="Achievements">
             <span class="nav-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="2">
                 <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path>
               </svg></span>
             <span class="nav-text" data-i18n="navAchievements">الإنجازات</span>
           </a>
-          <a href="#contact" class="nav-link" data-route="contact" data-cursor="Contact">
+          <a href="/ar/contact" class="nav-link" data-route="contact" data-cursor="Contact">
             <span class="nav-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="2">
                 <rect width="20" height="16" x="2" y="4" rx="2"></rect>
@@ -1288,13 +1291,13 @@
                       <div class="career-shipped-section">
                         <span class="shipped-label" data-i18n="careerShippedLabel">المشاريع والنماذج البرمجية المرتبطة:</span>
                         <div class="shipped-chips-row">
-                          <a href="#projects" class="shipped-chip" data-route="project-write-ai"
+                          <a href="/ar/projects" class="shipped-chip" data-route="project-write-ai"
                             data-cursor="View Write AI">
                             <span class="shipped-chip-dot"></span>
                             <span class="shipped-chip-name">Write AI (Intelligent Blog SaaS)</span>
                             <span class="shipped-chip-arrow">↗</span>
                           </a>
-                          <a href="#projects" class="shipped-chip" data-route="project-real-time-chat"
+                          <a href="/ar/projects" class="shipped-chip" data-route="project-real-time-chat"
                             data-cursor="View Messenger">
                             <span class="shipped-chip-dot"></span>
                             <span class="shipped-chip-name">AI Real-Time Messenger</span>
@@ -1639,7 +1642,7 @@
                       <div class="career-shipped-section">
                         <span class="shipped-label" data-i18n="careerShippedLabel">المشاريع والنماذج البرمجية المرتبطة:</span>
                         <div class="shipped-chips-row">
-                          <a href="#projects" class="shipped-chip" data-route="project-marsa-store"
+                          <a href="/ar/projects" class="shipped-chip" data-route="project-marsa-store"
                             data-cursor="View Marsa Store">
                             <span class="shipped-chip-dot"></span>
                             <span class="shipped-chip-name">Marsa Store (Multi-Vendor Marketplace)</span>
@@ -1745,7 +1748,7 @@
                         </div>
                       </div>
                       <div class="capstone-cta-col">
-                        <a href="#projects" class="capstone-launch-btn" data-route="project-marsa-store"
+                        <a href="/ar/projects" class="capstone-launch-btn" data-route="project-marsa-store"
                           data-cursor="View Marsa Store">
                           <span data-i18n="capstoneViewCaseBtn">استعراض دراسة حالة المشروع</span>
                           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1834,7 +1837,7 @@
               <p class="cta-description" data-i18n="careerCtaSubtitle">متاح لهندسة النظم الخلفية، بناء APIs، دمج خدمات الذكاء الاصطناعي، وأتمتة مسارات العمل.</p>
             </div>
             <div class="cta-banner-actions">
-              <a href="#contact" class="btn-primary career-cta-btn" data-route="contact" data-cursor="Let's Talk">
+              <a href="/ar/contact" class="btn-primary career-cta-btn" data-route="contact" data-cursor="Let's Talk">
                 <span data-i18n="careerCtaBtn">تواصل معي الآن</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
                   <path d="M5 12h14M12 5l7 7-7 7" />

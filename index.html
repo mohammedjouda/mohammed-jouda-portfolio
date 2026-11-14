@@ -16,10 +16,13 @@
           document.documentElement.classList.remove('dark');
         }
         var p = window.location.pathname;
-        var l = (p === '/ar' || p.indexOf('/ar/') === 0) ? 'ar' : localStorage.getItem('portfolio_lang');
+        var l = (p === '/ar' || p.indexOf('/ar/') === 0) ? 'ar' : 'en';
         if (l === 'ar') {
           document.documentElement.setAttribute('dir', 'rtl');
           document.documentElement.setAttribute('lang', 'ar');
+        } else {
+          document.documentElement.setAttribute('dir', 'ltr');
+          document.documentElement.setAttribute('lang', 'en');
         }
       } catch (e) { }
     })();
@@ -155,7 +158,7 @@
             "Clean Architecture & SOLID"
           ],
           "sameAs": [
-            "https://github.com/mohamed-jouda",
+            "https://github.com/mohammedjouda",
             "https://www.linkedin.com/in/mohammedajouda/",
             "https://x.com/mohammedajouda",
             "https://instagram.com/mohammedajouda"
@@ -327,7 +330,7 @@
                 </svg>
               </span>
             </div>
-            <a href="https://github.com/mohamed-jouda" target="_blank" rel="noopener" class="sidebar-handle"
+            <a href="https://github.com/mohammedjouda" target="_blank" rel="noopener" class="sidebar-handle"
               data-cursor="GitHub">@mohammedajouda</a>
           </div>
 

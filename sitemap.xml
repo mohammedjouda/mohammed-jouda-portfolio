@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.mohammedjouda.com/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/" />
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/ar</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/" />
@@ -21,68 +21,200 @@
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/about</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/about" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/about</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/about" />
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/career</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/career" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/career" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/career" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/career</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/career" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/career" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/career" />
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/projects</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/projects</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects" />
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/achievements</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/achievements" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/achievements" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/achievements" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/achievements</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/achievements" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/achievements" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/achievements" />
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/contact</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/contact" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/contact</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/contact" />
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/projects/lead-automation</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/lead-automation" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/lead-automation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/lead-automation" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/projects/lead-automation</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/lead-automation" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/lead-automation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/lead-automation" />
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/projects/sprint-mind</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/sprint-mind" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/sprint-mind" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/sprint-mind" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/projects/sprint-mind</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/sprint-mind" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/sprint-mind" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/sprint-mind" />
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/projects/messenger</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/messenger" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/messenger" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/messenger" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/projects/messenger</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/messenger" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/messenger" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/messenger" />
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/projects/marsa-store</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/marsa-store" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/marsa-store" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/marsa-store" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/projects/marsa-store</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/marsa-store" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/marsa-store" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/marsa-store" />
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/projects/write-ai</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/write-ai" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/write-ai" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/write-ai" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/projects/write-ai</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/write-ai" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/write-ai" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/write-ai" />
   </url>
   <url>
     <loc>https://www.mohammedjouda.com/projects/techno-cms</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/techno-cms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/techno-cms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/techno-cms" />
+  </url>
+  <url>
+    <loc>https://www.mohammedjouda.com/ar/projects/techno-cms</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mohammedjouda.com/projects/techno-cms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.mohammedjouda.com/ar/projects/techno-cms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mohammedjouda.com/projects/techno-cms" />
   </url>
 </urlset>
