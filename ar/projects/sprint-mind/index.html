@@ -74,11 +74,11 @@
   <link rel="manifest" href="/site.webmanifest">
 
   <!-- Preload True LCP Hero Image for Instant Mobile & Desktop Render -->
-  <link rel="preload" as="image" href="/assets/projects/messenger/messenger_ai.png" type="image/png"
+  <link rel="preload" as="image" href="/assets/projects/messenger/messenger_ai.webp" type="image/webp"
     fetchpriority="high">
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=3.0">
 
   <!-- Google Fonts: Inter (English) & Tajawal (Arabic) Non-blocking -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -168,6 +168,7 @@
     ]
   }
   </script>
+</head>
 
 <body>
   <!-- Accessibility Skip Link -->
@@ -499,7 +500,662 @@
                       </path>
                     </svg>
                   </div>
-                  <h2 class="card-title" data-i18n="projectsTitle">مشاريع مختارة</h2>
+                  <h3 class="card-title" data-i18n="projectsTitle">مشاريع مختارة</h3>
+                    <p class="card-subtitle" data-i18n="projectsSubtitle">أنظمة Backend بمستوى إنتاجي، حلول الذكاء الاصطناعي العملية، والأنظمة الفورية.</p>
+                    <div class="card-action-indicator">
+                      <span data-i18n="exploreAll">استكشف كافة المشاريع</span>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="m9 18 6-6-6-6"></path>
+                      </svg>
+                    </div>
+                </div>
+
+                <!-- 3D Perspective Floating Laptop Mockup Stack -->
+                <div class="mockup-stack-container">
+                  <div class="mockup-screen-item item-1">
+                    <div class="laptop-bezel">
+                      <img src="assets/projects/sprint-mind/hero.webp"
+                        alt="SprintMind AI - Agile Scrum & Project Management Workspace" width="640" height="400"
+                        loading="eager" decoding="async">
+                    </div>
+                  </div>
+                  <div class="mockup-screen-item item-2">
+                    <div class="laptop-bezel">
+                      <img src="assets/projects/ai-leads/dashboard-ai-leads.webp" alt="AI Lead Triage & Automation System"
+                        width="640" height="400" loading="eager" decoding="async">
+                    </div>
+                  </div>
+                  <div class="mockup-screen-item item-3">
+                    <div class="laptop-bezel">
+                      <img src="assets/projects/messenger/messenger_ai.webp" alt="AI-Powered Real-Time Messenger"
+                        width="640" height="400" loading="eager" fetchpriority="high" decoding="async">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2: About Me (Polaroid Photo Stack) -> links to #about -->
+            <article class="bento-card bento-about" data-route="about" data-cursor="About Me" tabindex="0">
+              <div class="card-spotlight"></div>
+              <div class="bento-card-inner">
+                <div class="card-header-text centered">
+                  <div class="card-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                  </div>
+                  <h3 class="card-title" data-i18n="aboutTitle">عنّي</h3>
+                    <p class="card-subtitle" data-i18n="aboutSubtitle">من أنا، وما الذي يلهمني، والمبادئ الهندسية التي أتبعها.</p>
+                </div>
+
+                <!-- Polaroid Stack Illustration -->
+                <div class="polaroid-stack-wrapper">
+                  <div class="polaroid-card under-card-2"></div>
+                  <div class="polaroid-card under-card-1"></div>
+                  <div class="polaroid-card main-polaroid">
+                    <div class="polaroid-photo">
+                      <img src="assets/images/mohammed-presentation.webp" alt="Mohammed Jouda presenting tech"
+                        width="320" height="320" loading="lazy" decoding="async">
+                    </div>
+                    <div class="polaroid-caption">
+                      <span>Mohammed @ Gaza 🇵🇸</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3: Skills & Tools -> links to #about -->
+            <article class="bento-card bento-skills" data-route="about" data-cursor="View Skills" tabindex="0">
+              <div class="card-spotlight"></div>
+              <div class="bento-card-inner">
+                <div class="card-header-text centered">
+                  <div class="card-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="16 18 22 12 16 6"></polyline>
+                      <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                  </div>
+                  <h3 class="card-title" data-i18n="skillsTitle">القدرات التقنية والهندسية</h3>
+                    <p class="card-subtitle" data-i18n="skillsSubtitle">هندسة النظم الخلفية، تكامل الذكاء الاصطناعي، الأتمتة، وأفضل الممارسات الهندسية.</p>
+                </div>
+
+                <!-- Dual-Track Horizontal Auto-Scrolling Marquee with Brand SVGs -->
+                <div class="skills-marquee-container" aria-label="Skills and Technologies">
+                  <!-- Track 1: Moving in Forward Direction -->
+                  <div class="skills-marquee-track track-forward">
+                    <div class="skills-marquee-group">
+                      <div class="tech-pill" data-cursor="Laravel">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#FF2D20"
+                              d="M21.2 5.3 12.5.3a1 1 0 0 0-1 0L2.8 5.3A1 1 0 0 0 2.3 6v12a1 1 0 0 0 .5.7l8.7 5a1 1 0 0 0 1 0l8.7-5a1 1 0 0 0 .5-.7V6a1 1 0 0 0-.5-.7zM12 2.2l7.1 4.1-3.1 1.8-7.1-4.1zm-8 4.7 7.1 4.1v7.6L4 14.5zm9.1 11.7V11l3-1.7v3.5a1 1 0 0 0 .5.8l2.6 1.5v2.7z" />
+                          </svg></span>
+                        <span class="tech-label">Laravel</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="PHP">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="18" height="13">
+                            <rect width="24" height="16" y="4" rx="3" fill="#777BB4" />
+                            <path fill="#FFF"
+                              d="M6 8h2a1.5 1.5 0 0 1 0 3H6zm-1 4h1v-2h1a2 2 0 0 0 0-4H5zm6-4h2a1.5 1.5 0 0 1 0 3h-2zm-1 4h1v-2h1a2 2 0 0 0 0-4h-2zm6-4h2a1.5 1.5 0 0 1 0 3h-2zm-1 4h1v-2h1a2 2 0 0 0 0-4h-2z" />
+                          </svg></span>
+                        <span class="tech-label">PHP</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="n8n Automation">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+                            stroke="#EA4B71" stroke-width="2">
+                            <path
+                              d="M18 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM18 22a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                            <path d="M8.6 10.6l6.8-3.2M8.6 13.4l6.8 3.2" />
+                          </svg></span>
+                        <span class="tech-label">n8n Automation</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="REST APIs">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+                            stroke="#38BDF8" stroke-width="2">
+                            <path d="M4 11a9 9 0 0 1 9 9" />
+                            <path d="M4 4a16 16 0 0 1 16 16" />
+                            <circle cx="5" cy="19" r="1" fill="#38BDF8" />
+                          </svg></span>
+                        <span class="tech-label">REST APIs</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="Vue.js">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#42B883" d="M2 3h3.5L12 14.2 18.5 3H22L12 20.3 2 3z" />
+                            <path fill="#35495E" d="M6.3 3H10l2 3.5 2-3.5h3.7L12 13 6.3 3z" />
+                          </svg></span>
+                        <span class="tech-label">Vue.js</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="MySQL">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#00758F"
+                              d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.5c-2.5 0-4-1.5-4-3.5s1.5-3.5 4-3.5 4 1.5 4 3.5-1.5 3.5-4 3.5z" />
+                          </svg></span>
+                        <span class="tech-label">MySQL</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="AI Agents">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+                            stroke="#10B981" stroke-width="2">
+                            <path
+                              d="M12 2a1 1 0 0 1 1 1v1.1a7 7 0 0 1 5.9 5.9H20a1 1 0 1 1 0 2h-1.1a7 7 0 0 1-5.9 5.9V19a1 1 0 1 1-2 0v-1.1A7 7 0 0 1 5.1 12H4a1 1 0 1 1 0-2h1.1A7 7 0 0 1 11 4.1V3a1 1 0 0 1 1-1zm0 4a5 5 0 1 0 5 5 5 5 0 0 0-5-5z" />
+                          </svg></span>
+                        <span class="tech-label">AI Agents</span>
+                      </div>
+                    </div>
+                    <!-- Duplicate for infinite seamless marquee loop -->
+                    <div class="skills-marquee-group" aria-hidden="true">
+                      <div class="tech-pill" data-cursor="Laravel">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#FF2D20"
+                              d="M21.2 5.3 12.5.3a1 1 0 0 0-1 0L2.8 5.3A1 1 0 0 0 2.3 6v12a1 1 0 0 0 .5.7l8.7 5a1 1 0 0 0 1 0l8.7-5a1 1 0 0 0 .5-.7V6a1 1 0 0 0-.5-.7zM12 2.2l7.1 4.1-3.1 1.8-7.1-4.1zm-8 4.7 7.1 4.1v7.6L4 14.5zm9.1 11.7V11l3-1.7v3.5a1 1 0 0 0 .5.8l2.6 1.5v2.7z" />
+                          </svg></span>
+                        <span class="tech-label">Laravel</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="PHP">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="18" height="13">
+                            <rect width="24" height="16" y="4" rx="3" fill="#777BB4" />
+                            <path fill="#FFF"
+                              d="M6 8h2a1.5 1.5 0 0 1 0 3H6zm-1 4h1v-2h1a2 2 0 0 0 0-4H5zm6-4h2a1.5 1.5 0 0 1 0 3h-2zm-1 4h1v-2h1a2 2 0 0 0 0-4h-2zm6-4h2a1.5 1.5 0 0 1 0 3h-2zm-1 4h1v-2h1a2 2 0 0 0 0-4h-2z" />
+                          </svg></span>
+                        <span class="tech-label">PHP</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="n8n Automation">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+                            stroke="#EA4B71" stroke-width="2">
+                            <path
+                              d="M18 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM18 22a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                            <path d="M8.6 10.6l6.8-3.2M8.6 13.4l6.8 3.2" />
+                          </svg></span>
+                        <span class="tech-label">n8n Automation</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="REST APIs">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+                            stroke="#38BDF8" stroke-width="2">
+                            <path d="M4 11a9 9 0 0 1 9 9" />
+                            <path d="M4 4a16 16 0 0 1 16 16" />
+                            <circle cx="5" cy="19" r="1" fill="#38BDF8" />
+                          </svg></span>
+                        <span class="tech-label">REST APIs</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="Vue.js">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#42B883" d="M2 3h3.5L12 14.2 18.5 3H22L12 20.3 2 3z" />
+                            <path fill="#35495E" d="M6.3 3H10l2 3.5 2-3.5h3.7L12 13 6.3 3z" />
+                          </svg></span>
+                        <span class="tech-label">Vue.js</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="MySQL">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#00758F"
+                              d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.5c-2.5 0-4-1.5-4-3.5s1.5-3.5 4-3.5 4 1.5 4 3.5-1.5 3.5-4 3.5z" />
+                          </svg></span>
+                        <span class="tech-label">MySQL</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="AI Agents">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+                            stroke="#10B981" stroke-width="2">
+                            <path
+                              d="M12 2a1 1 0 0 1 1 1v1.1a7 7 0 0 1 5.9 5.9H20a1 1 0 1 1 0 2h-1.1a7 7 0 0 1-5.9 5.9V19a1 1 0 1 1-2 0v-1.1A7 7 0 0 1 5.1 12H4a1 1 0 1 1 0-2h1.1A7 7 0 0 1 11 4.1V3a1 1 0 0 1 1-1zm0 4a5 5 0 1 0 5 5 5 5 0 0 0-5-5z" />
+                          </svg></span>
+                        <span class="tech-label">AI Agents</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Track 2: Moving in Counter Direction (Reverse) -->
+                  <div class="skills-marquee-track track-reverse">
+                    <div class="skills-marquee-group">
+                      <div class="tech-pill" data-cursor="Filament">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#F59E0B"
+                              d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14h-2v-4h2zm0-6h-2V8h2z" />
+                          </svg></span>
+                        <span class="tech-label">Filament</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="Livewire">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#FB70A9" d="M13 2 3 14h9l-1 8 10-12h-9l1-8z" />
+                          </svg></span>
+                        <span class="tech-label">Livewire</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="JWT Auth">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+                            stroke="#F59E0B" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                          </svg></span>
+                        <span class="tech-label">JWT Auth</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="Docker">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#2496ED"
+                              d="M13 3h3v3h-3zm-4 0h3v3H9zm8 0h3v3h-3zm-4 4h3v3h-3zm-4 0h3v3H9zm8 0h3v3h-3zm-4 4h3v3h-3zm-4 0h3v3H9zm8 0h3v3h-3zm-12 0h3v3H5zm-4 3c0 4.4 3.6 8 8 8 3.8 0 7-2.7 7.8-6.3.7.1 1.4 0 2-.3.6-.3 1.2-.8 1.6-1.4.6.1 1.2 0 1.6-.3-1-1-2.4-1.6-4-1.7H1z" />
+                          </svg></span>
+                        <span class="tech-label">Docker</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="GitHub">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                          </svg></span>
+                        <span class="tech-label">GitHub</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="Claude & LLMs">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+                            stroke="#D97706" stroke-width="2">
+                            <path
+                              d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z" />
+                          </svg></span>
+                        <span class="tech-label">Claude & LLMs</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="Firebase">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#FFCA28" d="M3.8 17.7 7.7 2.4a.8.8 0 0 1 1.5.1l2.4 8.7z" />
+                            <path fill="#FFA000" d="m13.5 12.1 2.3-4.4a.8.8 0 0 1 1.4.1l3 10-6.7-5.7z" />
+                            <path fill="#F57C00"
+                              d="M3.8 17.7 12 22l8.2-4.3L17.2 7.8a.8.8 0 0 0-1.4-.1L13.5 12 11.6 1.2a.8.8 0 0 0-1.5-.1L3.8 17.7z" />
+                          </svg></span>
+                        <span class="tech-label">Firebase</span>
+                      </div>
+                    </div>
+                    <!-- Duplicate for infinite seamless marquee loop -->
+                    <div class="skills-marquee-group" aria-hidden="true">
+                      <div class="tech-pill" data-cursor="Filament">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#F59E0B"
+                              d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14h-2v-4h2zm0-6h-2V8h2z" />
+                          </svg></span>
+                        <span class="tech-label">Filament</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="Livewire">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#FB70A9" d="M13 2 3 14h9l-1 8 10-12h-9l1-8z" />
+                          </svg></span>
+                        <span class="tech-label">Livewire</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="JWT Auth">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+                            stroke="#F59E0B" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                          </svg></span>
+                        <span class="tech-label">JWT Auth</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="Docker">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#2496ED"
+                              d="M13 3h3v3h-3zm-4 0h3v3H9zm8 0h3v3h-3zm-4 4h3v3h-3zm-4 0h3v3H9zm8 0h3v3h-3zm-4 4h3v3h-3zm-4 0h3v3H9zm8 0h3v3h-3zm-12 0h3v3H5zm-4 3c0 4.4 3.6 8 8 8 3.8 0 7-2.7 7.8-6.3.7.1 1.4 0 2-.3.6-.3 1.2-.8 1.6-1.4.6.1 1.2 0 1.6-.3-1-1-2.4-1.6-4-1.7H1z" />
+                          </svg></span>
+                        <span class="tech-label">Docker</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="GitHub">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                          </svg></span>
+                        <span class="tech-label">GitHub</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="Claude & LLMs">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"
+                            stroke="#D97706" stroke-width="2">
+                            <path
+                              d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z" />
+                          </svg></span>
+                        <span class="tech-label">Claude & LLMs</span>
+                      </div>
+                      <div class="tech-pill" data-cursor="Firebase">
+                        <span class="tech-brand-icon"><svg viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#FFCA28" d="M3.8 17.7 7.7 2.4a.8.8 0 0 1 1.5.1l2.4 8.7z" />
+                            <path fill="#FFA000" d="m13.5 12.1 2.3-4.4a.8.8 0 0 1 1.4.1l3 10-6.7-5.7z" />
+                            <path fill="#F57C00"
+                              d="M3.8 17.7 12 22l8.2-4.3L17.2 7.8a.8.8 0 0 0-1.4-.1L13.5 12 11.6 1.2a.8.8 0 0 0-1.5-.1L3.8 17.7z" />
+                          </svg></span>
+                        <span class="tech-label">Firebase</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 4: Achievements -> links to #achievements -->
+            <article class="bento-card bento-achievements" data-route="achievements" data-cursor="Achievements"
+              tabindex="0">
+              <div class="card-spotlight"></div>
+              <div class="bento-card-inner">
+                <div class="card-header-text centered">
+                  <div class="card-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path>
+                    </svg>
+                  </div>
+                  <h3 class="card-title" data-i18n="achievementsTitle">الإنجازات والشهادات</h3>
+                    <p class="card-subtitle" data-i18n="achievementsSubtitle">مجموعة مختارة من الشهادات والاعتمادات التي نلتها خلال مسيرتي المهنية والأكاديمية.</p>
+                </div>
+
+                <!-- Certificate Folder Fan Showcase -->
+                <div class="achievements-fan-wrapper">
+                  <div class="cert-card cert-left">
+                    <img src="assets/achievements/n8n_datacamp.webp" alt="Introduction to Workflow Automation with n8n"
+                      width="600" height="420" loading="lazy" decoding="async">
+                  </div>
+                  <div class="cert-card cert-right">
+                    <img src="assets/achievements/docker_foundations.webp"
+                      alt="Docker Foundations Professional Certificate" width="600" height="420" loading="lazy"
+                      decoding="async">
+                  </div>
+                  <div class="cert-card cert-center">
+                    <img src="assets/achievements/bachelor_degree.webp" alt="Bachelor of Web Technology & Info Security"
+                      width="600" height="420" loading="lazy" decoding="async">
+                  </div>
+                  <div class="achievement-pocket-lip">
+                    <span class="pocket-label" data-i18n="degreeHonor">درجة البكالوريوس - 83.92% (مرتبة الشرف)</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 5: Career -> links to #career -->
+            <article class="bento-card bento-career" data-route="career" data-cursor="View Career" tabindex="0">
+              <div class="card-spotlight"></div>
+              <div class="bento-card-inner">
+                <div class="card-header-text centered">
+                  <div class="card-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                  </div>
+                  <h3 class="card-title" data-i18n="careerTitle">المسيرة المهنية</h3>
+                    <p class="card-subtitle" data-i18n="careerSubtitle">مسيرتي المهنية وخبراتي العملية ومشاركاتي التقنية.</p>
+                </div>
+
+                <!-- Company Logos Grid Chips -->
+                <div class="career-logos-row">
+                  <div class="career-logo-chip" data-cursor="UCASTI (Laravel & AI)" title="UCASTI">
+                    <img src="assets/aboutme/ucas.webp" alt="UCASTI" width="48" height="48" loading="lazy"
+                      decoding="async">
+                  </div>
+                  <div class="career-logo-chip" data-cursor="Areisto (Full Stack Trainee)" title="Areisto">
+                    <img src="assets/aboutme/areisto.jpg" alt="Areisto" width="48" height="48" loading="lazy"
+                      decoding="async">
+                  </div>
+                  <div class="career-logo-chip" data-cursor="Palestine Technical College" title="PTC">
+                    <img src="assets/aboutme/palestine technical college.jpg" alt="Palestine Technical College" width="48" height="48"
+                      loading="lazy" decoding="async">
+                  </div>
+                  <div class="career-logo-chip" data-cursor="Remote Freelance" title="Freelance">
+                    <img src="assets/aboutme/freelance.jpg" alt="Freelance" width="48" height="48" loading="lazy"
+                      decoding="async">
+                  </div>
+                  <div class="career-logo-chip" data-cursor="Gaza Tech Ecosystem" title="Gaza Sky Geeks">
+                    <img src="assets/aboutme/gazaskygeeks.webp" alt="Gaza Sky Geeks" width="48" height="48"
+                      loading="lazy" decoding="async">
+                  </div>
+                  <div class="career-logo-chip" data-cursor="Ahmed Al-Shuqairi School" title="School">
+                    <img src="assets/aboutme/school.png" alt="Ahmed Al-Shuqairi School" width="48" height="48" loading="lazy"
+                      decoding="async">
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 6: Testimonials -> links to #career -->
+            <article class="bento-card bento-testimonials" data-route="career" data-cursor="Testimonials" tabindex="0">
+              <div class="card-spotlight"></div>
+              <div class="bento-card-inner">
+                <div class="card-header-text">
+                  <div class="card-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path
+                        d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+                      </path>
+                      <path
+                        d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+                      </path>
+                    </svg>
+                  </div>
+                  <h3 class="card-title" data-i18n="testimonialsTitle">شهادات وتوصيات</h3>
+                    <p class="card-subtitle" data-i18n="testimonialsSubtitle">آراء من المشرفين الأكاديميين وأصحاب المشاريع المؤسسية.</p>
+                </div>
+
+                <!-- Infinite Vertical Auto-Scrolling Carousel -->
+                <div class="testimonial-marquee-wrapper">
+                  <div class="testimonial-track">
+                    <!-- Item 1: Marketplace Client -->
+                    <div class="testimonial-bubble" data-cursor="Client Feedback">
+                      <div class="bubble-header">
+                        <div class="bubble-avatar-init">CL</div>
+                        <div class="bubble-author">
+                          <span class="author-name">Project Lead & Client</span>
+                          <span class="author-role" data-i18n="tarekRole">مشرف مشروع وعميل مؤسسي</span>
+                        </div>
+                        <svg class="linkedin-mini" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                          <path
+                            d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                        </svg>
+                      </div>
+                      <p class="bubble-quote" data-i18n="tarekQuote">كان ملتزماً ومتجاوباً وقادراً على التعامل مع التحديات التقنية للوصول إلى حل عملي. اهتمامه بجودة الكود وتحسين الاستعلامات جعل النظام موثوقاً وسريعاً للغاية.</p>
+                    </div>
+
+                    <!-- Item 2: UCASTI / Academic Mentor -->
+                    <div class="testimonial-bubble" data-cursor="Mentor Feedback">
+                      <div class="bubble-header">
+                        <div class="bubble-avatar-init">MT</div>
+                        <div class="bubble-author">
+                          <span class="author-name">Senior Backend Mentor</span>
+                          <span class="author-role" data-i18n="alaaRole">مشرف هندسي ومطور أول — حاضنة UCASTI</span>
+                        </div>
+                        <span class="academic-badge">
+                          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                          </svg>
+                        </span>
+                      </div>
+                      <p class="bubble-quote" data-i18n="alaaQuote">أظهر محمد مهارات تقنية قوية، واستعداداً للتعلم، وقدرة على تحويل المتطلبات إلى حلول عملية؛ ملتزم جداً بمعايير الكود النظيف ومبادئ SOLID.</p>
+                    </div>
+
+                    <!-- Duplicate for continuous marquee loop -->
+                    <div class="testimonial-bubble" data-cursor="Client Feedback">
+                      <div class="bubble-header">
+                        <div class="bubble-avatar-init">CL</div>
+                        <div class="bubble-author">
+                          <span class="author-name">Project Lead & Client</span>
+                          <span class="author-role" data-i18n="tarekRole">مشرف مشروع وعميل مؤسسي</span>
+                        </div>
+                        <svg class="linkedin-mini" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                          <path
+                            d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                        </svg>
+                      </div>
+                      <p class="bubble-quote" data-i18n="tarekQuote">كان ملتزماً ومتجاوباً وقادراً على التعامل مع التحديات التقنية للوصول إلى حل عملي. اهتمامه بجودة الكود وتحسين الاستعلامات جعل النظام موثوقاً وسريعاً للغاية.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+          </div> <!-- /bento-grid -->
+        </section>
+
+        <!-- ===================================================================
+             VIEW 2: ABOUT ME (#about)
+             =================================================================== -->
+        <section id="view-about" class="page-view" data-page-title="Mohammed Jouda | About Me">
+          <span id="about" class="route-anchor" aria-hidden="true"></span>
+          <div class="page-view-header">
+            <div class="header-tag-pill" data-i18n="navAbout">عنّي</div>
+            <h1 class="page-view-title" data-i18n="aboutHeadline">هندسة أنظمة قابلة للتوسع. أتمتة مسارات عمل تصنع الفارق.</h1>
+            <p class="page-view-subtitle" data-i18n="aboutSubtitle">من أنا، وما الذي يلهمني، والمبادئ الهندسية التي أتبعها.</p>
+          </div>
+
+          <div class="about-bento-grid">
+
+            <!-- Card 1: Multi-Photo Interactive Presentation Slider -->
+            <div class="about-bento-card about-card-hero-slider">
+              <div class="card-spotlight"></div>
+              <div class="about-slider-container">
+                <div class="about-slider-viewport" id="about-slider-viewport">
+                  <!-- Slide 1: Tech Presentation in Ecosystem -->
+                  <div class="about-slider-slide active" data-slide-index="0" data-cursor="View Photo" tabindex="0"
+                    role="button" aria-label="View Presentation Photo">
+                    <img src="assets/images/mohammed-presentation.webp" alt="Mohammed Jouda presenting tech session"
+                      class="about-slide-img" width="600" height="450" loading="lazy" decoding="async">
+                    <div class="about-slide-gradient"></div>
+                    <div class="about-slide-caption">
+                      <div class="slide-caption-meta">
+                        <span class="slide-caption-chip">
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                          </svg>
+                          <span data-i18n="aboutSlide1Loc">غزة، فلسطين • البيئة التقنية وريادة الأعمال</span>
+                        </span>
+                      </div>
+                      <h4 class="slide-caption-title" data-i18n="aboutSlide1Title">محاضرات تقنية وورش عمل برمجية للمجتمع التقني</h4>
+                    </div>
+                  </div>
+
+                  <!-- Slide 2: AI Workflow Keynote at Jreas Lab -->
+                  <div class="about-slider-slide" data-slide-index="1" data-cursor="View Photo" tabindex="0"
+                    role="button" aria-label="View Jreas Lab AI Presentation Photo">
+                    <img src="assets/images/mohammed-spike-presentation.webp"
+                      alt="Mohammed Jouda presenting AI Workflows at Jreas Lab" class="about-slide-img" width="600"
+                      height="450" loading="lazy" decoding="async">
+                    <div class="about-slide-gradient"></div>
+                    <div class="about-slide-caption">
+                      <div class="slide-caption-meta">
+                        <span class="slide-caption-chip">
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                          </svg>
+                          <span data-i18n="aboutSlide2Loc">مختبر جريس (Jreas Lab) • مسارات الذكاء الاصطناعي وهندسة الويب</span>
+                        </span>
+                      </div>
+                      <h4 class="slide-caption-title" data-i18n="aboutSlide2Title">عرض تقديمي في أتمتة الأعمال وبناء مسارات الذكاء الاصطناعي</h4>
+                    </div>
+                  </div>
+
+                  <!-- Slide 3: Interactive AI Automation & Task Elimination Session -->
+                  <div class="about-slider-slide" data-slide-index="2" data-cursor="View Photo" tabindex="0"
+                    role="button" aria-label="View Hands-On AI Workshop Photo">
+                    <img src="assets/images/mohammed-ai-automation-workshop.webp"
+                      alt="Mohammed Jouda leading hands-on AI automation workshop" class="about-slide-img" width="600"
+                      height="450" loading="lazy" decoding="async">
+                    <div class="about-slide-gradient"></div>
+                    <div class="about-slide-caption">
+                      <div class="slide-caption-meta">
+                        <span class="slide-caption-chip">
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                          </svg>
+                          <span data-i18n="aboutSlide3Loc">ورشة عمل تطبيقية • أتمتة المهام البرمجية</span>
+                        </span>
+                      </div>
+                      <h4 class="slide-caption-title" data-i18n="aboutSlide3Title">جلسة تفاعلية في تحليل وأتمتة المهام التكرارية</h4>
+                    </div>
+                  </div>
+
+                  <!-- Slide 4: Technical Mentorship & Code Strategy -->
+                  <div class="about-slider-slide" data-slide-index="3" data-cursor="View Photo" tabindex="0"
+                    role="button" aria-label="View Technical Discussion Photo">
+                    <img src="assets/images/mohammed-spike-workshop.webp"
+                      alt="Mohammed Jouda mentoring developers during tech session" class="about-slide-img" width="600"
+                      height="450" loading="lazy" decoding="async">
+                    <div class="about-slide-gradient"></div>
+                    <div class="about-slide-caption">
+                      <div class="slide-caption-meta">
+                        <span class="slide-caption-chip">
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                          </svg>
+                          <span data-i18n="aboutSlide4Loc">توجيه تقني ونقاشات هندسية</span>
+                        </span>
+                      </div>
+                      <h4 class="slide-caption-title" data-i18n="aboutSlide4Title">نقاش برمجي وتوجيه هندسي للمطورين</h4>
+                    </div>
+                  </div>
+
+                  <!-- Slide 5: Official Professional Portrait -->
+                  <div class="about-slider-slide" data-slide-index="4" data-cursor="View Photo" tabindex="0"
+                    role="button" aria-label="View Profile Photo">
+                    <img src="assets/images/mohammed-profile.webp"
+                      alt="Mohammed Jouda Backend & AI Integration Engineer" class="about-slide-img" width="600"
+                      height="450" loading="lazy" decoding="async">
+                    <div class="about-slide-gradient"></div>
+                    <div class="about-slide-caption">
+                      <div class="slide-caption-meta">
+                        <span class="slide-caption-chip status-chip">
+                          <span class="status-pulse-dot"></span>
+                          <span data-i18n="aboutSlide5Status">متاح للمشاريع والفرص النوعية</span>
+                        </span>
+                      </div>
+                      <h4 class="slide-caption-title" data-i18n="aboutSlide5Title">محمد جودة • مهندس Backend وتكامل الذكاء الاصطناعي</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slider Floating Navigation Controls -->
+                <div class="about-slider-controls">
+                  <button type="button" class="about-slider-arrow prev" id="about-slider-prev"
+                    aria-label="Previous Photo" data-cursor="Prev">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                  </button>
+                  <button type="button" class="about-slider-arrow next" id="about-slider-next" aria-label="Next Photo"
+                    data-cursor="Next">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- Slider Pagination Indicators & Counter -->
+                <div class="about-slider-footer">
+                  <div class="about-slider-dots" id="about-slider-dots">
+                    <button type="button" class="slider-dot active" data-slide-to="0" aria-label="Slide 1"></button>
+                    <button type="button" class="slider-dot" data-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" class="slider-dot" data-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" class="slider-dot" data-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" class="slider-dot" data-slide-to="4" aria-label="Slide 5"></button>
+                  </div>
+                  <span class="about-slider-counter" id="about-slider-counter">01 / 05</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Executive Bio & Engineering Specialization -->
+            <div class="about-bento-card about-card-bio">
+              <div class="card-spotlight"></div>
+              <div class="bio-eyebrow-row">
+                <span class="bio-badge-chip">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                  <span data-i18n="bioLeadRole">مهندس Backend وتكامل الذكاء الاصطناعي</span>
+                </span>
+                <span class="bio-experience-chip" data-i18n="bioExpHighlight">خبرة هندسية وإنتاجية عملية</span>
+              </div>
+
+              <h2 class="bio-headline" data-i18n="aboutHeadline">هندسة أنظمة قابلة للتوسع. أتمتة مسارات عمل تصنع الفارق.</h2>
 
               <div class="bio-paragraphs-stack">
                 <p class="about-paragraph" data-i18n="aboutP1">أنا مهندس Backend وتكامل الذكاء الاصطناعي أركز على بناء بنى خوادم متينة وأتمتة مسارات العمل التجاري الذكية. تتركز خبرتي الأساسية في PHP و Laravel، حيث أصمم واجهات برمجة تطبيقات REST آمنة، وأطبق التحكم بالوصول المستند إلى الأدوار (RBAC)، وأحسن أداء قواعد البيانات لمعالجة مشاكل استعلامات N+1 المعقدة.</p>
@@ -1326,7 +1982,7 @@
                 <div class="role-card-header">
                   <div class="role-header-lead">
                     <div class="company-brand-box" data-cursor="Areisto">
-                      <img src="assets/aboutme/holme-engineering.webp" alt="Areisto Software" width="48" height="48"
+                      <img src="assets/aboutme/areisto.jpg" alt="Areisto Software" width="48" height="48"
                         loading="lazy" decoding="async">
                     </div>
                     <div class="role-title-meta">
@@ -1494,7 +2150,7 @@
                 <div class="role-card-header">
                   <div class="role-header-lead">
                     <div class="company-brand-box" data-cursor="Freelance">
-                      <img src="assets/aboutme/besterra.webp" alt="Remote Freelance" width="48" height="48"
+                      <img src="assets/aboutme/freelance.jpg" alt="Remote Freelance" width="48" height="48"
                         loading="lazy" decoding="async">
                     </div>
                     <div class="role-title-meta">
@@ -1692,7 +2348,7 @@
                   <div class="role-card-header">
                     <div class="role-header-lead">
                       <div class="company-brand-box" data-cursor="Palestine Technical College">
-                        <img src="assets/aboutme/shifracenter.webp" alt="Palestine Technical College" width="48"
+                        <img src="assets/aboutme/palestine technical college.jpg" alt="Palestine Technical College" width="48"
                           height="48" loading="lazy" decoding="async">
                       </div>
                       <div class="role-title-meta">
@@ -1778,7 +2434,7 @@
                   <div class="role-card-header">
                     <div class="role-header-lead">
                       <div class="company-brand-box" data-cursor="Ahmed Al-Shuqairi School">
-                        <img src="assets/aboutme/shifracenter.webp" alt="Palestine Technical College" width="48"
+                        <img src="assets/aboutme/school.png" alt="Ahmed Al-Shuqairi School" width="48"
                           height="48" loading="lazy" decoding="async">
                       </div>
                       <div class="role-title-meta">
@@ -1793,7 +2449,7 @@
                     </div>
                     <div class="role-status-col">
                       <span class="status-badge-pill completed-pill">
-                        <span data-i18n="degreeConferredStatus">تخرج مع مرتبة الشرف</span>
+                        <span data-i18n="tawjihiStatus">مكتمل بنجاح</span>
                       </span>
 
                       <span class="duration-counter">Gaza, Palestine <span class="meta-separator">•</span><span
@@ -1808,14 +2464,8 @@
                   <!-- Academic Impact Metrics -->
                   <div class="role-impact-metrics">
                     <div class="capstone-badge">
-
-                      <span data-i18n="tawjihiStream">الفرع العلمي</span>
+                      <span>80.4%</span>
                     </div>
-                    <div class="capstone-badge">
-
-                      <span>89.8%</span>
-                    </div>
-
                   </div>
 
                 </div>
@@ -1883,7 +2533,7 @@
               data-cursor="View Project" tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/ai-leads/dashboard-ai-leads.png" alt="AI Lead Triage & Automation System" width="640"
+                <img src="assets/projects/ai-leads/dashboard-ai-leads.webp" alt="AI Lead Triage & Automation System" width="640"
                   height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="featWorkBadge">مشروع مميز</div>
                 <div class="project-preview-hover-overlay">
@@ -1960,7 +2610,7 @@
               data-cursor="View Project" tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/sprint-mind/hero.png" alt="SprintMind AI Workspace" width="640"
+                <img src="assets/projects/sprint-mind/hero.webp" alt="SprintMind AI Workspace" width="640"
                   height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="badgeAgileAi">منظومة Agile ذكية</div>
                 <div class="project-preview-hover-overlay">
@@ -2036,7 +2686,7 @@
               data-cursor="View Project" tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/messenger/messenger_ai.png" alt="AI-Powered Messenger" width="640"
+                <img src="assets/projects/messenger/messenger_ai.webp" alt="AI-Powered Messenger" width="640"
                   height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="badgeRealTime">نظام فوري</div>
                 <div class="project-preview-hover-overlay">
@@ -2189,7 +2839,7 @@
               tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/write-ai/hero-wite-ai.png" alt="Write AI Blogging Platform" width="640"
+                <img src="assets/projects/write-ai/hero-wite-ai.webp" alt="Write AI Blogging Platform" width="640"
                   height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="badgeAICapstone">مشروع ذكاء اصطناعي</div>
                 <div class="project-preview-hover-overlay">
@@ -2259,7 +2909,7 @@
               data-cursor="View Project" tabindex="0">
               <div class="card-spotlight"></div>
               <div class="project-preview-wrap">
-                <img src="assets/projects/cms-techno-plus/22.png" alt="Techno Plus CMS" width="640"
+                <img src="assets/projects/cms-techno-plus/22.webp" alt="Techno Plus CMS" width="640"
                   height="400" loading="lazy" decoding="async">
                 <div class="preview-overlay-badge" data-i18n="badgeCMS">إدارة المحتوى</div>
                 <div class="project-preview-hover-overlay">
@@ -3538,15 +4188,7 @@
   <!-- Toast Notification Container -->
   <div id="toast-container" class="toast-container" aria-live="polite"></div>
 
-  <!-- Unified Custom Blue Pointer Cursor (Single Cursor replacing OS mouse - Supreme Layer) -->
-  <div id="custom-cursor" class="custom-cursor" aria-hidden="true">
-    <svg class="cursor-arrow" width="22" height="26" viewBox="-1 -1 18 24" fill="none">
-      <path id="cursor-arrow-path" d="M0 0 L0 17 L4.2 13.2 L7.5 20 L10.2 18.8 L7 12.2 L12.5 12.2 Z" fill="#265C91"
-        stroke="#ffffff" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
-    </svg>
-  </div>
-
-  <script src="/script.js" defer></script>
+  <script src="/script.js?v=3.0" defer></script>
 </body>
 
 </html>

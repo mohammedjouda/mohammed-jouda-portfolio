@@ -299,6 +299,7 @@
       eduDegreeDesc:
         "Comprehensive engineering education covering distributed web architectures, relational database modeling, network defense, secure cryptography, and modern software engineering principles.",
       degreeConferredStatus: "Degree Conferred",
+      tawjihiStatus: "Completed",
       eduHonorGpa: "GPA: 83.92% (Very Good / Honors)",
       eduMajorSecurity: "Web Security & Cryptography",
       eduRelationalDb: "Relational Data Systems (MySQL)",
@@ -781,6 +782,7 @@
       eduDegreeDesc:
         "منهاج هندسي مكثف في معمارية الويب، ونمذجة قواعد البيانات العلائقية، والتشفير التطبيقي، ومبادئ هندسة البرمجيات الحديثة.",
       degreeConferredStatus: "تخرج مع مرتبة الشرف",
+      tawjihiStatus: "مكتمل بنجاح",
       eduHonorGpa: "المعدل التراكمي: 83.92% (جيد جداً مرتفع)",
       eduMajorSecurity: "أمن الويب والتشفير التطبيقي",
       eduRelationalDb: "أنظمة قواعد البيانات العلائقية (MySQL)",
@@ -992,8 +994,6 @@
   const htmlEl = document.documentElement;
   const mainContent = document.getElementById("main-content");
   const allViews = document.querySelectorAll(".page-view");
-  const cursor = document.getElementById("custom-cursor");
-  const cursorArrowPath = document.getElementById("cursor-arrow-path");
   const mobileMenuBtn = document.getElementById("mobile-menu-btn");
   const closeDrawerBtn = document.getElementById("close-drawer-btn");
   const mobileDrawer = document.getElementById("mobile-drawer");
@@ -1006,7 +1006,6 @@
   const desktopSearchBtn = document.getElementById("desktop-search-btn");
   const mobileSearchBtn = document.getElementById("mobile-search-btn");
   const viewProjectDetail = document.getElementById("view-project-detail");
-  const detailBackBtn = document.getElementById("detail-back-btn");
   const detailBreadcrumbTitle = document.getElementById(
     "detail-breadcrumb-title",
   );
@@ -1387,206 +1386,6 @@
     }
     const route = urlToRoute(path, window.location.hash);
     navigateTo(route, false);
-  });
-
-  // --- 2. Custom Blue Pointer Cursor Implementation ---
-  const prefersReducedMotion =
-    window.matchMedia &&
-    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const isTouchDevice =
-    window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
-
-  if (cursor && !prefersReducedMotion && !isTouchDevice) {
-    let targetX = -100;
-    let targetY = -100;
-    let isVisible = false;
-    let rafPending = false;
-
-    function showCursor() {
-      if (!isVisible) {
-        isVisible = true;
-        cursor.classList.add("visible");
-        cursor.style.opacity = "1";
-        htmlEl.classList.add("has-custom-cursor");
-      }
-    }
-
-    function hideCursor() {
-      if (isVisible) {
-        isVisible = false;
-        cursor.classList.remove("visible", "clicking", "hovering");
-        cursor.style.opacity = "0";
-        htmlEl.classList.remove("has-custom-cursor");
-      }
-    }
-
-    function onMouseMove(e) {
-      targetX = e.clientX;
-      targetY = e.clientY;
-
-      // Window viewport edge boundary check (prevents cursor freezing on viewport perimeter)
-      if (
-        e.clientX <= 0 ||
-        e.clientY <= 0 ||
-        e.clientX >= window.innerWidth - 1 ||
-        e.clientY >= window.innerHeight - 1
-      ) {
-        hideCursor();
-        return;
-      }
-
-      showCursor();
-
-      if (!rafPending) {
-        rafPending = true;
-        requestAnimationFrame(() => {
-          cursor.style.transform = `translate3d(${targetX}px, ${targetY}px, 0)`;
-          rafPending = false;
-        });
-      }
-    }
-
-    // 1. Mouse movement tracking
-    window.addEventListener("mousemove", onMouseMove, { passive: true });
-
-    // 2. Comprehensive viewport exit detection across window, document, and root html
-    document.addEventListener("mouseleave", hideCursor);
-    document.documentElement.addEventListener("mouseleave", hideCursor);
-    window.addEventListener("mouseleave", hideCursor);
-
-    // 3. Out-of-document boundary check
-    document.addEventListener("mouseout", (e) => {
-      if (!e.relatedTarget && !e.toElement) {
-        hideCursor();
-      }
-    });
-
-    // 4. Window blur and tab visibility change (alt-tab, devtools, other apps)
-    window.addEventListener("blur", hideCursor);
-    document.addEventListener("visibilitychange", () => {
-      if (document.hidden) hideCursor();
-    });
-
-    // 5. Re-entry detection
-    document.addEventListener("mouseenter", showCursor);
-    document.documentElement.addEventListener("mouseenter", showCursor);
-
-    // 6. Click interactions
-    window.addEventListener("mousedown", () => {
-      if (isVisible) cursor.classList.add("clicking");
-    });
-
-    window.addEventListener("mouseup", () => {
-      cursor.classList.remove("clicking");
-    });
-
-    // 7. Interactive Hover Listeners with delegation for static and dynamic controls
-    document.addEventListener("mouseover", (e) => {
-      const el = e.target.closest(
-        "a, button, input, textarea, select, [data-route], [data-cursor], .palette-item, .cs-action-btn, .cs-link-btn, .filter-btn, .bento-card, .method-interactive-card, .btn-preview-action, .quick-tech-tag, .career-toggle-details-btn, .career-project-chip, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .career-role-card, .not-found-card, .floating-back-to-top, .projects-empty-state",
-      );
-      if (el && isVisible) {
-        cursor.classList.add("hovering");
-        const color = el.getAttribute("data-cursor-color");
-        if (color && cursorArrowPath) {
-          cursorArrowPath.style.fill = color;
-        }
-      }
-    });
-
-    document.addEventListener("mouseout", (e) => {
-      const el = e.target.closest(
-        "a, button, input, textarea, select, [data-route], [data-cursor], .palette-item, .cs-action-btn, .cs-link-btn, .filter-btn, .bento-card, .method-interactive-card, .btn-preview-action, .quick-tech-tag, .career-toggle-details-btn, .career-project-chip, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .career-role-card, .not-found-card, .floating-back-to-top, .projects-empty-state",
-      );
-      if (el && (!e.relatedTarget || !el.contains(e.relatedTarget))) {
-        cursor.classList.remove("hovering");
-        if (cursorArrowPath) {
-          cursorArrowPath.style.fill = "#265C91";
-        }
-      }
-    });
-  }
-
-  // --- 3. Dynamic Radial Spotlight & 3D Perspective Tilt on Cards (Bento, Projects, Career, Achievements & Contact) ---
-  const bentoCards = document.querySelectorAll(
-    ".bento-card, .about-bento-card, .project-full-card, .cert-modern-card, .contact-status-card, .method-card, .social-brand-card, .contact-bento-form-panel, .career-role-card, .not-found-card, .projects-empty-state",
-  );
-  const prefersReduced =
-    window.matchMedia &&
-    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  bentoCards.forEach((card) => {
-    card.addEventListener("mousemove", (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-      card.style.setProperty("--mouse-x", `${x}px`);
-      card.style.setProperty("--mouse-y", `${y}px`);
-
-      if (prefersReduced) return;
-
-      // Do not tilt form panel while user is actively interacting with form fields
-      if (
-        card.classList.contains("contact-bento-form-panel") &&
-        e.target.closest("input, textarea, button")
-      ) {
-        card.style.transform = "";
-        return;
-      }
-
-      // Micro-interaction: Subtle 3D perspective tilt
-      const centerX = rect.width / 2;
-      const centerY = rect.height / 2;
-      const percentX = (x - centerX) / centerX;
-      const percentY = (y - centerY) / centerY;
-
-      let maxTilt = 4.5;
-      let translateY = -2;
-      let perspective = 850;
-
-      if (card.classList.contains("project-full-card")) {
-        maxTilt = 3.2;
-        translateY = -6;
-        perspective = 1000;
-      } else if (card.classList.contains("cert-modern-card")) {
-        maxTilt = 3.6;
-        translateY = -6;
-        perspective = 950;
-      } else if (card.classList.contains("contact-status-card")) {
-        maxTilt = 2.4;
-        translateY = -4;
-        perspective = 850;
-      } else if (card.classList.contains("method-card")) {
-        maxTilt = 2.0;
-        translateY = -3;
-        perspective = 800;
-      } else if (card.classList.contains("social-brand-card")) {
-        maxTilt = 2.8;
-        translateY = -3;
-        perspective = 750;
-      } else if (card.classList.contains("not-found-card")) {
-        maxTilt = 2.4;
-        translateY = -4;
-        perspective = 900;
-      } else if (card.classList.contains("career-role-card")) {
-        maxTilt = 2.0;
-        translateY = -3;
-        perspective = 900;
-      } else if (card.classList.contains("contact-bento-form-panel")) {
-        maxTilt = 1.2;
-        translateY = -2;
-        perspective = 1200;
-      }
-
-      const rotateX = (-percentY * maxTilt).toFixed(2);
-      const rotateY = (percentX * maxTilt).toFixed(2);
-
-      card.style.transform = `perspective(${perspective}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(${translateY}px)`;
-    });
-
-    card.addEventListener("mouseleave", () => {
-      card.style.transform = "";
-    });
   });
 
   // --- 4. Theme Toggle (Dark / Light) ---
@@ -2396,7 +2195,7 @@
         ],
       },
       liveUrl: "",
-      codeUrl: "https://github.com/mohammedjouda/ai-lead-automation",
+      codeUrl: "https://github.com/mohammedjouda/ai-lead-triage",
       contactSubject: "Project Inquiry: AI Lead Triage & Automation System",
     },
     "sprint-mind": {
@@ -2566,7 +2365,7 @@
         ],
       },
       liveUrl: "",
-      codeUrl: "https://github.com/mohammedjouda/marsa-store",
+      codeUrl: "https://github.com/mohammedjouda/Marsa-Store-Multi-Vendor",
       contactSubject: "Project Inquiry: Multi-Vendor Platform (Marsa Store)",
     },
     "write-ai": {
@@ -2648,7 +2447,7 @@
         ],
       },
       liveUrl: "",
-      codeUrl: "https://github.com/mohammedjouda/write-ai",
+      codeUrl: "https://github.com/mohammedjouda/laravel-smart-blog",
       contactSubject: "Project Inquiry: AI-Powered Platform (Write AI)",
     },
     messenger: {
@@ -2729,7 +2528,7 @@
         ],
       },
       liveUrl: "",
-      codeUrl: "https://github.com/mohammedjouda/ai-realtime-messenger",
+      codeUrl: "https://github.com/mohammedjouda/AI-Powered-Messenger",
       contactSubject: "Project Inquiry: Real-Time Chat & AI (Messenger)",
     },
     "techno-cms": {
@@ -2809,7 +2608,7 @@
         ],
       },
       liveUrl: "",
-      codeUrl: "https://github.com/mohammedjouda/techno-plus-cms",
+      codeUrl: "https://github.com/mohammedjouda/TechnoPlus-Filament-Livewire",
       contactSubject: "Project Inquiry: Custom CMS / Admin Panel (Techno Plus)",
     },
   };
@@ -4489,17 +4288,22 @@
   // --- Floating Back-To-Top Button Controller ---
   const floatingBackToTopBtn = document.getElementById("floating-back-to-top");
 
+  let backToTopRaf = false;
   function checkBackToTopVisibility() {
-    if (!floatingBackToTopBtn) return;
-    const scrollPos =
-      (mainContent ? mainContent.scrollTop : 0) ||
-      window.pageYOffset ||
-      document.documentElement.scrollTop;
-    if (scrollPos > 350) {
-      floatingBackToTopBtn.classList.add("visible");
-    } else {
-      floatingBackToTopBtn.classList.remove("visible");
-    }
+    if (backToTopRaf || !floatingBackToTopBtn) return;
+    backToTopRaf = true;
+    requestAnimationFrame(() => {
+      backToTopRaf = false;
+      const scrollPos =
+        (mainContent ? mainContent.scrollTop : 0) ||
+        window.pageYOffset ||
+        document.documentElement.scrollTop;
+      if (scrollPos > 350) {
+        floatingBackToTopBtn.classList.add("visible");
+      } else {
+        floatingBackToTopBtn.classList.remove("visible");
+      }
+    });
   }
 
   if (mainContent) {
